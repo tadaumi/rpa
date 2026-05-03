@@ -1,0 +1,349 @@
+*** Settings ***
+Resource    ../line_config.robot
+Resource    ../line_scroll.robot
+Resource    ../line_io.robot
+Resource    ../line_utils.robot
+Resource    line_window.robot
+Resource    line_menu_copy.robot
+
+*** Keywords ***
+Normalize Int Text
+    [Arguments]    ${value}
+    ${t}=    Convert To String    ${value}
+    ${t}=    Strip String    ${t}
+    ${t}=    Replace String Using Regexp    ${t}    [^0-9\\-\\.]    ${EMPTY}
+    RETURN    ${t}
+
+Get Rect Ints From Element
+    [Arguments]    ${elem}
+    ${left}=      Safe Get Element Attribute    ${elem}    left
+    ${top}=       Safe Get Element Attribute    ${elem}    top
+    ${right}=     Safe Get Element Attribute    ${elem}    right
+    ${bottom}=    Safe Get Element Attribute    ${elem}    bottom
+
+    ${left_t}=      Normalize Int Text    ${left}
+    ${top_t}=       Normalize Int Text    ${top}
+    ${right_t}=     Normalize Int Text    ${right}
+    ${bottom_t}=    Normalize Int Text    ${bottom}
+
+    ${left_i}=      Evaluate    int(float(str(r'''${left_t}''').strip()))
+    ${top_i}=       Evaluate    int(float(str(r'''${top_t}''').strip()))
+    ${right_i}=     Evaluate    int(float(str(r'''${right_t}''').strip()))
+    ${bottom_i}=    Evaluate    int(float(str(r'''${bottom_t}''').strip()))
+    RETURN    ${left_i}    ${top_i}    ${right_i}    ${bottom_i}
+
+Get Rect Ints From Locator
+    [Arguments]    ${locator}
+    ${elem}=    Win.Get Element    ${locator}
+    ${l}    ${t}    ${r}    ${b}=    Get Rect Ints From Element    ${elem}
+    RETURN    ${l}    ${t}    ${r}    ${b}
+
+Build Inner Bubble Rect
+    [Arguments]    ${root_l}    ${root_t}    ${root_r}    ${root_b}    ${l}    ${t}    ${r}    ${b}
+    ${w}=    Evaluate    ${r} - ${l}
+    ${h}=    Evaluate    ${b} - ${t}
+
+    ${short_row}=    Evaluate    ${h} <= 90
+    ${mid_row}=      Evaluate    ${h} > 90 and ${h} <= 170
+
+    ${left_pad}=     Evaluate    70
+    ${right_pad}=    Evaluate    36
+
+    ${top_pad}=      Evaluate    8 if ${short_row} else (14 if ${mid_row} else 10)
+    ${bottom_pad}=   Evaluate    8 if ${short_row} else (14 if ${mid_row} else 10)
+
+    ${inner_l}=    Evaluate    max(int(${l}) + int(${left_pad}), int(${root_l}) + 28)
+    ${inner_r}=    Evaluate    min(int(${r}) - int(${right_pad}), int(${root_r}) - 24)
+    ${inner_t}=    Evaluate    max(int(${t}) + int(${top_pad}), int(${root_t}) + 4)
+    ${inner_b}=    Evaluate    min(int(${b}) - int(${bottom_pad}), int(${root_b}) - 4)
+
+    ${too_narrow}=    Evaluate    (${inner_r} - ${inner_l}) < 220
+    IF    ${too_narrow}
+        ${inner_l}=    Evaluate    max(int(${l}) + 36, int(${root_l}) + 24)
+        ${inner_r}=    Evaluate    min(int(${r}) - 24, int(${root_r}) - 24)
+    END
+
+    ${too_short}=    Evaluate    (${inner_b} - ${inner_t}) < 20
+    IF    ${too_short}
+        ${inner_t}=    Evaluate    max(int(${t}) + 4, int(${root_t}) + 4)
+        ${inner_b}=    Evaluate    min(int(${b}) - 4, int(${root_b}) - 4)
+    END
+
+    ${inner_w}=    Evaluate    max(0, ${inner_r} - ${inner_l})
+    ${inner_h}=    Evaluate    max(0, ${inner_b} - ${inner_t})
+    ${ratio}=      Evaluate    (float(${inner_h}) / float(${h})) if ${h} > 0 else 0.0
+
+    ${thin_inner}=         Evaluate    ${inner_h} < 45
+    ${collapsed_short}=    Evaluate    ${short_row} and ${ratio} < 0.65
+    ${ok}=                 Evaluate    ${inner_w} >= 120 and ${inner_h} >= 20 and not ${thin_inner} and not ${collapsed_short}
+
+    ${rect}=    Set Variable    ${EMPTY}
+    IF    ${ok}
+        ${rect}=    Catenate    SEPARATOR=,    ${inner_l}    ${inner_t}    ${inner_r}    ${inner_b}
+    END
+
+    Trace    [BUBBLE-INNER] outer=(${l},${t},${r},${b}) inner=[${rect}] short=${short_row} mid=${mid_row} inner_h=${inner_h} outer_h=${h} ratio=${ratio} thin_inner=${thin_inner} collapsed_short=${collapsed_short}
+    RETURN    ${ok}    ${rect}
+
+Is Footer Like Bubble Geometry
+    [Arguments]    ${root_b}    ${inner_t}    ${inner_b}    ${inner_h}
+    ${footer_near_bottom}=    Evaluate    int(${inner_b}) >= (int(${root_b}) - 90)
+    ${short_footer_near}=     Evaluate    int(${inner_h}) <= 80 and int(${inner_b}) >= (int(${root_b}) - 120)
+    ${result}=                Evaluate    ${footer_near_bottom} or ${short_footer_near}
+    Trace    [BUBBLE-FOOTER-FILTER] root_b=${root_b} inner_t=${inner_t} inner_b=${inner_b} inner_h=${inner_h} footer_near_bottom=${footer_near_bottom} short_footer_near=${short_footer_near} result=${result}
+    RETURN    ${result}
+
+Is Image Like Bubble Geometry
+    [Arguments]    ${outer_h}    ${inner_h}    ${ratio}
+    ${very_tall_inner}=    Evaluate    int(${inner_h}) >= 170
+    ${very_tall_outer}=    Evaluate    int(${outer_h}) >= 190
+    ${tall_dense}=         Evaluate    float(${ratio}) >= 0.88 and int(${inner_h}) >= 150
+    ${result}=             Evaluate    ${very_tall_inner} or ${very_tall_outer} or ${tall_dense}
+    Trace    [BUBBLE-IMAGE-FILTER] outer_h=${outer_h} inner_h=${inner_h} ratio=${ratio} very_tall_inner=${very_tall_inner} very_tall_outer=${very_tall_outer} tall_dense=${tall_dense} result=${result}
+    RETURN    ${result}
+
+Get Visible Bubble Rectangles
+    Activate LINE
+
+    ${msgwin}=    Find Message Window Element
+    ${msgwin_s}=    Normalize Element String    ${msgwin}
+    Trace    [BUBBLE-RECT] msgwin=[${msgwin_s}]
+
+    ${root_l}    ${root_t}    ${root_r}    ${root_b}=    Get Rect Ints From Element    ${msgwin}
+    ${root_w}=    Evaluate    ${root_r} - ${root_l}
+    ${root_h}=    Evaluate    ${root_b} - ${root_t}
+    Trace    [BUBBLE-RECT] root_rect=(${root_l},${root_t},${root_r},${root_b}) root_size=(${root_w},${root_h})
+
+    ${ok}=    Run Keyword And Return Status    Win.Set Anchor    ${msgwin}
+    Trace    [BUBBLE-RECT] anchor msgwin ok=${ok}
+    IF    not ${ok}
+        ${rects}=    Create List
+        RETURN    ${rects}
+    END
+
+    ${locator}=    Set Variable    type:ListItemControl and depth:${SPLITTER_CHILD_DEPTH}
+    ${found}=    Run Keyword And Return Status    Win.Get Elements    ${locator}
+    Trace    [BUBBLE-RECT] anchored_found=${found} locator=[${locator}]
+
+    ${rects}=    Create List
+    IF    not ${found}
+        RETURN    ${rects}
+    END
+
+    ${elements}=    Win.Get Elements    ${locator}
+    ${count}=    Get Length    ${elements}
+    Trace    [BUBBLE-RECT] anchored_count=${count}
+
+    ${top_margin}=       Set Variable    12
+    ${bottom_margin}=    Set Variable    12
+    ${min_width}=        Set Variable    260
+    ${min_height}=       Set Variable    60
+    ${max_height}=       Evaluate    int(${root_h} * 0.72)
+
+    FOR    ${i}    IN RANGE    ${count}
+        ${elem}=    Get From List    ${elements}    ${i}
+        ${name}=    Safe Get Element Attribute    ${elem}    name
+        ${ctype}=   Safe Get Element Attribute    ${elem}    control_type
+        ${clazz}=   Safe Get Element Attribute    ${elem}    class_name
+        ${l}    ${t}    ${r}    ${b}=    Get Rect Ints From Element    ${elem}
+        ${w}=    Evaluate    ${r} - ${l}
+        ${h}=    Evaluate    ${b} - ${t}
+
+        ${inside_x}=           Evaluate    ${l} >= ${root_l} and ${r} <= ${root_r}
+        ${inside_y}=           Evaluate    ${t} >= (${root_t} - ${top_margin}) and ${b} <= (${root_b} + ${bottom_margin})
+        ${large_enough}=       Evaluate    ${w} >= ${min_width} and ${h} >= ${min_height}
+        ${not_too_tall}=       Evaluate    ${h} <= ${max_height}
+        ${not_header_like}=    Evaluate    ${t} >= (${root_t} - 4)
+        ${not_footer_like}=    Evaluate    ${b} <= (${root_b} + 4)
+
+        ${cand_log}=    Catenate    SEPARATOR=
+        ...    [BUBBLE-RECT-CAND] idx=${i} name=[${name}] type=[${ctype}] class=[${clazz}]
+        ...     rect=(${l},${t},${r},${b}) size=(${w},${h})
+        ...     inside_x=${inside_x} inside_y=${inside_y} large_enough=${large_enough}
+        ...     not_too_tall=${not_too_tall} not_header_like=${not_header_like} not_footer_like=${not_footer_like}
+        Trace    ${cand_log}
+
+        IF    not ${inside_x}
+            CONTINUE
+        END
+        IF    not ${inside_y}
+            CONTINUE
+        END
+        IF    not ${large_enough}
+            CONTINUE
+        END
+        IF    not ${not_too_tall}
+            CONTINUE
+        END
+        IF    not ${not_header_like}
+            CONTINUE
+        END
+        IF    not ${not_footer_like}
+            CONTINUE
+        END
+
+        ${inner_ok}    ${inner_rect}=    Build Inner Bubble Rect    ${root_l}    ${root_t}    ${root_r}    ${root_b}    ${l}    ${t}    ${r}    ${b}
+        IF    not ${inner_ok}
+            Trace    [BUBBLE-RECT] inner rejected idx=${i}
+            CONTINUE
+        END
+
+        ${inner_parts}=    Split String    ${inner_rect}    ,
+        ${inner_t}=        Get From List    ${inner_parts}    1
+        ${inner_b}=        Get From List    ${inner_parts}    3
+        ${inner_h}=        Evaluate    int(${inner_b}) - int(${inner_t})
+        ${footer_like}=    Is Footer Like Bubble Geometry    ${root_b}    ${inner_t}    ${inner_b}    ${inner_h}
+        IF    ${footer_like}
+            Trace    [BUBBLE-RECT] footer-like rejected idx=${i} outer=(${l},${t},${r},${b}) inner=${inner_rect}
+            CONTINUE
+        END
+
+        ${ratio}=          Evaluate    (float(${inner_h}) / float(${h})) if int(${h}) > 0 else 0.0
+        ${image_like}=     Is Image Like Bubble Geometry    ${h}    ${inner_h}    ${ratio}
+        IF    ${image_like}
+            Trace    [BUBBLE-RECT] image-like geometry rejected idx=${i} outer=(${l},${t},${r},${b}) inner=${inner_rect}
+            CONTINUE
+        END
+
+        Append To List    ${rects}    ${inner_rect}
+        Trace    [BUBBLE-RECT] idx=${i} name=[${name}] type=[${ctype}] class=[${clazz}] rect=${inner_rect}
+    END
+
+    RETURN    ${rects}
+
+Sort Bubble Rectangles Top To Bottom
+    [Arguments]    ${rects}
+    ${decorated}=    Create List
+    FOR    ${rect}    IN    @{rects}
+        ${parts}=    Split String    ${rect}    ,
+        ${top}=    Get From List    ${parts}    1
+        ${key}=    Evaluate    int(float(str(r'''${top}''').strip()))
+        ${pair}=    Catenate    SEPARATOR=|    ${key}    ${rect}
+        Append To List    ${decorated}    ${pair}
+    END
+    Sort List    ${decorated}
+
+    ${sorted_rects}=    Create List
+    FOR    ${pair}    IN    @{decorated}
+        ${parts}=    Split String    ${pair}    |
+        ${rect}=    Get From List    ${parts}    1
+        Append To List    ${sorted_rects}    ${rect}
+    END
+    RETURN    ${sorted_rects}
+
+Capture Messages From Scrolled Start
+    ${all_messages}=    Create List
+    ${stagnant_loops}=    Set Variable    0
+    ${last_status}=       Set Variable    ${EMPTY}
+
+    Scroll Up For Ten Seconds By Dragging Scrollbar
+
+    FOR    ${loop}    IN RANGE    ${MAX_DOWN_LOOPS}
+        Activate LINE
+        Trace    [DOWN LOOP] start loop=${loop}
+
+        ${before_count}=    Get Length    ${all_messages}
+        ${new_count}    ${last_status}=    Capture Visible Messages Into List    ${all_messages}
+        ${after_count}=    Get Length    ${all_messages}
+
+        Trace    [DOWN LOOP] loop=${loop} new=${new_count} total=${after_count} last_status=${last_status}
+
+        IF    ${after_count} == ${before_count}
+            ${stagnant_loops}=    Evaluate    ${stagnant_loops} + 1
+        ELSE
+            ${stagnant_loops}=    Set Variable    0
+        END
+
+        Trace    [DOWN LOOP] stagnant=${stagnant_loops}
+
+        IF    ${stagnant_loops} >= 3
+            Trace    [DOWN LOOP] stop: no new messages
+            Exit For Loop
+        END
+
+        ${scroll_changed}=    Scroll Chat Down Small By Dragging Scrollbar With Verification    ${last_status}
+        Trace    [SCROLL-DOWN] changed=${scroll_changed}
+
+        IF    not ${scroll_changed}
+            Trace    [SCROLL-DOWN] no visual change detected
+        END
+    END
+
+    Write Messages To Html    ${all_messages}
+
+Capture Visible Messages Into List
+    [Arguments]    ${all_messages}
+    ${new_count}=    Set Variable    0
+    ${last_status}=    Set Variable    ${EMPTY}
+
+    ${rects}=    Get Visible Bubble Rectangles
+    ${rect_count}=    Get Length    ${rects}
+    Trace    [BUBBLE-RECT] visible_count=${rect_count}
+
+    IF    ${rect_count} == 0
+        RETURN    ${new_count}    ${last_status}
+    END
+
+    ${rects}=    Sort Bubble Rectangles Top To Bottom    ${rects}
+
+    FOR    ${rect}    IN    @{rects}
+        ${parts}=    Split String    ${rect}    ,
+        ${left}=      Get From List    ${parts}    0
+        ${top}=       Get From List    ${parts}    1
+        ${right}=     Get From List    ${parts}    2
+        ${bottom}=    Get From List    ${parts}    3
+
+        ${status}    ${text}    ${reason}    ${menu_text}    ${menu_rect}    ${fail_x}    ${fail_y}=
+        ...    Copy One Message By BubbleRect    ${left}    ${top}    ${right}    ${bottom}
+
+        ${last_status}=    Set Variable    ${status}
+        ${trimmed}=    Trim Text    ${text}
+        Trace    [CAPTURE] rect=${rect} status=${status} reason=[${reason}] menu_text=[${menu_text}] menu_rect=[${menu_rect}]
+
+        IF    $status == $STATUS_COPY_OK
+            IF    $trimmed != ''
+                ${exists}=    Run Keyword And Return Status    List Should Contain Value    ${all_messages}    ${trimmed}
+                IF    not ${exists}
+                    Append To List    ${all_messages}    ${trimmed}
+                    ${new_count}=    Evaluate    ${new_count} + 1
+                    Trace    [CAPTURE] added rect=${rect}
+                ELSE
+                    Trace    [CAPTURE] duplicate rect=${rect}
+                END
+            ELSE
+                Trace    [CAPTURE] COPY_OK but empty text rect=${rect}
+            END
+
+        ELSE IF    $status == $STATUS_IMAGE_MESSAGE_SKIP
+            Trace    [CAPTURE] image-like bubble -> skip without right click rect=${rect}
+
+        ELSE IF    $status == $STATUS_OTHER_UI_MENU
+            Trace    [CAPTURE] other ui menu -> skip rect=${rect}
+
+        ELSE IF    $status == $STATUS_MENU_NO_COPY
+            Save Failure Screens    ${status}    ${reason}    ${top}    ${fail_x}    ${fail_y}    ${menu_rect}
+            Trace    [CAPTURE] target menu exists but no コピー -> next rect=${rect}
+
+        ELSE IF    $status == $STATUS_MENU_HAS_DELETE_ONLY
+            Save Failure Screens    ${status}    ${reason}    ${top}    ${fail_x}    ${fail_y}    ${menu_rect}
+            Trace    [CAPTURE] delete-like menu -> next rect=${rect}
+
+        ELSE IF    $status == $STATUS_OCR_FAIL
+            Save Failure Screens    ${status}    ${reason}    ${top}    ${fail_x}    ${fail_y}    ${menu_rect}
+            Trace    [CAPTURE] ocr fail -> next rect=${rect}
+
+        ELSE IF    $status == $STATUS_CLIPBOARD_EMPTY
+            Save Failure Screens    ${status}    ${reason}    ${top}    ${fail_x}    ${fail_y}    ${menu_rect}
+            Trace    [CAPTURE] clipboard empty -> next rect=${rect}
+
+        ELSE IF    $status == $STATUS_NO_MENU
+            Save Failure Screens    ${status}    ${reason}    ${top}    ${fail_x}    ${fail_y}    ${menu_rect}
+            Trace    [CAPTURE] no menu -> next rect=${rect}
+
+        ELSE
+            Save Failure Screens    ${status}    ${reason}    ${top}    ${fail_x}    ${fail_y}    ${menu_rect}
+            Trace    [CAPTURE] unknown status -> next rect=${rect}
+        END
+    END
+
+    RETURN    ${new_count}    ${last_status}

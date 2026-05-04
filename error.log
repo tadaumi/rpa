@@ -1,0 +1,16 @@
+[2026-05-04T11:56:09.493035400+00:00] startup: base_url=https://chatgpt.com/backend-api path_style=wham
+[2026-05-04T11:56:09.502585600+00:00] auth: mode=ChatGPT account_id=aac03e48-2ec5-4df9-8d70-1d6b8f33f2ca
+[2026-05-04T11:56:09.502997800+00:00] auth: set ChatGPT-Account-Id header: aac03e48-2ec5-4df9-8d70-1d6b8f33f2ca
+[2026-05-04T11:56:09.505324400+00:00] startup: wham_force_internal=false ua=codex_cli_rs/0.128.0 (Windows 10.0.26200; x86_64) unknown (codex_cloud_tasks_tui)
+[2026-05-04T11:56:09.679308400+00:00] env: git origins: []
+[2026-05-04T11:56:09.680071400+00:00] env: GET https://chatgpt.com/backend-api/wham/environments
+[2026-05-04T11:56:10.119096900+00:00[2026-05-04T11:56:10.119853100+00:00] ] http.list_tasks: env=<all> limit=20 cursor_in=<none> cursor_out=<none> items=0env: status=200 OK content-type=application/json
+
+[2026-05-04T11:56:10.131835800+00:00] refresh.apply: env=<all> count=0
+[2026-05-04T11:56:10.432067900+00:00] env: status=200 OK content-type=application/json
+[2026-05-04T11:56:10.433242400+00:00] env: /environments JSON (pretty):
+[]
+[2026-05-04T11:57:56.698194100+00:00] startup: base_url=https://chatgpt.com/backend-api path_style=wham
+[2026-05-04T11:57:56.709027400+00:00] auth: mode=ChatGPT account_id=aac03e48-2ec5-4df9-8d70-1d6b8f33f2ca
+[2026-05-04T11:57:56.709590500+00:00] auth: set ChatGPT-Account-Id header: aac03e48-2ec5-4df9-8d70-1d6b8f33f2ca
+[2026-05-04T11:57:57.794936800+00:00] env: status=200 OK content-type=application/json

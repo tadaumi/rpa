@@ -1,0 +1,1559 @@
+[TRACE START] 2026-04-05 02:18:43
+[02:18:43.735234][FAILSHOT] directory=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\fail_screens
+[02:18:44.521775][ACTIVATE] locator=executable:LINE.exe
+[02:18:46.306789][ACTIVATE] locator=executable:LINE.exe
+[02:18:47.316416][GROUP] open first group path=path:11|2|1|1|1|3
+[02:18:48.293740][GROUP] opened
+[02:18:51.304680][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
+[02:18:52.089314][ACTIVATE] locator=executable:LINE.exe
+[02:18:53.098821][SCROLL-UP] drag try=0
+[02:18:54.337592][SCROLL-UP] elapsed=3.0188660621643066
+[02:18:55.258196][ACTIVATE] locator=executable:LINE.exe
+[02:18:56.269596][SCROLL-UP] drag try=1
+[02:18:57.511752][SCROLL-UP] elapsed=6.194124937057495
+[02:18:58.369303][ACTIVATE] locator=executable:LINE.exe
+[02:18:59.377900][SCROLL-UP] drag try=2
+[02:19:00.612951][SCROLL-UP] elapsed=9.293261051177979
+[02:19:01.462740][ACTIVATE] locator=executable:LINE.exe
+[02:19:02.471328][SCROLL-UP] drag try=3
+[02:19:03.705860][SCROLL-UP] elapsed=12.388118028640747
+[02:19:05.498476][ACTIVATE] locator=executable:LINE.exe
+[02:19:06.508595][SCROLL-CLEAR] move x=960 y=360
+[02:19:06.516592][SCROLL-CLEAR] move_ok=True
+[02:19:06.736686][SCROLL-CLEAR] click_ok=True
+[02:19:07.911440][ACTIVATE] locator=executable:LINE.exe
+[02:19:08.922181][SCROLL-CLEAR] move x=960 y=360
+[02:19:08.931175][SCROLL-CLEAR] move_ok=True
+[02:19:09.156441][SCROLL-CLEAR] click_ok=True
+[02:19:10.356508][ACTIVATE] locator=executable:LINE.exe
+[02:19:11.367030][DOWN LOOP] start loop=0
+[02:19:12.167790][ACTIVATE] locator=executable:LINE.exe
+[02:19:13.665404][CLIP] clear stderr=[]
+[02:19:13.679400][POINTER] try-point base=(620,170) offset=(20,15) target=(640,185)
+[02:19:14.204395][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 135, "width": 220, "height": 120}]
+[02:19:14.218371][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 135, "width": 220, "height": 120}
+[02:19:15.365289][PY] ocr rc=0 stderr=[{"text": "| Beh, おばんです。 RR- BBO\nELE. さて、8724 (+) 総会後の同\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:19:15.377336][TEXT-CANDIDATE] ocr_json={"text": "| Beh, おばんです。 RR- BBO\nELE. さて、8724 (+) 総会後の同\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:19:15.405281][TEXT-CANDIDATE] text=[| Beh, おばんです。 RR- BBO
+ELE. さて、8724 (+) 総会後の同]
+[02:19:15.415296][COPY] right click x=640 y=185
+[02:19:15.551737][COPY] right click ok=True
+[02:19:16.062031][MENU-WINDOW] scan try=0
+[02:19:16.079009][MENU-WINDOW] found=True try=0
+[02:19:16.271090][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,175,782,261)
+[02:19:16.287013][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,185)
+[02:19:16.381005][MENU-WINDOW] selected rect=(630,175,782,261) point=(640,185)
+[02:19:16.390045][COPY-PROBE] move by menu top-left base=(630,175) offset=(70,60) target=(700,235)
+[02:19:16.401990][COPY-PROBE] move ok=True
+[02:19:16.858966][PY] cursor rc=0 stderr=[{"x": 700, "y": 235}]
+[02:19:16.873980][COPY-PROBE] cursor_json={"x": 700, "y": 235}
+[02:19:16.890987][COPY-PROBE] cursor_match=True expected=(700,235) actual=(700,235)
+[02:19:16.899975][COPY-PROBE] wait for visual confirmation 1500ms
+[02:19:18.409864][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:19:18.613861][OCR-RAW] left=[630] top=[175] right=[782] bottom=[261]
+[02:19:18.637862][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,175,782,261)
+[02:19:18.651860][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,175,782,261)
+[02:19:18.666869][OCR] capture rect=(620,170,172,96)
+[02:19:19.191823][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 170, "width": 172, "height": 96}]
+[02:19:19.204821][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 170, "width": 172, "height": 96}
+[02:19:20.334744][PY] ocr rc=0 stderr=[{"text": "ei\n\nきて\n\nアナウソス解除\n\nie\n\na8\n今後は表示しない\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:19:20.344800][OCR] ocr_json={"text": "ei\n\nきて\n\nアナウソス解除\n\nie\n\na8\n今後は表示しない\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:19:20.365731][OCR] text=[ei
+
+きて
+
+アナウソス解除
+
+ie
+
+a8
+今後は表示しない]
+[02:19:20.380744][OCR-FILTER] normalized=[ei  きて  アナウソス解除  ie  a8 今後は表示しない]
+[02:19:20.395743][OCR-FILTER] has_hide=True has_announce=False has_selectall=False has_copy=False has_paste=False result=True
+[02:19:20.453722][OCR] filtered as non-message menu
+[02:19:20.466719][COPY] detected menu text by OCR=[] point=(700,235)
+[02:19:20.980726][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 225, "width": 110, "height": 28}]
+[02:19:20.992701][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 225, "width": 110, "height": 28} offset_y=10 height=28
+[02:19:21.981639][PY] ocr rc=0 stderr=[{"text": "TIS ARR\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:21.994623][COPY-PROBE] ocr_json={"text": "TIS ARR\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:19:22.017622][COPY-PROBE] text=[TIS ARR] offset_y=10 height=28
+[02:19:22.659643][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 221, "width": 110, "height": 24}]
+[02:19:22.673589][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 221, "width": 110, "height": 24} offset_y=14 height=24
+[02:19:23.710727][PY] ocr rc=0 stderr=[{"text": "ナウッス解除\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:23.723528][COPY-PROBE] ocr_json={"text": "ナウッス解除\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:19:23.748508][COPY-PROBE] text=[ナウッス解除] offset_y=14 height=24
+[02:19:24.348494][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 227, "width": 110, "height": 20}]
+[02:19:24.363572][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 227, "width": 110, "height": 20} offset_y=8 height=20
+[02:19:25.535434][PY] ocr rc=0 stderr=[{"text": "PII\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:25.552435][COPY-PROBE] ocr_json={"text": "PII\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:19:25.583394][COPY-PROBE] text=[PII] offset_y=8 height=20
+[02:19:25.656398][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,235) text_candidate=[| Beh, おばんです。 RR- BBO
+ELE. さて、8724 (+) 総会後の同] menu_text=[] probe_text=[TIS ARR]
+[02:19:25.667389][COPY-SKIP] non-copy menu -> skip
+[02:19:25.683385][CAPTURE] y=170 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[] menu_rect=[630,175,782,261]
+[02:19:26.350369][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y170_20260405_021925_696388.png", "mode": "full"}]
+[02:19:26.371346][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y170_20260405_021925_696388.png", "mode": "full"}
+[02:19:26.929711][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y170_20260405_021925_696388.png", "left": 500, "top": 85, "width": 320, "height": 220}]
+[02:19:26.940318][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y170_20260405_021925_696388.png", "left": 500, "top": 85, "width": 320, "height": 220} menu_rect=[630,175,782,261]
+[02:19:26.947313][CAPTURE] target menu exists but no コピー -> next y=170
+[02:19:27.790965][ACTIVATE] locator=executable:LINE.exe
+[02:19:29.271733][CLIP] clear stderr=[]
+[02:19:29.285687][POINTER] try-point base=(620,240) offset=(20,15) target=(640,255)
+[02:19:29.885667][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 205, "width": 220, "height": 120}]
+[02:19:29.903661][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 205, "width": 220, "height": 120}
+[02:19:31.025601][PY] ocr rc=0 stderr=[{"text": "ツムきま、天すず! 1\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:19:31.034573][TEXT-CANDIDATE] ocr_json={"text": "ツムきま、天すず! 1\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:19:31.063563][TEXT-CANDIDATE] text=[ツムきま、天すず! 1]
+[02:19:31.069599][COPY] right click x=640 y=255
+[02:19:31.208121][COPY] right click ok=True
+[02:19:31.717590][MENU-WINDOW] scan try=0
+[02:19:31.736593][MENU-WINDOW] found=True try=0
+[02:19:31.953572][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,245,746,331)
+[02:19:31.962582][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,255)
+[02:19:32.053599][MENU-WINDOW] selected rect=(630,245,746,331) point=(640,255)
+[02:19:32.060571][COPY-PROBE] move by menu top-left base=(630,245) offset=(70,60) target=(700,305)
+[02:19:32.069561][COPY-PROBE] move ok=True
+[02:19:32.489544][PY] cursor rc=0 stderr=[{"x": 700, "y": 305}]
+[02:19:32.502535][COPY-PROBE] cursor_json={"x": 700, "y": 305}
+[02:19:32.517551][COPY-PROBE] cursor_match=True expected=(700,305) actual=(700,305)
+[02:19:32.524538][COPY-PROBE] wait for visual confirmation 1500ms
+[02:19:34.033501][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:19:34.169530][OCR-RAW] left=[630] top=[245] right=[746] bottom=[331]
+[02:19:34.193576][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,245,746,331)
+[02:19:34.206507][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,245,746,331)
+[02:19:34.217492][OCR] capture rect=(620,240,136,96)
+[02:19:34.755483][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 240, "width": 136, "height": 96}]
+[02:19:34.768462][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 240, "width": 136, "height": 96}
+[02:19:35.808396][PY] ocr rc=1 stderr=[Traceback (most recent call last):
+  File "C:\Users\user\Documents\RPA\RobotFramework\test\screen_probe.py", line 37, in <module>
+    print(json.dumps({"text": text, "text_path": text_path}, ensure_ascii=False))
+UnicodeEncodeError: 'cp932' codec can't encode character '\xa9' in position 10: illegal multibyte sequence]
+[02:19:35.820391][OCR] ocr_json=Traceback (most recent call last):
+  File "C:\Users\user\Documents\RPA\RobotFramework\test\screen_probe.py", line 37, in <module>
+    print(json.dumps({"text": text, "text_path": text_path}, ensure_ascii=False))
+UnicodeEncodeError: 'cp932' codec can't encode character '\xa9' in position 10: illegal multibyte sequence
+[02:19:35.845381][OCR] text=[© INTER
+he ge]
+[02:19:35.857418][OCR-FILTER] normalized=[© INTER he ge]
+[02:19:35.873417][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:19:35.885394][COPY] detected menu text by OCR=[© INTER
+he ge] point=(700,305)
+[02:19:36.437352][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 295, "width": 110, "height": 28}]
+[02:19:36.448385][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 295, "width": 110, "height": 28} offset_y=10 height=28
+[02:19:37.548286][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:37.567286][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:19:37.583284][COPY-PROBE] text=[] offset_y=10 height=28
+[02:19:38.190236][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 291, "width": 110, "height": 24}]
+[02:19:38.207240][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 291, "width": 110, "height": 24} offset_y=14 height=24
+[02:19:39.286161][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:39.297183][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:19:39.307162][COPY-PROBE] text=[] offset_y=14 height=24
+[02:19:39.872136][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 297, "width": 110, "height": 20}]
+[02:19:39.888130][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 297, "width": 110, "height": 20} offset_y=8 height=20
+[02:19:40.942070][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:40.960093][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:19:40.978116][COPY-PROBE] text=[] offset_y=8 height=20
+[02:19:41.064042][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,305) text_candidate=[ツムきま、天すず! 1] menu_text=[© INTER
+he ge] probe_text=[]
+[02:19:41.074048][COPY-SKIP] non-copy menu -> skip
+[02:19:41.089086][CAPTURE] y=240 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[© INTER
+he ge] menu_rect=[630,245,746,331]
+[02:19:41.746006][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y240_20260405_021941_105066.png", "mode": "full"}]
+[02:19:41.760018][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y240_20260405_021941_105066.png", "mode": "full"}
+[02:19:42.462009][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y240_20260405_021941_105066.png", "left": 500, "top": 155, "width": 320, "height": 220}]
+[02:19:42.478958][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y240_20260405_021941_105066.png", "left": 500, "top": 155, "width": 320, "height": 220} menu_rect=[630,245,746,331]
+[02:19:42.487969][CAPTURE] target menu exists but no コピー -> next y=240
+[02:19:43.323630][ACTIVATE] locator=executable:LINE.exe
+[02:19:44.820440][CLIP] clear stderr=[]
+[02:19:44.834453][POINTER] try-point base=(620,310) offset=(20,15) target=(640,325)
+[02:19:45.388420][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 275, "width": 220, "height": 120}]
+[02:19:45.405413][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 275, "width": 220, "height": 120}
+[02:19:46.719331][PY] ocr rc=0 stderr=[{"text": "Mr  bes. RFI 1\n\nマサヒコツムラ\n\n みなさん、 今年もお付き合い:\nルスくださった方読んでにやに\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:19:46.734323][TEXT-CANDIDATE] ocr_json={"text": "Mr  bes. RFI 1\n\nマサヒコツムラ\n\n みなさん、 今年もお付き合い:\nルスくださった方読んでにやに\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:19:46.763311][TEXT-CANDIDATE] text=[Mr  bes. RFI 1
+
+マサヒコツムラ
+
+ みなさん、 今年もお付き合い:
+ルスくださった方読んでにやに]
+[02:19:46.770314][COPY] right click x=640 y=325
+[02:19:46.904637][COPY] right click ok=True
+[02:19:47.416699][MENU-WINDOW] scan try=0
+[02:19:47.450699][MENU-WINDOW] found=True try=0
+[02:19:47.677682][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,315,746,401)
+[02:19:47.692688][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,325)
+[02:19:47.797671][MENU-WINDOW] selected rect=(630,315,746,401) point=(640,325)
+[02:19:47.808667][COPY-PROBE] move by menu top-left base=(630,315) offset=(70,60) target=(700,375)
+[02:19:47.820715][COPY-PROBE] move ok=True
+[02:19:48.326672][PY] cursor rc=0 stderr=[{"x": 700, "y": 375}]
+[02:19:48.337628][COPY-PROBE] cursor_json={"x": 700, "y": 375}
+[02:19:48.348626][COPY-PROBE] cursor_match=True expected=(700,375) actual=(700,375)
+[02:19:48.354616][COPY-PROBE] wait for visual confirmation 1500ms
+[02:19:49.863139][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:19:50.015130][OCR-RAW] left=[630] top=[315] right=[746] bottom=[401]
+[02:19:50.035127][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,315,746,401)
+[02:19:50.047141][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,315,746,401)
+[02:19:50.058133][OCR] capture rect=(620,310,136,96)
+[02:19:50.553107][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 310, "width": 136, "height": 96}]
+[02:19:50.565089][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 310, "width": 136, "height": 96}
+[02:19:51.604035][PY] ocr rc=0 stderr=[{"text": "コッ ATER\n\nG2 BS             su\nAsie 2113 us mayでに1\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:19:51.617055][OCR] ocr_json={"text": "コッ ATER\n\nG2 BS             su\nAsie 2113 us mayでに1\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:19:51.639018][OCR] text=[コッ ATER
+
+G2 BS             su
+Asie 2113 us mayでに1]
+[02:19:51.652029][OCR-FILTER] normalized=[コッ ATER  G2 BS              u A ie 2113 u  mayでに1]
+[02:19:51.668031][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:19:51.675035][COPY] detected menu text by OCR=[コッ ATER
+
+G2 BS             su
+Asie 2113 us mayでに1] point=(700,375)
+[02:19:52.195000][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 365, "width": 110, "height": 28}]
+[02:19:52.211991][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 365, "width": 110, "height": 28} offset_y=10 height=28
+[02:19:53.264926][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:53.282929][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:19:53.299935][COPY-PROBE] text=[] offset_y=10 height=28
+[02:19:53.846887][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 361, "width": 110, "height": 24}]
+[02:19:53.861886][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 361, "width": 110, "height": 24} offset_y=14 height=24
+[02:19:54.948837][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:54.963820][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:19:54.977867][COPY-PROBE] text=[] offset_y=14 height=24
+[02:19:55.616785][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 367, "width": 110, "height": 20}]
+[02:19:55.633834][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 367, "width": 110, "height": 20} offset_y=8 height=20
+[02:19:56.675706][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:19:56.688706][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:19:56.702710][COPY-PROBE] text=[] offset_y=8 height=20
+[02:19:56.789728][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,375) text_candidate=[Mr  bes. RFI 1
+
+マサヒコツムラ
+
+ みなさん、 今年もお付き合い:
+ルスくださった方読んでにやに] menu_text=[コッ ATER
+
+G2 BS             su
+Asie 2113 us mayでに1] probe_text=[]
+[02:19:56.800690][COPY-SKIP] non-copy menu -> skip
+[02:19:56.814703][CAPTURE] y=310 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[コッ ATER
+
+G2 BS             su
+Asie 2113 us mayでに1] menu_rect=[630,315,746,401]
+[02:19:57.499652][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y310_20260405_021956_829716.png", "mode": "full"}]
+[02:19:57.519645][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y310_20260405_021956_829716.png", "mode": "full"}
+[02:19:58.109657][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y310_20260405_021956_829716.png", "left": 500, "top": 225, "width": 320, "height": 220}]
+[02:19:58.124625][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y310_20260405_021956_829716.png", "left": 500, "top": 225, "width": 320, "height": 220} menu_rect=[630,315,746,401]
+[02:19:58.131624][CAPTURE] target menu exists but no コピー -> next y=310
+[02:19:58.944158][ACTIVATE] locator=executable:LINE.exe
+[02:20:00.440814][CLIP] clear stderr=[]
+[02:20:00.454811][POINTER] try-point base=(620,380) offset=(20,15) target=(640,395)
+[02:20:01.050755][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 345, "width": 220, "height": 120}]
+[02:20:01.066774][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 345, "width": 220, "height": 120}
+[02:20:02.293675][PY] ocr rc=0 stderr=[{"text": " みなさん、 今年もお付き合い:\nしルスくださった方も、 読んでにやにt\n\n今回は、GoogleのAlに「札北25\nLk\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:20:02.305707][TEXT-CANDIDATE] ocr_json={"text": " みなさん、 今年もお付き合い:\nしルスくださった方も、 読んでにやにt\n\n今回は、GoogleのAlに「札北25\nLk\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:20:02.328675][TEXT-CANDIDATE] text=[みなさん、 今年もお付き合い:
+しルスくださった方も、 読んでにやにt
+
+今回は、GoogleのAlに「札北25
+Lk]
+[02:20:02.333718][COPY] right click x=640 y=395
+[02:20:02.464956][COPY] right click ok=True
+[02:20:02.974314][MENU-WINDOW] scan try=0
+[02:20:02.992305][MENU-WINDOW] found=True try=0
+[02:20:03.195316][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,385,773,682)
+[02:20:03.204316][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,395)
+[02:20:03.300285][MENU-WINDOW] selected rect=(630,385,773,682) point=(640,395)
+[02:20:03.307278][COPY-PROBE] move by menu top-left base=(630,385) offset=(70,60) target=(700,445)
+[02:20:03.316284][COPY-PROBE] move ok=True
+[02:20:03.786260][PY] cursor rc=0 stderr=[{"x": 700, "y": 445}]
+[02:20:03.798251][COPY-PROBE] cursor_json={"x": 700, "y": 445}
+[02:20:03.811271][COPY-PROBE] cursor_match=True expected=(700,445) actual=(700,445)
+[02:20:03.818253][COPY-PROBE] wait for visual confirmation 1500ms
+[02:20:05.327819][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:20:05.522799][OCR-RAW] left=[630] top=[385] right=[773] bottom=[682]
+[02:20:05.538763][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,385,773,682)
+[02:20:05.548796][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,385,773,682)
+[02:20:05.561830][OCR] capture rect=(620,380,163,307)
+[02:20:06.042729][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 380, "width": 163, "height": 307}]
+[02:20:06.053772][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 380, "width": 163, "height": 307}
+[02:20:07.408636][PY] ocr rc=0 stderr=[{"text": "スくださった方も、 読んるでにやにや\n\n回\n\nると\nail\n0で\n\nリライ\n\nゴー\n\n転送           ky\nalle                5H\n\n251\n\naR\nKeepXモに転送\nJRE\n\nTHTIA\n\n| ae   用\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:20:07.419642][OCR] ocr_json={"text": "スくださった方も、 読んるでにやにや\n\n回\n\nると\nail\n0で\n\nリライ\n\nゴー\n\n転送           ky\nalle                5H\n\n251\n\naR\nKeepXモに転送\nJRE\n\nTHTIA\n\n| ae   用\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:20:07.447627][OCR] text=[スくださった方も、 読んるでにやにや
+
+回
+
+ると
+ail
+0で
+
+リライ
+
+ゴー
+
+転送           ky
+alle                5H
+
+251
+
+aR
+KeepXモに転送
+JRE
+
+THTIA
+
+| ae   用]
+[02:20:07.471629][OCR-FILTER] normalized=[スくださった方も、 読んるでにやにや  回  ると ail 0で  リライ  ゴー  転送           ky alle                5H  251  aR KeepXモに転送 JRE  THTIA  | ae   用]
+[02:20:07.499622][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:20:07.510668][COPY] detected menu text by OCR=[スくださった方も、 読んるでにやにや
+
+回
+
+ると
+ail
+0で
+
+リライ
+
+ゴー
+
+転送           ky
+alle                5H
+
+251
+
+aR
+KeepXモに転送
+JRE
+
+THTIA
+
+| ae   用] point=(700,445)
+[02:20:08.044636][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 435, "width": 110, "height": 28}]
+[02:20:08.059640][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 435, "width": 110, "height": 28} offset_y=10 height=28
+[02:20:09.030533][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:09.041573][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:20:09.055525][COPY-PROBE] text=[] offset_y=10 height=28
+[02:20:09.576531][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 431, "width": 110, "height": 24}]
+[02:20:09.590508][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 431, "width": 110, "height": 24} offset_y=14 height=24
+[02:20:10.724470][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:10.740420][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:20:10.755436][COPY-PROBE] text=[] offset_y=14 height=24
+[02:20:11.424394][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 437, "width": 110, "height": 20}]
+[02:20:11.440404][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 437, "width": 110, "height": 20} offset_y=8 height=20
+[02:20:12.432308][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:12.446309][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:20:12.460305][COPY-PROBE] text=[] offset_y=8 height=20
+[02:20:12.562308][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,445) text_candidate=[みなさん、 今年もお付き合い:
+しルスくださった方も、 読んでにやにt
+
+今回は、GoogleのAlに「札北25
+Lk] menu_text=[スくださった方も、 読んるでにやにや
+
+回
+
+ると
+ail
+0で
+
+リライ
+
+ゴー
+
+転送           ky
+alle                5H
+
+251
+
+aR
+KeepXモに転送
+JRE
+
+THTIA
+
+| ae   用] probe_text=[]
+[02:20:12.574302][COPY-SKIP] non-copy menu -> skip
+[02:20:12.596297][CAPTURE] y=380 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[スくださった方も、 読んるでにやにや
+
+回
+
+ると
+ail
+0で
+
+リライ
+
+ゴー
+
+転送           ky
+alle                5H
+
+251
+
+aR
+KeepXモに転送
+JRE
+
+THTIA
+
+| ae   用] menu_rect=[630,385,773,682]
+[02:20:13.400243][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y380_20260405_022012_610302.png", "mode": "full"}]
+[02:20:13.415257][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y380_20260405_022012_610302.png", "mode": "full"}
+[02:20:13.979239][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y380_20260405_022012_610302.png", "left": 500, "top": 295, "width": 320, "height": 220}]
+[02:20:13.996206][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y380_20260405_022012_610302.png", "left": 500, "top": 295, "width": 320, "height": 220} menu_rect=[630,385,773,682]
+[02:20:14.004204][CAPTURE] target menu exists but no コピー -> next y=380
+[02:20:14.820860][ACTIVATE] locator=executable:LINE.exe
+[02:20:16.312789][CLIP] clear stderr=[]
+[02:20:16.325786][POINTER] try-point base=(620,450) offset=(20,15) target=(640,465)
+[02:20:16.838738][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 415, "width": 220, "height": 120}]
+[02:20:16.852778][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 415, "width": 220, "height": 120}
+[02:20:18.023655][PY] ocr rc=0 stderr=[{"text": "今回は、GoogleのAlに「札北25\nLk\n\nすると、 たったこれだけしか情報を\n\nたので、 02くりしました。\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:20:18.037690][TEXT-CANDIDATE] ocr_json={"text": "今回は、GoogleのAlに「札北25\nLk\n\nすると、 たったこれだけしか情報を\n\nたので、 02くりしました。\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:20:18.064699][TEXT-CANDIDATE] text=[今回は、GoogleのAlに「札北25
+Lk
+
+すると、 たったこれだけしか情報を
+
+たので、 02くりしました。]
+[02:20:18.071688][COPY] right click x=640 y=465
+[02:20:18.201997][COPY] right click ok=True
+[02:20:18.711218][MENU-WINDOW] scan try=0
+[02:20:18.728237][MENU-WINDOW] found=True try=0
+[02:20:18.929203][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,454,773,751)
+[02:20:18.942208][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,465)
+[02:20:19.072195][MENU-WINDOW] selected rect=(630,454,773,751) point=(640,465)
+[02:20:19.084213][COPY-PROBE] move by menu top-left base=(630,454) offset=(70,60) target=(700,514)
+[02:20:19.092196][COPY-PROBE] move ok=True
+[02:20:19.641159][PY] cursor rc=0 stderr=[{"x": 700, "y": 514}]
+[02:20:19.653149][COPY-PROBE] cursor_json={"x": 700, "y": 514}
+[02:20:19.667150][COPY-PROBE] cursor_match=True expected=(700,514) actual=(700,514)
+[02:20:19.676145][COPY-PROBE] wait for visual confirmation 1500ms
+[02:20:21.186399][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:20:21.324398][OCR-RAW] left=[630] top=[454] right=[773] bottom=[751]
+[02:20:21.341386][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,454,773,751)
+[02:20:21.355384][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,454,773,751)
+[02:20:21.365404][OCR] capture rect=(620,449,163,307)
+[02:20:21.895403][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 449, "width": 163, "height": 307}]
+[02:20:21.909366][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 449, "width": 163, "height": 307}
+[02:20:23.162285][PY] ocr rc=0 stderr=[{"text": "T+ keepXモに転送\nJRE\nアナウッス\na8             上\nETT\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:20:23.174283][OCR] ocr_json={"text": "T+ keepXモに転送\nJRE\nアナウッス\na8             上\nETT\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:20:23.203317][OCR] text=[T+ keepXモに転送
+JRE
+アナウッス
+a8             上
+ETT]
+[02:20:23.220266][OCR-FILTER] normalized=[T+ keepXモに転送 JRE アナウッス a8             上 ETT]
+[02:20:23.239279][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:20:23.249301][COPY] detected menu text by OCR=[T+ keepXモに転送
+JRE
+アナウッス
+a8             上
+ETT] point=(700,514)
+[02:20:23.729245][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 504, "width": 110, "height": 28}]
+[02:20:23.740244][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 504, "width": 110, "height": 28} offset_y=10 height=28
+[02:20:24.695181][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:24.707201][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:20:24.727198][COPY-PROBE] text=[] offset_y=10 height=28
+[02:20:25.377188][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 500, "width": 110, "height": 24}]
+[02:20:25.394161][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 500, "width": 110, "height": 24} offset_y=14 height=24
+[02:20:26.459062][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:26.472065][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:20:26.483055][COPY-PROBE] text=[] offset_y=14 height=24
+[02:20:27.100031][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 506, "width": 110, "height": 20}]
+[02:20:27.112043][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 506, "width": 110, "height": 20} offset_y=8 height=20
+[02:20:28.092998][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:28.103947][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:20:28.116025][COPY-PROBE] text=[] offset_y=8 height=20
+[02:20:28.191003][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,514) text_candidate=[今回は、GoogleのAlに「札北25
+Lk
+
+すると、 たったこれだけしか情報を
+
+たので、 02くりしました。] menu_text=[T+ keepXモに転送
+JRE
+アナウッス
+a8             上
+ETT] probe_text=[]
+[02:20:28.202949][COPY-SKIP] non-copy menu -> skip
+[02:20:28.215944][CAPTURE] y=450 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[T+ keepXモに転送
+JRE
+アナウッス
+a8             上
+ETT] menu_rect=[630,454,773,751]
+[02:20:28.884902][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y450_20260405_022028_234945.png", "mode": "full"}]
+[02:20:28.899930][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y450_20260405_022028_234945.png", "mode": "full"}
+[02:20:29.448877][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y450_20260405_022028_234945.png", "left": 500, "top": 365, "width": 320, "height": 220}]
+[02:20:29.465864][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y450_20260405_022028_234945.png", "left": 500, "top": 365, "width": 320, "height": 220} menu_rect=[630,454,773,751]
+[02:20:29.473915][CAPTURE] target menu exists but no コピー -> next y=450
+[02:20:30.312410][ACTIVATE] locator=executable:LINE.exe
+[02:20:31.864490][CLIP] clear stderr=[]
+[02:20:31.878511][POINTER] try-point base=(620,520) offset=(20,15) target=(640,535)
+[02:20:32.441483][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 485, "width": 220, "height": 120}]
+[02:20:32.457464][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 485, "width": 220, "height": 120}
+[02:20:33.548405][PY] ocr rc=0 stderr=[{"text": "舎(ただし、  paar.\nたので、びっくりしました。\n塩谷良知\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:20:33.559380][TEXT-CANDIDATE] ocr_json={"text": "舎(ただし、  paar.\nたので、びっくりしました。\n塩谷良知\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:20:33.583376][TEXT-CANDIDATE] text=[舎(ただし、  paar.
+たので、びっくりしました。
+塩谷良知]
+[02:20:33.589403][COPY] right click x=640 y=535
+[02:20:33.724754][COPY] right click ok=True
+[02:20:34.242830][MENU-WINDOW] scan try=0
+[02:20:34.268868][MENU-WINDOW] found=True try=0
+[02:20:34.543809][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,525,746,638)
+[02:20:34.554801][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,535)
+[02:20:34.641806][MENU-WINDOW] selected rect=(630,525,746,638) point=(640,535)
+[02:20:34.651801][COPY-PROBE] move by menu top-left base=(630,525) offset=(70,60) target=(700,585)
+[02:20:34.661789][COPY-PROBE] move ok=True
+[02:20:35.108790][PY] cursor rc=0 stderr=[{"x": 700, "y": 585}]
+[02:20:35.121767][COPY-PROBE] cursor_json={"x": 700, "y": 585}
+[02:20:35.143791][COPY-PROBE] cursor_match=True expected=(700,585) actual=(700,585)
+[02:20:35.154782][COPY-PROBE] wait for visual confirmation 1500ms
+[02:20:36.664682][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:20:36.822747][OCR-RAW] left=[630] top=[525] right=[746] bottom=[638]
+[02:20:36.840656][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,525,746,638)
+[02:20:36.854667][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,525,746,638)
+[02:20:36.866645][OCR] capture rect=(620,520,136,123)
+[02:20:37.430593][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 520, "width": 136, "height": 123}]
+[02:20:37.443592][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 520, "width": 136, "height": 123}
+[02:20:38.587545][PY] ocr rc=0 stderr=[{"text": "すべて選択\nae\nペスト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:20:38.597503][OCR] ocr_json={"text": "すべて選択\nae\nペスト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:20:38.618502][OCR] text=[すべて選択
+ae
+ペスト]
+[02:20:38.631515][OCR-FILTER] normalized=[すべて選択 ae ペスト]
+[02:20:38.648537][OCR-FILTER] has_hide=False has_announce=False has_selectall=True has_copy=False has_paste=True result=False
+[02:20:38.659518][COPY] detected menu text by OCR=[すべて選択
+ae
+ペスト] point=(700,585)
+[02:20:39.212508][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 575, "width": 110, "height": 28}]
+[02:20:39.224509][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 575, "width": 110, "height": 28} offset_y=10 height=28
+[02:20:40.354429][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:40.369409][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:20:40.383410][COPY-PROBE] text=[] offset_y=10 height=28
+[02:20:41.032360][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 571, "width": 110, "height": 24}]
+[02:20:41.048381][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 571, "width": 110, "height": 24} offset_y=14 height=24
+[02:20:42.115295][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:42.132295][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:20:42.148280][COPY-PROBE] text=[] offset_y=14 height=24
+[02:20:42.851242][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 577, "width": 110, "height": 20}]
+[02:20:42.868257][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 577, "width": 110, "height": 20} offset_y=8 height=20
+[02:20:43.946170][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:20:43.960170][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:20:43.975174][COPY-PROBE] text=[] offset_y=8 height=20
+[02:20:44.072164][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,585) text_candidate=[舎(ただし、  paar.
+たので、びっくりしました。
+塩谷良知] menu_text=[すべて選択
+ae
+ペスト] probe_text=[]
+[02:20:44.086148][COPY-SKIP] non-copy menu -> skip
+[02:20:44.103168][CAPTURE] y=520 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[すべて選択
+ae
+ペスト] menu_rect=[630,525,746,638]
+[02:20:44.885095][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y520_20260405_022044_120164.png", "mode": "full"}]
+[02:20:44.898096][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y520_20260405_022044_120164.png", "mode": "full"}
+[02:20:45.456078][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y520_20260405_022044_120164.png", "left": 500, "top": 435, "width": 320, "height": 220}]
+[02:20:45.470058][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y520_20260405_022044_120164.png", "left": 500, "top": 435, "width": 320, "height": 220} menu_rect=[630,525,746,638]
+[02:20:45.474065][CAPTURE] target menu exists but no コピー -> next y=520
+[02:20:45.490071][DOWN LOOP] loop=0 new=0 total=0
+[02:20:45.500056][DOWN LOOP] stagnant=1
+[02:20:46.306889][ACTIVATE] locator=executable:LINE.exe
+[02:20:47.324057][SCROLL-DOWN] verify retry=0
+[02:20:47.813953][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[02:20:47.825942][SCROLL-DOWN] before={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[02:20:50.278057][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[02:20:50.289063][SCROLL-DOWN] after={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[02:20:50.741070][PY] compare rc=0 stderr=[{"same": false, "before_hash": "8f418e848efcec7aabce2e12696f31e3", "after_hash": "68ccb481017ced9df0e3de54d166cde5"}]
+[02:20:50.750038][SCROLL-DOWN] retry=0 changed=True
+[02:20:51.550723][ACTIVATE] locator=executable:LINE.exe
+[02:20:52.563834][SCROLL-CLEAR] move x=960 y=360
+[02:20:52.576845][SCROLL-CLEAR] move_ok=True
+[02:20:52.807959][SCROLL-CLEAR] click_ok=True
+[02:20:53.973168][ACTIVATE] locator=executable:LINE.exe
+[02:20:54.989066][SCROLL-CLEAR] move x=960 y=360
+[02:20:55.002026][SCROLL-CLEAR] move_ok=True
+[02:20:55.227079][SCROLL-CLEAR] click_ok=True
+[02:20:55.636167][SCROLL-DOWN] changed=True
+[02:20:56.441757][ACTIVATE] locator=executable:LINE.exe
+[02:20:57.453133][DOWN LOOP] start loop=1
+[02:20:58.267738][ACTIVATE] locator=executable:LINE.exe
+[02:20:59.745148][CLIP] clear stderr=[]
+[02:20:59.760071][POINTER] try-point base=(620,170) offset=(20,15) target=(640,185)
+[02:21:00.363033][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 135, "width": 220, "height": 120}]
+[02:21:00.384019][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 135, "width": 220, "height": 120}
+[02:21:01.638973][PY] ocr rc=0 stderr=[{"text": "| Beh, おばんです。 RR- BBO\nELE. さて、8724 (+) 総会後の同\n\nGSMS!\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:21:01.653934][TEXT-CANDIDATE] ocr_json={"text": "| Beh, おばんです。 RR- BBO\nELE. さて、8724 (+) 総会後の同\n\nGSMS!\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:21:01.684938][TEXT-CANDIDATE] text=[| Beh, おばんです。 RR- BBO
+ELE. さて、8724 (+) 総会後の同
+
+GSMS!]
+[02:21:01.693931][COPY] right click x=640 y=185
+[02:21:01.837273][COPY] right click ok=True
+[02:21:02.347620][MENU-WINDOW] scan try=0
+[02:21:02.371592][MENU-WINDOW] found=True try=0
+[02:21:02.569618][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,175,782,261)
+[02:21:02.577580][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,185)
+[02:21:02.723607][MENU-WINDOW] selected rect=(630,175,782,261) point=(640,185)
+[02:21:02.737555][COPY-PROBE] move by menu top-left base=(630,175) offset=(70,60) target=(700,235)
+[02:21:02.754569][COPY-PROBE] move ok=True
+[02:21:03.174527][PY] cursor rc=0 stderr=[{"x": 700, "y": 235}]
+[02:21:03.184519][COPY-PROBE] cursor_json={"x": 700, "y": 235}
+[02:21:03.196552][COPY-PROBE] cursor_match=True expected=(700,235) actual=(700,235)
+[02:21:03.202516][COPY-PROBE] wait for visual confirmation 1500ms
+[02:21:04.709952][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:21:04.870997][OCR-RAW] left=[630] top=[175] right=[782] bottom=[261]
+[02:21:04.887990][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,175,782,261)
+[02:21:04.898942][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,175,782,261)
+[02:21:04.908951][OCR] capture rect=(620,170,172,96)
+[02:21:05.579904][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 170, "width": 172, "height": 96}]
+[02:21:05.600898][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 170, "width": 172, "height": 96}
+[02:21:06.779814][PY] ocr rc=0 stderr=[{"text": "ei\n\na8\n今後は表示しない\n\nアナウソス解除\nそろしい時TtIになりました仁畔\n\nie\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:21:06.789821][OCR] ocr_json={"text": "ei\n\na8\n今後は表示しない\n\nアナウソス解除\nそろしい時TtIになりました仁畔\n\nie\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:21:06.814808][OCR] text=[ei
+
+a8
+今後は表示しない
+
+アナウソス解除
+そろしい時TtIになりました仁畔
+
+ie]
+[02:21:06.835818][OCR-FILTER] normalized=[ei  a8 今後は表示しない  アナウソス解除 そろしい時TtIになりました仁畔  ie]
+[02:21:06.867814][OCR-FILTER] has_hide=True has_announce=False has_selectall=False has_copy=False has_paste=False result=True
+[02:21:06.872818][OCR] filtered as non-message menu
+[02:21:06.883801][COPY] detected menu text by OCR=[] point=(700,235)
+[02:21:07.472765][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 225, "width": 110, "height": 28}]
+[02:21:07.484797][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 225, "width": 110, "height": 28} offset_y=10 height=28
+[02:21:08.533700][PY] ocr rc=0 stderr=[{"text": "TIS ARR\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:08.546719][COPY-PROBE] ocr_json={"text": "TIS ARR\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:21:08.574691][COPY-PROBE] text=[TIS ARR] offset_y=10 height=28
+[02:21:09.204721][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 221, "width": 110, "height": 24}]
+[02:21:09.225655][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 221, "width": 110, "height": 24} offset_y=14 height=24
+[02:21:10.402580][PY] ocr rc=0 stderr=[{"text": "ナウッス解除\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:10.413626][COPY-PROBE] ocr_json={"text": "ナウッス解除\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:21:10.427590][COPY-PROBE] text=[ナウッス解除] offset_y=14 height=24
+[02:21:11.045571][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 227, "width": 110, "height": 20}]
+[02:21:11.062549][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 227, "width": 110, "height": 20} offset_y=8 height=20
+[02:21:12.186454][PY] ocr rc=0 stderr=[{"text": "PII\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:12.231493][COPY-PROBE] ocr_json={"text": "PII\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:21:12.245474][COPY-PROBE] text=[PII] offset_y=8 height=20
+[02:21:12.425455][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,235) text_candidate=[| Beh, おばんです。 RR- BBO
+ELE. さて、8724 (+) 総会後の同
+
+GSMS!] menu_text=[] probe_text=[TIS ARR]
+[02:21:12.437441][COPY-SKIP] non-copy menu -> skip
+[02:21:12.458446][CAPTURE] y=170 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[] menu_rect=[630,175,782,261]
+[02:21:13.115439][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y170_20260405_022112_475439.png", "mode": "full"}]
+[02:21:13.132441][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y170_20260405_022112_475439.png", "mode": "full"}
+[02:21:13.776391][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y170_20260405_022112_475439.png", "left": 500, "top": 85, "width": 320, "height": 220}]
+[02:21:13.793368][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y170_20260405_022112_475439.png", "left": 500, "top": 85, "width": 320, "height": 220} menu_rect=[630,175,782,261]
+[02:21:13.800371][CAPTURE] target menu exists but no コピー -> next y=170
+[02:21:14.628955][ACTIVATE] locator=executable:LINE.exe
+[02:21:16.143627][CLIP] clear stderr=[]
+[02:21:16.156608][POINTER] try-point base=(620,240) offset=(20,15) target=(640,255)
+[02:21:16.669534][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 205, "width": 220, "height": 120}]
+[02:21:16.686542][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 205, "width": 220, "height": 120}
+[02:21:17.835457][PY] ocr rc=0 stderr=[{"text": "GSMS!\n\nBALSA VSL\nではみなさん、 残りの一年も元気\n\nつむ\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:21:17.846458][TEXT-CANDIDATE] ocr_json={"text": "GSMS!\n\nBALSA VSL\nではみなさん、 残りの一年も元気\n\nつむ\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:21:17.866456][TEXT-CANDIDATE] text=[GSMS!
+
+BALSA VSL
+ではみなさん、 残りの一年も元気
+
+つむ]
+[02:21:17.871460][COPY] right click x=640 y=255
+[02:21:17.997900][COPY] right click ok=True
+[02:21:18.510525][MENU-WINDOW] scan try=0
+[02:21:18.527464][MENU-WINDOW] found=True try=0
+[02:21:18.718453][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,245,773,542)
+[02:21:18.731479][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,255)
+[02:21:18.825446][MENU-WINDOW] selected rect=(630,245,773,542) point=(640,255)
+[02:21:18.832478][COPY-PROBE] move by menu top-left base=(630,245) offset=(70,60) target=(700,305)
+[02:21:18.839464][COPY-PROBE] move ok=True
+[02:21:19.308422][PY] cursor rc=0 stderr=[{"x": 700, "y": 305}]
+[02:21:19.319595][COPY-PROBE] cursor_json={"x": 700, "y": 305}
+[02:21:19.334396][COPY-PROBE] cursor_match=True expected=(700,305) actual=(700,305)
+[02:21:19.340445][COPY-PROBE] wait for visual confirmation 1500ms
+[02:21:20.849956][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:21:20.988989][OCR-RAW] left=[630] top=[245] right=[773] bottom=[542]
+[02:21:21.007005][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,245,773,542)
+[02:21:21.018982][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,245,773,542)
+[02:21:21.027938][OCR] capture rect=(620,240,163,307)
+[02:21:21.555915][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 240, "width": 163, "height": 307}]
+[02:21:21.571913][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 240, "width": 163, "height": 307}
+[02:21:22.758877][PY] ocr rc=0 stderr=[{"text": "そろ! WReUEI- HS! Aw\n\nはみ リプライ   cad\nぉ コビー\n転送\naE ale\naR\nKeepXモに転送\nJRE\n>\nS| カッス\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:21:22.770836][OCR] ocr_json={"text": "そろ! WReUEI- HS! Aw\n\nはみ リプライ   cad\nぉ コビー\n転送\naE ale\naR\nKeepXモに転送\nJRE\n>\nS| カッス\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:21:22.797834][OCR] text=[そろ! WReUEI- HS! Aw
+
+はみ リプライ   cad
+ぉ コビー
+転送
+aE ale
+aR
+KeepXモに転送
+JRE
+>
+S| カッス]
+[02:21:22.813833][OCR-FILTER] normalized=[そろ! WReUEI- HS! Aw  はみ リプライ   cad ぉ コビー 転送 aE ale aR KeepXモに転送 JRE > S| カッス]
+[02:21:22.834830][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:21:22.844833][COPY] detected menu text by OCR=[そろ! WReUEI- HS! Aw
+
+はみ リプライ   cad
+ぉ コビー
+転送
+aE ale
+aR
+KeepXモに転送
+JRE
+>
+S| カッス] point=(700,305)
+[02:21:23.328799][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 295, "width": 110, "height": 28}]
+[02:21:23.344849][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 295, "width": 110, "height": 28} offset_y=10 height=28
+[02:21:24.375768][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:24.388732][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:21:24.398756][COPY-PROBE] text=[] offset_y=10 height=28
+[02:21:24.965723][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 291, "width": 110, "height": 24}]
+[02:21:24.984688][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 291, "width": 110, "height": 24} offset_y=14 height=24
+[02:21:26.091612][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:26.107615][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:21:26.124615][COPY-PROBE] text=[] offset_y=14 height=24
+[02:21:26.838577][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 297, "width": 110, "height": 20}]
+[02:21:26.852575][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 297, "width": 110, "height": 20} offset_y=8 height=20
+[02:21:27.906488][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:27.918503][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:21:27.929676][COPY-PROBE] text=[] offset_y=8 height=20
+[02:21:27.992493][COPY-CHECK] menu_has_copy_like=True probe_has_copy_like=False is_copy_like=True cursor=(700,305) text_candidate=[GSMS!
+
+BALSA VSL
+ではみなさん、 残りの一年も元気
+
+つむ] menu_text=[そろ! WReUEI- HS! Aw
+
+はみ リプライ   cad
+ぉ コビー
+転送
+aE ale
+aR
+KeepXモに転送
+JRE
+>
+S| カッス] probe_text=[]
+[02:21:28.002488][COPY-SKIP] copy-like confirmed at cursor -> click skipped for safety
+[02:21:28.016478][CAPTURE] y=240 status=MENU_NO_COPY reason=[copy_like_logged_skip] menu_text=[そろ! WReUEI- HS! Aw
+
+はみ リプライ   cad
+ぉ コビー
+転送
+aE ale
+aR
+KeepXモに転送
+JRE
+>
+S| カッス] menu_rect=[630,245,773,542]
+[02:21:28.607459][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_copy_like_logged_skip_y240_20260405_022128_036479.png", "mode": "full"}]
+[02:21:28.620459][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_copy_like_logged_skip_y240_20260405_022128_036479.png", "mode": "full"}
+[02:21:29.208414][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_copy_like_logged_skip_y240_20260405_022128_036479.png", "left": 500, "top": 155, "width": 320, "height": 220}]
+[02:21:29.222417][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_copy_like_logged_skip_y240_20260405_022128_036479.png", "left": 500, "top": 155, "width": 320, "height": 220} menu_rect=[630,245,773,542]
+[02:21:29.229404][CAPTURE] target menu exists but no コピー -> next y=240
+[02:21:30.065067][ACTIVATE] locator=executable:LINE.exe
+[02:21:31.624667][CLIP] clear stderr=[]
+[02:21:31.638644][POINTER] try-point base=(620,310) offset=(20,15) target=(640,325)
+[02:21:32.191602][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 275, "width": 220, "height": 120}]
+[02:21:32.202592][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 275, "width": 220, "height": 120}
+[02:21:33.326510][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:21:33.336515][TEXT-CANDIDATE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:21:33.345553][TEXT-CANDIDATE] text=[]
+[02:21:33.352539][COPY] right click x=640 y=325
+[02:21:33.487830][COPY] right click ok=True
+[02:21:33.999152][MENU-WINDOW] scan try=0
+[02:21:34.021168][MENU-WINDOW] found=True try=0
+[02:21:34.218156][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,315,746,401)
+[02:21:34.230152][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,325)
+[02:21:34.325139][MENU-WINDOW] selected rect=(630,315,746,401) point=(640,325)
+[02:21:34.334128][COPY-PROBE] move by menu top-left base=(630,315) offset=(70,60) target=(700,375)
+[02:21:34.341141][COPY-PROBE] move ok=True
+[02:21:34.725114][PY] cursor rc=0 stderr=[{"x": 700, "y": 375}]
+[02:21:34.740115][COPY-PROBE] cursor_json={"x": 700, "y": 375}
+[02:21:34.759119][COPY-PROBE] cursor_match=True expected=(700,375) actual=(700,375)
+[02:21:34.769133][COPY-PROBE] wait for visual confirmation 1500ms
+[02:21:36.279708][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:21:36.425658][OCR-RAW] left=[630] top=[315] right=[746] bottom=[401]
+[02:21:36.439686][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,315,746,401)
+[02:21:36.451650][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,315,746,401)
+[02:21:36.461655][OCR] capture rect=(620,310,136,96)
+[02:21:36.990650][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 310, "width": 136, "height": 96}]
+[02:21:37.003657][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 310, "width": 136, "height": 96}
+[02:21:38.138550][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:21:38.151545][OCR] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:21:38.168581][OCR] text=[]
+[02:21:38.187568][COPY] detected menu text by OCR=[] point=(700,375)
+[02:21:38.787538][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 365, "width": 110, "height": 28}]
+[02:21:38.808495][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 365, "width": 110, "height": 28} offset_y=10 height=28
+[02:21:39.938455][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:39.955410][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:21:39.972412][COPY-PROBE] text=[] offset_y=10 height=28
+[02:21:40.607389][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 361, "width": 110, "height": 24}]
+[02:21:40.630414][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 361, "width": 110, "height": 24} offset_y=14 height=24
+[02:21:41.671308][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:41.684314][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:21:41.697301][COPY-PROBE] text=[] offset_y=14 height=24
+[02:21:42.302268][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 367, "width": 110, "height": 20}]
+[02:21:42.317272][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 367, "width": 110, "height": 20} offset_y=8 height=20
+[02:21:43.317206][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:43.329193][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:21:43.340204][COPY-PROBE] text=[] offset_y=8 height=20
+[02:21:43.409199][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,375) text_candidate=[] menu_text=[] probe_text=[]
+[02:21:43.423188][CAPTURE] y=310 status=OCR_FAIL reason=[ocr_empty] menu_text=[] menu_rect=[630,315,746,401]
+[02:21:44.054337][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_OCR_FAIL_ocr_empty_y310_20260405_022143_437188.png", "mode": "full"}]
+[02:21:44.070151][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_OCR_FAIL_ocr_empty_y310_20260405_022143_437188.png", "mode": "full"}
+[02:21:44.680120][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_OCR_FAIL_ocr_empty_y310_20260405_022143_437188.png", "left": 500, "top": 225, "width": 320, "height": 220}]
+[02:21:44.698146][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_OCR_FAIL_ocr_empty_y310_20260405_022143_437188.png", "left": 500, "top": 225, "width": 320, "height": 220} menu_rect=[630,315,746,401]
+[02:21:44.706123][CAPTURE] ocr fail -> next y=310
+[02:21:45.579692][ACTIVATE] locator=executable:LINE.exe
+[02:21:47.078654][CLIP] clear stderr=[]
+[02:21:47.091676][POINTER] try-point base=(620,380) offset=(20,15) target=(640,395)
+[02:21:47.587658][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 345, "width": 220, "height": 120}]
+[02:21:47.601651][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 345, "width": 220, "height": 120}
+[02:21:48.729559][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:21:48.742555][TEXT-CANDIDATE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:21:48.756557][TEXT-CANDIDATE] text=[]
+[02:21:48.763550][COPY] right click x=640 y=395
+[02:21:48.887003][COPY] right click ok=True
+[02:21:49.398469][MENU-WINDOW] scan try=0
+[02:21:49.417472][MENU-WINDOW] found=True try=0
+[02:21:49.616484][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,385,725,509)
+[02:21:49.627436][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,395)
+[02:21:49.726447][MENU-WINDOW] selected rect=(630,385,725,509) point=(640,395)
+[02:21:49.734494][COPY-PROBE] move by menu top-left base=(630,385) offset=(70,60) target=(700,445)
+[02:21:49.744451][COPY-PROBE] move ok=True
+[02:21:50.151428][PY] cursor rc=0 stderr=[{"x": 700, "y": 445}]
+[02:21:50.163401][COPY-PROBE] cursor_json={"x": 700, "y": 445}
+[02:21:50.179416][COPY-PROBE] cursor_match=True expected=(700,445) actual=(700,445)
+[02:21:50.186445][COPY-PROBE] wait for visual confirmation 1500ms
+[02:21:51.694385][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:21:51.855478][OCR-RAW] left=[630] top=[385] right=[725] bottom=[509]
+[02:21:51.872369][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,385,725,509)
+[02:21:51.884410][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,385,725,509)
+[02:21:51.894362][OCR] capture rect=(620,380,115,134)
+[02:21:52.478330][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 380, "width": 115, "height": 134}]
+[02:21:52.494336][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 380, "width": 115, "height": 134}
+[02:21:53.526260][PY] ocr rc=0 stderr=[{"text": "LELA、\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:21:53.537282][OCR] ocr_json={"text": "LELA、\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:21:53.563257][OCR] text=[LELA、]
+[02:21:53.576241][OCR-FILTER] normalized=[LELA、]
+[02:21:53.594242][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:21:53.603289][COPY] detected menu text by OCR=[LELA、] point=(700,445)
+[02:21:54.320205][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 435, "width": 110, "height": 28}]
+[02:21:54.343199][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 435, "width": 110, "height": 28} offset_y=10 height=28
+[02:21:55.444136][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:55.458140][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:21:55.474140][COPY-PROBE] text=[] offset_y=10 height=28
+[02:21:56.067095][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 431, "width": 110, "height": 24}]
+[02:21:56.080089][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 431, "width": 110, "height": 24} offset_y=14 height=24
+[02:21:57.092025][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:57.107022][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:21:57.122016][COPY-PROBE] text=[] offset_y=14 height=24
+[02:21:57.867966][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 437, "width": 110, "height": 20}]
+[02:21:57.878980][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 437, "width": 110, "height": 20} offset_y=8 height=20
+[02:21:58.857907][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:21:58.869906][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:21:58.879904][COPY-PROBE] text=[] offset_y=8 height=20
+[02:21:58.975941][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,445) text_candidate=[] menu_text=[LELA、] probe_text=[]
+[02:21:58.986905][COPY-SKIP] non-copy menu -> skip
+[02:21:59.000901][CAPTURE] y=380 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[LELA、] menu_rect=[630,385,725,509]
+[02:21:59.755890][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y380_20260405_022159_010900.png", "mode": "full"}]
+[02:21:59.774884][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y380_20260405_022159_010900.png", "mode": "full"}
+[02:22:00.300843][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y380_20260405_022159_010900.png", "left": 500, "top": 295, "width": 320, "height": 220}]
+[02:22:00.314818][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y380_20260405_022159_010900.png", "left": 500, "top": 295, "width": 320, "height": 220} menu_rect=[630,385,725,509]
+[02:22:00.320811][CAPTURE] target menu exists but no コピー -> next y=380
+[02:22:01.179538][ACTIVATE] locator=executable:LINE.exe
+[02:22:02.663578][CLIP] clear stderr=[]
+[02:22:02.675580][POINTER] try-point base=(620,450) offset=(20,15) target=(640,465)
+[02:22:03.216571][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 415, "width": 220, "height": 120}]
+[02:22:03.227573][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 415, "width": 220, "height": 120}
+[02:22:04.358464][PY] ocr rc=0 stderr=[{"text": "ye ae\n+\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:22:04.368506][TEXT-CANDIDATE] ocr_json={"text": "ye ae\n+\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:22:04.390460][TEXT-CANDIDATE] text=[ye ae
++]
+[02:22:04.399462][COPY] right click x=640 y=465
+[02:22:04.539789][COPY] right click ok=True
+[02:22:05.050718][MENU-WINDOW] scan try=0
+[02:22:05.065712][MENU-WINDOW] found=True try=0
+[02:22:05.277669][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,455,725,579)
+[02:22:05.287663][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,465)
+[02:22:05.424706][MENU-WINDOW] selected rect=(630,455,725,579) point=(640,465)
+[02:22:05.436653][COPY-PROBE] move by menu top-left base=(630,455) offset=(70,60) target=(700,515)
+[02:22:05.444655][COPY-PROBE] move ok=True
+[02:22:05.920620][PY] cursor rc=0 stderr=[{"x": 700, "y": 515}]
+[02:22:05.931621][COPY-PROBE] cursor_json={"x": 700, "y": 515}
+[02:22:05.942659][COPY-PROBE] cursor_match=True expected=(700,515) actual=(700,515)
+[02:22:05.948662][COPY-PROBE] wait for visual confirmation 1500ms
+[02:22:07.457043][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:22:07.599017][OCR-RAW] left=[630] top=[455] right=[725] bottom=[579]
+[02:22:07.615030][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,455,725,579)
+[02:22:07.627028][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,455,725,579)
+[02:22:07.635025][OCR] capture rect=(620,450,115,134)
+[02:22:08.307984][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 450, "width": 115, "height": 134}]
+[02:22:08.320988][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 450, "width": 115, "height": 134}
+[02:22:09.411909][PY] ocr rc=0 stderr=[{"text": "ee\n\n e\n\nyt し\n削除\n\nジップ\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:22:09.422913][OCR] ocr_json={"text": "ee\n\n e\n\nyt し\n削除\n\nジップ\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:22:09.444937][OCR] text=[ee
+
+ e
+
+yt し
+削除
+
+ジップ]
+[02:22:09.491917][OCR-FILTER] normalized=[ee   e  yt し 削除  ジップ]
+[02:22:09.507907][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:22:09.518952][COPY] detected menu text by OCR=[ee
+
+ e
+
+yt し
+削除
+
+ジップ] point=(700,515)
+[02:22:10.107865][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 505, "width": 110, "height": 28}]
+[02:22:10.123859][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 505, "width": 110, "height": 28} offset_y=10 height=28
+[02:22:11.229795][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:11.240820][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:22:11.254827][COPY-PROBE] text=[] offset_y=10 height=28
+[02:22:11.845775][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 501, "width": 110, "height": 24}]
+[02:22:11.860806][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 501, "width": 110, "height": 24} offset_y=14 height=24
+[02:22:12.908687][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:12.920678][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:22:12.932674][COPY-PROBE] text=[] offset_y=14 height=24
+[02:22:13.446647][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 507, "width": 110, "height": 20}]
+[02:22:13.461646][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 507, "width": 110, "height": 20} offset_y=8 height=20
+[02:22:14.617594][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:14.632608][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:22:14.650584][COPY-PROBE] text=[] offset_y=8 height=20
+[02:22:14.756561][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,515) text_candidate=[ye ae
++] menu_text=[ee
+
+ e
+
+yt し
+削除
+
+ジップ] probe_text=[]
+[02:22:14.768562][COPY-SKIP] non-copy menu -> skip
+[02:22:14.782561][CAPTURE] y=450 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[ee
+
+ e
+
+yt し
+削除
+
+ジップ] menu_rect=[630,455,725,579]
+[02:22:15.474535][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y450_20260405_022214_796560.png", "mode": "full"}]
+[02:22:15.494517][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y450_20260405_022214_796560.png", "mode": "full"}
+[02:22:16.055475][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y450_20260405_022214_796560.png", "left": 500, "top": 365, "width": 320, "height": 220}]
+[02:22:16.067532][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y450_20260405_022214_796560.png", "left": 500, "top": 365, "width": 320, "height": 220} menu_rect=[630,455,725,579]
+[02:22:16.072482][CAPTURE] target menu exists but no コピー -> next y=450
+[02:22:16.866146][ACTIVATE] locator=executable:LINE.exe
+[02:22:18.402079][CLIP] clear stderr=[]
+[02:22:18.416083][POINTER] try-point base=(620,520) offset=(20,15) target=(640,535)
+[02:22:18.932048][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 485, "width": 220, "height": 120}]
+[02:22:18.943080][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 485, "width": 220, "height": 120}
+[02:22:19.951984][PY] ocr rc=0 stderr=[{"text": "FN J\n\n塩谷良知\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:22:19.964969][TEXT-CANDIDATE] ocr_json={"text": "FN J\n\n塩谷良知\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:22:19.987987][TEXT-CANDIDATE] text=[FN J
+
+塩谷良知]
+[02:22:19.994970][COPY] right click x=640 y=535
+[02:22:20.123198][COPY] right click ok=True
+[02:22:20.643024][MENU-WINDOW] scan try=0
+[02:22:20.663005][MENU-WINDOW] found=True try=0
+[02:22:20.883008][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,525,746,638)
+[02:22:20.894006][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,535)
+[02:22:21.013020][MENU-WINDOW] selected rect=(630,525,746,638) point=(640,535)
+[02:22:21.019997][COPY-PROBE] move by menu top-left base=(630,525) offset=(70,60) target=(700,585)
+[02:22:21.028023][COPY-PROBE] move ok=True
+[02:22:21.510962][PY] cursor rc=0 stderr=[{"x": 700, "y": 585}]
+[02:22:21.520950][COPY-PROBE] cursor_json={"x": 700, "y": 585}
+[02:22:21.534969][COPY-PROBE] cursor_match=True expected=(700,585) actual=(700,585)
+[02:22:21.539949][COPY-PROBE] wait for visual confirmation 1500ms
+[02:22:23.048456][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:22:23.189411][OCR-RAW] left=[630] top=[525] right=[746] bottom=[638]
+[02:22:23.204402][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,525,746,638)
+[02:22:23.215369][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,525,746,638)
+[02:22:23.223413][OCR] capture rect=(620,520,136,123)
+[02:22:23.701340][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 520, "width": 136, "height": 123}]
+[02:22:23.712375][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 520, "width": 136, "height": 123}
+[02:22:24.809674][PY] ocr rc=0 stderr=[{"text": "すべて選択\nae\nペスト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:22:24.823303][OCR] ocr_json={"text": "すべて選択\nae\nペスト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:22:24.839260][OCR] text=[すべて選択
+ae
+ペスト]
+[02:22:24.858271][OCR-FILTER] normalized=[すべて選択 ae ペスト]
+[02:22:24.880269][OCR-FILTER] has_hide=False has_announce=False has_selectall=True has_copy=False has_paste=True result=False
+[02:22:24.890268][COPY] detected menu text by OCR=[すべて選択
+ae
+ペスト] point=(700,585)
+[02:22:25.495235][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 575, "width": 110, "height": 28}]
+[02:22:25.508260][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 575, "width": 110, "height": 28} offset_y=10 height=28
+[02:22:26.535161][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:26.551160][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:22:26.564158][COPY-PROBE] text=[] offset_y=10 height=28
+[02:22:27.201123][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 571, "width": 110, "height": 24}]
+[02:22:27.217123][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 571, "width": 110, "height": 24} offset_y=14 height=24
+[02:22:28.199060][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:28.210049][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:22:28.221048][COPY-PROBE] text=[] offset_y=14 height=24
+[02:22:28.708020][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 577, "width": 110, "height": 20}]
+[02:22:28.722025][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 577, "width": 110, "height": 20} offset_y=8 height=20
+[02:22:29.646952][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:29.659954][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:22:29.671955][COPY-PROBE] text=[] offset_y=8 height=20
+[02:22:29.770938][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,585) text_candidate=[FN J
+
+塩谷良知] menu_text=[すべて選択
+ae
+ペスト] probe_text=[]
+[02:22:29.783936][COPY-SKIP] non-copy menu -> skip
+[02:22:29.797939][CAPTURE] y=520 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[すべて選択
+ae
+ペスト] menu_rect=[630,525,746,638]
+[02:22:30.375929][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y520_20260405_022229_809939.png", "mode": "full"}]
+[02:22:30.386926][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y520_20260405_022229_809939.png", "mode": "full"}
+[02:22:30.986874][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y520_20260405_022229_809939.png", "left": 500, "top": 435, "width": 320, "height": 220}]
+[02:22:31.002856][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y520_20260405_022229_809939.png", "left": 500, "top": 435, "width": 320, "height": 220} menu_rect=[630,525,746,638]
+[02:22:31.010857][CAPTURE] target menu exists but no コピー -> next y=520
+[02:22:31.026927][DOWN LOOP] loop=1 new=0 total=0
+[02:22:31.036869][DOWN LOOP] stagnant=2
+[02:22:31.821634][ACTIVATE] locator=executable:LINE.exe
+[02:22:32.840534][SCROLL-DOWN] verify retry=0
+[02:22:33.313478][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[02:22:33.324518][SCROLL-DOWN] before={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[02:22:35.777726][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[02:22:35.790726][SCROLL-DOWN] after={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[02:22:36.211704][PY] compare rc=0 stderr=[{"same": false, "before_hash": "3c248f5832eda002ee534edf3e4e5076", "after_hash": "0e39fca49e1c4bdceade30df089b355c"}]
+[02:22:36.231686][SCROLL-DOWN] retry=0 changed=True
+[02:22:37.056452][ACTIVATE] locator=executable:LINE.exe
+[02:22:38.069927][SCROLL-CLEAR] move x=960 y=360
+[02:22:38.079927][SCROLL-CLEAR] move_ok=True
+[02:22:38.292055][SCROLL-CLEAR] click_ok=True
+[02:22:39.503171][ACTIVATE] locator=executable:LINE.exe
+[02:22:40.520040][SCROLL-CLEAR] move x=960 y=360
+[02:22:40.530045][SCROLL-CLEAR] move_ok=True
+[02:22:40.758056][SCROLL-CLEAR] click_ok=True
+[02:22:41.167207][SCROLL-DOWN] changed=True
+[02:22:41.956972][ACTIVATE] locator=executable:LINE.exe
+[02:22:42.966188][DOWN LOOP] start loop=2
+[02:22:43.756810][ACTIVATE] locator=executable:LINE.exe
+[02:22:45.311717][CLIP] clear stderr=[]
+[02:22:45.325685][POINTER] try-point base=(620,170) offset=(20,15) target=(640,185)
+[02:22:45.871630][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 135, "width": 220, "height": 120}]
+[02:22:45.884683][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 135, "width": 220, "height": 120}
+[02:22:46.939578][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:22:46.949611][TEXT-CANDIDATE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:22:46.962615][TEXT-CANDIDATE] text=[]
+[02:22:46.969620][COPY] right click x=640 y=185
+[02:22:47.088032][COPY] right click ok=True
+[02:22:47.601031][MENU-WINDOW] scan try=0
+[02:22:47.620025][MENU-WINDOW] found=True try=0
+[02:22:47.813998][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,175,782,261)
+[02:22:47.822995][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,185)
+[02:22:47.905003][MENU-WINDOW] selected rect=(630,175,782,261) point=(640,185)
+[02:22:47.913009][COPY-PROBE] move by menu top-left base=(630,175) offset=(70,60) target=(700,235)
+[02:22:47.919003][COPY-PROBE] move ok=True
+[02:22:48.271980][PY] cursor rc=0 stderr=[{"x": 700, "y": 235}]
+[02:22:48.285982][COPY-PROBE] cursor_json={"x": 700, "y": 235}
+[02:22:48.299969][COPY-PROBE] cursor_match=True expected=(700,235) actual=(700,235)
+[02:22:48.305967][COPY-PROBE] wait for visual confirmation 1500ms
+[02:22:49.814842][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:22:49.950822][OCR-RAW] left=[630] top=[175] right=[782] bottom=[261]
+[02:22:49.965783][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,175,782,261)
+[02:22:49.976797][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,175,782,261)
+[02:22:49.986777][OCR] capture rect=(620,170,172,96)
+[02:22:50.465753][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 170, "width": 172, "height": 96}]
+[02:22:50.478762][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 170, "width": 172, "height": 96}
+[02:22:51.764679][PY] ocr rc=0 stderr=[{"text": "ーーニーンー\nae\n\n今後は表示しない\nアナウッス解\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:22:51.775666][OCR] ocr_json={"text": "ーーニーンー\nae\n\n今後は表示しない\nアナウッス解\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:22:51.801662][OCR] text=[ーーニーンー
+ae
+
+今後は表示しない
+アナウッス解]
+[02:22:51.820657][OCR-FILTER] normalized=[ーーニーンー ae  今後は表示しない アナウッス解]
+[02:22:51.840711][OCR-FILTER] has_hide=True has_announce=False has_selectall=False has_copy=False has_paste=False result=True
+[02:22:51.846661][OCR] filtered as non-message menu
+[02:22:51.861669][COPY] detected menu text by OCR=[] point=(700,235)
+[02:22:52.430676][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 225, "width": 110, "height": 28}]
+[02:22:52.440657][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 225, "width": 110, "height": 28} offset_y=10 height=28
+[02:22:53.431569][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:53.441564][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:22:53.455557][COPY-PROBE] text=[] offset_y=10 height=28
+[02:22:53.921521][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 221, "width": 110, "height": 24}]
+[02:22:53.933539][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 221, "width": 110, "height": 24} offset_y=14 height=24
+[02:22:54.898479][PY] ocr rc=0 stderr=[{"text": "ナウンス解除 OY\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:54.915496][COPY-PROBE] ocr_json={"text": "ナウンス解除 OY\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:22:54.945457][COPY-PROBE] text=[ナウンス解除 OY] offset_y=14 height=24
+[02:22:55.598473][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 227, "width": 110, "height": 20}]
+[02:22:55.613429][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 227, "width": 110, "height": 20} offset_y=8 height=20
+[02:22:56.701358][PY] ocr rc=0 stderr=[{"text": "PII\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:22:56.714340][COPY-PROBE] ocr_json={"text": "PII\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:22:56.730380][COPY-PROBE] text=[PII] offset_y=8 height=20
+[02:22:56.821349][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,235) text_candidate=[] menu_text=[] probe_text=[ナウンス解除 OY]
+[02:22:56.831358][COPY-SKIP] non-copy menu -> skip
+[02:22:56.844349][CAPTURE] y=170 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[] menu_rect=[630,175,782,261]
+[02:22:57.568367][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y170_20260405_022256_859336.png", "mode": "full"}]
+[02:22:57.588287][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y170_20260405_022256_859336.png", "mode": "full"}
+[02:22:58.216257][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y170_20260405_022256_859336.png", "left": 500, "top": 85, "width": 320, "height": 220}]
+[02:22:58.230280][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y170_20260405_022256_859336.png", "left": 500, "top": 85, "width": 320, "height": 220} menu_rect=[630,175,782,261]
+[02:22:58.239260][CAPTURE] target menu exists but no コピー -> next y=170
+[02:22:59.071749][ACTIVATE] locator=executable:LINE.exe
+[02:23:00.582064][CLIP] clear stderr=[]
+[02:23:00.596058][POINTER] try-point base=(620,240) offset=(20,15) target=(640,255)
+[02:23:01.173001][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 205, "width": 220, "height": 120}]
+[02:23:01.190007][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 205, "width": 220, "height": 120}
+[02:23:02.195939][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:23:02.205942][TEXT-CANDIDATE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:23:02.215930][TEXT-CANDIDATE] text=[]
+[02:23:02.221944][COPY] right click x=640 y=255
+[02:23:02.338348][COPY] right click ok=True
+[02:23:02.850930][MENU-WINDOW] scan try=0
+[02:23:02.866927][MENU-WINDOW] found=True try=0
+[02:23:03.074909][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,245,788,596)
+[02:23:03.084884][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,255)
+[02:23:03.188863][MENU-WINDOW] selected rect=(630,245,788,596) point=(640,255)
+[02:23:03.198911][COPY-PROBE] move by menu top-left base=(630,245) offset=(70,60) target=(700,305)
+[02:23:03.207865][COPY-PROBE] move ok=True
+[02:23:03.662826][PY] cursor rc=0 stderr=[{"x": 700, "y": 305}]
+[02:23:03.675829][COPY-PROBE] cursor_json={"x": 700, "y": 305}
+[02:23:03.689845][COPY-PROBE] cursor_match=True expected=(700,305) actual=(700,305)
+[02:23:03.695857][COPY-PROBE] wait for visual confirmation 1500ms
+[02:23:05.204687][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:23:05.376652][OCR-RAW] left=[630] top=[245] right=[788] bottom=[596]
+[02:23:05.400655][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,245,788,596)
+[02:23:05.411669][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,245,788,596)
+[02:23:05.423650][OCR] capture rect=(620,240,178,361)
+[02:23:05.980606][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 240, "width": 178, "height": 361}]
+[02:23:05.994630][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 240, "width": 178, "height": 361}
+[02:23:07.192568][PY] ocr rc=1 stderr=[Traceback (most recent call last):
+  File "C:\Users\user\Documents\RPA\RobotFramework\test\screen_probe.py", line 37, in <module>
+    print(json.dumps({"text": text, "text_path": text_path}, ensure_ascii=False))
+UnicodeEncodeError: 'cp932' codec can't encode character '\xa9' in position 80: illegal multibyte sequence]
+[02:23:07.202538][OCR] ocr_json=Traceback (most recent call last):
+  File "C:\Users\user\Documents\RPA\RobotFramework\test\screen_probe.py", line 37, in <module>
+    print(json.dumps({"text": text, "text_path": text_path}, ensure_ascii=False))
+UnicodeEncodeError: 'cp932' codec can't encode character '\xa9' in position 80: illegal multibyte sequence
+[02:23:07.223558][OCR] text=[削除
+
+文字康識
+
+QRコードをスキャツ
+フォルダを開く
+Keepメモに転送
+BE MORE
+
+むち アルバムに追加
+‘©
+BETHURE
+ae]
+[02:23:07.241543][OCR-FILTER] normalized=[削除  文字康識  QRコードをスキャツ フォルダを開く Keepメモに転送 BE MORE  むち アルバムに追加 ‘© BETHURE ae]
+[02:23:07.256585][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:23:07.266571][COPY] detected menu text by OCR=[削除
+
+文字康識
+
+QRコードをスキャツ
+フォルダを開く
+Keepメモに転送
+BE MORE
+
+むち アルバムに追加
+‘©
+BETHURE
+ae] point=(700,305)
+[02:23:07.808496][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 295, "width": 110, "height": 28}]
+[02:23:07.822499][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 295, "width": 110, "height": 28} offset_y=10 height=28
+[02:23:08.760437][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:08.771458][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:23:08.783417][COPY-PROBE] text=[] offset_y=10 height=28
+[02:23:09.368424][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 291, "width": 110, "height": 24}]
+[02:23:09.388401][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 291, "width": 110, "height": 24} offset_y=14 height=24
+[02:23:10.529345][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:10.541318][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:23:10.556349][COPY-PROBE] text=[] offset_y=14 height=24
+[02:23:11.169311][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 297, "width": 110, "height": 20}]
+[02:23:11.189269][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 297, "width": 110, "height": 20} offset_y=8 height=20
+[02:23:12.188207][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:12.200211][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:23:12.212213][COPY-PROBE] text=[] offset_y=8 height=20
+[02:23:12.303209][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,305) text_candidate=[] menu_text=[削除
+
+文字康識
+
+QRコードをスキャツ
+フォルダを開く
+Keepメモに転送
+BE MORE
+
+むち アルバムに追加
+‘©
+BETHURE
+ae] probe_text=[]
+[02:23:12.314212][COPY-SKIP] non-copy menu -> skip
+[02:23:12.333208][CAPTURE] y=240 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[削除
+
+文字康識
+
+QRコードをスキャツ
+フォルダを開く
+Keepメモに転送
+BE MORE
+
+むち アルバムに追加
+‘©
+BETHURE
+ae] menu_rect=[630,245,788,596]
+[02:23:13.009151][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y240_20260405_022312_348194.png", "mode": "full"}]
+[02:23:13.026152][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y240_20260405_022312_348194.png", "mode": "full"}
+[02:23:13.572122][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y240_20260405_022312_348194.png", "left": 500, "top": 155, "width": 320, "height": 220}]
+[02:23:13.587109][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y240_20260405_022312_348194.png", "left": 500, "top": 155, "width": 320, "height": 220} menu_rect=[630,245,788,596]
+[02:23:13.595124][CAPTURE] target menu exists but no コピー -> next y=240
+[02:23:14.430784][ACTIVATE] locator=executable:LINE.exe
+[02:23:16.009973][CLIP] clear stderr=[]
+[02:23:16.021972][POINTER] try-point base=(620,310) offset=(20,15) target=(640,325)
+[02:23:16.628951][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 275, "width": 220, "height": 120}]
+[02:23:16.652930][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 275, "width": 220, "height": 120}
+[02:23:17.597916][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:23:17.625909][TEXT-CANDIDATE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:23:17.638881][TEXT-CANDIDATE] text=[]
+[02:23:17.644879][COPY] right click x=640 y=325
+[02:23:17.773117][COPY] right click ok=True
+[02:23:18.284241][MENU-WINDOW] scan try=0
+[02:23:18.300235][MENU-WINDOW] found=True try=0
+[02:23:18.517259][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,315,788,666)
+[02:23:18.528241][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,325)
+[02:23:18.624210][MENU-WINDOW] selected rect=(630,315,788,666) point=(640,325)
+[02:23:18.634224][COPY-PROBE] move by menu top-left base=(630,315) offset=(70,60) target=(700,375)
+[02:23:18.645216][COPY-PROBE] move ok=True
+[02:23:19.026246][PY] cursor rc=0 stderr=[{"x": 700, "y": 375}]
+[02:23:19.036193][COPY-PROBE] cursor_json={"x": 700, "y": 375}
+[02:23:19.051209][COPY-PROBE] cursor_match=True expected=(700,375) actual=(700,375)
+[02:23:19.058191][COPY-PROBE] wait for visual confirmation 1500ms
+[02:23:20.566258][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:23:20.710252][OCR-RAW] left=[630] top=[315] right=[788] bottom=[666]
+[02:23:20.728286][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,315,788,666)
+[02:23:20.741236][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,315,788,666)
+[02:23:20.751245][OCR] capture rect=(620,310,178,361)
+[02:23:21.240232][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 310, "width": 178, "height": 361}]
+[02:23:21.259214][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 310, "width": 178, "height": 361}
+[02:23:22.559127][PY] ocr rc=0 stderr=[{"text": "リプライ\n転送\nale\n\nを 文字認識\n\nsg ORコードをスキャツ\nむち フォルダを開く   it\n(@ Keepメモに転送\n\nノートに保存\nアルバムに追加\n\n青景デザイツに設定\nae\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:23:22.678128][OCR] ocr_json={"text": "リプライ\n転送\nale\n\nを 文字認識\n\nsg ORコードをスキャツ\nむち フォルダを開く   it\n(@ Keepメモに転送\n\nノートに保存\nアルバムに追加\n\n青景デザイツに設定\nae\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:23:22.707151][OCR] text=[リプライ
+転送
+ale
+
+を 文字認識
+
+sg ORコードをスキャツ
+むち フォルダを開く   it
+(@ Keepメモに転送
+
+ノートに保存
+アルバムに追加
+
+青景デザイツに設定
+ae]
+[02:23:22.726167][OCR-FILTER] normalized=[リプライ 転送 ale  を 文字認識   g ORコードをスキャツ むち フォルダを開く   it (@ Keepメモに転送  ノートに保存 アルバムに追加  青景デザイツに設定 ae]
+[02:23:22.746147][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:23:22.759138][COPY] detected menu text by OCR=[リプライ
+転送
+ale
+
+を 文字認識
+
+sg ORコードをスキャツ
+むち フォルダを開く   it
+(@ Keepメモに転送
+
+ノートに保存
+アルバムに追加
+
+青景デザイツに設定
+ae] point=(700,375)
+[02:23:23.351076][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 365, "width": 110, "height": 28}]
+[02:23:23.370085][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 365, "width": 110, "height": 28} offset_y=10 height=28
+[02:23:24.474004][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:24.484043][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:23:24.495009][COPY-PROBE] text=[] offset_y=10 height=28
+[02:23:25.085980][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 361, "width": 110, "height": 24}]
+[02:23:25.100961][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 361, "width": 110, "height": 24} offset_y=14 height=24
+[02:23:26.186895][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:26.199905][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:23:26.211908][COPY-PROBE] text=[] offset_y=14 height=24
+[02:23:26.796879][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 367, "width": 110, "height": 20}]
+[02:23:26.812878][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 367, "width": 110, "height": 20} offset_y=8 height=20
+[02:23:27.868921][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:27.882821][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:23:27.896779][COPY-PROBE] text=[] offset_y=8 height=20
+[02:23:27.979773][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,375) text_candidate=[] menu_text=[リプライ
+転送
+ale
+
+を 文字認識
+
+sg ORコードをスキャツ
+むち フォルダを開く   it
+(@ Keepメモに転送
+
+ノートに保存
+アルバムに追加
+
+青景デザイツに設定
+ae] probe_text=[]
+[02:23:27.989786][COPY-SKIP] non-copy menu -> skip
+[02:23:28.006775][CAPTURE] y=310 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[リプライ
+転送
+ale
+
+を 文字認識
+
+sg ORコードをスキャツ
+むち フォルダを開く   it
+(@ Keepメモに転送
+
+ノートに保存
+アルバムに追加
+
+青景デザイツに設定
+ae] menu_rect=[630,315,788,666]
+[02:23:28.781757][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y310_20260405_022328_019773.png", "mode": "full"}]
+[02:23:28.794742][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y310_20260405_022328_019773.png", "mode": "full"}
+[02:23:29.429696][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y310_20260405_022328_019773.png", "left": 500, "top": 225, "width": 320, "height": 220}]
+[02:23:29.444679][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y310_20260405_022328_019773.png", "left": 500, "top": 225, "width": 320, "height": 220} menu_rect=[630,315,788,666]
+[02:23:29.450680][CAPTURE] target menu exists but no コピー -> next y=310
+[02:23:30.304317][ACTIVATE] locator=executable:LINE.exe
+[02:23:31.787673][CLIP] clear stderr=[]
+[02:23:31.801628][POINTER] try-point base=(620,380) offset=(20,15) target=(640,395)
+[02:23:32.405576][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 345, "width": 220, "height": 120}]
+[02:23:32.421576][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 345, "width": 220, "height": 120}
+[02:23:33.357522][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:23:33.366505][TEXT-CANDIDATE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:23:33.379526][TEXT-CANDIDATE] text=[]
+[02:23:33.385533][COPY] right click x=640 y=395
+[02:23:33.516131][COPY] right click ok=True
+[02:23:34.023354][MENU-WINDOW] scan try=0
+[02:23:34.043315][MENU-WINDOW] found=True try=0
+[02:23:34.256343][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,385,788,736)
+[02:23:34.267321][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,395)
+[02:23:34.360312][MENU-WINDOW] selected rect=(630,385,788,736) point=(640,395)
+[02:23:34.371336][COPY-PROBE] move by menu top-left base=(630,385) offset=(70,60) target=(700,445)
+[02:23:34.382307][COPY-PROBE] move ok=True
+[02:23:34.866299][PY] cursor rc=0 stderr=[{"x": 700, "y": 445}]
+[02:23:34.881300][COPY-PROBE] cursor_json={"x": 700, "y": 445}
+[02:23:34.899279][COPY-PROBE] cursor_match=True expected=(700,445) actual=(700,445)
+[02:23:34.906275][COPY-PROBE] wait for visual confirmation 1500ms
+[02:23:36.418939][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:23:36.574919][OCR-RAW] left=[630] top=[385] right=[788] bottom=[736]
+[02:23:36.592920][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,385,788,736)
+[02:23:36.606907][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,385,788,736)
+[02:23:36.617908][OCR] capture rect=(620,380,178,361)
+[02:23:37.123910][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 380, "width": 178, "height": 361}]
+[02:23:37.135886][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 380, "width": 178, "height": 361}
+[02:23:38.371855][PY] ocr rc=0 stderr=[{"text": "me 削除\n\nOe xR\nQRコードをスキャソン\nリル4\nKeepXモに転\nノトに見\nPIR bICBAN\n\nBETHURE\nae\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:23:38.384808][OCR] ocr_json={"text": "me 削除\n\nOe xR\nQRコードをスキャソン\nリル4\nKeepXモに転\nノトに見\nPIR bICBAN\n\nBETHURE\nae\n\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:23:38.413798][OCR] text=[me 削除
+
+Oe xR
+QRコードをスキャソン
+リル4
+KeepXモに転
+ノトに見
+PIR bICBAN
+
+BETHURE
+ae]
+[02:23:38.429790][OCR-FILTER] normalized=[me 削除  Oe xR QRコードをスキャソン リル4 KeepXモに転 ノトに見 PIR bICBAN  BETHURE ae]
+[02:23:38.454820][OCR-FILTER] has_hide=False has_announce=False has_selectall=False has_copy=False has_paste=False result=False
+[02:23:38.468792][COPY] detected menu text by OCR=[me 削除
+
+Oe xR
+QRコードをスキャソン
+リル4
+KeepXモに転
+ノトに見
+PIR bICBAN
+
+BETHURE
+ae] point=(700,445)
+[02:23:38.981765][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 435, "width": 110, "height": 28}]
+[02:23:38.995752][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 435, "width": 110, "height": 28} offset_y=10 height=28
+[02:23:39.961709][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:39.973690][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:23:39.985713][COPY-PROBE] text=[] offset_y=10 height=28
+[02:23:40.577665][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 431, "width": 110, "height": 24}]
+[02:23:40.590681][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 431, "width": 110, "height": 24} offset_y=14 height=24
+[02:23:41.676589][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:41.690626][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:23:41.708608][COPY-PROBE] text=[] offset_y=14 height=24
+[02:23:42.338582][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 437, "width": 110, "height": 20}]
+[02:23:42.356563][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 437, "width": 110, "height": 20} offset_y=8 height=20
+[02:23:43.364513][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:43.378472][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:23:43.392497][COPY-PROBE] text=[] offset_y=8 height=20
+[02:23:43.520481][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,445) text_candidate=[] menu_text=[me 削除
+
+Oe xR
+QRコードをスキャソン
+リル4
+KeepXモに転
+ノトに見
+PIR bICBAN
+
+BETHURE
+ae] probe_text=[]
+[02:23:43.530504][COPY-SKIP] non-copy menu -> skip
+[02:23:43.546462][CAPTURE] y=380 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[me 削除
+
+Oe xR
+QRコードをスキャソン
+リル4
+KeepXモに転
+ノトに見
+PIR bICBAN
+
+BETHURE
+ae] menu_rect=[630,385,788,736]
+[02:23:44.227434][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y380_20260405_022343_563467.png", "mode": "full"}]
+[02:23:44.242418][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y380_20260405_022343_563467.png", "mode": "full"}
+[02:23:44.966381][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y380_20260405_022343_563467.png", "left": 500, "top": 295, "width": 320, "height": 220}]
+[02:23:44.983411][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y380_20260405_022343_563467.png", "left": 500, "top": 295, "width": 320, "height": 220} menu_rect=[630,385,788,736]
+[02:23:44.989386][CAPTURE] target menu exists but no コピー -> next y=380
+[02:23:45.820134][ACTIVATE] locator=executable:LINE.exe
+[02:23:47.363679][CLIP] clear stderr=[]
+[02:23:47.377675][POINTER] try-point base=(620,450) offset=(20,15) target=(640,465)
+[02:23:47.918631][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 415, "width": 220, "height": 120}]
+[02:23:47.932645][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 415, "width": 220, "height": 120}
+[02:23:49.049564][PY] ocr rc=0 stderr=[{"text": "ウ  see\nDOSeAOSEOplotcs ae\nRe\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:23:49.060563][TEXT-CANDIDATE] ocr_json={"text": "ウ  see\nDOSeAOSEOplotcs ae\nRe\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:23:49.083555][TEXT-CANDIDATE] text=[ウ  see
+DOSeAOSEOplotcs ae
+Re]
+[02:23:49.089598][COPY] right click x=640 y=465
+[02:23:49.231945][COPY] right click ok=True
+[02:23:49.743038][MENU-WINDOW] scan try=0
+[02:23:49.759055][MENU-WINDOW] found=True try=0
+[02:23:49.975003][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,455,746,541)
+[02:23:49.985013][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,465)
+[02:23:50.089010][MENU-WINDOW] selected rect=(630,455,746,541) point=(640,465)
+[02:23:50.098016][COPY-PROBE] move by menu top-left base=(630,455) offset=(70,60) target=(700,515)
+[02:23:50.104001][COPY-PROBE] move ok=True
+[02:23:50.489981][PY] cursor rc=0 stderr=[{"x": 700, "y": 515}]
+[02:23:50.500969][COPY-PROBE] cursor_json={"x": 700, "y": 515}
+[02:23:50.514971][COPY-PROBE] cursor_match=True expected=(700,515) actual=(700,515)
+[02:23:50.520970][COPY-PROBE] wait for visual confirmation 1500ms
+[02:23:52.029620][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:23:52.172585][OCR-RAW] left=[630] top=[455] right=[746] bottom=[541]
+[02:23:52.189556][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,455,746,541)
+[02:23:52.202585][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,455,746,541)
+[02:23:52.213587][OCR] capture rect=(620,450,136,96)
+[02:23:52.723520][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 450, "width": 136, "height": 96}]
+[02:23:52.735522][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 450, "width": 136, "height": 96}
+[02:23:53.795482][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:23:53.808484][OCR] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:23:53.822443][OCR] text=[]
+[02:23:53.834431][COPY] detected menu text by OCR=[] point=(700,515)
+[02:23:54.402436][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 505, "width": 110, "height": 28}]
+[02:23:54.419412][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 505, "width": 110, "height": 28} offset_y=10 height=28
+[02:23:55.456330][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:55.472337][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:23:55.485326][COPY-PROBE] text=[] offset_y=10 height=28
+[02:23:56.126304][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 501, "width": 110, "height": 24}]
+[02:23:56.139333][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 501, "width": 110, "height": 24} offset_y=14 height=24
+[02:23:57.217228][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:57.229234][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:23:57.240232][COPY-PROBE] text=[] offset_y=14 height=24
+[02:23:57.812220][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 507, "width": 110, "height": 20}]
+[02:23:57.828191][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 507, "width": 110, "height": 20} offset_y=8 height=20
+[02:23:58.822125][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:23:58.835119][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:23:58.846119][COPY-PROBE] text=[] offset_y=8 height=20
+[02:23:58.951114][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,515) text_candidate=[ウ  see
+DOSeAOSEOplotcs ae
+Re] menu_text=[] probe_text=[]
+[02:23:58.974106][CAPTURE] y=450 status=OCR_FAIL reason=[ocr_empty] menu_text=[] menu_rect=[630,455,746,541]
+[02:23:59.676063][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_OCR_FAIL_ocr_empty_y450_20260405_022359_004100.png", "mode": "full"}]
+[02:23:59.694054][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_OCR_FAIL_ocr_empty_y450_20260405_022359_004100.png", "mode": "full"}
+[02:24:00.269029][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_OCR_FAIL_ocr_empty_y450_20260405_022359_004100.png", "left": 500, "top": 365, "width": 320, "height": 220}]
+[02:24:00.278782][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_OCR_FAIL_ocr_empty_y450_20260405_022359_004100.png", "left": 500, "top": 365, "width": 320, "height": 220} menu_rect=[630,455,746,541]
+[02:24:00.287031][CAPTURE] ocr fail -> next y=450
+[02:24:01.106811][ACTIVATE] locator=executable:LINE.exe
+[02:24:02.617701][CLIP] clear stderr=[]
+[02:24:02.631671][POINTER] try-point base=(620,520) offset=(20,15) target=(640,535)
+[02:24:03.174628][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 485, "width": 220, "height": 120}]
+[02:24:03.193618][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 560, "top": 485, "width": 220, "height": 120}
+[02:24:04.330551][PY] ocr rc=0 stderr=[{"text": "m。 つ55ゃん0毎度のplotには閣叶\nRe.\n\n塩谷良知\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}]
+[02:24:04.340566][TEXT-CANDIDATE] ocr_json={"text": "m。 つ55ゃん0毎度のplotには閣叶\nRe.\n\n塩谷良知\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt"}
+[02:24:04.363551][TEXT-CANDIDATE] text=[m。 つ55ゃん0毎度のplotには閣叶
+Re.
+
+塩谷良知]
+[02:24:04.370551][COPY] right click x=640 y=535
+[02:24:04.504092][COPY] right click ok=True
+[02:24:05.021187][MENU-WINDOW] scan try=0
+[02:24:05.042160][MENU-WINDOW] found=True try=0
+[02:24:05.268167][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(630,525,746,638)
+[02:24:05.277140][COPY] menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(640,535)
+[02:24:05.442132][MENU-WINDOW] selected rect=(630,525,746,638) point=(640,535)
+[02:24:05.452133][COPY-PROBE] move by menu top-left base=(630,525) offset=(70,60) target=(700,585)
+[02:24:05.458125][COPY-PROBE] move ok=True
+[02:24:05.846109][PY] cursor rc=0 stderr=[{"x": 700, "y": 585}]
+[02:24:05.857096][COPY-PROBE] cursor_json={"x": 700, "y": 585}
+[02:24:05.869102][COPY-PROBE] cursor_match=True expected=(700,585) actual=(700,585)
+[02:24:05.874130][COPY-PROBE] wait for visual confirmation 1500ms
+[02:24:07.382406][OCR-VERSION] line_io.robot menu-loose-valid + file-fallback
+[02:24:07.522357][OCR-RAW] left=[630] top=[525] right=[746] bottom=[638]
+[02:24:07.540365][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(630,525,746,638)
+[02:24:07.550399][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(630,525,746,638)
+[02:24:07.562371][OCR] capture rect=(620,520,136,123)
+[02:24:08.073378][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 520, "width": 136, "height": 123}]
+[02:24:08.086330][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture.png", "left": 620, "top": 520, "width": 136, "height": 123}
+[02:24:09.164253][PY] ocr rc=0 stderr=[{"text": "すべて選択\nae\nペスト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}]
+[02:24:09.174245][OCR] ocr_json={"text": "すべて選択\nae\nペスト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_capture.txt"}
+[02:24:09.188258][OCR] text=[すべて選択
+ae
+ペスト]
+[02:24:09.204244][OCR-FILTER] normalized=[すべて選択 ae ペスト]
+[02:24:09.223282][OCR-FILTER] has_hide=False has_announce=False has_selectall=True has_copy=False has_paste=True result=False
+[02:24:09.233283][COPY] detected menu text by OCR=[すべて選択
+ae
+ペスト] point=(700,585)
+[02:24:09.810221][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 575, "width": 110, "height": 28}]
+[02:24:09.823221][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 575, "width": 110, "height": 28} offset_y=10 height=28
+[02:24:10.893147][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:24:10.905136][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=10 height=28
+[02:24:10.921144][COPY-PROBE] text=[] offset_y=10 height=28
+[02:24:11.600115][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 571, "width": 110, "height": 24}]
+[02:24:11.619098][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 571, "width": 110, "height": 24} offset_y=14 height=24
+[02:24:12.661034][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:24:12.677023][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=14 height=24
+[02:24:12.692049][COPY-PROBE] text=[] offset_y=14 height=24
+[02:24:13.250991][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 577, "width": 110, "height": 20}]
+[02:24:13.267994][COPY-PROBE] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\copy_probe_capture.png", "left": 668, "top": 577, "width": 110, "height": 20} offset_y=8 height=20
+[02:24:14.320917][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"}]
+[02:24:14.333919][COPY-PROBE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\copy_probe_capture.txt"} offset_y=8 height=20
+[02:24:14.344923][COPY-PROBE] text=[] offset_y=8 height=20
+[02:24:14.416916][COPY-CHECK] menu_has_copy_like=False probe_has_copy_like=False is_copy_like=False cursor=(700,585) text_candidate=[m。 つ55ゃん0毎度のplotには閣叶
+Re.
+
+塩谷良知] menu_text=[すべて選択
+ae
+ペスト] probe_text=[]
+[02:24:14.425909][COPY-SKIP] non-copy menu -> skip
+[02:24:14.439910][CAPTURE] y=520 status=MENU_NO_COPY reason=[non_copy_skip] menu_text=[すべて選択
+ae
+ペスト] menu_rect=[630,525,746,638]
+[02:24:15.208885][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y520_20260405_022414_455911.png", "mode": "full"}]
+[02:24:15.221858][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_non_copy_skip_y520_20260405_022414_455911.png", "mode": "full"}
+[02:24:15.848835][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y520_20260405_022414_455911.png", "left": 500, "top": 435, "width": 320, "height": 220}]
+[02:24:15.861883][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_non_copy_skip_y520_20260405_022414_455911.png", "left": 500, "top": 435, "width": 320, "height": 220} menu_rect=[630,525,746,638]
+[02:24:15.867872][CAPTURE] target menu exists but no コピー -> next y=520
+[02:24:15.882870][DOWN LOOP] loop=2 new=0 total=0
+[02:24:15.890832][DOWN LOOP] stagnant=3
+[02:24:15.898873][DOWN LOOP] stop: no new messages
+[02:24:15.913868][HTML] wrote messages
+[02:24:15.924841][HTML] finalize
+[02:24:15.932828]保存完了: C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html

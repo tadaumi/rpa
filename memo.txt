@@ -1,0 +1,6 @@
+.venv\Scripts\activate
+
+>python -V
+Python 3.11.9
+
+python -m robot test\test.robot

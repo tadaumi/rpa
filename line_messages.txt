@@ -1,0 +1,104 @@
+*** Settings ***
+Library    Process
+Library    RPA.Windows              WITH NAME    Win
+Library    RPA.Desktop             WITH NAME    Desk
+Library    OperatingSystem
+
+Suite Setup       Open LINE
+Suite Teardown    Close LINE
+
+*** Variables ***
+${LINE_PATH}           C:\\Users\\user\\AppData\\Local\\LINE\\bin\\LineLauncher.exe
+${OUT_FILE}            line_messages.txt
+${START_TIMEOUT}       30
+${GROUP_ITEM_PATH}     path:11|2|1|1|1|2
+
+@{LINE_WINDOW_CANDIDATES}
+...    executable:LINE.exe
+...    name:LINE
+...    regex:.*LINE.*
+
+*** Test Cases ***
+LINEで札北25期を開いてメッセージ取得
+    Activate LINE
+    Open Second Group
+    ${text}=    Copy Current Chat
+    Create File    ${OUT_FILE}    ${text}
+    Log To Console    ===== 取得結果 =====
+    Log To Console    ${text}
+
+*** Keywords ***
+Open LINE
+    Start Process    ${LINE_PATH}
+    Wait For LINE Window
+
+Wait For LINE Window
+    FOR    ${i}    IN RANGE    ${START_TIMEOUT}
+        ${ok}=    Run Keyword And Return Status    Activate LINE
+        IF    ${ok}
+            RETURN
+        END
+        Sleep    1s
+    END
+    Win.Print Tree    log_as_warnings=True
+    Fail    LINEウィンドウを検出できませんでした。
+
+Activate LINE
+    FOR    ${locator}    IN    @{LINE_WINDOW_CANDIDATES}
+        ${ok}=    Run Keyword And Return Status    Win.Control Window    ${locator}
+        IF    ${ok}
+            Sleep    1s
+            RETURN
+        END
+    END
+    Fail    LINEウィンドウをアクティブにできません。
+
+Open Second Group
+    Activate LINE
+
+    ${opened}=    Run Keyword And Return Status
+    ...    Win.Double Click    ${GROUP_ITEM_PATH}
+    IF    not ${opened}
+        ${opened}=    Run Keyword And Return Status
+        ...    Win.Click    ${GROUP_ITEM_PATH}
+    END
+    IF    not ${opened}
+        Win.Print Tree    log_as_warnings=True
+        Fail    左側リストの2番目をクリックできませんでした。
+    END
+
+    Sleep    3s
+
+Copy Current Chat
+    Activate LINE
+
+    # トーク本文側へフォーカスを移す
+    Desk.Press Keys    TAB
+    Sleep    300ms
+    Desk.Press Keys    TAB
+    Sleep    300ms
+    Desk.Press Keys    TAB
+    Sleep    500ms
+
+    Desk.Press Keys    CTRL    A
+    Sleep    500ms
+    Desk.Press Keys    CTRL    C
+    Sleep    1s
+
+    ${result}=    Run Process
+    ...    powershell
+    ...    -NoProfile
+    ...    -Command
+    ...    Get-Clipboard
+    ...    shell=True
+    ...    stdout=PIPE
+    ...    stderr=PIPE
+
+    ${text}=    Set Variable    ${result.stdout}
+    RETURN    ${text}
+
+Close LINE
+    ${ok}=    Run Keyword And Return Status    Win.Control Window    regex:.*LINE.*
+    IF    ${ok}
+        Run Keyword And Ignore Error    Desk.Press Keys    ALT    F4
+    END

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+# RobotFramework系
+log.html
+report.html
+output.xml
+
+# 一時ファイル
+*.zip
+
+# OS系
+.DS_Store
+Thumbs.db

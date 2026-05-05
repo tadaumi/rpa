@@ -33,6 +33,12 @@ Ensure Text Artifact Directory Ready
     Create Directory    ${ARTIFACT_TEXT_DIR}
     Trace    [TEXT-RESET] created dir=${ARTIFACT_TEXT_DIR}
 
+Get Clean Out File Path
+    ${out}=    Convert To String    ${OUT_FILE}
+    ${out}=    Replace String Using Regexp    ${out}    [\r\n\t]    ${EMPTY}
+    ${out}=    Strip String    ${out}
+    RETURN    ${out}
+
     Set Suite Variable    ${TEXT_ARTIFACT_DIR_READY}    ${True}
 
 Ensure Artifact Directories
@@ -64,8 +70,9 @@ Initialize Html Output
     ...    <body>
     ...    <h1>LINE Messages</h1>
 
-    Create File    ${OUT_FILE}    ${html}    encoding=UTF-8
-    Trace    [HTML] initialized ${OUT_FILE}
+    ${out_file}=    Get Clean Out File Path
+    Create File    ${out_file}    ${html}    encoding=UTF-8
+    Trace    [HTML] initialized ${out_file}
 
 Initialize Html File
     Initialize Html Output
@@ -75,8 +82,9 @@ Finalize Html Output
     ...    </body>
     ...    </html>
 
-    Append To File    ${OUT_FILE}    \n${tail}    encoding=UTF-8
-    Trace    [HTML] finalized ${OUT_FILE}
+    ${out_file}=    Get Clean Out File Path
+    Append To File    ${out_file}    \n${tail}    encoding=UTF-8
+    Trace    [HTML] finalized ${out_file}
 
 Finalize Html File
     Finalize Html Output
@@ -107,7 +115,8 @@ Append Message To Html
     ...      <div class="text">${safe_message}</div>
     ...    </div>
 
-    Append To File    ${OUT_FILE}    \n${block}    encoding=UTF-8
+    ${out_file}=    Get Clean Out File Path
+    Append To File    ${out_file}    \n${block}    encoding=UTF-8
     Trace    [HTML] appended message
 
 Append Message Html

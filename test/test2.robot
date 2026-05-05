@@ -25,3 +25,4 @@ LINEのメッセージをスクロールバー操作でHTML保存
     Capture Messages From Scrolled Start
     Finalize Html File
     Trace    保存完了: ${OUT_FILE}
+    Split Debug Trace Log

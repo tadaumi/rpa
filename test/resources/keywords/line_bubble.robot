@@ -122,6 +122,10 @@ Reanchor Message Window Only
 
 Capture Transition State Snapshot
     [Arguments]    ${tag}
+    ${enabled}=    Evaluate    str(r'''${ENABLE_STATE_SNAPSHOT}''').strip().lower() in ['true','1','yes','on']
+    IF    not ${enabled}
+        RETURN
+    END
     Trace    [STATE-SNAPSHOT] start tag=${tag}
     ${cursor_json}=    Get Cursor Position Json
     Trace    [STATE-SNAPSHOT] cursor tag=${tag} json=${cursor_json}
@@ -224,11 +228,53 @@ Get Visible Bubble Rectangles
         RETURN    ${rects}
     END
 
-    ${locator}=    Set Variable    type:ListItemControl and depth:${SPLITTER_CHILD_DEPTH}
-    ${found}=    Run Keyword And Return Status    Win.Get Elements    ${locator}
-    Trace    [BUBBLE-RECT] anchored_found=${found} locator=[${locator}]
-
     ${rects}=    Create List
+
+    ${list_locator}=    Set Variable    type:ListControl and depth:${SPLITTER_CHILD_DEPTH}
+    ${list_found}=    Run Keyword And Return Status    Win.Get Elements    ${list_locator}
+    Trace    [BUBBLE-RECT] list_found=${list_found} locator=[${list_locator}]
+
+    ${list_anchor_ok}=    Set Variable    ${False}
+    IF    ${list_found}
+        ${lists}=    Win.Get Elements    ${list_locator}
+        ${list_count}=    Get Length    ${lists}
+        ${best_list}=    Set Variable    ${EMPTY}
+        ${best_area}=    Set Variable    -1
+        FOR    ${li}    IN RANGE    ${list_count}
+            ${lst}=    Get From List    ${lists}    ${li}
+            ${list_rect_ok}=    Run Keyword And Return Status    Get Rect Ints From Element    ${lst}
+            IF    not ${list_rect_ok}
+                CONTINUE
+            END
+            ${ll}    ${lt}    ${lr}    ${lb}=    Get Rect Ints From Element    ${lst}
+            ${lw}=    Evaluate    int(${lr}) - int(${ll})
+            ${lh}=    Evaluate    int(${lb}) - int(${lt})
+            ${inside_x}=    Evaluate    int(${ll}) >= int(${root_l}) and int(${lr}) <= int(${root_r})
+            ${inside_y}=    Evaluate    int(${lt}) >= (int(${root_t}) - 8) and int(${lb}) <= (int(${root_b}) + 8)
+            ${area}=    Evaluate    int(${lw}) * int(${lh})
+            ${is_candidate}=    Evaluate    ${inside_x} and ${inside_y} and int(${lw}) >= 260 and int(${lh}) >= 220
+            IF    ${is_candidate} and int(${area}) > int(${best_area})
+                ${best_list}=    Set Variable    ${lst}
+                ${best_area}=    Set Variable    ${area}
+            END
+        END
+        ${best_list_s}=    Normalize Element String    ${best_list}
+        IF    $best_list_s != ''
+            ${list_anchor_ok}=    Run Keyword And Return Status    Win.Set Anchor    ${best_list}
+            Trace    [BUBBLE-RECT] list_anchor ok=${list_anchor_ok} area=${best_area} elem=[${best_list_s}]
+        END
+    END
+
+    ${locator}=    Set Variable    type:ListItemControl and depth:15
+    ${found}=    Run Keyword And Return Status    Win.Get Elements    ${locator}
+    Trace    [BUBBLE-RECT] anchored_found=${found} list_anchor_ok=${list_anchor_ok} locator=[${locator}]
+
+    IF    not ${found}
+        ${locator}=    Set Variable    type:ListItemControl and depth:${SPLITTER_CHILD_DEPTH}
+        ${found}=    Run Keyword And Return Status    Win.Get Elements    ${locator}
+        Trace    [BUBBLE-RECT] fallback_found=${found} locator=[${locator}]
+    END
+
     IF    not ${found}
         RETURN    ${rects}
     END

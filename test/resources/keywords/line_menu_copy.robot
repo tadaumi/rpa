@@ -71,6 +71,10 @@ Log Cursor Position
 
 Save Cursor EvidenceShots
     [Arguments]    ${tag}
+    ${enabled}=    Evaluate    str(r'''${ENABLE_POINTER_EVIDENCE}''').strip().lower() in ['true','1','yes','on']
+    IF    not ${enabled}
+        RETURN    ${EMPTY}
+    END
     ${cursor_json}=    Get Cursor Position Json
     Trace    [CURSOR] tag=${tag} json=${cursor_json}
 
@@ -96,6 +100,10 @@ Save Cursor EvidenceShots
 
 Log Pointer Stage
     [Arguments]    ${tag}
+    ${enabled}=    Evaluate    str(r'''${ENABLE_POINTER_EVIDENCE}''').strip().lower() in ['true','1','yes','on']
+    IF    not ${enabled}
+        RETURN    ${EMPTY}
+    END
     ${cursor_json}=    Log Cursor Position    ${tag}
     Save Cursor EvidenceShots    ${tag}
     RETURN    ${cursor_json}
@@ -310,19 +318,69 @@ Capture Menu Ocr Json And Text
     ${t}=    Evaluate    int(float(str(r'''${top}''').strip()))
     ${r}=    Evaluate    int(float(str(r'''${right}''').strip()))
     ${b}=    Evaluate    int(float(str(r'''${bottom}''').strip()))
-    ${w}=    Evaluate    max(1, ${r} - ${l})
-    ${h}=    Evaluate    max(1, ${b} - ${t})
+    ${trim_l}=    Evaluate    int(${MENU_OCR_TRIM_L})
+    ${trim_t}=    Evaluate    int(${MENU_OCR_TRIM_T})
+    ${trim_r}=    Evaluate    int(${MENU_OCR_TRIM_R})
+    ${trim_b}=    Evaluate    int(${MENU_OCR_TRIM_B})
+    ${crop_l}=    Evaluate    int(${l}) + int(${trim_l})
+    ${crop_t}=    Evaluate    int(${t}) + int(${trim_t})
+    ${crop_r}=    Evaluate    int(${r}) - int(${trim_r})
+    ${crop_b}=    Evaluate    int(${b}) - int(${trim_b})
+    ${valid_crop}=    Evaluate    int(${crop_r}) > int(${crop_l}) and int(${crop_b}) > int(${crop_t})
+    IF    not ${valid_crop}
+        ${crop_l}=    Set Variable    ${l}
+        ${crop_t}=    Set Variable    ${t}
+        ${crop_r}=    Set Variable    ${r}
+        ${crop_b}=    Set Variable    ${b}
+    END
+
+    ${w}=    Evaluate    max(1, int(${crop_r}) - int(${crop_l}))
+    ${h}=    Evaluate    max(1, int(${crop_b}) - int(${crop_t}))
     ${ts}=    Get Current Date    result_format=%Y%m%d_%H%M%S_%f
     ${img_path}=    Set Variable    ${ARTIFACT_IMAGE_DIR}${/}menu_cursor_debug${/}verify_menu_${ts}.png
     ${txt_path}=    Set Variable    ${ARTIFACT_TEXT_DIR}${/}verify_menu_${ts}.txt
     Create Directory    ${ARTIFACT_IMAGE_DIR}${/}menu_cursor_debug
-    ${cap_json}=    Capture Region Json    ${l}    ${t}    ${w}    ${h}    ${img_path}
+    ${cap_json}=    Capture Region Json    ${crop_l}    ${crop_t}    ${w}    ${h}    ${img_path}
     ${ocr_json}=    Ocr Image Json    ${img_path}    ${txt_path}
     ${txt_exists}=    Run Keyword And Return Status    File Should Exist    ${txt_path}
     ${menu_text}=    Set Variable    ${EMPTY}
     IF    ${txt_exists}
         ${menu_text}=    Get File    ${txt_path}
         ${menu_text}=    Trim Text    ${menu_text}
+    END
+    ${has_copy_like}=    Text Has Copy Like    ${menu_text}
+    ${retry_needed}=    Evaluate    (not ${has_copy_like}) and (len(str(r'''${menu_text}''')) < 30)
+    IF    ${retry_needed}
+        ${trim_l2}=    Evaluate    int(${MENU_OCR_RETRY_TRIM_L})
+        ${trim_t2}=    Evaluate    int(${MENU_OCR_RETRY_TRIM_T})
+        ${trim_r2}=    Evaluate    int(${MENU_OCR_RETRY_TRIM_R})
+        ${trim_b2}=    Evaluate    int(${MENU_OCR_RETRY_TRIM_B})
+        ${crop_l2}=    Evaluate    int(${l}) + int(${trim_l2})
+        ${crop_t2}=    Evaluate    int(${t}) + int(${trim_t2})
+        ${crop_r2}=    Evaluate    int(${r}) - int(${trim_r2})
+        ${crop_b2}=    Evaluate    int(${b}) - int(${trim_b2})
+        ${valid_crop2}=    Evaluate    int(${crop_r2}) > int(${crop_l2}) and int(${crop_b2}) > int(${crop_t2})
+        IF    ${valid_crop2}
+            ${w2}=    Evaluate    max(1, int(${crop_r2}) - int(${crop_l2}))
+            ${h2}=    Evaluate    max(1, int(${crop_b2}) - int(${crop_t2}))
+            ${ts2}=    Get Current Date    result_format=%Y%m%d_%H%M%S_%f
+            ${img_path2}=    Set Variable    ${ARTIFACT_IMAGE_DIR}${/}menu_cursor_debug${/}verify_menu_retry_${ts2}.png
+            ${txt_path2}=    Set Variable    ${ARTIFACT_TEXT_DIR}${/}verify_menu_retry_${ts2}.txt
+            ${cap_json2}=    Capture Region Json    ${crop_l2}    ${crop_t2}    ${w2}    ${h2}    ${img_path2}
+            ${ocr_json2}=    Ocr Image Json    ${img_path2}    ${txt_path2}
+            ${txt_exists2}=    Run Keyword And Return Status    File Should Exist    ${txt_path2}
+            IF    ${txt_exists2}
+                ${menu_text2}=    Get File    ${txt_path2}
+                ${menu_text2}=    Trim Text    ${menu_text2}
+                ${has_copy_like2}=    Text Has Copy Like    ${menu_text2}
+                IF    ${has_copy_like2}
+                    ${cap_json}=    Set Variable    ${cap_json2}
+                    ${ocr_json}=    Set Variable    ${ocr_json2}
+                    ${menu_text}=    Set Variable    ${menu_text2}
+                    Trace    [MENU-VERIFY] retry adopted
+                END
+            END
+        END
     END
     Trace    [MENU-VERIFY] capture=${cap_json}
     Trace    [MENU-VERIFY] ocr_json=${ocr_json}

@@ -15,6 +15,19 @@ ${FAILSHOT_DIR}                  ${ARTIFACT_IMAGE_DIR}${/}fail_screens
 
 ${OUT_FILE}                      ${ARTIFACT_TEXT_DIR}${/}line_messages.html
 ${TRACE_FILE}                    ${ARTIFACT_LOG_DIR}${/}debug_trace.log
+${TRACE_SPLIT_DIR}               ${ARTIFACT_LOG_DIR}${/}split
+${TRACE_FOCUS_COPY_FLOW_ONLY}    ${True}
+${ENABLE_POINTER_EVIDENCE}       ${False}
+${ENABLE_STATE_SNAPSHOT}         ${False}
+@{TRACE_FOCUS_TAG_PREFIXES}
+...    COPY
+...    MENU
+...    OCR
+...    CLIPBOARD
+...    CAPTURE
+...    TEXT
+...    FAILSHOT
+...    HTML
 
 ${SCREEN_PROBE_FILE}             ${BASE_DIR}${/}screen_probe.py
 ${SCREEN_PROBE_FILE_FALLBACK}    ${BASE_DIR_FALLBACK}${/}screen_probe.py
@@ -71,6 +84,14 @@ ${OCR_MARGIN_LEFT}               10
 ${OCR_MARGIN_TOP}                5
 ${OCR_MARGIN_RIGHT}              10
 ${OCR_MARGIN_BOTTOM}             5
+${MENU_OCR_TRIM_L}               10
+${MENU_OCR_TRIM_T}               6
+${MENU_OCR_TRIM_R}               10
+${MENU_OCR_TRIM_B}               6
+${MENU_OCR_RETRY_TRIM_L}         14
+${MENU_OCR_RETRY_TRIM_T}         4
+${MENU_OCR_RETRY_TRIM_R}         14
+${MENU_OCR_RETRY_TRIM_B}         4
 
 ${PRECLICK_MARGIN_X}             80
 ${PRECLICK_MARGIN_Y}             50

@@ -32,6 +32,7 @@ Ensure Text Artifact Directory Ready
 
     Create Directory    ${ARTIFACT_TEXT_DIR}
     Trace    [TEXT-RESET] created dir=${ARTIFACT_TEXT_DIR}
+    Set Suite Variable    ${TEXT_ARTIFACT_DIR_READY}    ${True}
 
 Get Clean Out File Path
     ${out}=    Convert To String    ${OUT_FILE}
@@ -39,7 +40,6 @@ Get Clean Out File Path
     ${out}=    Strip String    ${out}
     RETURN    ${out}
 
-    Set Suite Variable    ${TEXT_ARTIFACT_DIR_READY}    ${True}
 
 Ensure Artifact Directories
     Create Directory    ${ARTIFACT_DIR}

@@ -8,6 +8,8 @@ Library    DateTime
 *** Keywords ***
 Initialize Trace File
     ${ts}=    Get Current Date    result_format=%Y-%m-%d %H:%M:%S
+    Create Directory    ${ARTIFACT_LOG_DIR}
+    Create Directory    ${TRACE_SPLIT_DIR}
     Create File    ${TRACE_FILE}    [TRACE START] ${ts}\n
 
 Ensure Artifact Directories
@@ -15,6 +17,7 @@ Ensure Artifact Directories
     Create Directory    ${ARTIFACT_IMAGE_DIR}
     Create Directory    ${ARTIFACT_TEXT_DIR}
     Create Directory    ${ARTIFACT_LOG_DIR}
+    Create Directory    ${TRACE_SPLIT_DIR}
     Create Directory    ${FAILSHOT_DIR}
     ${archive_exists}=    Run Keyword And Return Status    Variable Should Exist    ${MENU_CAPTURE_ARCHIVE_DIR}
     IF    ${archive_exists}
@@ -25,12 +28,60 @@ Ensure Artifact Directories
 Prepare Artifact Directories
     Ensure Artifact Directories
 
+Should Emit Trace Message
+    [Arguments]    ${msg}
+    ${focus_enabled}=    Evaluate    str(r'''${TRACE_FOCUS_COPY_FLOW_ONLY}''').strip().lower() in ['true','1','yes','on']
+    IF    not ${focus_enabled}
+        RETURN    ${True}
+    END
+
+    ${tag}=    Evaluate    __import__('re').search(r'\\[([^\\]]+)\\]', str(r'''${msg}''')).group(1) if __import__('re').search(r'\\[([^\\]]+)\\]', str(r'''${msg}''')) else ''
+    ${tag}=    Convert To String    ${tag}
+    ${tag}=    Strip String    ${tag}
+    ${tag_upper}=    Convert To Upper Case    ${tag}
+    FOR    ${prefix}    IN    @{TRACE_FOCUS_TAG_PREFIXES}
+        ${prefix_upper}=    Convert To Upper Case    ${prefix}
+        ${matched}=    Evaluate    str(r'''${tag_upper}''').startswith(str(r'''${prefix_upper}'''))
+        IF    ${matched}
+            RETURN    ${True}
+        END
+    END
+    RETURN    ${False}
+
+Split Debug Trace Log
+    ${exists}=    Run Keyword And Return Status    File Should Exist    ${TRACE_FILE}
+    IF    not ${exists}
+        RETURN
+    END
+    Create Directory    ${TRACE_SPLIT_DIR}
+    ${all}=    Get File    ${TRACE_FILE}
+    ${lines}=    Split To Lines    ${all}
+    FOR    ${line}    IN    @{lines}
+        ${trimmed}=    Strip String    ${line}
+        IF    '${trimmed}' == ''
+            CONTINUE
+        END
+        ${msg}=    Evaluate    str(r'''${line}''')
+        ${tag}=    Evaluate    __import__('re').search(r'\\[([^\\]]+)\\]', ${msg}).group(1) if __import__('re').search(r'\\[([^\\]]+)\\]', ${msg}) else 'MISC'
+        ${safe_tag}=    Evaluate    __import__('re').sub(r'[^0-9A-Za-z_\\-]+', '_', str(${tag}))
+        ${split_file}=    Set Variable    ${TRACE_SPLIT_DIR}${/}${safe_tag}.log
+        Append To File    ${split_file}    ${line}\n
+    END
+
 Trace
     [Arguments]    ${msg}
+    ${emit}=    Should Emit Trace Message    ${msg}
+    IF    not ${emit}
+        RETURN
+    END
     ${ts}=    Get Current Date    result_format=%H:%M:%S.%f
     ${line}=    Catenate    SEPARATOR=    [${ts}]    ${msg}
     Log To Console    ${line}
     Append To File    ${TRACE_FILE}    ${line}\n
+    ${tag}=    Evaluate    __import__('re').search(r'\\[([^\\]]+)\\]', str(r'''${msg}''')).group(1) if __import__('re').search(r'\\[([^\\]]+)\\]', str(r'''${msg}''')) else 'MISC'
+    ${safe_tag}=    Evaluate    __import__('re').sub(r'[^0-9A-Za-z_\\-]+', '_', str(${tag}))
+    ${split_file}=    Set Variable    ${TRACE_SPLIT_DIR}${/}${safe_tag}.log
+    Append To File    ${split_file}    ${line}\n
 
 Normalize Element String
     [Arguments]    ${elem}

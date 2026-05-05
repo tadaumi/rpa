@@ -122,6 +122,10 @@ Reanchor Message Window Only
 
 Capture Transition State Snapshot
     [Arguments]    ${tag}
+    ${enabled}=    Evaluate    str(r'''${ENABLE_STATE_SNAPSHOT}''').strip().lower() in ['true','1','yes','on']
+    IF    not ${enabled}
+        RETURN
+    END
     Trace    [STATE-SNAPSHOT] start tag=${tag}
     ${cursor_json}=    Get Cursor Position Json
     Trace    [STATE-SNAPSHOT] cursor tag=${tag} json=${cursor_json}

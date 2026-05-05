@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Update PR branch",
+      "type": "shell",
+      "command": "git fetch --prune; if ($LASTEXITCODE -eq 0) { git pull --ff-only }",
+      "problemMatcher": []
+    }
+  ]
+}

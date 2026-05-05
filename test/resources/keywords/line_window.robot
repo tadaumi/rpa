@@ -164,6 +164,10 @@ Find Message Window Element
     [Documentation]    LcSplitter配下の右側 GroupControl を本文領域として採用
     Activate LINE
     Set Splitter Anchor
+    ${split_l}    ${split_t}    ${split_r}    ${split_b}=    Get Rect Ints From Locator    ${SPLITTER_LOCATOR}
+    ${split_w}=    Evaluate    max(1, int(${split_r}) - int(${split_l}))
+    ${split_h}=    Evaluate    max(1, int(${split_b}) - int(${split_t}))
+    ${split_mid_x}=    Evaluate    int(${split_l}) + int(round(float(${split_w}) / 2.0))
 
     ${locator}=    Set Variable    type:GroupControl and depth:${SPLITTER_CHILD_DEPTH}
     ${ok}=    Run Keyword And Return Status    Win.Get Elements    ${locator}
@@ -176,9 +180,12 @@ Find Message Window Element
     ${count}=    Get Length    ${elements}
     Trace    [MSGWIN] group count=${count}
 
-    ${best_elem}=    Set Variable    ${EMPTY}
-    ${best_left}=    Set Variable    -1
-    ${best_rect}=    Set Variable    ${EMPTY}
+    ${best_elem}=      Set Variable    ${EMPTY}
+    ${best_score}=     Set Variable    -99999
+    ${best_rect}=      Set Variable    ${EMPTY}
+    ${legacy_elem}=    Set Variable    ${EMPTY}
+    ${legacy_left}=    Set Variable    -1
+    ${legacy_rect}=    Set Variable    ${EMPTY}
 
     FOR    ${i}    IN RANGE    ${count}
         ${elem}=    Get From List    ${elements}    ${i}
@@ -191,17 +198,58 @@ Find Message Window Element
 
         Trace    [MSGWIN] candidate idx=${i} name=[${name}] type=[${ctype}] class=[${clazz}] rect=(${l},${t},${r},${b}) size=(${w},${h})
 
-        IF    ${w} >= 400 and ${h} >= 300 and ${l} > ${best_left}
+        ${legacy_ok}=    Evaluate    ${w} >= 400 and ${h} >= 300
+        IF    ${legacy_ok} and ${l} > ${legacy_left}
+            ${legacy_elem}=    Set Variable    ${elem}
+            ${legacy_left}=    Set Variable    ${l}
+            ${legacy_rect}=    Catenate    SEPARATOR=,    ${l}    ${t}    ${r}    ${b}
+        END
+
+        ${score}=    Set Variable    0
+        ${score}=    Evaluate    int(${score}) + (300 if int(${w}) >= 450 else -220)
+        ${score}=    Evaluate    int(${score}) + (220 if int(${h}) >= int(round(float(${split_h}) * 0.70)) else -160)
+        ${score}=    Evaluate    int(${score}) + (180 if int(${l}) >= int(${split_mid_x}) else -140)
+        ${score}=    Evaluate    int(${score}) + int(round((float(${l}) / max(1.0, float(${split_w}))) * 60.0))
+        ${right_gap}=    Evaluate    abs(int(${split_r}) - int(${r}))
+        ${score}=    Evaluate    int(${score}) + (120 if int(${right_gap}) <= 40 else 0)
+        ${is_lcwidget}=    Evaluate    str(r'''${clazz}''').strip() == 'LcWidget'
+        ${score}=    Evaluate    int(${score}) + (60 if ${is_lcwidget} else -25)
+
+        Trace    [MSGWIN-SCORE] idx=${i} score=${score} legacy_ok=${legacy_ok} split_mid_x=${split_mid_x} right_gap=${right_gap}
+
+        IF    int(${score}) > int(${best_score})
             ${best_elem}=    Set Variable    ${elem}
-            ${best_left}=    Set Variable    ${l}
+            ${best_score}=    Set Variable    ${score}
             ${best_rect}=    Catenate    SEPARATOR=,    ${l}    ${t}    ${r}    ${b}
         END
     END
 
     ${best_s}=    Normalize Element String    ${best_elem}
     IF    $best_s == ''
+        ${legacy_s}=    Normalize Element String    ${legacy_elem}
+        IF    $legacy_s == ''
+            Fail    右側 MessageWindow を特定できませんでした。
+        END
+        Trace    [MSGWIN] fallback=legacy rect=(${legacy_rect}) elem=[${legacy_s}]
+        RETURN    ${legacy_elem}
+    END
+
+    ${best_parts}=    Split String    ${best_rect}    ,
+    ${best_l}=    Get From List    ${best_parts}    0
+    ${best_t}=    Get From List    ${best_parts}    1
+    ${best_r}=    Get From List    ${best_parts}    2
+    ${best_b}=    Get From List    ${best_parts}    3
+    ${best_w}=    Evaluate    int(${best_r}) - int(${best_l})
+    ${best_h}=    Evaluate    int(${best_b}) - int(${best_t})
+    ${best_valid}=    Evaluate    int(${best_w}) >= 400 and int(${best_h}) >= 300 and int(${best_l}) >= int(${split_mid_x})
+    IF    not ${best_valid}
+        ${legacy_s}=    Normalize Element String    ${legacy_elem}
+        IF    $legacy_s != ''
+            Trace    [MSGWIN] fallback=legacy reason=best_invalid best_rect=(${best_rect}) legacy_rect=(${legacy_rect})
+            RETURN    ${legacy_elem}
+        END
         Fail    右側 MessageWindow を特定できませんでした。
     END
 
-    Trace    [MSGWIN] selected rect=(${best_rect}) elem=[${best_s}]
+    Trace    [MSGWIN] selected rect=(${best_rect}) score=${best_score} elem=[${best_s}]
     RETURN    ${best_elem}

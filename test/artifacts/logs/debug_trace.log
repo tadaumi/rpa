@@ -1,420 +1,584 @@
-[TRACE START] 2026-05-05 21:11:37
-[21:11:37.448865][FAILSHOT] directory=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\fail_screens
-[21:11:38.190781][ACTIVATE] locator=executable:LINE.exe
-[21:11:39.942721][ACTIVATE] locator=executable:LINE.exe
-[21:11:40.953611][GROUP] open first group path=path:11|2|1|1|1|2
-[21:11:41.940058][GROUP] opened
-[21:11:44.969124][TEXT-RESET] removed dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
-[21:11:44.975123][TEXT-RESET] created dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
-[21:11:44.983161][ARTIFACT] ensured directories
-[21:11:44.990119][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
-[21:11:45.752105][ACTIVATE] locator=executable:LINE.exe
-[21:11:46.779804][SCROLL-UP] drag try=0
-[21:11:48.046458][SCROLL-UP] iter_elapsed=1.2316529750823975
-[21:11:48.056406][SCROLL-UP] elapsed=1.2316529750823975
-[21:11:48.846384][ACTIVATE] locator=executable:LINE.exe
-[21:11:49.875218][SCROLL-UP] drag try=1
-[21:11:51.132072][SCROLL-UP] iter_elapsed=1.2280399799346924
-[21:11:51.151064][SCROLL-UP] elapsed=2.45969295501709
-[21:11:51.955784][ACTIVATE] locator=executable:LINE.exe
-[21:11:52.965618][SCROLL-UP] drag try=2
-[21:11:54.216642][SCROLL-UP] iter_elapsed=1.2300450801849365
-[21:11:54.225621][SCROLL-UP] elapsed=3.6897380352020264
-[21:11:55.108506][ACTIVATE] locator=executable:LINE.exe
-[21:11:56.138498][SCROLL-UP] drag try=3
-[21:11:57.405225][SCROLL-UP] iter_elapsed=1.2408709526062012
-[21:11:57.418154][SCROLL-UP] elapsed=4.9306089878082275
-[21:11:58.235079][ACTIVATE] locator=executable:LINE.exe
-[21:11:59.259727][SCROLL-UP] drag try=4
-[21:12:00.504490][SCROLL-UP] iter_elapsed=1.220897912979126
-[21:12:00.518441][SCROLL-UP] elapsed=6.1515069007873535
-[21:12:01.325503][ACTIVATE] locator=executable:LINE.exe
-[21:12:02.356321][SCROLL-UP] drag try=5
-[21:12:03.626972][SCROLL-UP] iter_elapsed=1.2435359954833984
-[21:12:03.639937][SCROLL-UP] elapsed=7.395042896270752
-[21:12:04.396889][ACTIVATE] locator=executable:LINE.exe
-[21:12:05.414758][SCROLL-UP] drag try=6
-[21:12:06.665574][SCROLL-UP] iter_elapsed=1.236863136291504
-[21:12:06.675521][SCROLL-UP] elapsed=8.631906032562256
-[21:12:07.438319][ACTIVATE] locator=executable:LINE.exe
-[21:12:08.471940][SCROLL-UP] drag try=7
-[21:12:09.738410][SCROLL-UP] iter_elapsed=1.235572099685669
-[21:12:09.751389][SCROLL-UP] elapsed=9.867478132247925
-[21:12:10.581216][ACTIVATE] locator=executable:LINE.exe
-[21:12:11.600549][SCROLL-UP] drag try=8
-[21:12:12.862262][SCROLL-UP] iter_elapsed=1.2327849864959717
-[21:12:12.876198][SCROLL-UP] elapsed=11.100263118743896
-[21:12:14.628463][ACTIVATE] locator=executable:LINE.exe
-[21:12:16.367717][ACTIVATE] locator=executable:LINE.exe
-[21:12:18.140099][ACTIVATE] locator=executable:LINE.exe
-[21:12:19.900331][ACTIVATE] locator=executable:LINE.exe
-[21:12:21.663415][ACTIVATE] locator=executable:LINE.exe
-[21:12:22.976073][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[21:12:23.384015][SPLITTER] rect=(268,85,1184,637) size=(916,552)
-[21:12:23.691996][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[21:12:23.705986][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[21:12:23.719021][MSGWIN] group count=2
-[21:12:23.907019][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
-[21:12:24.093002][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
-[21:12:24.108965][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[21:12:24.186999][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
-[21:12:24.192991][RIGHT-PANE-SAFE] point=(1164,361)
-[21:12:24.200980][SCROLL-CLEAR] safe-point from right pane = (1164,361)
-[21:12:24.205954][SCROLL-CLEAR] status=[]
-[21:12:24.209951][SCROLL-CLEAR] move x=1164 y=361
-[21:12:24.214959][SCROLL-CLEAR] move_ok=True
-[21:12:24.450339][SCROLL-CLEAR] click_ok=True
-[21:12:25.625974][ACTIVATE] locator=executable:LINE.exe
-[21:12:27.346094][ACTIVATE] locator=executable:LINE.exe
-[21:12:29.117387][ACTIVATE] locator=executable:LINE.exe
-[21:12:30.918119][ACTIVATE] locator=executable:LINE.exe
-[21:12:32.665566][ACTIVATE] locator=executable:LINE.exe
-[21:12:34.003346][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[21:12:34.422338][SPLITTER] rect=(268,85,1184,637) size=(916,552)
-[21:12:34.724300][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[21:12:34.740291][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[21:12:34.754316][MSGWIN] group count=2
-[21:12:34.946258][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
-[21:12:35.132241][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
-[21:12:35.140269][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[21:12:35.218265][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
-[21:12:35.224245][RIGHT-PANE-SAFE] point=(1164,361)
-[21:12:35.229241][SCROLL-CLEAR] safe-point from right pane = (1164,361)
-[21:12:35.233240][SCROLL-CLEAR] status=[]
-[21:12:35.237243][SCROLL-CLEAR] move x=1164 y=361
-[21:12:35.242242][SCROLL-CLEAR] move_ok=True
-[21:12:35.464098][SCROLL-CLEAR] click_ok=True
-[21:12:36.627707][ACTIVATE] locator=executable:LINE.exe
-[21:12:37.657144][DOWN LOOP] start loop=0
-[21:12:38.403121][ACTIVATE] locator=executable:LINE.exe
-[21:12:40.163357][ACTIVATE] locator=executable:LINE.exe
-[21:12:41.925100][ACTIVATE] locator=executable:LINE.exe
-[21:12:43.665155][ACTIVATE] locator=executable:LINE.exe
-[21:12:45.011514][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[21:12:45.441507][SPLITTER] rect=(268,85,1184,637) size=(916,552)
-[21:12:45.742470][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[21:12:45.758457][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[21:12:45.772468][MSGWIN] group count=2
-[21:12:45.918477][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
-[21:12:46.070449][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
-[21:12:46.079448][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[21:12:46.086448][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[21:12:46.173500][BUBBLE-RECT] root_rect=(571,85,1184,637) root_size=(613,552)
-[21:12:46.179470][BUBBLE-RECT] anchor msgwin ok=True
-[21:12:46.244438][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
-[21:12:46.308424][BUBBLE-RECT] anchored_count=3
-[21:12:46.535454][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(571,179,1177,271) size=(606,92)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
-[21:12:46.562446][BUBBLE-INNER] outer=(571,179,1177,271) inner=[641,193,1141,257] short=False mid=True inner_h=64 outer_h=92 ratio=0.6956521739130435 thin_inner=False collapsed_short=False
-[21:12:46.575459][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=193 inner_b=257 inner_h=64 footer_near_bottom=False short_footer_near=False result=False
-[21:12:46.586443][BUBBLE-IMAGE-FILTER] outer_h=92 inner_h=64 ratio=0.6956521739130435 very_tall_inner=False very_tall_outer=False tall_dense=False result=False
-[21:12:46.594494][BUBBLE-RECT] idx=0 name=[] type=[ListItemControl] class=[] rect=641,193,1141,257
-[21:12:46.815466][BUBBLE-RECT-CAND] idx=1 name=[] type=[ListItemControl] class=[]rect=(571,271,1177,381) size=(606,110)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
-[21:12:46.837427][BUBBLE-INNER] outer=(571,271,1177,381) inner=[641,285,1141,367] short=False mid=True inner_h=82 outer_h=110 ratio=0.7454545454545455 thin_inner=False collapsed_short=False
-[21:12:46.846429][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=285 inner_b=367 inner_h=82 footer_near_bottom=False short_footer_near=False result=False
-[21:12:46.854425][BUBBLE-IMAGE-FILTER] outer_h=110 inner_h=82 ratio=0.7454545454545455 very_tall_inner=False very_tall_outer=False tall_dense=False result=False
-[21:12:46.860392][BUBBLE-RECT] idx=1 name=[] type=[ListItemControl] class=[] rect=641,285,1141,367
-[21:12:47.087381][BUBBLE-RECT-CAND] idx=2 name=[] type=[ListItemControl] class=[]rect=(571,381,1177,758) size=(606,377)inside_x=True inside_y=False large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=False
-[21:12:47.097381][BUBBLE-RECT] visible_count=2
-[21:12:47.175423][BUBBLE-SIGNATURE] count=2 signature=[641,193,1141,257;641,285,1141,367]
-[21:12:47.194362][COPY-BEGIN] id=211247_192366_641_193_1141_257 rect=(641,193,1141,257)
-[21:12:47.932235][ACTIVATE] locator=executable:LINE.exe
-[21:12:49.393858][CLIPBOARD] clear rc=0 stdout=[] stderr=[]
-[21:12:49.411864][BUBBLE-CLICK] rect=(641,193,1141,257) raw=(741,225) clamped=(741,225) size=(500,64) rule=front20_centerY
-[21:12:49.415824][POINTER] id=211247_192366_641_193_1141_257 bubble target=(741,225)
-[21:12:50.547784][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[21:12:50.556781][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[21:12:51.687690][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[21:12:51.696707][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[21:12:52.962598][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211251_703681_full.png", "mode": "full"}]
-[21:12:52.971597][CURSOR-EVIDENCE] tag=before_preclick_capture full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211251_703681_full.png", "mode": "full"}
-[21:12:54.176519][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211251_703681_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
-[21:12:54.187518][CURSOR-EVIDENCE] tag=before_preclick_capture crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211251_703681_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
-[21:12:54.211513][PRECLICK-RECT] bubble=(641,193,1141,257) click=(741,225) size=(500,64) rule=short_row_tight rect=(653,189,861,263) capture_size=(208,74)
-[21:12:55.374458][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 189, "width": 208, "height": 74}]
-[21:12:55.383436][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 189, "width": 208, "height": 74}
-[21:12:57.480330][PY] ocr rc=0 stderr=[{"text": "ッコいい写真撮る時は身体は衝、お腹ち,\n)\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 74, "processed_width": 624, "processed_height": 222, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "ッ", "normalized": "ッ", "kind": "UNKNOWN", "left": 5, "top": 74, "width": 23, "height": 29, "right": 28, "bottom": 103, "conf": 93.0}, {"text": "コ", "normalized": "コ", "kind": "UNKNOWN", "left": 36, "top": 68, "width": 19, "height": 32, "right": 55, "bottom": 100, "conf": 71.0}, {"text": "いい", "normalized": "いい", "kind": "UNKNOWN", "left": 59, "top": 69, "width": 62, "height": 34, "right": 121, "bottom": 103, "conf": 96.0}, {"text": "写真", "normalized": "写真", "kind": "UNKNOWN", "left": 125, "top": 65, "width": 102, "height": 38, "right": 227, "bottom": 103, "conf": 96.0}, {"text": "撮る", "normalized": "撮る", "kind": "UNKNOWN", "left": 242, "top": 61, "width": 47, "height": 53, "right": 289, "bottom": 114, "conf": 92.0}, {"text": "時", "normalized": "時", "kind": "UNKNOWN", "left": 288, "top": 65, "width": 20, "height": 38, "right": 308, "bottom": 103, "conf": 96.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 319, "top": 65, "width": 23, "height": 38, "right": 342, "bottom": 103, "conf": 97.0}, {"text": "身体", "normalized": "身体", "kind": "UNKNOWN", "left": 354, "top": 65, "width": 94, "height": 38, "right": 448, "bottom": 103, "conf": 95.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 447, "top": 61, "width": 23, "height": 53, "right": 470, "bottom": 114, "conf": 92.0}, {"text": "衝", "normalized": "衝", "kind": "UNKNOWN", "left": 469, "top": 65, "width": 32, "height": 38, "right": 501, "bottom": 103, "conf": 9.0}, {"text": "、", "normalized": "、", "kind": "UNKNOWN", "left": 500, "top": 61, "width": 31, "height": 53, "right": 531, "bottom": 114, "conf": 0.0}, {"text": "お", "normalized": "お", "kind": "UNKNOWN", "left": 531, "top": 66, "width": 19, "height": 37, "right": 550, "bottom": 103, "conf": 90.0}, {"text": "腹", "normalized": "腹", "kind": "UNKNOWN", "left": 561, "top": 65, "width": 27, "height": 38, "right": 588, "bottom": 103, "conf": 91.0}, {"text": "ち", "normalized": "ち", "kind": "UNKNOWN", "left": 592, "top": 66, "width": 19, "height": 37, "right": 611, "bottom": 103, "conf": 91.0}, {"text": ",", "normalized": ",", "kind": "UNKNOWN", "left": 619, "top": 90, "width": 5, "height": 13, "right": 624, "bottom": 103, "conf": 82.0}, {"text": ")", "normalized": ")", "kind": "UNKNOWN", "left": 0, "top": 123, "width": 16, "height": 33, "right": 16, "bottom": 156, "conf": 89.0}]}]
-[21:12:57.489339][TEXT-CANDIDATE] ocr_json={"text": "ッコいい写真撮る時は身体は衝、お腹ち,\n)\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 74, "processed_width": 624, "processed_height": 222, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "ッ", "normalized": "ッ", "kind": "UNKNOWN", "left": 5, "top": 74, "width": 23, "height": 29, "right": 28, "bottom": 103, "conf": 93.0}, {"text": "コ", "normalized": "コ", "kind": "UNKNOWN", "left": 36, "top": 68, "width": 19, "height": 32, "right": 55, "bottom": 100, "conf": 71.0}, {"text": "いい", "normalized": "いい", "kind": "UNKNOWN", "left": 59, "top": 69, "width": 62, "height": 34, "right": 121, "bottom": 103, "conf": 96.0}, {"text": "写真", "normalized": "写真", "kind": "UNKNOWN", "left": 125, "top": 65, "width": 102, "height": 38, "right": 227, "bottom": 103, "conf": 96.0}, {"text": "撮る", "normalized": "撮る", "kind": "UNKNOWN", "left": 242, "top": 61, "width": 47, "height": 53, "right": 289, "bottom": 114, "conf": 92.0}, {"text": "時", "normalized": "時", "kind": "UNKNOWN", "left": 288, "top": 65, "width": 20, "height": 38, "right": 308, "bottom": 103, "conf": 96.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 319, "top": 65, "width": 23, "height": 38, "right": 342, "bottom": 103, "conf": 97.0}, {"text": "身体", "normalized": "身体", "kind": "UNKNOWN", "left": 354, "top": 65, "width": 94, "height": 38, "right": 448, "bottom": 103, "conf": 95.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 447, "top": 61, "width": 23, "height": 53, "right": 470, "bottom": 114, "conf": 92.0}, {"text": "衝", "normalized": "衝", "kind": "UNKNOWN", "left": 469, "top": 65, "width": 32, "height": 38, "right": 501, "bottom": 103, "conf": 9.0}, {"text": "、", "normalized": "、", "kind": "UNKNOWN", "left": 500, "top": 61, "width": 31, "height": 53, "right": 531, "bottom": 114, "conf": 0.0}, {"text": "お", "normalized": "お", "kind": "UNKNOWN", "left": 531, "top": 66, "width": 19, "height": 37, "right": 550, "bottom": 103, "conf": 90.0}, {"text": "腹", "normalized": "腹", "kind": "UNKNOWN", "left": 561, "top": 65, "width": 27, "height": 38, "right": 588, "bottom": 103, "conf": 91.0}, {"text": "ち", "normalized": "ち", "kind": "UNKNOWN", "left": 592, "top": 66, "width": 19, "height": 37, "right": 611, "bottom": 103, "conf": 91.0}, {"text": ",", "normalized": ",", "kind": "UNKNOWN", "left": 619, "top": 90, "width": 5, "height": 13, "right": 624, "bottom": 103, "conf": 82.0}, {"text": ")", "normalized": ")", "kind": "UNKNOWN", "left": 0, "top": 123, "width": 16, "height": 33, "right": 16, "bottom": 156, "conf": 89.0}]}
-[21:12:57.506338][TEXT-CANDIDATE] text=[ッコいい写真撮る時は身体は衝、お腹ち,
-)]
-[21:12:57.567334][COPY-NORM] raw=[ッコいい写真撮る時は身体は衝、お腹ち,
-)] norm=[ッコいい写真撮る時は身体は衝、お腹ち, )]
-[21:12:57.588312][COPY-NORM] raw=[ッコいい写真撮る時は身体は衝、お腹ち, )] norm=[ッコいい写真撮る時は身体は衝、お腹ち, )]
-[21:12:57.628291][TOKEN-COUNT] norm=[ッコいい写真撮る時は身体は衝、お腹ち, )] tokens=['は', 'が', 'を', 'に', 'で', 'と', 'の', '。', '、'] count=2
-[21:12:57.639329][COPY-NORM] raw=[ッコいい写真撮る時は身体は衝、お腹ち, )] norm=[ッコいい写真撮る時は身体は衝、お腹ち, )]
-[21:12:57.643280][IMAGE-CHECK] body_markers norm=[ッコいい写真撮る時は身体は衝、お腹ち, )] count=2
-[21:12:57.651321][IMAGE-CHECK] rect=(641,193,1141,257) size=(500,64) text_len=21 body_markers=2 very_tall=False tall=False short_text=False weak_body=False result=False text=[ッコいい写真撮る時は身体は衝、お腹ち, )]
-[21:12:57.657318][COPY] id=211247_192366_641_193_1141_257 right click x=741 y=225
-[21:12:58.740217][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[21:12:58.749247][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
-[21:12:59.829188][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[21:12:59.839187][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
-[21:13:01.152071][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_211259_845186_full.png", "mode": "full"}]
-[21:13:01.161062][CURSOR-EVIDENCE] tag=before_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_211259_845186_full.png", "mode": "full"}
-[21:13:02.379988][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_211259_845186_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
-[21:13:02.389013][CURSOR-EVIDENCE] tag=before_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_211259_845186_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
-[21:13:02.513399][COPY] id=211247_192366_641_193_1141_257 right click ok=True
-[21:13:03.647315][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:03.656312][CURSOR] tag=after_right_click json={"x": 741, "y": 225}
-[21:13:04.776280][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:04.785225][CURSOR] tag=after_right_click json={"x": 741, "y": 225}
-[21:13:06.066186][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_211304_794224_full.png", "mode": "full"}]
-[21:13:06.074180][CURSOR-EVIDENCE] tag=after_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_211304_794224_full.png", "mode": "full"}
-[21:13:07.225074][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_211304_794224_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240}]
-[21:13:07.235067][CURSOR-EVIDENCE] tag=after_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_211304_794224_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240} cursor=(741,225)
-[21:13:07.748050][MENU-WINDOW] scan try=0
-[21:13:07.779006][MENU-WINDOW] found=True try=0
-[21:13:07.906978][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(731,215,874,512)
-[21:13:07.916978][COPY] id=211247_192366_641_193_1141_257 menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(741,225)
-[21:13:08.981948][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:08.990906][CURSOR] tag=after_menu_scan json={"x": 741, "y": 225}
-[21:13:10.085889][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:10.094879][CURSOR] tag=after_menu_scan json={"x": 741, "y": 225}
-[21:13:11.335772][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_211310_100876_full.png", "mode": "full"}]
-[21:13:11.343798][CURSOR-EVIDENCE] tag=after_menu_scan full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_211310_100876_full.png", "mode": "full"}
-[21:13:12.608716][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_211310_100876_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240}]
-[21:13:12.617681][CURSOR-EVIDENCE] tag=after_menu_scan crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_211310_100876_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240} cursor=(741,225)
-[21:13:12.686667][MENU-WINDOW] id=211247_192366_641_193_1141_257 selected rect=(731,215,874,512) point=(741,225)
-[21:13:13.964594][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y225_l731_t215_r874_b512_20260505_211312_700711.png", "mode": "full"}]
-[21:13:13.973598][MENU-EVIDENCE] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y225_l731_t215_r874_b512_20260505_211312_700711.png", "mode": "full"}
-[21:13:15.137519][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y225_l731_t215_r874_b512_20260505_211312_700711.png", "left": 731, "top": 215, "width": 143, "height": 297}]
-[21:13:15.148508][MENU-EVIDENCE] menu={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y225_l731_t215_r874_b512_20260505_211312_700711.png", "left": 731, "top": 215, "width": 143, "height": 297}
-[21:13:16.344448][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y225_20260505_211312_700711.png", "left": 621, "top": 105, "width": 240, "height": 240}]
-[21:13:16.354444][MENU-EVIDENCE] click={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y225_20260505_211312_700711.png", "left": 621, "top": 105, "width": 240, "height": 240}
-[21:13:17.426407][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:17.437365][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 225}
-[21:13:18.555338][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:18.564334][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 225}
-[21:13:19.810273][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_211318_570344_full.png", "mode": "full"}]
-[21:13:19.819255][CURSOR-EVIDENCE] tag=after_menu_evidence full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_211318_570344_full.png", "mode": "full"}
-[21:13:21.021173][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_211318_570344_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240}]
-[21:13:21.030136][CURSOR-EVIDENCE] tag=after_menu_evidence crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_211318_570344_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240} cursor=(741,225)
-[21:13:21.035137][OCR-VERSION] line_io.robot basic-valid + file-fallback + archive
-[21:13:21.116180][OCR-RAW] left=[731] top=[215] right=[874] bottom=[512]
-[21:13:21.135119][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(731,215,874,512)
-[21:13:21.150141][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(731,215,874,512)
-[21:13:21.169141][OCR] capture rect=(721,210,163,307) save=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\menu_capture_archive\menu_20260505_211321_164133_731_215_874_512.png]
-[21:13:22.353090][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_211321_164133_731_215_874_512.png", "left": 721, "top": 210, "width": 163, "height": 307}]
-[21:13:22.363092][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_211321_164133_731_215_874_512.png", "left": 721, "top": 210, "width": 163, "height": 307}
-[21:13:24.836920][PY] ocr rc=0 stderr=[{"text": "RoR SHH. お用ちょっと\nリプライ\nコピ-\na BS    を\n削除\nき\n翻訳\nKeepメモに転送\n。 | トに保存\nアナウソス\nEi     @\njl』 BR   に住\nWh to) @ A) ーー\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_211321_164133_731_215_874_512.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_211321_164133_731_215_874_512.processed.png", "image_width": 163, "image_height": 307, "processed_width": 489, "processed_height": 921, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "RoR", "normalized": "ror", "kind": "UNKNOWN", "left": 0, "top": 2, "width": 104, "height": 38, "right": 104, "bottom": 40, "conf": 55.0}, {"text": "SHH.", "normalized": "shh.", "kind": "UNKNOWN", "left": 154, "top": 2, "width": 147, "height": 38, "right": 301, "bottom": 40, "conf": 22.0}, {"text": "お", "normalized": "お", "kind": "UNKNOWN", "left": 333, "top": 3, "width": 13, "height": 37, "right": 346, "bottom": 40, "conf": 96.0}, {"text": "用", "normalized": "用", "kind": "UNKNOWN", "left": 358, "top": 2, "width": 26, "height": 38, "right": 384, "bottom": 40, "conf": 89.0}, {"text": "ちょ", "normalized": "ちょ", "kind": "UNKNOWN", "left": 386, "top": 3, "width": 101, "height": 37, "right": 487, "bottom": 40, "conf": 16.0}, {"text": "っ", "normalized": "っ", "kind": "UNKNOWN", "left": 441, "top": 0, "width": 22, "height": 50, "right": 463, "bottom": 50, "conf": 96.0}, {"text": "と", "normalized": "と", "kind": "UNKNOWN", "left": 462, "top": 0, "width": 26, "height": 50, "right": 488, "bottom": 50, "conf": 96.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 122, "top": 84, "width": 52, "height": 40, "right": 174, "bottom": 124, "conf": 95.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 176, "top": 87, "width": 50, "height": 37, "right": 226, "bottom": 124, "conf": 96.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 120, "top": 165, "width": 75, "height": 40, "right": 195, "bottom": 205, "conf": 82.0}, {"text": "-", "normalized": "-", "kind": "UNKNOWN", "left": 165, "top": 149, "width": 34, "height": 66, "right": 199, "bottom": 215, "conf": 88.0}, {"text": "a", "normalized": "a", "kind": "UNKNOWN", "left": 2, "top": 278, "width": 47, "height": 38, "right": 49, "bottom": 316, "conf": 71.0}, {"text": "BS", "normalized": "bs", "kind": "UNKNOWN", "left": 119, "top": 249, "width": 75, "height": 37, "right": 194, "bottom": 286, "conf": 28.0}, {"text": "を", "normalized": "を", "kind": "UNKNOWN", "left": 467, "top": 278, "width": 22, "height": 38, "right": 489, "bottom": 316, "conf": 46.0}, {"text": "削除", "normalized": "削除", "kind": "DELETE", "left": 120, "top": 329, "width": 73, "height": 38, "right": 193, "bottom": 367, "conf": 82.0}, {"text": "き", "normalized": "き", "kind": "UNKNOWN", "left": 0, "top": 383, "width": 43, "height": 38, "right": 43, "bottom": 421, "conf": 44.0}, {"text": "翻訳", "normalized": "翻訳", "kind": "UNKNOWN", "left": 119, "top": 443, "width": 74, "height": 38, "right": 193, "bottom": 481, "conf": 22.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 120, "top": 525, "width": 251, "height": 42, "right": 371, "bottom": 567, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 206, "top": 521, "width": 27, "height": 52, "right": 233, "bottom": 573, "conf": 92.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 232, "top": 521, "width": 27, "height": 52, "right": 259, "bottom": 573, "conf": 77.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 258, "top": 521, "width": 45, "height": 52, "right": 303, "bottom": 573, "conf": 24.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 302, "top": 525, "width": 69, "height": 42, "right": 371, "bottom": 567, "conf": 96.0}, {"text": "。", "normalized": "。", "kind": "UNKNOWN", "left": 0, "top": 634, "width": 12, "height": 36, "right": 12, "bottom": 670, "conf": 58.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 58, "top": 586, "width": 30, "height": 88, "right": 88, "bottom": 674, "conf": 69.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 139, "top": 606, "width": 45, "height": 36, "right": 184, "bottom": 642, "conf": 28.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 195, "top": 606, "width": 25, "height": 36, "right": 220, "bottom": 642, "conf": 85.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 224, "top": 605, "width": 74, "height": 38, "right": 298, "bottom": 643, "conf": 52.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 119, "top": 720, "width": 56, "height": 36, "right": 175, "bottom": 756, "conf": 96.0}, {"text": "ウソ", "normalized": "ウソ", "kind": "UNKNOWN", "left": 179, "top": 720, "width": 55, "height": 37, "right": 234, "bottom": 757, "conf": 74.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 239, "top": 722, "width": 26, "height": 35, "right": 265, "bottom": 757, "conf": 92.0}, {"text": "Ei", "normalized": "ei", "kind": "UNKNOWN", "left": 0, "top": 761, "width": 50, "height": 38, "right": 50, "bottom": 799, "conf": 26.0}, {"text": "@", "normalized": "@", "kind": "UNKNOWN", "left": 467, "top": 764, "width": 22, "height": 35, "right": 489, "bottom": 799, "conf": 7.0}, {"text": "jl』", "normalized": "jl』", "kind": "UNKNOWN", "left": 0, "top": 812, "width": 51, "height": 38, "right": 51, "bottom": 850, "conf": 37.0}, {"text": "BR", "normalized": "br", "kind": "UNKNOWN", "left": 119, "top": 800, "width": 76, "height": 38, "right": 195, "bottom": 838, "conf": 79.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 431, "top": 818, "width": 18, "height": 29, "right": 449, "bottom": 847, "conf": 88.0}, {"text": "住", "normalized": "住", "kind": "UNKNOWN", "left": 450, "top": 812, "width": 39, "height": 38, "right": 489, "bottom": 850, "conf": 62.0}, {"text": "Wh", "normalized": "wh", "kind": "UNKNOWN", "left": 0, "top": 866, "width": 55, "height": 38, "right": 55, "bottom": 904, "conf": 20.0}, {"text": "to)", "normalized": "to)", "kind": "UNKNOWN", "left": 95, "top": 862, "width": 30, "height": 50, "right": 125, "bottom": 912, "conf": 21.0}, {"text": "@", "normalized": "@", "kind": "UNKNOWN", "left": 141, "top": 862, "width": 9, "height": 50, "right": 150, "bottom": 912, "conf": 60.0}, {"text": "A)", "normalized": "a)", "kind": "UNKNOWN", "left": 162, "top": 862, "width": 26, "height": 50, "right": 188, "bottom": 912, "conf": 35.0}, {"text": "ーー", "normalized": "ーー", "kind": "UNKNOWN", "left": 59, "top": 866, "width": 358, "height": 38, "right": 417, "bottom": 904, "conf": 39.0}]}]
-[21:13:24.846887][OCR] ocr_json={"text": "RoR SHH. お用ちょっと\nリプライ\nコピ-\na BS    を\n削除\nき\n翻訳\nKeepメモに転送\n。 | トに保存\nアナウソス\nEi     @\njl』 BR   に住\nWh to) @ A) ーー\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_211321_164133_731_215_874_512.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_211321_164133_731_215_874_512.processed.png", "image_width": 163, "image_height": 307, "processed_width": 489, "processed_height": 921, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "RoR", "normalized": "ror", "kind": "UNKNOWN", "left": 0, "top": 2, "width": 104, "height": 38, "right": 104, "bottom": 40, "conf": 55.0}, {"text": "SHH.", "normalized": "shh.", "kind": "UNKNOWN", "left": 154, "top": 2, "width": 147, "height": 38, "right": 301, "bottom": 40, "conf": 22.0}, {"text": "お", "normalized": "お", "kind": "UNKNOWN", "left": 333, "top": 3, "width": 13, "height": 37, "right": 346, "bottom": 40, "conf": 96.0}, {"text": "用", "normalized": "用", "kind": "UNKNOWN", "left": 358, "top": 2, "width": 26, "height": 38, "right": 384, "bottom": 40, "conf": 89.0}, {"text": "ちょ", "normalized": "ちょ", "kind": "UNKNOWN", "left": 386, "top": 3, "width": 101, "height": 37, "right": 487, "bottom": 40, "conf": 16.0}, {"text": "っ", "normalized": "っ", "kind": "UNKNOWN", "left": 441, "top": 0, "width": 22, "height": 50, "right": 463, "bottom": 50, "conf": 96.0}, {"text": "と", "normalized": "と", "kind": "UNKNOWN", "left": 462, "top": 0, "width": 26, "height": 50, "right": 488, "bottom": 50, "conf": 96.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 122, "top": 84, "width": 52, "height": 40, "right": 174, "bottom": 124, "conf": 95.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 176, "top": 87, "width": 50, "height": 37, "right": 226, "bottom": 124, "conf": 96.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 120, "top": 165, "width": 75, "height": 40, "right": 195, "bottom": 205, "conf": 82.0}, {"text": "-", "normalized": "-", "kind": "UNKNOWN", "left": 165, "top": 149, "width": 34, "height": 66, "right": 199, "bottom": 215, "conf": 88.0}, {"text": "a", "normalized": "a", "kind": "UNKNOWN", "left": 2, "top": 278, "width": 47, "height": 38, "right": 49, "bottom": 316, "conf": 71.0}, {"text": "BS", "normalized": "bs", "kind": "UNKNOWN", "left": 119, "top": 249, "width": 75, "height": 37, "right": 194, "bottom": 286, "conf": 28.0}, {"text": "を", "normalized": "を", "kind": "UNKNOWN", "left": 467, "top": 278, "width": 22, "height": 38, "right": 489, "bottom": 316, "conf": 46.0}, {"text": "削除", "normalized": "削除", "kind": "DELETE", "left": 120, "top": 329, "width": 73, "height": 38, "right": 193, "bottom": 367, "conf": 82.0}, {"text": "き", "normalized": "き", "kind": "UNKNOWN", "left": 0, "top": 383, "width": 43, "height": 38, "right": 43, "bottom": 421, "conf": 44.0}, {"text": "翻訳", "normalized": "翻訳", "kind": "UNKNOWN", "left": 119, "top": 443, "width": 74, "height": 38, "right": 193, "bottom": 481, "conf": 22.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 120, "top": 525, "width": 251, "height": 42, "right": 371, "bottom": 567, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 206, "top": 521, "width": 27, "height": 52, "right": 233, "bottom": 573, "conf": 92.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 232, "top": 521, "width": 27, "height": 52, "right": 259, "bottom": 573, "conf": 77.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 258, "top": 521, "width": 45, "height": 52, "right": 303, "bottom": 573, "conf": 24.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 302, "top": 525, "width": 69, "height": 42, "right": 371, "bottom": 567, "conf": 96.0}, {"text": "。", "normalized": "。", "kind": "UNKNOWN", "left": 0, "top": 634, "width": 12, "height": 36, "right": 12, "bottom": 670, "conf": 58.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 58, "top": 586, "width": 30, "height": 88, "right": 88, "bottom": 674, "conf": 69.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 139, "top": 606, "width": 45, "height": 36, "right": 184, "bottom": 642, "conf": 28.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 195, "top": 606, "width": 25, "height": 36, "right": 220, "bottom": 642, "conf": 85.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 224, "top": 605, "width": 74, "height": 38, "right": 298, "bottom": 643, "conf": 52.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 119, "top": 720, "width": 56, "height": 36, "right": 175, "bottom": 756, "conf": 96.0}, {"text": "ウソ", "normalized": "ウソ", "kind": "UNKNOWN", "left": 179, "top": 720, "width": 55, "height": 37, "right": 234, "bottom": 757, "conf": 74.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 239, "top": 722, "width": 26, "height": 35, "right": 265, "bottom": 757, "conf": 92.0}, {"text": "Ei", "normalized": "ei", "kind": "UNKNOWN", "left": 0, "top": 761, "width": 50, "height": 38, "right": 50, "bottom": 799, "conf": 26.0}, {"text": "@", "normalized": "@", "kind": "UNKNOWN", "left": 467, "top": 764, "width": 22, "height": 35, "right": 489, "bottom": 799, "conf": 7.0}, {"text": "jl』", "normalized": "jl』", "kind": "UNKNOWN", "left": 0, "top": 812, "width": 51, "height": 38, "right": 51, "bottom": 850, "conf": 37.0}, {"text": "BR", "normalized": "br", "kind": "UNKNOWN", "left": 119, "top": 800, "width": 76, "height": 38, "right": 195, "bottom": 838, "conf": 79.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 431, "top": 818, "width": 18, "height": 29, "right": 449, "bottom": 847, "conf": 88.0}, {"text": "住", "normalized": "住", "kind": "UNKNOWN", "left": 450, "top": 812, "width": 39, "height": 38, "right": 489, "bottom": 850, "conf": 62.0}, {"text": "Wh", "normalized": "wh", "kind": "UNKNOWN", "left": 0, "top": 866, "width": 55, "height": 38, "right": 55, "bottom": 904, "conf": 20.0}, {"text": "to)", "normalized": "to)", "kind": "UNKNOWN", "left": 95, "top": 862, "width": 30, "height": 50, "right": 125, "bottom": 912, "conf": 21.0}, {"text": "@", "normalized": "@", "kind": "UNKNOWN", "left": 141, "top": 862, "width": 9, "height": 50, "right": 150, "bottom": 912, "conf": 60.0}, {"text": "A)", "normalized": "a)", "kind": "UNKNOWN", "left": 162, "top": 862, "width": 26, "height": 50, "right": 188, "bottom": 912, "conf": 35.0}, {"text": "ーー", "normalized": "ーー", "kind": "UNKNOWN", "left": 59, "top": 866, "width": 358, "height": 38, "right": 417, "bottom": 904, "conf": 39.0}]}
-[21:13:24.867920][OCR] text=[RoR SHH. お用ちょっと
-リプライ
-コピ-
-a BS    を
-削除
-き
-翻訳
-Keepメモに転送
-。 | トに保存
-アナウソス
-Ei     @
-jl』 BR   に住
-Wh to) @ A) ーー] file=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\menu_20260505_211321_164133_731_215_874_512.txt]
-[21:13:24.873925][COPY] id=211247_192366_641_193_1141_257 detected menu text by OCR=[RoR SHH. お用ちょっと
-リプライ
-コピ-
-a BS    を
-削除
-き
-翻訳
-Keepメモに転送
-。 | トに保存
-アナウソス
-Ei     @
-jl』 BR   に住
-Wh to) @ A) ーー] point=(741,225)
-[21:13:24.884914][COPY-NORM] raw=[RoR SHH. お用ちょっと
-リプライ
-コピ-
-a BS    を
-削除
-き
-翻訳
-Keepメモに転送
-。 | トに保存
-アナウソス
-Ei     @
-jl』 BR   に住
-Wh to) @ A) ーー] norm=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー]
-[21:13:24.911901][COPY-LIKE] norm=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー] result=Trueh1=False h2=False h3=False h4=Falseh5=True h6=False h7=False h8=Trueh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
-[21:13:24.922925][COPY-NORM] raw=[RoR SHH. お用ちょっと
-リプライ
-コピ-
-a BS    を
-削除
-き
-翻訳
-Keepメモに転送
-。 | トに保存
-アナウソス
-Ei     @
-jl』 BR   に住
-Wh to) @ A) ーー] norm=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー]
-[21:13:24.940006][COPY-NORM] raw=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー] norm=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー]
-[21:13:24.975880][COPY-LIKE] norm=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー] result=Trueh1=False h2=False h3=False h4=Falseh5=True h6=False h7=False h8=Trueh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
-[21:13:24.985886][OCR-FILTER] normalized=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー]
-[21:13:24.990878][OCR-FILTER] has_hide=False has_announce=False has_announce_release=False has_selectall=False has_copy=True has_paste=False announce_like=False result=False
-[21:13:25.005871][COPY-NORM] raw=[RoR SHH. お用ちょっと
-リプライ
-コピ-
-a BS    を
-削除
-き
-翻訳
-Keepメモに転送
-。 | トに保存
-アナウソス
-Ei     @
-jl』 BR   に住
-Wh to) @ A) ーー] norm=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー]
-[21:13:25.025865][LONG-MENU] norm=[RoR SHH. お用ちょっと リプライ コピ- a BS    を 削除 き 翻訳 Keepメモに転送 。 | トに保存 アナウソス Ei     @ jl』 BR   に住 Wh to) @ A) ーー] result=True count=6 reply=True forward=True delete=True translate=True keep=True save=True report=False
-[21:13:25.029905][COPY-CHECK] id=211247_192366_641_193_1141_257 has_copy_like=True non_message=False is_long_menu=True menu_text=[RoR SHH. お用ちょっと
-リプライ
-コピ-
-a BS    を
-削除
-き
-翻訳
-Keepメモに転送
-。 | トに保存
-アナウソス
-Ei     @
-jl』 BR   に住
-Wh to) @ A) ーー] point=(741,225)
-[21:13:25.049904][COPY-FIXED-TARGET] menu_rect=(731,215,874,512) margin=(80,50) copy_target=(811,265)
-[21:13:26.133843][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:26.143852][CURSOR] tag=before_move_to_copy json={"x": 741, "y": 225}
-[21:13:27.245762][PY] cursor rc=0 stderr=[{"x": 741, "y": 225}]
-[21:13:27.255767][CURSOR] tag=before_move_to_copy json={"x": 741, "y": 225}
-[21:13:28.504655][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_211327_263763_full.png", "mode": "full"}]
-[21:13:28.515649][CURSOR-EVIDENCE] tag=before_move_to_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_211327_263763_full.png", "mode": "full"}
-[21:13:29.696577][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_211327_263763_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240}]
-[21:13:29.709574][CURSOR-EVIDENCE] tag=before_move_to_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_211327_263763_cursor.png", "left": 621, "top": 105, "width": 240, "height": 240} cursor=(741,225)
-[21:13:29.717563][POINTER] move-to-copy ok=True
-[21:13:30.832502][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:30.841501][CURSOR] tag=after_move_to_copy json={"x": 811, "y": 265}
-[21:13:31.900429][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:31.909431][CURSOR] tag=after_move_to_copy json={"x": 811, "y": 265}
-[21:13:33.159394][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_211331_916418_full.png", "mode": "full"}]
-[21:13:33.169413][CURSOR-EVIDENCE] tag=after_move_to_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_211331_916418_full.png", "mode": "full"}
-[21:13:34.340279][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_211331_916418_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240}]
-[21:13:34.382307][CURSOR-EVIDENCE] tag=after_move_to_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_211331_916418_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240} cursor=(811,265)
-[21:13:36.639043][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_cursor_debug\\verify_menu_20260505_211335_417133.png", "left": 731, "top": 215, "width": 143, "height": 297}]
-[21:13:39.075918][PY] ocr rc=0 stderr=[{"text": "でや志和1よう3 やひばT、の[つよひ J\nリブライ\nコビー\nf    転送\n削除\n1\n翻訳\nKeepメモに転送\nノートに保存\n_| PFOA\n| 通報               に\nre う(ていただ。\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_211335_417133.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_211335_417133.processed.png", "image_width": 143, "image_height": 297, "processed_width": 429, "processed_height": 891, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 0, "top": 0, "width": 27, "height": 23, "right": 27, "bottom": 23, "conf": 62.0}, {"text": "や", "normalized": "や", "kind": "UNKNOWN", "left": 26, "top": 0, "width": 15, "height": 35, "right": 41, "bottom": 35, "conf": 53.0}, {"text": "志和", "normalized": "志和", "kind": "UNKNOWN", "left": 40, "top": 0, "width": 33, "height": 35, "right": 73, "bottom": 35, "conf": 5.0}, {"text": "1", "normalized": "1", "kind": "UNKNOWN", "left": 77, "top": 0, "width": 7, "height": 24, "right": 84, "bottom": 24, "conf": 30.0}, {"text": "よう", "normalized": "よう", "kind": "UNKNOWN", "left": 90, "top": 0, "width": 39, "height": 25, "right": 129, "bottom": 25, "conf": 24.0}, {"text": "3", "normalized": "3", "kind": "UNKNOWN", "left": 128, "top": 0, "width": 15, "height": 35, "right": 143, "bottom": 35, "conf": 64.0}, {"text": "や", "normalized": "や", "kind": "UNKNOWN", "left": 163, "top": 0, "width": 32, "height": 25, "right": 195, "bottom": 25, "conf": 26.0}, {"text": "ひば", "normalized": "ひば", "kind": "UNKNOWN", "left": 198, "top": 0, "width": 47, "height": 25, "right": 245, "bottom": 25, "conf": 23.0}, {"text": "T、", "normalized": "t、", "kind": "UNKNOWN", "left": 244, "top": 0, "width": 27, "height": 35, "right": 271, "bottom": 35, "conf": 43.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 287, "top": 0, "width": 23, "height": 25, "right": 310, "bottom": 25, "conf": 87.0}, {"text": "[つよ", "normalized": "[つよ", "kind": "UNKNOWN", "left": 317, "top": 0, "width": 112, "height": 25, "right": 429, "bottom": 25, "conf": 31.0}, {"text": "ひ", "normalized": "ひ", "kind": "UNKNOWN", "left": 396, "top": 0, "width": 7, "height": 35, "right": 403, "bottom": 35, "conf": 27.0}, {"text": "J", "normalized": "j", "kind": "UNKNOWN", "left": 414, "top": 0, "width": 15, "height": 35, "right": 429, "bottom": 35, "conf": 44.0}, {"text": "リブ", "normalized": "リブ", "kind": "UNKNOWN", "left": 92, "top": 69, "width": 50, "height": 40, "right": 142, "bottom": 109, "conf": 80.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 146, "top": 72, "width": 50, "height": 37, "right": 196, "bottom": 109, "conf": 96.0}, {"text": "コビー", "normalized": "コビー", "kind": "COPY", "left": 90, "top": 149, "width": 75, "height": 41, "right": 165, "bottom": 190, "conf": 52.0}, {"text": "f", "normalized": "f", "kind": "UNKNOWN", "left": 0, "top": 263, "width": 19, "height": 38, "right": 19, "bottom": 301, "conf": 50.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 89, "top": 234, "width": 75, "height": 37, "right": 164, "bottom": 271, "conf": 96.0}, {"text": "削除", "normalized": "削除", "kind": "DELETE", "left": 90, "top": 314, "width": 73, "height": 38, "right": 163, "bottom": 352, "conf": 96.0}, {"text": "1", "normalized": "1", "kind": "UNKNOWN", "left": 0, "top": 371, "width": 13, "height": 35, "right": 13, "bottom": 406, "conf": 59.0}, {"text": "翻訳", "normalized": "翻訳", "kind": "UNKNOWN", "left": 89, "top": 428, "width": 74, "height": 38, "right": 163, "bottom": 466, "conf": 38.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 90, "top": 510, "width": 251, "height": 42, "right": 341, "bottom": 552, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 176, "top": 506, "width": 27, "height": 52, "right": 203, "bottom": 558, "conf": 92.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 202, "top": 506, "width": 27, "height": 52, "right": 229, "bottom": 558, "conf": 77.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 228, "top": 506, "width": 45, "height": 52, "right": 273, "bottom": 558, "conf": 24.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 272, "top": 510, "width": 69, "height": 42, "right": 341, "bottom": 552, "conf": 96.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 88, "top": 591, "width": 43, "height": 36, "right": 131, "bottom": 627, "conf": 72.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 141, "top": 591, "width": 16, "height": 36, "right": 157, "bottom": 627, "conf": 91.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 165, "top": 591, "width": 25, "height": 36, "right": 190, "bottom": 627, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 194, "top": 590, "width": 74, "height": 38, "right": 268, "bottom": 628, "conf": 95.0}, {"text": "_|", "normalized": "_|", "kind": "UNKNOWN", "left": 3, "top": 752, "width": 17, "height": 5, "right": 20, "bottom": 757, "conf": 71.0}, {"text": "PFOA", "normalized": "pfoa", "kind": "UNKNOWN", "left": 89, "top": 705, "width": 146, "height": 37, "right": 235, "bottom": 742, "conf": 36.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 0, "top": 767, "width": 21, "height": 68, "right": 21, "bottom": 835, "conf": 32.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 89, "top": 785, "width": 76, "height": 38, "right": 165, "bottom": 823, "conf": 71.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 401, "top": 803, "width": 28, "height": 32, "right": 429, "bottom": 835, "conf": 85.0}, {"text": "re", "normalized": "re", "kind": "UNKNOWN", "left": 2, "top": 852, "width": 63, "height": 37, "right": 65, "bottom": 889, "conf": 47.0}, {"text": "う", "normalized": "う", "kind": "UNKNOWN", "left": 68, "top": 863, "width": 22, "height": 26, "right": 90, "bottom": 889, "conf": 92.0}, {"text": "(", "normalized": "(", "kind": "UNKNOWN", "left": 98, "top": 859, "width": 11, "height": 30, "right": 109, "bottom": 889, "conf": 35.0}, {"text": "て", "normalized": "て", "kind": "UNKNOWN", "left": 109, "top": 855, "width": 15, "height": 36, "right": 124, "bottom": 891, "conf": 74.0}, {"text": "いた", "normalized": "いた", "kind": "UNKNOWN", "left": 124, "top": 859, "width": 40, "height": 30, "right": 164, "bottom": 889, "conf": 31.0}, {"text": "だ", "normalized": "だ", "kind": "UNKNOWN", "left": 166, "top": 866, "width": 12, "height": 23, "right": 178, "bottom": 889, "conf": 80.0}, {"text": "。", "normalized": "。", "kind": "UNKNOWN", "left": 185, "top": 878, "width": 14, "height": 11, "right": 199, "bottom": 889, "conf": 86.0}]}]
-[21:13:39.098873][MENU-VERIFY] capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_cursor_debug\\verify_menu_20260505_211335_417133.png", "left": 731, "top": 215, "width": 143, "height": 297}
-[21:13:39.102876][MENU-VERIFY] ocr_json={"text": "でや志和1よう3 やひばT、の[つよひ J\nリブライ\nコビー\nf    転送\n削除\n1\n翻訳\nKeepメモに転送\nノートに保存\n_| PFOA\n| 通報               に\nre う(ていただ。\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_211335_417133.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_211335_417133.processed.png", "image_width": 143, "image_height": 297, "processed_width": 429, "processed_height": 891, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 0, "top": 0, "width": 27, "height": 23, "right": 27, "bottom": 23, "conf": 62.0}, {"text": "や", "normalized": "や", "kind": "UNKNOWN", "left": 26, "top": 0, "width": 15, "height": 35, "right": 41, "bottom": 35, "conf": 53.0}, {"text": "志和", "normalized": "志和", "kind": "UNKNOWN", "left": 40, "top": 0, "width": 33, "height": 35, "right": 73, "bottom": 35, "conf": 5.0}, {"text": "1", "normalized": "1", "kind": "UNKNOWN", "left": 77, "top": 0, "width": 7, "height": 24, "right": 84, "bottom": 24, "conf": 30.0}, {"text": "よう", "normalized": "よう", "kind": "UNKNOWN", "left": 90, "top": 0, "width": 39, "height": 25, "right": 129, "bottom": 25, "conf": 24.0}, {"text": "3", "normalized": "3", "kind": "UNKNOWN", "left": 128, "top": 0, "width": 15, "height": 35, "right": 143, "bottom": 35, "conf": 64.0}, {"text": "や", "normalized": "や", "kind": "UNKNOWN", "left": 163, "top": 0, "width": 32, "height": 25, "right": 195, "bottom": 25, "conf": 26.0}, {"text": "ひば", "normalized": "ひば", "kind": "UNKNOWN", "left": 198, "top": 0, "width": 47, "height": 25, "right": 245, "bottom": 25, "conf": 23.0}, {"text": "T、", "normalized": "t、", "kind": "UNKNOWN", "left": 244, "top": 0, "width": 27, "height": 35, "right": 271, "bottom": 35, "conf": 43.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 287, "top": 0, "width": 23, "height": 25, "right": 310, "bottom": 25, "conf": 87.0}, {"text": "[つよ", "normalized": "[つよ", "kind": "UNKNOWN", "left": 317, "top": 0, "width": 112, "height": 25, "right": 429, "bottom": 25, "conf": 31.0}, {"text": "ひ", "normalized": "ひ", "kind": "UNKNOWN", "left": 396, "top": 0, "width": 7, "height": 35, "right": 403, "bottom": 35, "conf": 27.0}, {"text": "J", "normalized": "j", "kind": "UNKNOWN", "left": 414, "top": 0, "width": 15, "height": 35, "right": 429, "bottom": 35, "conf": 44.0}, {"text": "リブ", "normalized": "リブ", "kind": "UNKNOWN", "left": 92, "top": 69, "width": 50, "height": 40, "right": 142, "bottom": 109, "conf": 80.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 146, "top": 72, "width": 50, "height": 37, "right": 196, "bottom": 109, "conf": 96.0}, {"text": "コビー", "normalized": "コビー", "kind": "COPY", "left": 90, "top": 149, "width": 75, "height": 41, "right": 165, "bottom": 190, "conf": 52.0}, {"text": "f", "normalized": "f", "kind": "UNKNOWN", "left": 0, "top": 263, "width": 19, "height": 38, "right": 19, "bottom": 301, "conf": 50.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 89, "top": 234, "width": 75, "height": 37, "right": 164, "bottom": 271, "conf": 96.0}, {"text": "削除", "normalized": "削除", "kind": "DELETE", "left": 90, "top": 314, "width": 73, "height": 38, "right": 163, "bottom": 352, "conf": 96.0}, {"text": "1", "normalized": "1", "kind": "UNKNOWN", "left": 0, "top": 371, "width": 13, "height": 35, "right": 13, "bottom": 406, "conf": 59.0}, {"text": "翻訳", "normalized": "翻訳", "kind": "UNKNOWN", "left": 89, "top": 428, "width": 74, "height": 38, "right": 163, "bottom": 466, "conf": 38.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 90, "top": 510, "width": 251, "height": 42, "right": 341, "bottom": 552, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 176, "top": 506, "width": 27, "height": 52, "right": 203, "bottom": 558, "conf": 92.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 202, "top": 506, "width": 27, "height": 52, "right": 229, "bottom": 558, "conf": 77.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 228, "top": 506, "width": 45, "height": 52, "right": 273, "bottom": 558, "conf": 24.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 272, "top": 510, "width": 69, "height": 42, "right": 341, "bottom": 552, "conf": 96.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 88, "top": 591, "width": 43, "height": 36, "right": 131, "bottom": 627, "conf": 72.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 141, "top": 591, "width": 16, "height": 36, "right": 157, "bottom": 627, "conf": 91.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 165, "top": 591, "width": 25, "height": 36, "right": 190, "bottom": 627, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 194, "top": 590, "width": 74, "height": 38, "right": 268, "bottom": 628, "conf": 95.0}, {"text": "_|", "normalized": "_|", "kind": "UNKNOWN", "left": 3, "top": 752, "width": 17, "height": 5, "right": 20, "bottom": 757, "conf": 71.0}, {"text": "PFOA", "normalized": "pfoa", "kind": "UNKNOWN", "left": 89, "top": 705, "width": 146, "height": 37, "right": 235, "bottom": 742, "conf": 36.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 0, "top": 767, "width": 21, "height": 68, "right": 21, "bottom": 835, "conf": 32.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 89, "top": 785, "width": 76, "height": 38, "right": 165, "bottom": 823, "conf": 71.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 401, "top": 803, "width": 28, "height": 32, "right": 429, "bottom": 835, "conf": 85.0}, {"text": "re", "normalized": "re", "kind": "UNKNOWN", "left": 2, "top": 852, "width": 63, "height": 37, "right": 65, "bottom": 889, "conf": 47.0}, {"text": "う", "normalized": "う", "kind": "UNKNOWN", "left": 68, "top": 863, "width": 22, "height": 26, "right": 90, "bottom": 889, "conf": 92.0}, {"text": "(", "normalized": "(", "kind": "UNKNOWN", "left": 98, "top": 859, "width": 11, "height": 30, "right": 109, "bottom": 889, "conf": 35.0}, {"text": "て", "normalized": "て", "kind": "UNKNOWN", "left": 109, "top": 855, "width": 15, "height": 36, "right": 124, "bottom": 891, "conf": 74.0}, {"text": "いた", "normalized": "いた", "kind": "UNKNOWN", "left": 124, "top": 859, "width": 40, "height": 30, "right": 164, "bottom": 889, "conf": 31.0}, {"text": "だ", "normalized": "だ", "kind": "UNKNOWN", "left": 166, "top": 866, "width": 12, "height": 23, "right": 178, "bottom": 889, "conf": 80.0}, {"text": "。", "normalized": "。", "kind": "UNKNOWN", "left": 185, "top": 878, "width": 14, "height": 11, "right": 199, "bottom": 889, "conf": 86.0}]}
-[21:13:39.107881][MENU-VERIFY] text=[でや志和1よう3 やひばT、の[つよひ J
-リブライ
-コビー
-f    転送
-削除
-1
-翻訳
-Keepメモに転送
-ノートに保存
-_| PFOA
-| 通報               に
-re う(ていただ。]
-[21:13:39.153877][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[で] is_copy_kind=False looks_copy=False
-[21:13:39.169880][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[や] is_copy_kind=False looks_copy=False
-[21:13:39.188917][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[志和] is_copy_kind=False looks_copy=False
-[21:13:39.206897][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[1] is_copy_kind=False looks_copy=False
-[21:13:39.227905][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[よう] is_copy_kind=False looks_copy=False
-[21:13:39.241856][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[3] is_copy_kind=False looks_copy=False
-[21:13:39.255911][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[や] is_copy_kind=False looks_copy=False
-[21:13:39.271870][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[ひば] is_copy_kind=False looks_copy=False
-[21:13:39.282853][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[t、] is_copy_kind=False looks_copy=False
-[21:13:39.294862][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[の] is_copy_kind=False looks_copy=False
-[21:13:39.307904][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[[つよ] is_copy_kind=False looks_copy=False
-[21:13:39.320889][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[ひ] is_copy_kind=False looks_copy=False
-[21:13:39.336882][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[j] is_copy_kind=False looks_copy=False
-[21:13:39.352884][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[リブ] is_copy_kind=False looks_copy=False
-[21:13:39.369905][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[ライ] is_copy_kind=False looks_copy=False
-[21:13:39.384887][COPY-BAND-CANDIDATE] kind=[COPY] normalized=[コビー] is_copy_kind=True looks_copy=True
-[21:13:39.402896][COPY-BAND] scale_x=3.0 scale_y=3.0 found=True text=[コビー] band_abs=[749,257,843,288]
-[21:13:39.408889][COPY-VERIFY-INPUT] target_x=811 target_y=265 copy_band_abs=[749,257,843,288] copy_found=True copy_text=[コビー]
-[21:13:39.414876][POINT-IN-RECT] input x=811 y=265 rect=[749,257,843,288]
-[21:13:39.432847][POINT-IN-RECT] parsed l=749 t=257 r=843 b=288 result=True
-[21:13:39.438854][COPY-VERIFY] is_long_menu=True copy_found=True copy_text=[コビー] copy_band_abs=[749,257,843,288] target_abs=(811,265) target_in_copy=True
-[21:13:40.536781][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:40.546771][CURSOR] tag=after_verify_copy_band json={"x": 811, "y": 265}
-[21:13:41.611748][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:41.620741][CURSOR] tag=after_verify_copy_band json={"x": 811, "y": 265}
-[21:13:42.859639][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_211341_627743_full.png", "mode": "full"}]
-[21:13:42.869637][CURSOR-EVIDENCE] tag=after_verify_copy_band full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_211341_627743_full.png", "mode": "full"}
-[21:13:44.020561][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_211341_627743_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240}]
-[21:13:44.032546][CURSOR-EVIDENCE] tag=after_verify_copy_band crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_211341_627743_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240} cursor=(811,265)
-[21:13:45.124493][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:45.136497][CURSOR] tag=before_click_copy json={"x": 811, "y": 265}
-[21:13:46.240414][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:46.252415][CURSOR] tag=before_click_copy json={"x": 811, "y": 265}
-[21:13:47.523381][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_211346_259414_full.png", "mode": "full"}]
-[21:13:47.535333][CURSOR-EVIDENCE] tag=before_click_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_211346_259414_full.png", "mode": "full"}
-[21:13:48.725257][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_211346_259414_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240}]
-[21:13:48.737256][CURSOR-EVIDENCE] tag=before_click_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_211346_259414_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240} cursor=(811,265)
-[21:13:48.868907][COPY] click-copy ok=True
-[21:13:50.117830][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:50.129828][CURSOR] tag=after_click_copy json={"x": 811, "y": 265}
-[21:13:51.199751][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:51.215755][CURSOR] tag=after_click_copy json={"x": 811, "y": 265}
-[21:13:52.495700][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_211351_226797_full.png", "mode": "full"}]
-[21:13:52.510659][CURSOR-EVIDENCE] tag=after_click_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_211351_226797_full.png", "mode": "full"}
-[21:13:53.689590][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_211351_226797_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240}]
-[21:13:53.703592][CURSOR-EVIDENCE] tag=after_click_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_211351_226797_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240} cursor=(811,265)
-[21:13:55.386837][CLIPBOARD] get rc=0 stderr=[カッコいい写真撮る時は身体は斜、お腹ちょっと凹ませてね…😅(皆お腹まん丸だわ)]
-[21:13:55.405821][COPY] clipboard length=39 for copy_target=(811,265)
-[21:13:55.420857][COPY-SAVE] file=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\copied_messages.txt length=39
-[21:13:56.552753][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:56.562785][CURSOR] tag=before_return_copy_path json={"x": 811, "y": 265}
-[21:13:57.660682][PY] cursor rc=0 stderr=[{"x": 811, "y": 265}]
-[21:13:57.671682][CURSOR] tag=before_return_copy_path json={"x": 811, "y": 265}
-[21:13:58.920600][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_211357_678672_full.png", "mode": "full"}]
-[21:13:58.931630][CURSOR-EVIDENCE] tag=before_return_copy_path full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_211357_678672_full.png", "mode": "full"}
-[21:14:00.123530][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_211357_678672_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240}]
-[21:14:00.134509][CURSOR-EVIDENCE] tag=before_return_copy_path crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_211357_678672_cursor.png", "left": 691, "top": 145, "width": 240, "height": 240} cursor=(811,265)
-[21:14:00.149523][CAPTURE] rect=641,193,1141,257 status=COPY_OK reason=[copied_and_saved] menu_text=[RoR SHH. お用ちょっと
-リプライ
-コピ-
-a BS    を
-削除
-き
-翻訳
-Keepメモに転送
-。 | トに保存
-アナウソス
-Ei     @
-jl』 BR   に住
-Wh to) @ A) ーー] menu_rect=[731,215,874,512]
-[21:14:00.160526][CAPTURE] added rect=641,193,1141,257
-[21:14:00.190511][COPY-BEGIN] id=211400_185525_641_285_1141_367 rect=(641,285,1141,367)
-[21:14:01.134061][ACTIVATE] locator=executable:LINE.exe
-[21:14:02.492203][CLIPBOARD] clear rc=0 stdout=[] stderr=[]
-[21:14:02.509191][BUBBLE-CLICK] rect=(641,285,1141,367) raw=(741,326) clamped=(741,326) size=(500,82) rule=front20_centerY
-[21:14:02.513157][POINTER] id=211400_185525_641_285_1141_367 bubble target=(741,326)
-[21:14:03.613131][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[21:14:03.624120][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[21:14:04.696067][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[21:14:04.707015][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[21:14:05.985924][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211404_714059_full.png", "mode": "full"}]
-[21:14:05.997929][CURSOR-EVIDENCE] tag=before_preclick_capture full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211404_714059_full.png", "mode": "full"}
-[21:14:07.273894][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211404_714059_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
-[21:14:07.282893][CURSOR-EVIDENCE] tag=before_preclick_capture crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_211404_714059_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
-[21:14:07.302838][PRECLICK-RECT] bubble=(641,285,1141,367) click=(741,326) size=(500,82) rule=mid_row_tight rect=(653,279,861,375) capture_size=(208,96)
-[21:14:08.517768][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 279, "width": 208, "height": 96}]
-[21:14:08.527766][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 279, "width": 208, "height": 96}
-[21:14:10.841616][PY] ocr rc=0 stderr=[{"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 96, "processed_width": 624, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": []}]
-[21:14:10.850608][TEXT-CANDIDATE] ocr_json={"text": "", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 96, "processed_width": 624, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": []}
-[21:14:10.859607][TEXT-CANDIDATE] text=[]
-[21:14:10.873645][COPY-NORM] raw=[] norm=[]
-[21:14:10.885604][COPY-NORM] raw=[] norm=[]
-[21:14:10.914647][TOKEN-COUNT] norm=[] tokens=['は', 'が', 'を', 'に', 'で', 'と', 'の', '。', '、'] count=0
-[21:14:10.923645][COPY-NORM] raw=[] norm=[]
-[21:14:10.929623][IMAGE-CHECK] body_markers norm=[] count=0
-[21:14:10.943601][IMAGE-CHECK] rect=(641,285,1141,367) size=(500,82) text_len=0 body_markers=0 very_tall=False tall=False short_text=True weak_body=True result=False text=[]
-[21:14:10.948645][COPY] id=211400_185525_641_285_1141_367 right click x=741 y=326
-[21:14:12.087542][PY] cursor rc=0 stderr=[{"x": 1166, "y": 53}]
-[21:14:12.097540][CURSOR] tag=before_right_click json={"x": 1166, "y": 53}
-[21:14:13.716129][PY] cursor rc=0 stderr=[{"x": 486, "y": 557}]
-[21:14:13.726113][CURSOR] tag=before_right_click json={"x": 486, "y": 557}
-[21:14:15.047987][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_211413_734124_full.png", "mode": "full"}]
-[21:14:15.057999][CURSOR-EVIDENCE] tag=before_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_211413_734124_full.png", "mode": "full"}
+[TRACE START] 2026-05-05 21:30:35
+[21:30:35.067984][FAILSHOT] directory=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\fail_screens
+[21:30:35.826055][ACTIVATE] locator=executable:LINE.exe
+[21:30:37.708021][ACTIVATE] locator=executable:LINE.exe
+[21:30:38.742709][GROUP] open first group path=path:11|2|1|1|1|2
+[21:30:39.717431][GROUP] opened
+[21:30:42.763650][TEXT-RESET] removed dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
+[21:30:42.768603][TEXT-RESET] created dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
+[21:30:42.776600][ARTIFACT] ensured directories
+[21:30:42.782601][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
+[21:30:43.665614][ACTIVATE] locator=executable:LINE.exe
+[21:30:44.697153][SCROLL-UP] drag try=0
+[21:30:45.955097][SCROLL-UP] iter_elapsed=1.2321741580963135
+[21:30:45.973177][SCROLL-UP] elapsed=1.2321741580963135
+[21:30:46.768893][ACTIVATE] locator=executable:LINE.exe
+[21:30:47.787677][SCROLL-UP] drag try=1
+[21:30:49.038015][SCROLL-UP] iter_elapsed=1.233314037322998
+[21:30:49.041956][SCROLL-UP] elapsed=2.4654881954193115
+[21:30:49.838058][ACTIVATE] locator=executable:LINE.exe
+[21:30:50.868984][SCROLL-UP] drag try=2
+[21:30:52.133746][SCROLL-UP] iter_elapsed=1.2378530502319336
+[21:30:52.142684][SCROLL-UP] elapsed=3.703341245651245
+[21:30:52.942606][ACTIVATE] locator=executable:LINE.exe
+[21:30:53.969865][SCROLL-UP] drag try=3
+[21:30:55.225978][SCROLL-UP] iter_elapsed=1.2302649021148682
+[21:30:55.233956][SCROLL-UP] elapsed=4.933606147766113
+[21:30:56.068902][ACTIVATE] locator=executable:LINE.exe
+[21:30:57.081188][SCROLL-UP] drag try=4
+[21:30:58.347079][SCROLL-UP] iter_elapsed=1.252790927886963
+[21:30:58.357026][SCROLL-UP] elapsed=6.186397075653076
+[21:30:59.183899][ACTIVATE] locator=executable:LINE.exe
+[21:31:00.212327][SCROLL-UP] drag try=5
+[21:31:01.453621][SCROLL-UP] iter_elapsed=1.2233200073242188
+[21:31:01.463593][SCROLL-UP] elapsed=7.409717082977295
+[21:31:02.241310][ACTIVATE] locator=executable:LINE.exe
+[21:31:03.253793][SCROLL-UP] drag try=6
+[21:31:04.502230][SCROLL-UP] iter_elapsed=1.234471082687378
+[21:31:04.515189][SCROLL-UP] elapsed=8.644188165664673
+[21:31:05.311066][ACTIVATE] locator=executable:LINE.exe
+[21:31:06.331676][SCROLL-UP] drag try=7
+[21:31:07.576334][SCROLL-UP] iter_elapsed=1.232668161392212
+[21:31:07.588304][SCROLL-UP] elapsed=9.876856327056885
+[21:31:08.397989][ACTIVATE] locator=executable:LINE.exe
+[21:31:09.418238][SCROLL-UP] drag try=8
+[21:31:10.682175][SCROLL-UP] iter_elapsed=1.2389590740203857
+[21:31:10.699123][SCROLL-UP] elapsed=11.11581540107727
+[21:31:12.468013][ACTIVATE] locator=executable:LINE.exe
+[21:31:14.200887][ACTIVATE] locator=executable:LINE.exe
+[21:31:15.982295][ACTIVATE] locator=executable:LINE.exe
+[21:31:17.736016][ACTIVATE] locator=executable:LINE.exe
+[21:31:19.489598][ACTIVATE] locator=executable:LINE.exe
+[21:31:20.833639][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:31:21.503560][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:31:21.819561][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:31:21.835523][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:31:21.850525][MSGWIN] group count=2
+[21:31:22.059549][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:31:22.251493][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:31:22.268543][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:31:22.338539][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:31:22.343504][RIGHT-PANE-SAFE] point=(1164,361)
+[21:31:22.350488][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:31:22.355531][SCROLL-CLEAR] status=[]
+[21:31:22.361489][SCROLL-CLEAR] move x=1164 y=361
+[21:31:22.368522][SCROLL-CLEAR] move_ok=True
+[21:31:22.595917][SCROLL-CLEAR] click_ok=True
+[21:31:23.740944][ACTIVATE] locator=executable:LINE.exe
+[21:31:25.525960][ACTIVATE] locator=executable:LINE.exe
+[21:31:27.283717][ACTIVATE] locator=executable:LINE.exe
+[21:31:29.033198][ACTIVATE] locator=executable:LINE.exe
+[21:31:30.790053][ACTIVATE] locator=executable:LINE.exe
+[21:31:32.140490][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:31:32.604421][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:31:32.933396][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:31:32.948394][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:31:32.961414][MSGWIN] group count=2
+[21:31:33.190416][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:31:33.395398][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:31:33.403363][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:31:33.474410][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:31:33.478357][RIGHT-PANE-SAFE] point=(1164,361)
+[21:31:33.482383][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:31:33.485352][SCROLL-CLEAR] status=[]
+[21:31:33.490391][SCROLL-CLEAR] move x=1164 y=361
+[21:31:33.497383][SCROLL-CLEAR] move_ok=True
+[21:31:33.709714][SCROLL-CLEAR] click_ok=True
+[21:31:34.934200][ACTIVATE] locator=executable:LINE.exe
+[21:31:35.959761][DOWN LOOP] start loop=0
+[21:31:36.735653][ACTIVATE] locator=executable:LINE.exe
+[21:31:38.462428][ACTIVATE] locator=executable:LINE.exe
+[21:31:40.227383][ACTIVATE] locator=executable:LINE.exe
+[21:31:41.988327][ACTIVATE] locator=executable:LINE.exe
+[21:31:43.313860][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:31:43.708853][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:31:44.018799][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:31:44.032800][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:31:44.047795][MSGWIN] group count=2
+[21:31:44.210829][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:31:44.364771][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:31:44.374791][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:31:44.383779][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:31:44.474761][BUBBLE-RECT] root_rect=(571,85,1184,637) root_size=(613,552)
+[21:31:44.483860][BUBBLE-RECT] anchor msgwin ok=True
+[21:31:44.546769][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
+[21:31:44.604761][BUBBLE-RECT] anchored_count=2
+[21:31:44.837744][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(571,81,1177,458) size=(606,377)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[21:31:44.861747][BUBBLE-INNER] outer=(571,81,1177,458) inner=[641,91,1141,448] short=False mid=False inner_h=357 outer_h=377 ratio=0.946949602122016 thin_inner=False collapsed_short=False
+[21:31:44.870776][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=91 inner_b=448 inner_h=357 footer_near_bottom=False short_footer_near=False result=False
+[21:31:44.883747][BUBBLE-IMAGE-FILTER] outer_h=377 inner_h=357 ratio=0.946949602122016 very_tall_inner=True very_tall_outer=True tall_dense=True result=True
+[21:31:44.887778][BUBBLE-RECT] image-like geometry rejected idx=0 outer=(571,81,1177,458) inner=641,91,1141,448
+[21:31:45.137785][BUBBLE-RECT-CAND] idx=1 name=[] type=[ListItemControl] class=[]rect=(571,458,1177,568) size=(606,110)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[21:31:45.161764][BUBBLE-INNER] outer=(571,458,1177,568) inner=[641,472,1141,554] short=False mid=True inner_h=82 outer_h=110 ratio=0.7454545454545455 thin_inner=False collapsed_short=False
+[21:31:45.171759][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=472 inner_b=554 inner_h=82 footer_near_bottom=True short_footer_near=False result=True
+[21:31:45.176754][BUBBLE-RECT] footer-like rejected idx=1 outer=(571,458,1177,568) inner=641,472,1141,554
+[21:31:45.184769][BUBBLE-RECT] visible_count=0
+[21:31:45.212734][DOWN LOOP] loop=0 new=0 total=0 last_status= view_signature=[]
+[21:31:45.222723][DOWN LOOP] stagnant=1 same_view=0
+[21:31:45.233763][SCROLL-GUARD] status=[] result=False
+[21:31:45.246710][STATE-SNAPSHOT] start tag=before_scroll_down_loop_0
+[21:31:46.402653][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[21:31:46.413685][STATE-SNAPSHOT] cursor tag=before_scroll_down_loop_0 json={"x": 695, "y": 335}
+[21:31:47.716596][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260505_213146_420674_full.png", "mode": "full"}]
+[21:31:47.725548][STATE-SNAPSHOT] full tag=before_scroll_down_loop_0 json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260505_213146_420674_full.png", "mode": "full"}
+[21:31:48.465297][ACTIVATE] locator=executable:LINE.exe
+[21:31:49.819826][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:31:50.234765][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:31:50.238759][STATE-SNAPSHOT] splitter_found tag=before_scroll_down_loop_0 ok=True
+[21:31:50.973815][ACTIVATE] locator=executable:LINE.exe
+[21:31:52.300143][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:31:52.766102][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:31:54.022017][STATE-SNAPSHOT] splitter_rect tag=before_scroll_down_loop_0 rect_unavailable=True
+[21:31:54.763915][ACTIVATE] locator=executable:LINE.exe
+[21:31:56.544017][ACTIVATE] locator=executable:LINE.exe
+[21:31:58.781057][ACTIVATE] locator=executable:LINE.exe
+[21:32:00.165789][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:32:00.663759][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:32:01.018767][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:32:01.033773][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:32:01.046779][MSGWIN] group count=2
+[21:32:01.221785][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:32:01.404761][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:32:01.419700][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:32:01.424752][STATE-SNAPSHOT] msgwin_found tag=before_scroll_down_loop_0 ok=True
+[21:32:02.216286][ACTIVATE] locator=executable:LINE.exe
+[21:32:04.618645][ACTIVATE] locator=executable:LINE.exe
+[21:32:06.423219][ACTIVATE] locator=executable:LINE.exe
+[21:32:07.793072][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:32:08.210041][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:32:08.521046][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:32:08.536037][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:32:08.550020][MSGWIN] group count=2
+[21:32:08.687013][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:32:08.821993][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:32:08.834008][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:32:08.842001][STATE-SNAPSHOT] msgwin tag=before_scroll_down_loop_0 elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:32:09.036987][STATE-SNAPSHOT] msgwin_rect tag=before_scroll_down_loop_0 rect=(571,85,1184,637)
+[21:32:09.773786][ACTIVATE] locator=executable:LINE.exe
+[21:32:11.537659][ACTIVATE] locator=executable:LINE.exe
+[21:32:13.324321][ACTIVATE] locator=executable:LINE.exe
+[21:32:15.102933][ACTIVATE] locator=executable:LINE.exe
+[21:32:16.455262][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:32:16.896238][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:32:17.217220][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:32:17.232206][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:32:17.245211][MSGWIN] group count=2
+[21:32:17.396207][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:32:17.542225][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:32:17.552198][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:32:17.623191][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:32:17.628188][RIGHT-PANE-SAFE] point=(1164,361)
+[21:32:17.632176][STATE-SNAPSHOT] right_pane_safe tag=before_scroll_down_loop_0 point=(1164,361)
+[21:32:18.366927][ACTIVATE] locator=executable:LINE.exe
+[21:32:19.713685][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:32:20.118693][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:32:20.856572][ACTIVATE] locator=executable:LINE.exe
+[21:32:22.211040][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:32:22.574998][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:32:22.883977][STATE-SNAPSHOT] splitter_anchor tag=before_scroll_down_loop_0 ok=True
+[21:32:22.898976][STATE-SNAPSHOT] groups_found tag=before_scroll_down_loop_0 ok=True locator=[type:GroupControl and depth:20]
+[21:32:22.912994][STATE-SNAPSHOT] group_count tag=before_scroll_down_loop_0 count=2
+[21:32:23.184958][STATE-SNAPSHOT] group_candidate tag=before_scroll_down_loop_0 idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637)
+[21:32:23.473957][STATE-SNAPSHOT] group_candidate tag=before_scroll_down_loop_0 idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637)
+[21:32:23.478934][STATE-SNAPSHOT] end tag=before_scroll_down_loop_0
+[21:32:24.209695][ACTIVATE] locator=executable:LINE.exe
+[21:32:25.237453][SCROLL-DOWN] verify retry=0 status_after_capture=[]
+[21:32:26.519355][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[21:32:26.530340][SCROLL-DOWN] before={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[21:32:27.260969][ACTIVATE] locator=executable:LINE.exe
+[21:32:29.016058][ACTIVATE] locator=executable:LINE.exe
+[21:32:30.765755][ACTIVATE] locator=executable:LINE.exe
+[21:32:32.546356][ACTIVATE] locator=executable:LINE.exe
+[21:32:34.278674][ACTIVATE] locator=executable:LINE.exe
+[21:32:35.614511][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:32:36.011459][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:32:36.347470][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:32:36.367422][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:32:36.383452][MSGWIN] group count=2
+[21:32:36.691398][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:32:36.894433][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:32:36.907433][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:32:36.997393][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:32:37.003396][RIGHT-PANE-SAFE] point=(1164,361)
+[21:32:37.010433][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:32:37.015432][SCROLL-RESET] drag-start-safe from clear-point = (1164,361)
+[21:32:37.023395][SCROLL-RESET] move x=1164 y=361
+[21:32:37.027386][SCROLL-RESET] move_ok=True
+[21:32:40.606652][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[21:32:40.615610][SCROLL-DOWN] after={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[21:32:41.779542][PY] compare rc=0 stderr=[{"same": false, "before_hash": "a573faca5f92018ab173bce11bca10e8", "after_hash": "fe66bd27f87c7636159b5a48a3ebd6eb"}]
+[21:32:41.788534][SCROLL-DOWN] retry=0 changed=True
+[21:32:42.535397][ACTIVATE] locator=executable:LINE.exe
+[21:32:44.297580][ACTIVATE] locator=executable:LINE.exe
+[21:32:46.027792][ACTIVATE] locator=executable:LINE.exe
+[21:32:47.777553][ACTIVATE] locator=executable:LINE.exe
+[21:32:49.558892][ACTIVATE] locator=executable:LINE.exe
+[21:32:50.889439][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:32:51.327453][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:32:51.631432][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:32:51.647389][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:32:51.662425][MSGWIN] group count=2
+[21:32:51.866382][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:32:52.075369][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:32:52.085368][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:32:52.169425][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:32:52.173387][RIGHT-PANE-SAFE] point=(1164,361)
+[21:32:52.178383][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:32:52.184348][SCROLL-CLEAR] status=[]
+[21:32:52.188356][SCROLL-CLEAR] move x=1164 y=361
+[21:32:52.195402][SCROLL-CLEAR] move_ok=True
+[21:32:52.427679][SCROLL-CLEAR] click_ok=True
+[21:32:53.592141][ACTIVATE] locator=executable:LINE.exe
+[21:32:55.323840][ACTIVATE] locator=executable:LINE.exe
+[21:32:57.083443][ACTIVATE] locator=executable:LINE.exe
+[21:32:58.844391][ACTIVATE] locator=executable:LINE.exe
+[21:33:00.610855][ACTIVATE] locator=executable:LINE.exe
+[21:33:01.939765][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:02.330704][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:02.643687][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:33:02.663698][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:33:02.679707][MSGWIN] group count=2
+[21:33:02.896658][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:33:03.105658][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:33:03.117695][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:33:03.200650][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:33:03.206719][RIGHT-PANE-SAFE] point=(1164,361)
+[21:33:03.213654][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:33:03.219639][SCROLL-CLEAR] status=[]
+[21:33:03.226652][SCROLL-CLEAR] move x=1164 y=361
+[21:33:03.233652][SCROLL-CLEAR] move_ok=True
+[21:33:03.455411][SCROLL-CLEAR] click_ok=True
+[21:33:03.876056][SCROLL-DOWN] changed=True
+[21:33:03.902014][STATE-SNAPSHOT] start tag=after_scroll_down_loop_0
+[21:33:05.051934][PY] cursor rc=0 stderr=[{"x": 1164, "y": 361}]
+[21:33:05.061919][STATE-SNAPSHOT] cursor tag=after_scroll_down_loop_0 json={"x": 1164, "y": 361}
+[21:33:06.404841][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\after_scroll_down_loop_0_20260505_213305_067930_full.png", "mode": "full"}]
+[21:33:06.415830][STATE-SNAPSHOT] full tag=after_scroll_down_loop_0 json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\after_scroll_down_loop_0_20260505_213305_067930_full.png", "mode": "full"}
+[21:33:07.164680][ACTIVATE] locator=executable:LINE.exe
+[21:33:08.534310][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:08.915329][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:08.919283][STATE-SNAPSHOT] splitter_found tag=after_scroll_down_loop_0 ok=True
+[21:33:09.684137][ACTIVATE] locator=executable:LINE.exe
+[21:33:11.004561][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:11.415566][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:12.738496][STATE-SNAPSHOT] splitter_rect tag=after_scroll_down_loop_0 rect_unavailable=True
+[21:33:13.482373][ACTIVATE] locator=executable:LINE.exe
+[21:33:15.241892][ACTIVATE] locator=executable:LINE.exe
+[21:33:16.999986][ACTIVATE] locator=executable:LINE.exe
+[21:33:18.333598][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:18.750530][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:19.052508][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:33:19.065505][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:33:19.077526][MSGWIN] group count=2
+[21:33:19.250484][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:33:19.400524][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:33:19.409524][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:33:19.413522][STATE-SNAPSHOT] msgwin_found tag=after_scroll_down_loop_0 ok=True
+[21:33:20.146409][ACTIVATE] locator=executable:LINE.exe
+[21:33:21.926609][ACTIVATE] locator=executable:LINE.exe
+[21:33:23.706483][ACTIVATE] locator=executable:LINE.exe
+[21:33:25.033584][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:25.444582][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:25.752529][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:33:25.796526][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:33:25.812532][MSGWIN] group count=2
+[21:33:25.969510][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:33:26.266484][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:33:26.283498][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:33:26.297509][STATE-SNAPSHOT] msgwin tag=after_scroll_down_loop_0 elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:33:26.547477][STATE-SNAPSHOT] msgwin_rect tag=after_scroll_down_loop_0 rect=(571,85,1184,637)
+[21:33:27.273260][ACTIVATE] locator=executable:LINE.exe
+[21:33:29.013652][ACTIVATE] locator=executable:LINE.exe
+[21:33:30.768055][ACTIVATE] locator=executable:LINE.exe
+[21:33:32.495769][ACTIVATE] locator=executable:LINE.exe
+[21:33:33.831610][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:34.296627][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:34.605550][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:33:34.621560][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:33:34.635559][MSGWIN] group count=2
+[21:33:34.794548][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:33:34.939578][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:33:34.949576][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:33:35.028537][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:33:35.033663][RIGHT-PANE-SAFE] point=(1164,361)
+[21:33:35.040566][STATE-SNAPSHOT] right_pane_safe tag=after_scroll_down_loop_0 point=(1164,361)
+[21:33:35.786362][ACTIVATE] locator=executable:LINE.exe
+[21:33:37.128617][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:37.537633][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:38.278503][ACTIVATE] locator=executable:LINE.exe
+[21:33:39.605465][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:40.025431][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:40.429416][STATE-SNAPSHOT] splitter_anchor tag=after_scroll_down_loop_0 ok=True
+[21:33:40.445403][STATE-SNAPSHOT] groups_found tag=after_scroll_down_loop_0 ok=True locator=[type:GroupControl and depth:20]
+[21:33:40.460415][STATE-SNAPSHOT] group_count tag=after_scroll_down_loop_0 count=2
+[21:33:40.810383][STATE-SNAPSHOT] group_candidate tag=after_scroll_down_loop_0 idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637)
+[21:33:41.191373][STATE-SNAPSHOT] group_candidate tag=after_scroll_down_loop_0 idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637)
+[21:33:41.199399][STATE-SNAPSHOT] end tag=after_scroll_down_loop_0
+[21:33:41.972026][ACTIVATE] locator=executable:LINE.exe
+[21:33:42.986437][DOWN LOOP] start loop=1
+[21:33:43.754102][ACTIVATE] locator=executable:LINE.exe
+[21:33:45.515427][ACTIVATE] locator=executable:LINE.exe
+[21:33:47.269522][ACTIVATE] locator=executable:LINE.exe
+[21:33:49.018717][ACTIVATE] locator=executable:LINE.exe
+[21:33:50.335847][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:50.753824][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:51.059799][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:33:51.073799][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:33:51.086790][MSGWIN] group count=2
+[21:33:51.247794][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:33:51.413768][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:33:51.424774][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:33:51.433777][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:33:51.523780][BUBBLE-RECT] root_rect=(571,85,1184,637) root_size=(613,552)
+[21:33:51.530774][BUBBLE-RECT] anchor msgwin ok=True
+[21:33:51.591782][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
+[21:33:51.652751][BUBBLE-RECT] anchored_count=2
+[21:33:51.923746][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(571,190,1177,390) size=(606,200)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[21:33:51.953745][BUBBLE-INNER] outer=(571,190,1177,390) inner=[641,200,1141,380] short=False mid=False inner_h=180 outer_h=200 ratio=0.9 thin_inner=False collapsed_short=False
+[21:33:51.967738][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=200 inner_b=380 inner_h=180 footer_near_bottom=False short_footer_near=False result=False
+[21:33:51.978730][BUBBLE-IMAGE-FILTER] outer_h=200 inner_h=180 ratio=0.9 very_tall_inner=True very_tall_outer=True tall_dense=True result=True
+[21:33:51.984741][BUBBLE-RECT] image-like geometry rejected idx=0 outer=(571,190,1177,390) inner=641,200,1141,380
+[21:33:52.238725][BUBBLE-RECT-CAND] idx=1 name=[] type=[ListItemControl] class=[]rect=(571,390,1177,616) size=(606,226)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[21:33:52.263713][BUBBLE-INNER] outer=(571,390,1177,616) inner=[641,400,1141,606] short=False mid=False inner_h=206 outer_h=226 ratio=0.911504424778761 thin_inner=False collapsed_short=False
+[21:33:52.273721][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=400 inner_b=606 inner_h=206 footer_near_bottom=True short_footer_near=False result=True
+[21:33:52.279730][BUBBLE-RECT] footer-like rejected idx=1 outer=(571,390,1177,616) inner=641,400,1141,606
+[21:33:52.286723][BUBBLE-RECT] visible_count=0
+[21:33:52.306720][DOWN LOOP] loop=1 new=0 total=0 last_status= view_signature=[]
+[21:33:52.313709][DOWN LOOP] stagnant=2 same_view=0
+[21:33:52.320719][SCROLL-GUARD] status=[] result=False
+[21:33:52.328716][STATE-SNAPSHOT] start tag=before_scroll_down_loop_1
+[21:33:53.507674][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[21:33:53.516676][STATE-SNAPSHOT] cursor tag=before_scroll_down_loop_1 json={"x": 695, "y": 335}
+[21:33:54.917585][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_1_20260505_213353_522682_full.png", "mode": "full"}]
+[21:33:54.933586][STATE-SNAPSHOT] full tag=before_scroll_down_loop_1 json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_1_20260505_213353_522682_full.png", "mode": "full"}
+[21:33:55.673592][ACTIVATE] locator=executable:LINE.exe
+[21:33:57.012959][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:57.422937][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:33:57.426972][STATE-SNAPSHOT] splitter_found tag=before_scroll_down_loop_1 ok=True
+[21:33:58.158612][ACTIVATE] locator=executable:LINE.exe
+[21:33:59.510330][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:33:59.885279][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:01.245230][STATE-SNAPSHOT] splitter_rect tag=before_scroll_down_loop_1 rect_unavailable=True
+[21:34:01.977053][ACTIVATE] locator=executable:LINE.exe
+[21:34:03.739662][ACTIVATE] locator=executable:LINE.exe
+[21:34:05.497090][ACTIVATE] locator=executable:LINE.exe
+[21:34:06.818758][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:34:07.249731][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:07.556703][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:34:07.570714][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:34:07.585708][MSGWIN] group count=2
+[21:34:07.916693][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:34:08.194673][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:34:08.214673][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:34:08.222659][STATE-SNAPSHOT] msgwin_found tag=before_scroll_down_loop_1 ok=True
+[21:34:08.977458][ACTIVATE] locator=executable:LINE.exe
+[21:34:10.745685][ACTIVATE] locator=executable:LINE.exe
+[21:34:12.517464][ACTIVATE] locator=executable:LINE.exe
+[21:34:13.831429][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:34:14.263395][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:14.574348][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:34:14.590345][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:34:14.604341][MSGWIN] group count=2
+[21:34:14.757331][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:34:14.897362][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:34:14.909365][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:34:14.918314][STATE-SNAPSHOT] msgwin tag=before_scroll_down_loop_1 elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:34:15.119315][STATE-SNAPSHOT] msgwin_rect tag=before_scroll_down_loop_1 rect=(571,85,1184,637)
+[21:34:15.882110][ACTIVATE] locator=executable:LINE.exe
+[21:34:17.664323][ACTIVATE] locator=executable:LINE.exe
+[21:34:19.401566][ACTIVATE] locator=executable:LINE.exe
+[21:34:21.164217][ACTIVATE] locator=executable:LINE.exe
+[21:34:22.494524][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:34:22.927471][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:23.237478][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:34:23.250477][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:34:23.263462][MSGWIN] group count=2
+[21:34:23.429476][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:34:23.574471][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:34:23.584459][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:34:23.650456][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:34:23.655441][RIGHT-PANE-SAFE] point=(1164,361)
+[21:34:23.661466][STATE-SNAPSHOT] right_pane_safe tag=before_scroll_down_loop_1 point=(1164,361)
+[21:34:24.409262][ACTIVATE] locator=executable:LINE.exe
+[21:34:25.743034][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:34:26.136028][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:26.855767][ACTIVATE] locator=executable:LINE.exe
+[21:34:28.192067][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:34:28.597089][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:28.908026][STATE-SNAPSHOT] splitter_anchor tag=before_scroll_down_loop_1 ok=True
+[21:34:28.922023][STATE-SNAPSHOT] groups_found tag=before_scroll_down_loop_1 ok=True locator=[type:GroupControl and depth:20]
+[21:34:28.935019][STATE-SNAPSHOT] group_count tag=before_scroll_down_loop_1 count=2
+[21:34:29.232041][STATE-SNAPSHOT] group_candidate tag=before_scroll_down_loop_1 idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637)
+[21:34:29.503006][STATE-SNAPSHOT] group_candidate tag=before_scroll_down_loop_1 idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637)
+[21:34:29.507982][STATE-SNAPSHOT] end tag=before_scroll_down_loop_1
+[21:34:30.242818][ACTIVATE] locator=executable:LINE.exe
+[21:34:31.259443][SCROLL-DOWN] verify retry=0 status_after_capture=[]
+[21:34:32.586268][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[21:34:32.598265][SCROLL-DOWN] before={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[21:34:33.333921][ACTIVATE] locator=executable:LINE.exe
+[21:34:35.109890][ACTIVATE] locator=executable:LINE.exe
+[21:34:36.895412][ACTIVATE] locator=executable:LINE.exe
+[21:34:38.661440][ACTIVATE] locator=executable:LINE.exe
+[21:34:40.432359][ACTIVATE] locator=executable:LINE.exe
+[21:34:41.781277][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:34:42.194211][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:42.526189][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:34:42.546188][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:34:42.561238][MSGWIN] group count=2
+[21:34:42.779211][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:34:42.975155][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:34:42.989163][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:34:43.070181][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:34:43.080193][RIGHT-PANE-SAFE] point=(1164,361)
+[21:34:43.085183][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:34:43.092194][SCROLL-RESET] drag-start-safe from clear-point = (1164,361)
+[21:34:43.100156][SCROLL-RESET] move x=1164 y=361
+[21:34:43.104155][SCROLL-RESET] move_ok=True
+[21:34:46.646918][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}]
+[21:34:46.656931][SCROLL-DOWN] after={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}
+[21:34:47.834881][PY] compare rc=0 stderr=[{"same": false, "before_hash": "761c5a5423c5e467ea19984e89132cf3", "after_hash": "64c8fd1896142bf3f3cf2f6775b55d6f"}]
+[21:34:47.844841][SCROLL-DOWN] retry=0 changed=True
+[21:34:48.585733][ACTIVATE] locator=executable:LINE.exe
+[21:34:50.582943][ACTIVATE] locator=executable:LINE.exe
+[21:34:52.348418][ACTIVATE] locator=executable:LINE.exe
+[21:34:54.090679][ACTIVATE] locator=executable:LINE.exe
+[21:34:55.842979][ACTIVATE] locator=executable:LINE.exe
+[21:34:57.179476][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:34:57.585505][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:34:57.875432][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:34:57.891436][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:34:57.905473][MSGWIN] group count=2
+[21:34:58.111440][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:34:58.325445][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:34:58.337392][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:34:58.424405][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:34:58.430402][RIGHT-PANE-SAFE] point=(1164,361)
+[21:34:58.436448][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:34:58.443393][SCROLL-CLEAR] status=[]
+[21:34:58.448394][SCROLL-CLEAR] move x=1164 y=361
+[21:34:58.494426][SCROLL-CLEAR] move_ok=True
+[21:34:58.725841][SCROLL-CLEAR] click_ok=True
+[21:34:59.887938][ACTIVATE] locator=executable:LINE.exe
+[21:35:01.652591][ACTIVATE] locator=executable:LINE.exe
+[21:35:03.426465][ACTIVATE] locator=executable:LINE.exe
+[21:35:05.200210][ACTIVATE] locator=executable:LINE.exe
+[21:35:06.965743][ACTIVATE] locator=executable:LINE.exe
+[21:35:08.303041][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:08.693004][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:09.006957][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:35:09.030965][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:35:09.048981][MSGWIN] group count=2
+[21:35:09.275940][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:35:09.486975][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:35:09.499974][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:35:09.573992][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:35:09.577973][RIGHT-PANE-SAFE] point=(1164,361)
+[21:35:09.582919][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[21:35:09.587959][SCROLL-CLEAR] status=[]
+[21:35:09.590919][SCROLL-CLEAR] move x=1164 y=361
+[21:35:09.598947][SCROLL-CLEAR] move_ok=True
+[21:35:09.826342][SCROLL-CLEAR] click_ok=True
+[21:35:10.246085][SCROLL-DOWN] changed=True
+[21:35:10.260029][STATE-SNAPSHOT] start tag=after_scroll_down_loop_1
+[21:35:11.455971][PY] cursor rc=0 stderr=[{"x": 1164, "y": 361}]
+[21:35:11.466967][STATE-SNAPSHOT] cursor tag=after_scroll_down_loop_1 json={"x": 1164, "y": 361}
+[21:35:12.872843][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\after_scroll_down_loop_1_20260505_213511_472966_full.png", "mode": "full"}]
+[21:35:12.882876][STATE-SNAPSHOT] full tag=after_scroll_down_loop_1 json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\after_scroll_down_loop_1_20260505_213511_472966_full.png", "mode": "full"}
+[21:35:13.631786][ACTIVATE] locator=executable:LINE.exe
+[21:35:14.973071][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:15.529058][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:15.534078][STATE-SNAPSHOT] splitter_found tag=after_scroll_down_loop_1 ok=True
+[21:35:16.274797][ACTIVATE] locator=executable:LINE.exe
+[21:35:17.614446][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:18.006374][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:19.336316][STATE-SNAPSHOT] splitter_rect tag=after_scroll_down_loop_1 rect_unavailable=True
+[21:35:20.059128][ACTIVATE] locator=executable:LINE.exe
+[21:35:21.841879][ACTIVATE] locator=executable:LINE.exe
+[21:35:23.591230][ACTIVATE] locator=executable:LINE.exe
+[21:35:24.920830][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:25.364778][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:25.664788][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:35:25.679752][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:35:25.693755][MSGWIN] group count=2
+[21:35:25.861782][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:35:26.024766][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:35:26.033732][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:35:26.037721][STATE-SNAPSHOT] msgwin_found tag=after_scroll_down_loop_1 ok=True
+[21:35:26.776705][ACTIVATE] locator=executable:LINE.exe
+[21:35:28.546962][ACTIVATE] locator=executable:LINE.exe
+[21:35:30.308652][ACTIVATE] locator=executable:LINE.exe
+[21:35:31.816989][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:32.244014][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:32.538958][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:35:32.553937][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:35:32.567958][MSGWIN] group count=2
+[21:35:32.724969][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:35:32.867949][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:35:32.878920][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:35:32.887968][STATE-SNAPSHOT] msgwin tag=after_scroll_down_loop_1 elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:35:33.071944][STATE-SNAPSHOT] msgwin_rect tag=after_scroll_down_loop_1 rect=(571,85,1184,637)
+[21:35:33.827700][ACTIVATE] locator=executable:LINE.exe
+[21:35:35.599989][ACTIVATE] locator=executable:LINE.exe
+[21:35:37.359316][ACTIVATE] locator=executable:LINE.exe
+[21:35:39.105241][ACTIVATE] locator=executable:LINE.exe
+[21:35:40.438257][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:40.856225][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:41.164240][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:35:41.178209][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:35:41.193208][MSGWIN] group count=2
+[21:35:41.350189][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:35:41.502228][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:35:41.512176][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:35:41.582182][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[21:35:41.586182][RIGHT-PANE-SAFE] point=(1164,361)
+[21:35:41.594173][STATE-SNAPSHOT] right_pane_safe tag=after_scroll_down_loop_1 point=(1164,361)
+[21:35:42.319864][ACTIVATE] locator=executable:LINE.exe
+[21:35:43.661295][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:44.057277][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:44.787080][ACTIVATE] locator=executable:LINE.exe
+[21:35:46.184209][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:46.591191][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:46.904120][STATE-SNAPSHOT] splitter_anchor tag=after_scroll_down_loop_1 ok=True
+[21:35:46.918173][STATE-SNAPSHOT] groups_found tag=after_scroll_down_loop_1 ok=True locator=[type:GroupControl and depth:20]
+[21:35:46.932139][STATE-SNAPSHOT] group_count tag=after_scroll_down_loop_1 count=2
+[21:35:47.209142][STATE-SNAPSHOT] group_candidate tag=after_scroll_down_loop_1 idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637)
+[21:35:47.477121][STATE-SNAPSHOT] group_candidate tag=after_scroll_down_loop_1 idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637)
+[21:35:47.481077][STATE-SNAPSHOT] end tag=after_scroll_down_loop_1
+[21:35:48.204880][ACTIVATE] locator=executable:LINE.exe
+[21:35:49.220239][DOWN LOOP] start loop=2
+[21:35:49.975119][ACTIVATE] locator=executable:LINE.exe
+[21:35:51.706261][ACTIVATE] locator=executable:LINE.exe
+[21:35:53.471483][ACTIVATE] locator=executable:LINE.exe
+[21:35:55.232179][ACTIVATE] locator=executable:LINE.exe
+[21:35:56.572788][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[21:35:56.996772][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[21:35:57.336747][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[21:35:57.351711][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[21:35:57.365730][MSGWIN] group count=2
+[21:35:57.522733][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[21:35:57.671724][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[21:35:57.680695][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:35:57.689727][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[21:35:57.787717][BUBBLE-RECT] root_rect=(571,85,1184,637) root_size=(613,552)
+[21:35:57.793684][BUBBLE-RECT] anchor msgwin ok=True
+[21:35:57.853669][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
+[21:35:57.908684][BUBBLE-RECT] anchored_count=2
+[21:35:58.159696][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(571,183,1177,507) size=(606,324)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[21:35:58.186659][BUBBLE-INNER] outer=(571,183,1177,507) inner=[641,193,1141,497] short=False mid=False inner_h=304 outer_h=324 ratio=0.9382716049382716 thin_inner=False collapsed_short=False
+[21:35:58.199688][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=193 inner_b=497 inner_h=304 footer_near_bottom=False short_footer_near=False result=False
+[21:35:58.211695][BUBBLE-IMAGE-FILTER] outer_h=324 inner_h=304 ratio=0.9382716049382716 very_tall_inner=True very_tall_outer=True tall_dense=True result=True
+[21:35:58.215686][BUBBLE-RECT] image-like geometry rejected idx=0 outer=(571,183,1177,507) inner=641,193,1141,497
+[21:35:58.459679][BUBBLE-RECT-CAND] idx=1 name=[] type=[ListItemControl] class=[]rect=(571,507,1177,617) size=(606,110)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[21:35:58.487672][BUBBLE-INNER] outer=(571,507,1177,617) inner=[641,521,1141,603] short=False mid=True inner_h=82 outer_h=110 ratio=0.7454545454545455 thin_inner=False collapsed_short=False
+[21:35:58.498639][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=521 inner_b=603 inner_h=82 footer_near_bottom=True short_footer_near=False result=True
+[21:35:58.502638][BUBBLE-RECT] footer-like rejected idx=1 outer=(571,507,1177,617) inner=641,521,1141,603
+[21:35:58.509656][BUBBLE-RECT] visible_count=0
+[21:35:58.527657][DOWN LOOP] loop=2 new=0 total=0 last_status= view_signature=[]
+[21:35:58.533648][DOWN LOOP] stagnant=3 same_view=0
+[21:35:58.538635][DOWN LOOP] stop: no new messages for 3 loops
+[21:35:58.559640][ARTIFACT] ensured directories
+[21:35:58.569628][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
+[21:35:58.579634][HTML] finalized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
+[21:35:58.585632][HTML] write complete count=0
+[21:35:58.596629][HTML] finalized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
+[21:35:58.601631]保存完了: C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html

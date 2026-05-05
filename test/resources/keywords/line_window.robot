@@ -44,21 +44,32 @@ Activate LINE
 
 Open First Group
     Activate LINE
+    Trace    [GROUP] open first group path=${GROUP_ITEM_PATH}
+
+    ${opened}=    Run Keyword And Return Status    Win.Double Click    ${GROUP_ITEM_PATH}
+    IF    not ${opened}
+        ${opened}=    Run Keyword And Return Status    Win.Click    ${GROUP_ITEM_PATH}
+    END
+    IF    ${opened}
+        Trace    [GROUP] opened via fixed path
+        Sleep    3s
+        RETURN
+    END
+
+    Trace    [GROUP] fixed path open failed; fallback to dynamic left-list detection
     Set Splitter Anchor
     ${split_l}    ${split_t}    ${split_r}    ${split_b}=    Get Rect Ints From Locator    ${SPLITTER_LOCATOR}
     ${split_mid_x}=    Evaluate    int(${split_l}) + int(round((int(${split_r}) - int(${split_l})) / 2.0))
 
     ${locator}=    Set Variable    type:ListItemControl and depth:${SPLITTER_CHILD_DEPTH}
     ${ok}=    Run Keyword And Return Status    Win.Get Elements    ${locator}
-    Trace    [GROUP] find first group ok=${ok} locator=[${locator}]
     IF    not ${ok}
-        Fail    左側リスト項目を取得できませんでした。
+        Fail    左側リスト項目を取得できませんでした（fixed path / dynamic fallback 両方失敗）。
     END
 
     ${items}=    Win.Get Elements    ${locator}
     ${count}=    Get Length    ${items}
     ${target}=    Set Variable    ${EMPTY}
-
     FOR    ${i}    IN RANGE    ${count}
         ${elem}=    Get From List    ${items}    ${i}
         ${l}    ${t}    ${r}    ${b}=    Get Rect Ints From Element    ${elem}
@@ -68,14 +79,13 @@ Open First Group
         ${is_sane}=    Evaluate    int(${w}) >= 120 and int(${h}) >= 24
         IF    ${is_left} and ${is_sane}
             ${target}=    Set Variable    ${elem}
-            Trace    [GROUP] target idx=${i} rect=(${l},${t},${r},${b}) size=(${w},${h})
             BREAK
         END
     END
 
     ${target_s}=    Normalize Element String    ${target}
     IF    $target_s == ''
-        Fail    左側リストの有効な先頭項目を特定できませんでした。
+        Fail    左側リストの有効な項目を特定できませんでした（fixed path / dynamic fallback 両方失敗）。
     END
 
     ${opened}=    Run Keyword And Return Status    Win.Double Click    ${target}
@@ -83,11 +93,10 @@ Open First Group
         ${opened}=    Run Keyword And Return Status    Win.Click    ${target}
     END
     IF    not ${opened}
-        Fail    左側リストの1番目をクリックできませんでした。
+        Fail    左側リスト項目をクリックできませんでした。
     END
-    Trace    [GROUP] opened elem=[${target_s}]
+    Trace    [GROUP] opened via fallback elem=[${target_s}]
     Sleep    3s
-
 Normalize Int Text
     [Arguments]    ${value}
     ${t}=    Convert To String    ${value}

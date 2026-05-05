@@ -1,395 +1,508 @@
-[TRACE START] 2026-05-05 22:55:13
-[22:55:13.959770][FAILSHOT] directory=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\fail_screens
-[22:55:14.713818][ACTIVATE] locator=executable:LINE.exe
-[22:55:16.493764][ACTIVATE] locator=executable:LINE.exe
-[22:55:17.523774][GROUP] open first group path=path:11|2|1|1|1|2
-[22:55:18.494335][GROUP] opened
-[22:55:21.545965][TEXT-RESET] removed dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
-[22:55:21.551975][TEXT-RESET] created dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
-[22:55:21.559006][ARTIFACT] ensured directories
-[22:55:21.564960][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
-[22:55:22.302712][ACTIVATE] locator=executable:LINE.exe
-[22:55:23.316716][SCROLL-UP] drag try=0
-[22:55:24.591496][SCROLL-UP] iter_elapsed=1.245877981185913
-[22:55:24.612566][SCROLL-UP] elapsed=1.245877981185913
-[22:55:25.417423][ACTIVATE] locator=executable:LINE.exe
-[22:55:26.447879][SCROLL-UP] drag try=1
-[22:55:27.724778][SCROLL-UP] iter_elapsed=1.2280550003051758
-[22:55:27.739768][SCROLL-UP] elapsed=2.473932981491089
-[22:55:28.548592][ACTIVATE] locator=executable:LINE.exe
-[22:55:29.583806][SCROLL-UP] drag try=2
-[22:55:30.850223][SCROLL-UP] iter_elapsed=1.2444031238555908
-[22:55:30.861191][SCROLL-UP] elapsed=3.7183361053466797
-[22:55:31.691073][ACTIVATE] locator=executable:LINE.exe
-[22:55:32.713031][SCROLL-UP] drag try=3
-[22:55:33.946905][SCROLL-UP] iter_elapsed=1.2268798351287842
-[22:55:33.951928][SCROLL-UP] elapsed=4.945215940475464
-[22:55:34.780647][ACTIVATE] locator=executable:LINE.exe
-[22:55:35.797674][SCROLL-UP] drag try=4
-[22:55:37.046584][SCROLL-UP] iter_elapsed=1.2239749431610107
-[22:55:37.065515][SCROLL-UP] elapsed=6.169190883636475
-[22:55:37.859080][ACTIVATE] locator=executable:LINE.exe
-[22:55:38.878629][SCROLL-UP] drag try=5
-[22:55:40.117551][SCROLL-UP] iter_elapsed=1.2219438552856445
-[22:55:40.125532][SCROLL-UP] elapsed=7.391134738922119
-[22:55:40.939221][ACTIVATE] locator=executable:LINE.exe
-[22:55:41.963883][SCROLL-UP] drag try=6
-[22:55:43.215098][SCROLL-UP] iter_elapsed=1.2263059616088867
-[22:55:43.225077][SCROLL-UP] elapsed=8.617440700531006
-[22:55:44.009958][ACTIVATE] locator=executable:LINE.exe
-[22:55:45.038075][SCROLL-UP] drag try=7
-[22:55:46.286837][SCROLL-UP] iter_elapsed=1.231745958328247
-[22:55:46.292836][SCROLL-UP] elapsed=9.849186658859253
-[22:55:47.062573][ACTIVATE] locator=executable:LINE.exe
-[22:55:48.083715][SCROLL-UP] drag try=8
-[22:55:49.352116][SCROLL-UP] iter_elapsed=1.2474479675292969
-[22:55:49.360093][SCROLL-UP] elapsed=11.09663462638855
-[22:55:51.109319][ACTIVATE] locator=executable:LINE.exe
-[22:55:52.859623][ACTIVATE] locator=executable:LINE.exe
-[22:55:54.660147][ACTIVATE] locator=executable:LINE.exe
-[22:55:56.426519][ACTIVATE] locator=executable:LINE.exe
-[22:55:58.184151][ACTIVATE] locator=executable:LINE.exe
-[22:55:59.536221][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[22:55:59.964186][SPLITTER] rect=(268,85,1184,637) size=(916,552)
-[22:56:00.282202][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[22:56:00.295168][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[22:56:00.311204][MSGWIN] group count=2
-[22:56:00.497194][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
-[22:56:00.681179][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
-[22:56:00.697175][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[22:56:00.767155][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
-[22:56:00.773147][RIGHT-PANE-SAFE] point=(1164,361)
-[22:56:00.778130][SCROLL-CLEAR] safe-point from right pane = (1164,361)
-[22:56:00.784142][SCROLL-CLEAR] status=[]
-[22:56:00.790143][SCROLL-CLEAR] move x=1164 y=361
-[22:56:00.797142][SCROLL-CLEAR] move_ok=True
-[22:56:01.018599][SCROLL-CLEAR] click_ok=True
-[22:56:02.169759][ACTIVATE] locator=executable:LINE.exe
-[22:56:03.902852][ACTIVATE] locator=executable:LINE.exe
-[22:56:05.686501][ACTIVATE] locator=executable:LINE.exe
-[22:56:07.466072][ACTIVATE] locator=executable:LINE.exe
-[22:56:09.200867][ACTIVATE] locator=executable:LINE.exe
-[22:56:10.545579][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[22:56:10.992561][SPLITTER] rect=(268,85,1184,637) size=(916,552)
-[22:56:11.308504][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[22:56:11.323504][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[22:56:11.337498][MSGWIN] group count=2
-[22:56:11.539487][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
-[22:56:11.708521][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
-[22:56:11.716511][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[22:56:11.788461][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
-[22:56:11.793543][RIGHT-PANE-SAFE] point=(1164,361)
-[22:56:11.801458][SCROLL-CLEAR] safe-point from right pane = (1164,361)
-[22:56:11.809459][SCROLL-CLEAR] status=[]
-[22:56:11.813465][SCROLL-CLEAR] move x=1164 y=361
-[22:56:11.820538][SCROLL-CLEAR] move_ok=True
-[22:56:12.048218][SCROLL-CLEAR] click_ok=True
-[22:56:13.211198][ACTIVATE] locator=executable:LINE.exe
-[22:56:14.229632][DOWN LOOP] start loop=0
-[22:56:14.970878][ACTIVATE] locator=executable:LINE.exe
-[22:56:16.756551][ACTIVATE] locator=executable:LINE.exe
-[22:56:18.515454][ACTIVATE] locator=executable:LINE.exe
-[22:56:20.259879][ACTIVATE] locator=executable:LINE.exe
-[22:56:21.577558][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[22:56:22.004578][SPLITTER] rect=(268,85,1184,637) size=(916,552)
-[22:56:22.339544][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[22:56:22.353509][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[22:56:22.366503][MSGWIN] group count=2
-[22:56:22.513550][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
-[22:56:22.669534][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
-[22:56:22.678482][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[22:56:22.685531][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[22:56:22.776516][BUBBLE-RECT] root_rect=(571,85,1184,637) root_size=(613,552)
-[22:56:22.784489][BUBBLE-RECT] anchor msgwin ok=True
-[22:56:22.849498][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
-[22:56:22.912517][BUBBLE-RECT] anchored_count=3
-[22:56:23.154490][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(571,-99,1177,278) size=(606,377)inside_x=True inside_y=False large_enough=Truenot_too_tall=True not_header_like=False not_footer_like=True
-[22:56:23.394467][BUBBLE-RECT-CAND] idx=1 name=[] type=[ListItemControl] class=[]rect=(571,278,1177,388) size=(606,110)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
-[22:56:23.420481][BUBBLE-INNER] outer=(571,278,1177,388) inner=[641,292,1141,374] short=False mid=True inner_h=82 outer_h=110 ratio=0.7454545454545455 thin_inner=False collapsed_short=False
-[22:56:23.431435][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=292 inner_b=374 inner_h=82 footer_near_bottom=False short_footer_near=False result=False
-[22:56:23.440439][BUBBLE-IMAGE-FILTER] outer_h=110 inner_h=82 ratio=0.7454545454545455 very_tall_inner=False very_tall_outer=False tall_dense=False result=False
-[22:56:23.448440][BUBBLE-RECT] idx=1 name=[] type=[ListItemControl] class=[] rect=641,292,1141,374
-[22:56:23.686413][BUBBLE-RECT-CAND] idx=2 name=[] type=[ListItemControl] class=[]rect=(571,388,1177,550) size=(606,162)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
-[22:56:23.712443][BUBBLE-INNER] outer=(571,388,1177,550) inner=[641,402,1141,536] short=False mid=True inner_h=134 outer_h=162 ratio=0.8271604938271605 thin_inner=False collapsed_short=False
-[22:56:23.721418][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=402 inner_b=536 inner_h=134 footer_near_bottom=False short_footer_near=False result=False
-[22:56:23.731422][BUBBLE-IMAGE-FILTER] outer_h=162 inner_h=134 ratio=0.8271604938271605 very_tall_inner=False very_tall_outer=False tall_dense=False result=False
-[22:56:23.738424][BUBBLE-RECT] idx=2 name=[] type=[ListItemControl] class=[] rect=641,402,1141,536
-[22:56:23.743435][BUBBLE-RECT] visible_count=2
-[22:56:23.829440][BUBBLE-SIGNATURE] count=2 signature=[641,292,1141,374;641,402,1141,536]
-[22:56:23.847402][COPY-BEGIN] id=225623_845404_641_292_1141_374 rect=(641,292,1141,374)
-[22:56:24.584236][ACTIVATE] locator=executable:LINE.exe
-[22:56:26.869463][CLIPBOARD] clear rc=0 stdout=[] stderr=[]
-[22:56:26.891404][BUBBLE-CLICK] rect=(641,292,1141,374) raw=(741,333) clamped=(741,333) size=(500,82) rule=front20_centerY
-[22:56:26.895412][POINTER] id=225623_845404_641_292_1141_374 bubble target=(741,333)
-[22:56:38.466690][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[22:56:38.476676][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[22:56:39.624575][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[22:56:39.634568][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[22:56:41.038513][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225639_642570_full.png", "mode": "full"}]
-[22:56:41.048514][CURSOR-EVIDENCE] tag=before_preclick_capture full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225639_642570_full.png", "mode": "full"}
-[22:56:42.270401][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225639_642570_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
-[22:56:42.279381][CURSOR-EVIDENCE] tag=before_preclick_capture crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225639_642570_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
-[22:56:42.301395][PRECLICK-RECT] bubble=(641,292,1141,374) click=(741,333) size=(500,82) rule=mid_row_tight rect=(653,286,861,382) capture_size=(208,96)
-[22:56:43.552346][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 286, "width": 208, "height": 96}]
-[22:56:43.561312][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 286, "width": 208, "height": 96}
-[22:56:47.881052][PY] ocr rc=0 stderr=[{"text": "4\n\nr真のお腹は、 昨晩の前のご飯が多かった\n服すきて夜中まで寝つけなかった角\n不足でのラウンドでしたず om\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 96, "processed_width": 624, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "4", "normalized": "4", "kind": "UNKNOWN", "left": 0, "top": 0, "width": 68, "height": 21, "right": 68, "bottom": 21, "conf": 34.0}, {"text": "r", "normalized": "r", "kind": "UNKNOWN", "left": 0, "top": 71, "width": 41, "height": 38, "right": 41, "bottom": 109, "conf": 0.0}, {"text": "真", "normalized": "真", "kind": "UNKNOWN", "left": 53, "top": 74, "width": 24, "height": 35, "right": 77, "bottom": 109, "conf": 42.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 76, "top": 65, "width": 16, "height": 61, "right": 92, "bottom": 126, "conf": 96.0}, {"text": "お", "normalized": "お", "kind": "UNKNOWN", "left": 91, "top": 72, "width": 24, "height": 37, "right": 115, "bottom": 109, "conf": 93.0}, {"text": "腹", "normalized": "腹", "kind": "UNKNOWN", "left": 127, "top": 71, "width": 36, "height": 38, "right": 163, "bottom": 109, "conf": 0.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 164, "top": 72, "width": 19, "height": 37, "right": 183, "bottom": 109, "conf": 91.0}, {"text": "、", "normalized": "、", "kind": "UNKNOWN", "left": 188, "top": 98, "width": 11, "height": 11, "right": 199, "bottom": 109, "conf": 92.0}, {"text": "昨晩", "normalized": "昨晩", "kind": "UNKNOWN", "left": 228, "top": 71, "width": 88, "height": 38, "right": 316, "bottom": 109, "conf": 15.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 325, "top": 72, "width": 21, "height": 37, "right": 346, "bottom": 109, "conf": 94.0}, {"text": "前", "normalized": "前", "kind": "UNKNOWN", "left": 345, "top": 65, "width": 32, "height": 61, "right": 377, "bottom": 126, "conf": 25.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 376, "top": 74, "width": 18, "height": 35, "right": 394, "bottom": 109, "conf": 17.0}, {"text": "ご", "normalized": "ご", "kind": "UNKNOWN", "left": 406, "top": 69, "width": 19, "height": 40, "right": 425, "bottom": 109, "conf": 92.0}, {"text": "飯", "normalized": "飯", "kind": "UNKNOWN", "left": 442, "top": 71, "width": 20, "height": 38, "right": 462, "bottom": 109, "conf": 92.0}, {"text": "が", "normalized": "が", "kind": "UNKNOWN", "left": 477, "top": 69, "width": 19, "height": 40, "right": 496, "bottom": 109, "conf": 92.0}, {"text": "多かっ", "normalized": "多かっ", "kind": "UNKNOWN", "left": 513, "top": 69, "width": 77, "height": 40, "right": 590, "bottom": 109, "conf": 92.0}, {"text": "た", "normalized": "た", "kind": "UNKNOWN", "left": 593, "top": 69, "width": 27, "height": 37, "right": 620, "bottom": 106, "conf": 96.0}, {"text": "服", "normalized": "服", "kind": "UNKNOWN", "left": 0, "top": 122, "width": 50, "height": 38, "right": 50, "bottom": 160, "conf": 0.0}, {"text": "す", "normalized": "す", "kind": "UNKNOWN", "left": 66, "top": 123, "width": 16, "height": 37, "right": 82, "bottom": 160, "conf": 67.0}, {"text": "き", "normalized": "き", "kind": "UNKNOWN", "left": 91, "top": 116, "width": 21, "height": 61, "right": 112, "bottom": 177, "conf": 82.0}, {"text": "て", "normalized": "て", "kind": "UNKNOWN", "left": 111, "top": 120, "width": 31, "height": 40, "right": 142, "bottom": 160, "conf": 93.0}, {"text": "夜中", "normalized": "夜中", "kind": "UNKNOWN", "left": 157, "top": 122, "width": 82, "height": 38, "right": 239, "bottom": 160, "conf": 96.0}, {"text": "まで", "normalized": "まで", "kind": "UNKNOWN", "left": 238, "top": 116, "width": 73, "height": 61, "right": 311, "bottom": 177, "conf": 93.0}, {"text": "寝", "normalized": "寝", "kind": "UNKNOWN", "left": 323, "top": 128, "width": 27, "height": 32, "right": 350, "bottom": 160, "conf": 52.0}, {"text": "つ", "normalized": "つ", "kind": "UNKNOWN", "left": 353, "top": 123, "width": 7, "height": 33, "right": 360, "bottom": 156, "conf": 58.0}, {"text": "け", "normalized": "け", "kind": "UNKNOWN", "left": 365, "top": 122, "width": 16, "height": 38, "right": 381, "bottom": 160, "conf": 93.0}, {"text": "な", "normalized": "な", "kind": "UNKNOWN", "left": 396, "top": 122, "width": 17, "height": 38, "right": 413, "bottom": 160, "conf": 96.0}, {"text": "か", "normalized": "か", "kind": "UNKNOWN", "left": 421, "top": 123, "width": 24, "height": 37, "right": 445, "bottom": 160, "conf": 96.0}, {"text": "っ", "normalized": "っ", "kind": "UNKNOWN", "left": 449, "top": 134, "width": 22, "height": 26, "right": 471, "bottom": 160, "conf": 96.0}, {"text": "た", "normalized": "た", "kind": "UNKNOWN", "left": 473, "top": 123, "width": 27, "height": 37, "right": 500, "bottom": 160, "conf": 92.0}, {"text": "角", "normalized": "角", "kind": "UNKNOWN", "left": 510, "top": 124, "width": 36, "height": 38, "right": 546, "bottom": 162, "conf": 0.0}, {"text": "不足", "normalized": "不足", "kind": "UNKNOWN", "left": 0, "top": 176, "width": 238, "height": 38, "right": 238, "bottom": 214, "conf": 20.0}, {"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 116, "top": 170, "width": 27, "height": 61, "right": 143, "bottom": 231, "conf": 96.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 142, "top": 170, "width": 26, "height": 61, "right": 168, "bottom": 231, "conf": 96.0}, {"text": "ラウ", "normalized": "ラウ", "kind": "UNKNOWN", "left": 167, "top": 170, "width": 52, "height": 61, "right": 219, "bottom": 231, "conf": 96.0}, {"text": "ンド", "normalized": "ンド", "kind": "UNKNOWN", "left": 218, "top": 170, "width": 49, "height": 61, "right": 267, "bottom": 231, "conf": 92.0}, {"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 274, "top": 179, "width": 24, "height": 35, "right": 298, "bottom": 214, "conf": 96.0}, {"text": "し", "normalized": "し", "kind": "UNKNOWN", "left": 304, "top": 177, "width": 20, "height": 37, "right": 324, "bottom": 214, "conf": 96.0}, {"text": "た", "normalized": "た", "kind": "UNKNOWN", "left": 335, "top": 177, "width": 18, "height": 37, "right": 353, "bottom": 214, "conf": 93.0}, {"text": "ず", "normalized": "ず", "kind": "UNKNOWN", "left": 366, "top": 176, "width": 28, "height": 41, "right": 394, "bottom": 217, "conf": 62.0}, {"text": "om", "normalized": "om", "kind": "UNKNOWN", "left": 415, "top": 180, "width": 40, "height": 36, "right": 455, "bottom": 216, "conf": 33.0}]}]
-[22:56:47.892049][TEXT-CANDIDATE] ocr_json={"text": "4\n\nr真のお腹は、 昨晩の前のご飯が多かった\n服すきて夜中まで寝つけなかった角\n不足でのラウンドでしたず om\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 96, "processed_width": 624, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "4", "normalized": "4", "kind": "UNKNOWN", "left": 0, "top": 0, "width": 68, "height": 21, "right": 68, "bottom": 21, "conf": 34.0}, {"text": "r", "normalized": "r", "kind": "UNKNOWN", "left": 0, "top": 71, "width": 41, "height": 38, "right": 41, "bottom": 109, "conf": 0.0}, {"text": "真", "normalized": "真", "kind": "UNKNOWN", "left": 53, "top": 74, "width": 24, "height": 35, "right": 77, "bottom": 109, "conf": 42.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 76, "top": 65, "width": 16, "height": 61, "right": 92, "bottom": 126, "conf": 96.0}, {"text": "お", "normalized": "お", "kind": "UNKNOWN", "left": 91, "top": 72, "width": 24, "height": 37, "right": 115, "bottom": 109, "conf": 93.0}, {"text": "腹", "normalized": "腹", "kind": "UNKNOWN", "left": 127, "top": 71, "width": 36, "height": 38, "right": 163, "bottom": 109, "conf": 0.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 164, "top": 72, "width": 19, "height": 37, "right": 183, "bottom": 109, "conf": 91.0}, {"text": "、", "normalized": "、", "kind": "UNKNOWN", "left": 188, "top": 98, "width": 11, "height": 11, "right": 199, "bottom": 109, "conf": 92.0}, {"text": "昨晩", "normalized": "昨晩", "kind": "UNKNOWN", "left": 228, "top": 71, "width": 88, "height": 38, "right": 316, "bottom": 109, "conf": 15.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 325, "top": 72, "width": 21, "height": 37, "right": 346, "bottom": 109, "conf": 94.0}, {"text": "前", "normalized": "前", "kind": "UNKNOWN", "left": 345, "top": 65, "width": 32, "height": 61, "right": 377, "bottom": 126, "conf": 25.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 376, "top": 74, "width": 18, "height": 35, "right": 394, "bottom": 109, "conf": 17.0}, {"text": "ご", "normalized": "ご", "kind": "UNKNOWN", "left": 406, "top": 69, "width": 19, "height": 40, "right": 425, "bottom": 109, "conf": 92.0}, {"text": "飯", "normalized": "飯", "kind": "UNKNOWN", "left": 442, "top": 71, "width": 20, "height": 38, "right": 462, "bottom": 109, "conf": 92.0}, {"text": "が", "normalized": "が", "kind": "UNKNOWN", "left": 477, "top": 69, "width": 19, "height": 40, "right": 496, "bottom": 109, "conf": 92.0}, {"text": "多かっ", "normalized": "多かっ", "kind": "UNKNOWN", "left": 513, "top": 69, "width": 77, "height": 40, "right": 590, "bottom": 109, "conf": 92.0}, {"text": "た", "normalized": "た", "kind": "UNKNOWN", "left": 593, "top": 69, "width": 27, "height": 37, "right": 620, "bottom": 106, "conf": 96.0}, {"text": "服", "normalized": "服", "kind": "UNKNOWN", "left": 0, "top": 122, "width": 50, "height": 38, "right": 50, "bottom": 160, "conf": 0.0}, {"text": "す", "normalized": "す", "kind": "UNKNOWN", "left": 66, "top": 123, "width": 16, "height": 37, "right": 82, "bottom": 160, "conf": 67.0}, {"text": "き", "normalized": "き", "kind": "UNKNOWN", "left": 91, "top": 116, "width": 21, "height": 61, "right": 112, "bottom": 177, "conf": 82.0}, {"text": "て", "normalized": "て", "kind": "UNKNOWN", "left": 111, "top": 120, "width": 31, "height": 40, "right": 142, "bottom": 160, "conf": 93.0}, {"text": "夜中", "normalized": "夜中", "kind": "UNKNOWN", "left": 157, "top": 122, "width": 82, "height": 38, "right": 239, "bottom": 160, "conf": 96.0}, {"text": "まで", "normalized": "まで", "kind": "UNKNOWN", "left": 238, "top": 116, "width": 73, "height": 61, "right": 311, "bottom": 177, "conf": 93.0}, {"text": "寝", "normalized": "寝", "kind": "UNKNOWN", "left": 323, "top": 128, "width": 27, "height": 32, "right": 350, "bottom": 160, "conf": 52.0}, {"text": "つ", "normalized": "つ", "kind": "UNKNOWN", "left": 353, "top": 123, "width": 7, "height": 33, "right": 360, "bottom": 156, "conf": 58.0}, {"text": "け", "normalized": "け", "kind": "UNKNOWN", "left": 365, "top": 122, "width": 16, "height": 38, "right": 381, "bottom": 160, "conf": 93.0}, {"text": "な", "normalized": "な", "kind": "UNKNOWN", "left": 396, "top": 122, "width": 17, "height": 38, "right": 413, "bottom": 160, "conf": 96.0}, {"text": "か", "normalized": "か", "kind": "UNKNOWN", "left": 421, "top": 123, "width": 24, "height": 37, "right": 445, "bottom": 160, "conf": 96.0}, {"text": "っ", "normalized": "っ", "kind": "UNKNOWN", "left": 449, "top": 134, "width": 22, "height": 26, "right": 471, "bottom": 160, "conf": 96.0}, {"text": "た", "normalized": "た", "kind": "UNKNOWN", "left": 473, "top": 123, "width": 27, "height": 37, "right": 500, "bottom": 160, "conf": 92.0}, {"text": "角", "normalized": "角", "kind": "UNKNOWN", "left": 510, "top": 124, "width": 36, "height": 38, "right": 546, "bottom": 162, "conf": 0.0}, {"text": "不足", "normalized": "不足", "kind": "UNKNOWN", "left": 0, "top": 176, "width": 238, "height": 38, "right": 238, "bottom": 214, "conf": 20.0}, {"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 116, "top": 170, "width": 27, "height": 61, "right": 143, "bottom": 231, "conf": 96.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 142, "top": 170, "width": 26, "height": 61, "right": 168, "bottom": 231, "conf": 96.0}, {"text": "ラウ", "normalized": "ラウ", "kind": "UNKNOWN", "left": 167, "top": 170, "width": 52, "height": 61, "right": 219, "bottom": 231, "conf": 96.0}, {"text": "ンド", "normalized": "ンド", "kind": "UNKNOWN", "left": 218, "top": 170, "width": 49, "height": 61, "right": 267, "bottom": 231, "conf": 92.0}, {"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 274, "top": 179, "width": 24, "height": 35, "right": 298, "bottom": 214, "conf": 96.0}, {"text": "し", "normalized": "し", "kind": "UNKNOWN", "left": 304, "top": 177, "width": 20, "height": 37, "right": 324, "bottom": 214, "conf": 96.0}, {"text": "た", "normalized": "た", "kind": "UNKNOWN", "left": 335, "top": 177, "width": 18, "height": 37, "right": 353, "bottom": 214, "conf": 93.0}, {"text": "ず", "normalized": "ず", "kind": "UNKNOWN", "left": 366, "top": 176, "width": 28, "height": 41, "right": 394, "bottom": 217, "conf": 62.0}, {"text": "om", "normalized": "om", "kind": "UNKNOWN", "left": 415, "top": 180, "width": 40, "height": 36, "right": 455, "bottom": 216, "conf": 33.0}]}
-[22:56:47.914021][TEXT-CANDIDATE] text=[4
-
-r真のお腹は、 昨晩の前のご飯が多かった
-服すきて夜中まで寝つけなかった角
-不足でのラウンドでしたず om]
-[22:56:47.928045][COPY-NORM] raw=[4
-
-r真のお腹は、 昨晩の前のご飯が多かった
-服すきて夜中まで寝つけなかった角
-不足でのラウンドでしたず om] norm=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om]
-[22:56:47.976033][COPY-NORM] raw=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om] norm=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om]
-[22:56:48.014014][TOKEN-COUNT] norm=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om] tokens=['は', 'が', 'を', 'に', 'で', 'と', 'の', '。', '、'] count=5
-[22:56:48.030006][COPY-NORM] raw=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om] norm=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om]
-[22:56:48.035009][IMAGE-CHECK] body_markers norm=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om] count=5
-[22:56:48.046008][IMAGE-CHECK] rect=(641,292,1141,374) size=(500,82) text_len=56 body_markers=5 very_tall=False tall=False short_text=False weak_body=False result=False text=[4  r真のお腹は、 昨晩の前のご飯が多かった 服すきて夜中まで寝つけなかった角 不足でのラウンドでしたず om]
-[22:56:48.052006][COPY] id=225623_845404_641_292_1141_374 right click x=741 y=333
-[22:56:49.197964][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[22:56:49.210934][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
-[22:56:50.356861][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[22:56:50.365847][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
-[22:56:51.667760][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225650_373855_full.png", "mode": "full"}]
-[22:56:51.677775][CURSOR-EVIDENCE] tag=before_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225650_373855_full.png", "mode": "full"}
-[22:56:52.909729][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225650_373855_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
-[22:56:52.919689][CURSOR-EVIDENCE] tag=before_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225650_373855_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
-[22:56:53.050052][COPY] id=225623_845404_641_292_1141_374 right click ok=True
-[22:56:54.477969][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:56:54.487964][CURSOR] tag=after_right_click json={"x": 741, "y": 333}
-[22:56:55.648888][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:56:55.658884][CURSOR] tag=after_right_click json={"x": 741, "y": 333}
-[22:56:56.982802][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_225655_665887_full.png", "mode": "full"}]
-[22:56:56.993798][CURSOR-EVIDENCE] tag=after_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_225655_665887_full.png", "mode": "full"}
-[22:56:58.234773][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_225655_665887_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240}]
-[22:56:58.244760][CURSOR-EVIDENCE] tag=after_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_225655_665887_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240} cursor=(741,333)
-[22:56:58.752203][MENU-WINDOW] scan try=0
-[22:56:58.765152][MENU-WINDOW] found=True try=0
-[22:56:58.945142][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(731,323,874,620)
-[22:56:58.954180][COPY] id=225623_845404_641_292_1141_374 menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(741,333)
-[22:57:00.137074][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:57:00.147068][CURSOR] tag=after_menu_scan json={"x": 741, "y": 333}
-[22:57:01.301989][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:57:01.311986][CURSOR] tag=after_menu_scan json={"x": 741, "y": 333}
-[22:57:02.596899][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_225701_320985_full.png", "mode": "full"}]
-[22:57:02.605908][CURSOR-EVIDENCE] tag=after_menu_scan full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_225701_320985_full.png", "mode": "full"}
-[22:57:03.824828][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_225701_320985_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240}]
-[22:57:03.834829][CURSOR-EVIDENCE] tag=after_menu_scan crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_225701_320985_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240} cursor=(741,333)
-[22:57:03.923832][MENU-WINDOW] id=225623_845404_641_292_1141_374 selected rect=(731,323,874,620) point=(741,333)
-[22:57:05.254737][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y333_l731_t323_r874_b620_20260505_225703_941812.png", "mode": "full"}]
-[22:57:05.263722][MENU-EVIDENCE] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y333_l731_t323_r874_b620_20260505_225703_941812.png", "mode": "full"}
-[22:57:06.490695][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y333_l731_t323_r874_b620_20260505_225703_941812.png", "left": 731, "top": 323, "width": 143, "height": 297}]
-[22:57:06.499655][MENU-EVIDENCE] menu={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y333_l731_t323_r874_b620_20260505_225703_941812.png", "left": 731, "top": 323, "width": 143, "height": 297}
-[22:57:07.756558][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y333_20260505_225703_941812.png", "left": 621, "top": 213, "width": 240, "height": 240}]
-[22:57:07.768570][MENU-EVIDENCE] click={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y333_20260505_225703_941812.png", "left": 621, "top": 213, "width": 240, "height": 240}
-[22:57:08.911480][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:57:08.921486][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 333}
-[22:57:10.061411][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:57:10.071418][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 333}
-[22:57:11.373324][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_225710_078440_full.png", "mode": "full"}]
-[22:57:11.382326][CURSOR-EVIDENCE] tag=after_menu_evidence full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_225710_078440_full.png", "mode": "full"}
-[22:57:12.652280][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_225710_078440_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240}]
-[22:57:12.661269][CURSOR-EVIDENCE] tag=after_menu_evidence crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_225710_078440_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240} cursor=(741,333)
-[22:57:12.667227][OCR-VERSION] line_io.robot basic-valid + file-fallback + archive
-[22:57:12.764237][OCR-RAW] left=[731] top=[323] right=[874] bottom=[620]
-[22:57:12.780222][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(731,323,874,620)
-[22:57:12.791269][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(731,323,874,620)
-[22:57:12.810221][OCR] capture rect=(721,318,163,307) save=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\menu_capture_archive\menu_20260505_225712_805236_731_323_874_620.png]
-[22:57:14.093186][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_225712_805236_731_323_874_620.png", "left": 721, "top": 318, "width": 163, "height": 307}]
-[22:57:14.102134][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_225712_805236_731_323_874_620.png", "left": 721, "top": 318, "width": 163, "height": 307}
-[22:57:16.466986][PY] ocr rc=0 stderr=[{"text": "ュまで*つは4 AA\nノド リプライ\nコピ-\n転送\n 間際   yey,\nvii Keepメモに転送  ち\nノートに保存\nアナウフス\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_225712_805236_731_323_874_620.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_225712_805236_731_323_874_620.processed.png", "image_width": 163, "image_height": 307, "processed_width": 489, "processed_height": 921, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "ュ", "normalized": "ュ", "kind": "UNKNOWN", "left": 0, "top": 0, "width": 25, "height": 54, "right": 25, "bottom": 54, "conf": 74.0}, {"text": "ま", "normalized": "ま", "kind": "UNKNOWN", "left": 28, "top": 0, "width": 29, "height": 64, "right": 57, "bottom": 64, "conf": 91.0}, {"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 58, "top": 0, "width": 15, "height": 13, "right": 73, "bottom": 13, "conf": 88.0}, {"text": "*", "normalized": "*", "kind": "UNKNOWN", "left": 74, "top": 0, "width": 29, "height": 13, "right": 103, "bottom": 13, "conf": 24.0}, {"text": "つ", "normalized": "つ", "kind": "UNKNOWN", "left": 107, "top": 0, "width": 41, "height": 13, "right": 148, "bottom": 13, "conf": 0.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 161, "top": 0, "width": 29, "height": 13, "right": 190, "bottom": 13, "conf": 86.0}, {"text": "4", "normalized": "4", "kind": "UNKNOWN", "left": 198, "top": 0, "width": 82, "height": 13, "right": 280, "bottom": 13, "conf": 9.0}, {"text": "AA", "normalized": "aa", "kind": "UNKNOWN", "left": 298, "top": 0, "width": 183, "height": 53, "right": 481, "bottom": 53, "conf": 50.0}, {"text": "ノド", "normalized": "ノド", "kind": "UNKNOWN", "left": 0, "top": 83, "width": 34, "height": 35, "right": 34, "bottom": 118, "conf": 67.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 122, "top": 84, "width": 51, "height": 40, "right": 173, "bottom": 124, "conf": 80.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 176, "top": 87, "width": 50, "height": 37, "right": 226, "bottom": 124, "conf": 95.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 120, "top": 165, "width": 75, "height": 40, "right": 195, "bottom": 205, "conf": 80.0}, {"text": "-", "normalized": "-", "kind": "UNKNOWN", "left": 170, "top": 161, "width": 30, "height": 59, "right": 200, "bottom": 220, "conf": 81.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 119, "top": 249, "width": 75, "height": 37, "right": 194, "bottom": 286, "conf": 96.0}, {"text": "間際", "normalized": "間際", "kind": "UNKNOWN", "left": 120, "top": 329, "width": 73, "height": 38, "right": 193, "bottom": 367, "conf": 24.0}, {"text": "yey,", "normalized": "yey,", "kind": "UNKNOWN", "left": 440, "top": 357, "width": 47, "height": 55, "right": 487, "bottom": 412, "conf": 60.0}, {"text": "vii", "normalized": "vii", "kind": "UNKNOWN", "left": 0, "top": 512, "width": 58, "height": 84, "right": 58, "bottom": 596, "conf": 48.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 119, "top": 530, "width": 86, "height": 37, "right": 205, "bottom": 567, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 209, "top": 525, "width": 23, "height": 36, "right": 232, "bottom": 561, "conf": 90.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 236, "top": 527, "width": 22, "height": 35, "right": 258, "bottom": 562, "conf": 79.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 267, "top": 525, "width": 25, "height": 36, "right": 292, "bottom": 561, "conf": 89.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 301, "top": 525, "width": 70, "height": 37, "right": 371, "bottom": 562, "conf": 92.0}, {"text": "ち", "normalized": "ち", "kind": "UNKNOWN", "left": 464, "top": 515, "width": 22, "height": 38, "right": 486, "bottom": 553, "conf": 75.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 118, "top": 605, "width": 180, "height": 38, "right": 298, "bottom": 643, "conf": 79.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 165, "top": 600, "width": 19, "height": 56, "right": 184, "bottom": 656, "conf": 91.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 184, "top": 600, "width": 38, "height": 56, "right": 222, "bottom": 656, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 221, "top": 605, "width": 77, "height": 38, "right": 298, "bottom": 643, "conf": 76.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 119, "top": 720, "width": 56, "height": 36, "right": 175, "bottom": 756, "conf": 95.0}, {"text": "ウフ", "normalized": "ウフ", "kind": "UNKNOWN", "left": 179, "top": 720, "width": 53, "height": 37, "right": 232, "bottom": 757, "conf": 73.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 239, "top": 722, "width": 26, "height": 35, "right": 265, "bottom": 757, "conf": 91.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 119, "top": 800, "width": 76, "height": 38, "right": 195, "bottom": 838, "conf": 96.0}]}]
-[22:57:16.476975][OCR] ocr_json={"text": "ュまで*つは4 AA\nノド リプライ\nコピ-\n転送\n 間際   yey,\nvii Keepメモに転送  ち\nノートに保存\nアナウフス\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_225712_805236_731_323_874_620.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_225712_805236_731_323_874_620.processed.png", "image_width": 163, "image_height": 307, "processed_width": 489, "processed_height": 921, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "ュ", "normalized": "ュ", "kind": "UNKNOWN", "left": 0, "top": 0, "width": 25, "height": 54, "right": 25, "bottom": 54, "conf": 74.0}, {"text": "ま", "normalized": "ま", "kind": "UNKNOWN", "left": 28, "top": 0, "width": 29, "height": 64, "right": 57, "bottom": 64, "conf": 91.0}, {"text": "で", "normalized": "で", "kind": "UNKNOWN", "left": 58, "top": 0, "width": 15, "height": 13, "right": 73, "bottom": 13, "conf": 88.0}, {"text": "*", "normalized": "*", "kind": "UNKNOWN", "left": 74, "top": 0, "width": 29, "height": 13, "right": 103, "bottom": 13, "conf": 24.0}, {"text": "つ", "normalized": "つ", "kind": "UNKNOWN", "left": 107, "top": 0, "width": 41, "height": 13, "right": 148, "bottom": 13, "conf": 0.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 161, "top": 0, "width": 29, "height": 13, "right": 190, "bottom": 13, "conf": 86.0}, {"text": "4", "normalized": "4", "kind": "UNKNOWN", "left": 198, "top": 0, "width": 82, "height": 13, "right": 280, "bottom": 13, "conf": 9.0}, {"text": "AA", "normalized": "aa", "kind": "UNKNOWN", "left": 298, "top": 0, "width": 183, "height": 53, "right": 481, "bottom": 53, "conf": 50.0}, {"text": "ノド", "normalized": "ノド", "kind": "UNKNOWN", "left": 0, "top": 83, "width": 34, "height": 35, "right": 34, "bottom": 118, "conf": 67.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 122, "top": 84, "width": 51, "height": 40, "right": 173, "bottom": 124, "conf": 80.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 176, "top": 87, "width": 50, "height": 37, "right": 226, "bottom": 124, "conf": 95.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 120, "top": 165, "width": 75, "height": 40, "right": 195, "bottom": 205, "conf": 80.0}, {"text": "-", "normalized": "-", "kind": "UNKNOWN", "left": 170, "top": 161, "width": 30, "height": 59, "right": 200, "bottom": 220, "conf": 81.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 119, "top": 249, "width": 75, "height": 37, "right": 194, "bottom": 286, "conf": 96.0}, {"text": "間際", "normalized": "間際", "kind": "UNKNOWN", "left": 120, "top": 329, "width": 73, "height": 38, "right": 193, "bottom": 367, "conf": 24.0}, {"text": "yey,", "normalized": "yey,", "kind": "UNKNOWN", "left": 440, "top": 357, "width": 47, "height": 55, "right": 487, "bottom": 412, "conf": 60.0}, {"text": "vii", "normalized": "vii", "kind": "UNKNOWN", "left": 0, "top": 512, "width": 58, "height": 84, "right": 58, "bottom": 596, "conf": 48.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 119, "top": 530, "width": 86, "height": 37, "right": 205, "bottom": 567, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 209, "top": 525, "width": 23, "height": 36, "right": 232, "bottom": 561, "conf": 90.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 236, "top": 527, "width": 22, "height": 35, "right": 258, "bottom": 562, "conf": 79.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 267, "top": 525, "width": 25, "height": 36, "right": 292, "bottom": 561, "conf": 89.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 301, "top": 525, "width": 70, "height": 37, "right": 371, "bottom": 562, "conf": 92.0}, {"text": "ち", "normalized": "ち", "kind": "UNKNOWN", "left": 464, "top": 515, "width": 22, "height": 38, "right": 486, "bottom": 553, "conf": 75.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 118, "top": 605, "width": 180, "height": 38, "right": 298, "bottom": 643, "conf": 79.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 165, "top": 600, "width": 19, "height": 56, "right": 184, "bottom": 656, "conf": 91.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 184, "top": 600, "width": 38, "height": 56, "right": 222, "bottom": 656, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 221, "top": 605, "width": 77, "height": 38, "right": 298, "bottom": 643, "conf": 76.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 119, "top": 720, "width": 56, "height": 36, "right": 175, "bottom": 756, "conf": 95.0}, {"text": "ウフ", "normalized": "ウフ", "kind": "UNKNOWN", "left": 179, "top": 720, "width": 53, "height": 37, "right": 232, "bottom": 757, "conf": 73.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 239, "top": 722, "width": 26, "height": 35, "right": 265, "bottom": 757, "conf": 91.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 119, "top": 800, "width": 76, "height": 38, "right": 195, "bottom": 838, "conf": 96.0}]}
-[22:57:16.495983][OCR] text=[ュまで*つは4 AA
-ノド リプライ
-コピ-
+[TRACE START] 2026-05-05 23:39:07
+[23:39:07.264074][FAILSHOT] directory=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\fail_screens
+[23:39:07.993013][ACTIVATE] locator=executable:LINE.exe
+[23:39:09.769230][ACTIVATE] locator=executable:LINE.exe
+[23:39:10.803204][GROUP] open first group path=path:11|2|1|1|1|2
+[23:39:11.766809][GROUP] opened
+[23:39:14.838146][TEXT-RESET] removed dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
+[23:39:14.845125][TEXT-RESET] created dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
+[23:39:14.855123][ARTIFACT] ensured directories
+[23:39:14.862123][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
+[23:39:15.620008][ACTIVATE] locator=executable:LINE.exe
+[23:39:16.645779][SCROLL-UP] drag try=0
+[23:39:17.911940][SCROLL-UP] iter_elapsed=1.2392561435699463
+[23:39:17.928850][SCROLL-UP] elapsed=1.2392561435699463
+[23:39:18.725829][ACTIVATE] locator=executable:LINE.exe
+[23:39:19.750998][SCROLL-UP] drag try=1
+[23:39:21.006914][SCROLL-UP] iter_elapsed=1.2399218082427979
+[23:39:21.010862][SCROLL-UP] elapsed=2.479177951812744
+[23:39:21.772536][ACTIVATE] locator=executable:LINE.exe
+[23:39:22.778453][SCROLL-UP] drag try=2
+[23:39:24.026498][SCROLL-UP] iter_elapsed=1.2370131015777588
+[23:39:24.034448][SCROLL-UP] elapsed=3.716191053390503
+[23:39:25.340069][ACTIVATE] locator=executable:LINE.exe
+[23:39:26.360919][SCROLL-UP] drag try=3
+[23:39:27.605765][SCROLL-UP] iter_elapsed=1.229870080947876
+[23:39:27.611771][SCROLL-UP] elapsed=4.946061134338379
+[23:39:28.441761][ACTIVATE] locator=executable:LINE.exe
+[23:39:29.469058][SCROLL-UP] drag try=4
+[23:39:30.715477][SCROLL-UP] iter_elapsed=1.222599983215332
+[23:39:30.726450][SCROLL-UP] elapsed=6.168661117553711
+[23:39:31.516373][ACTIVATE] locator=executable:LINE.exe
+[23:39:32.544381][SCROLL-UP] drag try=5
+[23:39:33.788949][SCROLL-UP] iter_elapsed=1.2286150455474854
+[23:39:33.805964][SCROLL-UP] elapsed=7.397276163101196
+[23:39:34.599702][ACTIVATE] locator=executable:LINE.exe
+[23:39:35.621398][SCROLL-UP] drag try=6
+[23:39:36.877733][SCROLL-UP] iter_elapsed=1.2314271926879883
+[23:39:36.892649][SCROLL-UP] elapsed=8.628703355789185
+[23:39:37.670618][ACTIVATE] locator=executable:LINE.exe
+[23:39:38.699126][SCROLL-UP] drag try=7
+[23:39:39.957866][SCROLL-UP] iter_elapsed=1.2358791828155518
+[23:39:39.973887][SCROLL-UP] elapsed=9.864582538604736
+[23:39:40.807833][ACTIVATE] locator=executable:LINE.exe
+[23:39:41.833004][SCROLL-UP] drag try=8
+[23:39:43.099276][SCROLL-UP] iter_elapsed=1.2394680976867676
+[23:39:43.115288][SCROLL-UP] elapsed=11.104050636291504
+[23:39:44.875013][ACTIVATE] locator=executable:LINE.exe
+[23:39:46.649680][ACTIVATE] locator=executable:LINE.exe
+[23:39:48.398880][ACTIVATE] locator=executable:LINE.exe
+[23:39:50.163573][ACTIVATE] locator=executable:LINE.exe
+[23:39:51.924976][ACTIVATE] locator=executable:LINE.exe
+[23:39:53.263580][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:39:53.673534][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[23:39:53.976539][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[23:39:53.994562][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[23:39:54.008494][MSGWIN] group count=2
+[23:39:54.203523][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[23:39:54.373490][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[23:39:54.388496][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:39:54.448512][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[23:39:54.452462][RIGHT-PANE-SAFE] point=(1164,361)
+[23:39:54.456508][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[23:39:54.463469][SCROLL-CLEAR] status=[]
+[23:39:54.467461][SCROLL-CLEAR] move x=1164 y=361
+[23:39:54.474515][SCROLL-CLEAR] move_ok=True
+[23:39:54.716668][SCROLL-CLEAR] click_ok=True
+[23:39:55.903074][ACTIVATE] locator=executable:LINE.exe
+[23:39:57.707966][ACTIVATE] locator=executable:LINE.exe
+[23:39:59.475008][ACTIVATE] locator=executable:LINE.exe
+[23:40:01.221331][ACTIVATE] locator=executable:LINE.exe
+[23:40:02.955770][ACTIVATE] locator=executable:LINE.exe
+[23:40:04.323190][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:40:04.718129][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[23:40:05.010111][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[23:40:05.024129][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[23:40:05.036098][MSGWIN] group count=2
+[23:40:05.216096][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[23:40:05.391087][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[23:40:05.400087][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:40:05.476084][RIGHT-PANE-SAFE] msgwin_rect=(571,85,1184,637)
+[23:40:05.480078][RIGHT-PANE-SAFE] point=(1164,361)
+[23:40:05.484082][SCROLL-CLEAR] safe-point from right pane = (1164,361)
+[23:40:05.488082][SCROLL-CLEAR] status=[]
+[23:40:05.494088][SCROLL-CLEAR] move x=1164 y=361
+[23:40:05.502084][SCROLL-CLEAR] move_ok=True
+[23:40:05.737815][SCROLL-CLEAR] click_ok=True
+[23:40:06.883515][ACTIVATE] locator=executable:LINE.exe
+[23:40:07.910779][DOWN LOOP] start loop=0
+[23:40:08.670590][ACTIVATE] locator=executable:LINE.exe
+[23:40:10.458610][ACTIVATE] locator=executable:LINE.exe
+[23:40:12.213662][ACTIVATE] locator=executable:LINE.exe
+[23:40:13.933389][ACTIVATE] locator=executable:LINE.exe
+[23:40:15.275661][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:40:15.661682][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[23:40:15.962620][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[23:40:15.980614][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[23:40:15.994656][MSGWIN] group count=2
+[23:40:16.153612][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[23:40:16.340638][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[23:40:16.348590][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:40:16.355587][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:40:16.430625][BUBBLE-RECT] root_rect=(571,85,1184,637) root_size=(613,552)
+[23:40:16.436582][BUBBLE-RECT] anchor msgwin ok=True
+[23:40:16.496577][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
+[23:40:16.553621][BUBBLE-RECT] anchored_count=3
+[23:40:16.776626][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(571,149,1177,241) size=(606,92)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[23:40:16.801605][BUBBLE-INNER] outer=(571,149,1177,241) inner=[641,163,1141,227] short=False mid=True inner_h=64 outer_h=92 ratio=0.6956521739130435 thin_inner=False collapsed_short=False
+[23:40:16.813590][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=163 inner_b=227 inner_h=64 footer_near_bottom=False short_footer_near=False result=False
+[23:40:16.824664][BUBBLE-IMAGE-FILTER] outer_h=92 inner_h=64 ratio=0.6956521739130435 very_tall_inner=False very_tall_outer=False tall_dense=False result=False
+[23:40:16.833599][BUBBLE-RECT] idx=0 name=[] type=[ListItemControl] class=[] rect=641,163,1141,227
+[23:40:17.062544][BUBBLE-RECT-CAND] idx=1 name=[] type=[ListItemControl] class=[]rect=(571,241,1177,351) size=(606,110)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[23:40:17.085538][BUBBLE-INNER] outer=(571,241,1177,351) inner=[641,255,1141,337] short=False mid=True inner_h=82 outer_h=110 ratio=0.7454545454545455 thin_inner=False collapsed_short=False
+[23:40:17.094570][BUBBLE-FOOTER-FILTER] root_b=637 inner_t=255 inner_b=337 inner_h=82 footer_near_bottom=False short_footer_near=False result=False
+[23:40:17.103540][BUBBLE-IMAGE-FILTER] outer_h=110 inner_h=82 ratio=0.7454545454545455 very_tall_inner=False very_tall_outer=False tall_dense=False result=False
+[23:40:17.109541][BUBBLE-RECT] idx=1 name=[] type=[ListItemControl] class=[] rect=641,255,1141,337
+[23:40:17.339570][BUBBLE-RECT-CAND] idx=2 name=[] type=[ListItemControl] class=[]rect=(571,351,1177,728) size=(606,377)inside_x=True inside_y=False large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=False
+[23:40:17.349552][BUBBLE-RECT] visible_count=2
+[23:40:17.426565][BUBBLE-SIGNATURE] count=2 signature=[641,163,1141,227;641,255,1141,337]
+[23:40:17.444544][COPY-BEGIN] id=234017_441575_641_163_1141_227 rect=(641,163,1141,227)
+[23:40:18.188567][ACTIVATE] locator=executable:LINE.exe
+[23:40:19.628801][CLIPBOARD] clear rc=0 stdout=[] stderr=[]
+[23:40:19.646827][BUBBLE-CLICK] rect=(641,163,1141,227) raw=(741,195) clamped=(741,195) size=(500,64) rule=front20_centerY
+[23:40:19.650809][POINTER] id=234017_441575_641_163_1141_227 bubble target=(741,195)
+[23:40:20.846719][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:40:20.857688][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
+[23:40:22.006655][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:40:22.014612][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
+[23:40:23.268572][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234022_021655_full.png", "mode": "full"}]
+[23:40:23.278520][CURSOR-EVIDENCE] tag=before_preclick_capture full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234022_021655_full.png", "mode": "full"}
+[23:40:24.469450][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234022_021655_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
+[23:40:24.482480][CURSOR-EVIDENCE] tag=before_preclick_capture crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234022_021655_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
+[23:40:24.506439][PRECLICK-RECT] bubble=(641,163,1141,227) click=(741,195) size=(500,64) rule=short_row_tight rect=(653,159,861,233) capture_size=(208,74)
+[23:40:25.735373][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 159, "width": 208, "height": 74}]
+[23:40:25.744355][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 159, "width": 208, "height": 74}
+[23:40:27.989219][PY] ocr rc=0 stderr=[{"text": " のはん92 。 RI STALE? Bo\nさて、8/24 (4) 総会後の同期会の則\n)\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 74, "processed_width": 624, "processed_height": 222, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 24, "top": 0, "width": 24, "height": 25, "right": 48, "bottom": 25, "conf": 83.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 53, "top": 0, "width": 35, "height": 25, "right": 88, "bottom": 25, "conf": 83.0}, {"text": "ん", "normalized": "ん", "kind": "UNKNOWN", "left": 88, "top": 0, "width": 38, "height": 32, "right": 126, "bottom": 32, "conf": 87.0}, {"text": "92", "normalized": "92", "kind": "UNKNOWN", "left": 120, "top": 0, "width": 43, "height": 25, "right": 163, "bottom": 25, "conf": 37.0}, {"text": "。", "normalized": "。", "kind": "UNKNOWN", "left": 176, "top": 14, "width": 13, "height": 11, "right": 189, "bottom": 25, "conf": 24.0}, {"text": "RI", "normalized": "ri", "kind": "UNKNOWN", "left": 202, "top": 0, "width": 90, "height": 25, "right": 292, "bottom": 25, "conf": 38.0}, {"text": "STALE?", "normalized": "stale?", "kind": "UNKNOWN", "left": 302, "top": 0, "width": 239, "height": 25, "right": 541, "bottom": 25, "conf": 0.0}, {"text": "Bo", "normalized": "bo", "kind": "UNKNOWN", "left": 559, "top": 0, "width": 62, "height": 24, "right": 621, "bottom": 24, "conf": 36.0}, {"text": "さて", "normalized": "さて", "kind": "UNKNOWN", "left": 8, "top": 39, "width": 68, "height": 37, "right": 76, "bottom": 76, "conf": 93.0}, {"text": "、8/24", "normalized": "、8/24", "kind": "UNKNOWN", "left": 91, "top": 44, "width": 77, "height": 35, "right": 168, "bottom": 79, "conf": 87.0}, {"text": "(4)", "normalized": "(4)", "kind": "UNKNOWN", "left": 194, "top": 39, "width": 67, "height": 37, "right": 261, "bottom": 76, "conf": 89.0}, {"text": "総会", "normalized": "総会", "kind": "UNKNOWN", "left": 287, "top": 38, "width": 337, "height": 38, "right": 624, "bottom": 76, "conf": 92.0}, {"text": "後", "normalized": "後", "kind": "UNKNOWN", "left": 395, "top": 34, "width": 30, "height": 51, "right": 425, "bottom": 85, "conf": 91.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 424, "top": 34, "width": 27, "height": 51, "right": 451, "bottom": 85, "conf": 85.0}, {"text": "同期", "normalized": "同期", "kind": "UNKNOWN", "left": 450, "top": 38, "width": 94, "height": 38, "right": 544, "bottom": 76, "conf": 96.0}, {"text": "会", "normalized": "会", "kind": "UNKNOWN", "left": 543, "top": 34, "width": 31, "height": 51, "right": 574, "bottom": 85, "conf": 94.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 573, "top": 34, "width": 18, "height": 51, "right": 591, "bottom": 85, "conf": 92.0}, {"text": "則", "normalized": "則", "kind": "UNKNOWN", "left": 590, "top": 34, "width": 34, "height": 51, "right": 624, "bottom": 85, "conf": 0.0}, {"text": ")", "normalized": ")", "kind": "UNKNOWN", "left": 0, "top": 123, "width": 16, "height": 33, "right": 16, "bottom": 156, "conf": 88.0}]}]
+[23:40:28.001252][TEXT-CANDIDATE] ocr_json={"text": " のはん92 。 RI STALE? Bo\nさて、8/24 (4) 総会後の同期会の則\n)\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 74, "processed_width": 624, "processed_height": 222, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 24, "top": 0, "width": 24, "height": 25, "right": 48, "bottom": 25, "conf": 83.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 53, "top": 0, "width": 35, "height": 25, "right": 88, "bottom": 25, "conf": 83.0}, {"text": "ん", "normalized": "ん", "kind": "UNKNOWN", "left": 88, "top": 0, "width": 38, "height": 32, "right": 126, "bottom": 32, "conf": 87.0}, {"text": "92", "normalized": "92", "kind": "UNKNOWN", "left": 120, "top": 0, "width": 43, "height": 25, "right": 163, "bottom": 25, "conf": 37.0}, {"text": "。", "normalized": "。", "kind": "UNKNOWN", "left": 176, "top": 14, "width": 13, "height": 11, "right": 189, "bottom": 25, "conf": 24.0}, {"text": "RI", "normalized": "ri", "kind": "UNKNOWN", "left": 202, "top": 0, "width": 90, "height": 25, "right": 292, "bottom": 25, "conf": 38.0}, {"text": "STALE?", "normalized": "stale?", "kind": "UNKNOWN", "left": 302, "top": 0, "width": 239, "height": 25, "right": 541, "bottom": 25, "conf": 0.0}, {"text": "Bo", "normalized": "bo", "kind": "UNKNOWN", "left": 559, "top": 0, "width": 62, "height": 24, "right": 621, "bottom": 24, "conf": 36.0}, {"text": "さて", "normalized": "さて", "kind": "UNKNOWN", "left": 8, "top": 39, "width": 68, "height": 37, "right": 76, "bottom": 76, "conf": 93.0}, {"text": "、8/24", "normalized": "、8/24", "kind": "UNKNOWN", "left": 91, "top": 44, "width": 77, "height": 35, "right": 168, "bottom": 79, "conf": 87.0}, {"text": "(4)", "normalized": "(4)", "kind": "UNKNOWN", "left": 194, "top": 39, "width": 67, "height": 37, "right": 261, "bottom": 76, "conf": 89.0}, {"text": "総会", "normalized": "総会", "kind": "UNKNOWN", "left": 287, "top": 38, "width": 337, "height": 38, "right": 624, "bottom": 76, "conf": 92.0}, {"text": "後", "normalized": "後", "kind": "UNKNOWN", "left": 395, "top": 34, "width": 30, "height": 51, "right": 425, "bottom": 85, "conf": 91.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 424, "top": 34, "width": 27, "height": 51, "right": 451, "bottom": 85, "conf": 85.0}, {"text": "同期", "normalized": "同期", "kind": "UNKNOWN", "left": 450, "top": 38, "width": 94, "height": 38, "right": 544, "bottom": 76, "conf": 96.0}, {"text": "会", "normalized": "会", "kind": "UNKNOWN", "left": 543, "top": 34, "width": 31, "height": 51, "right": 574, "bottom": 85, "conf": 94.0}, {"text": "の", "normalized": "の", "kind": "UNKNOWN", "left": 573, "top": 34, "width": 18, "height": 51, "right": 591, "bottom": 85, "conf": 92.0}, {"text": "則", "normalized": "則", "kind": "UNKNOWN", "left": 590, "top": 34, "width": 34, "height": 51, "right": 624, "bottom": 85, "conf": 0.0}, {"text": ")", "normalized": ")", "kind": "UNKNOWN", "left": 0, "top": 123, "width": 16, "height": 33, "right": 16, "bottom": 156, "conf": 88.0}]}
+[23:40:28.021252][TEXT-CANDIDATE] text=[のはん92 。 RI STALE? Bo
+さて、8/24 (4) 総会後の同期会の則
+)]
+[23:40:28.035233][COPY-NORM] raw=[のはん92 。 RI STALE? Bo
+さて、8/24 (4) 総会後の同期会の則
+)] norm=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )]
+[23:40:28.056216][COPY-NORM] raw=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )] norm=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )]
+[23:40:28.089226][TOKEN-COUNT] norm=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )] tokens=['は', 'が', 'を', 'に', 'で', 'と', 'の', '。', '、'] count=4
+[23:40:28.104211][COPY-NORM] raw=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )] norm=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )]
+[23:40:28.109200][IMAGE-CHECK] body_markers norm=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )] count=4
+[23:40:28.118212][IMAGE-CHECK] rect=(641,163,1141,227) size=(500,64) text_len=44 body_markers=4 very_tall=False tall=False short_text=False weak_body=False result=False text=[のはん92 。 RI STALE? Bo さて、8/24 (4) 総会後の同期会の則 )]
+[23:40:28.125215][COPY] id=234017_441575_641_163_1141_227 right click x=741 y=195
+[23:40:29.256170][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:40:29.265123][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
+[23:40:30.490060][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:40:30.501046][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
+[23:40:32.110949][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234030_511055_full.png", "mode": "full"}]
+[23:40:32.119946][CURSOR-EVIDENCE] tag=before_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234030_511055_full.png", "mode": "full"}
+[23:40:33.300899][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234030_511055_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
+[23:40:33.309855][CURSOR-EVIDENCE] tag=before_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234030_511055_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
+[23:40:33.423573][COPY] id=234017_441575_641_163_1141_227 right click ok=True
+[23:40:34.540552][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:34.550532][CURSOR] tag=after_right_click json={"x": 741, "y": 195}
+[23:40:35.606465][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:35.616463][CURSOR] tag=after_right_click json={"x": 741, "y": 195}
+[23:40:36.846379][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234035_623463_full.png", "mode": "full"}]
+[23:40:36.861330][CURSOR-EVIDENCE] tag=after_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234035_623463_full.png", "mode": "full"}
+[23:40:38.060300][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234035_623463_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240}]
+[23:40:38.068293][CURSOR-EVIDENCE] tag=after_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234035_623463_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240} cursor=(741,195)
+[23:40:38.576397][MENU-WINDOW] scan try=0
+[23:40:38.588355][MENU-WINDOW] found=True try=0
+[23:40:38.722353][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(731,185,883,271)
+[23:40:38.730365][COPY] id=234017_441575_641_163_1141_227 menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(741,195)
+[23:40:39.811274][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:39.820317][CURSOR] tag=after_menu_scan json={"x": 741, "y": 195}
+[23:40:40.912237][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:40.922232][CURSOR] tag=after_menu_scan json={"x": 741, "y": 195}
+[23:40:42.180162][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234040_930232_full.png", "mode": "full"}]
+[23:40:42.190124][CURSOR-EVIDENCE] tag=after_menu_scan full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234040_930232_full.png", "mode": "full"}
+[23:40:43.374066][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234040_930232_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240}]
+[23:40:43.384070][CURSOR-EVIDENCE] tag=after_menu_scan crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234040_930232_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240} cursor=(741,195)
+[23:40:43.451080][MENU-WINDOW] id=234017_441575_641_163_1141_227 selected rect=(731,185,883,271) point=(741,195)
+[23:40:44.741952][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y195_l731_t185_r883_b271_20260505_234043_463082.png", "mode": "full"}]
+[23:40:44.749945][MENU-EVIDENCE] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y195_l731_t185_r883_b271_20260505_234043_463082.png", "mode": "full"}
+[23:40:45.916874][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y195_l731_t185_r883_b271_20260505_234043_463082.png", "left": 731, "top": 185, "width": 152, "height": 86}]
+[23:40:45.925857][MENU-EVIDENCE] menu={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y195_l731_t185_r883_b271_20260505_234043_463082.png", "left": 731, "top": 185, "width": 152, "height": 86}
+[23:40:47.077834][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y195_20260505_234043_463082.png", "left": 621, "top": 75, "width": 240, "height": 240}]
+[23:40:47.086782][MENU-EVIDENCE] click={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y195_20260505_234043_463082.png", "left": 621, "top": 75, "width": 240, "height": 240}
+[23:40:48.189719][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:48.200726][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 195}
+[23:40:49.277636][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:49.286643][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 195}
+[23:40:50.498603][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234049_293689_full.png", "mode": "full"}]
+[23:40:50.507553][CURSOR-EVIDENCE] tag=after_menu_evidence full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234049_293689_full.png", "mode": "full"}
+[23:40:51.679526][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234049_293689_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240}]
+[23:40:51.690526][CURSOR-EVIDENCE] tag=after_menu_evidence crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234049_293689_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240} cursor=(741,195)
+[23:40:51.696483][OCR-VERSION] line_io.robot basic-valid + file-fallback + archive
+[23:40:51.783553][OCR-RAW] left=[731] top=[185] right=[883] bottom=[271]
+[23:40:51.801490][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(731,185,883,271)
+[23:40:51.813507][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(731,185,883,271)
+[23:40:51.830563][OCR] capture rect=(721,180,172,96) save=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\menu_capture_archive\menu_20260505_234051_827476_731_185_883_271.png]
+[23:40:53.095392][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_234051_827476_731_185_883_271.png", "left": 721, "top": 180, "width": 172, "height": 96}]
+[23:40:53.105396][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_234051_827476_731_185_883_271.png", "left": 721, "top": 180, "width": 172, "height": 96}
+[23:40:55.087300][PY] ocr rc=0 stderr=[{"text": "今後は表示しない\nPLOY ABER\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234051_827476_731_185_883_271.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234051_827476_731_185_883_271.processed.png", "image_width": 172, "image_height": 96, "processed_width": 516, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "今後", "normalized": "今後", "kind": "UNKNOWN", "left": 119, "top": 86, "width": 278, "height": 38, "right": 397, "bottom": 124, "conf": 96.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 228, "top": 82, "width": 20, "height": 59, "right": 248, "bottom": 141, "conf": 95.0}, {"text": "表示", "normalized": "表示", "kind": "UNKNOWN", "left": 247, "top": 86, "width": 80, "height": 38, "right": 327, "bottom": 124, "conf": 96.0}, {"text": "し", "normalized": "し", "kind": "UNKNOWN", "left": 326, "top": 82, "width": 26, "height": 59, "right": 352, "bottom": 141, "conf": 96.0}, {"text": "な", "normalized": "な", "kind": "UNKNOWN", "left": 351, "top": 82, "width": 20, "height": 59, "right": 371, "bottom": 141, "conf": 93.0}, {"text": "い", "normalized": "い", "kind": "UNKNOWN", "left": 370, "top": 82, "width": 31, "height": 59, "right": 401, "bottom": 141, "conf": 93.0}, {"text": "PLOY", "normalized": "ploy", "kind": "UNKNOWN", "left": 119, "top": 168, "width": 110, "height": 37, "right": 229, "bottom": 205, "conf": 39.0}, {"text": "ABER", "normalized": "aber", "kind": "UNKNOWN", "left": 247, "top": 163, "width": 97, "height": 59, "right": 344, "bottom": 222, "conf": 39.0}]}]
+[23:40:55.096302][OCR] ocr_json={"text": "今後は表示しない\nPLOY ABER\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234051_827476_731_185_883_271.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234051_827476_731_185_883_271.processed.png", "image_width": 172, "image_height": 96, "processed_width": 516, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "今後", "normalized": "今後", "kind": "UNKNOWN", "left": 119, "top": 86, "width": 278, "height": 38, "right": 397, "bottom": 124, "conf": 96.0}, {"text": "は", "normalized": "は", "kind": "UNKNOWN", "left": 228, "top": 82, "width": 20, "height": 59, "right": 248, "bottom": 141, "conf": 95.0}, {"text": "表示", "normalized": "表示", "kind": "UNKNOWN", "left": 247, "top": 86, "width": 80, "height": 38, "right": 327, "bottom": 124, "conf": 96.0}, {"text": "し", "normalized": "し", "kind": "UNKNOWN", "left": 326, "top": 82, "width": 26, "height": 59, "right": 352, "bottom": 141, "conf": 96.0}, {"text": "な", "normalized": "な", "kind": "UNKNOWN", "left": 351, "top": 82, "width": 20, "height": 59, "right": 371, "bottom": 141, "conf": 93.0}, {"text": "い", "normalized": "い", "kind": "UNKNOWN", "left": 370, "top": 82, "width": 31, "height": 59, "right": 401, "bottom": 141, "conf": 93.0}, {"text": "PLOY", "normalized": "ploy", "kind": "UNKNOWN", "left": 119, "top": 168, "width": 110, "height": 37, "right": 229, "bottom": 205, "conf": 39.0}, {"text": "ABER", "normalized": "aber", "kind": "UNKNOWN", "left": 247, "top": 163, "width": 97, "height": 59, "right": 344, "bottom": 222, "conf": 39.0}]}
+[23:40:55.115298][OCR] text=[今後は表示しない
+PLOY ABER] file=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\menu_20260505_234051_827476_731_185_883_271.txt]
+[23:40:55.121297][COPY] id=234017_441575_641_163_1141_227 detected menu text by OCR=[今後は表示しない
+PLOY ABER] point=(741,195)
+[23:40:55.131298][COPY-NORM] raw=[今後は表示しない
+PLOY ABER] norm=[今後は表示しない PLOY ABER]
+[23:40:55.163291][COPY-LIKE] norm=[今後は表示しない PLOY ABER] result=Falseh1=False h2=False h3=False h4=Falseh5=False h6=False h7=False h8=Falseh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
+[23:40:55.176263][COPY-NORM] raw=[今後は表示しない
+PLOY ABER] norm=[今後は表示しない PLOY ABER]
+[23:40:55.201241][COPY-NORM] raw=[今後は表示しない PLOY ABER] norm=[今後は表示しない PLOY ABER]
+[23:40:55.231269][COPY-LIKE] norm=[今後は表示しない PLOY ABER] result=Falseh1=False h2=False h3=False h4=Falseh5=False h6=False h7=False h8=Falseh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
+[23:40:55.240282][OCR-FILTER] normalized=[今後は表示しない PLOY ABER]
+[23:40:55.246282][OCR-FILTER] has_hide=False has_announce=False has_announce_release=False has_selectall=False has_copy=False has_paste=False announce_like=False result=False
+[23:40:55.262287][COPY-NORM] raw=[今後は表示しない
+PLOY ABER] norm=[今後は表示しない PLOY ABER]
+[23:40:55.283236][LONG-MENU] norm=[今後は表示しない PLOY ABER] result=False count=0 reply=False forward=False delete=False translate=False keep=False save=False report=False
+[23:40:55.288245][COPY-CHECK] id=234017_441575_641_163_1141_227 has_copy_like=False non_message=False is_long_menu=False menu_text=[今後は表示しない
+PLOY ABER] point=(741,195)
+[23:40:55.297302][COPY] id=234017_441575_641_163_1141_227 skip: no_copy_like
+[23:40:56.429207][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:56.439161][CURSOR] tag=before_return_no_copy_like json={"x": 741, "y": 195}
+[23:40:57.532126][PY] cursor rc=0 stderr=[{"x": 741, "y": 195}]
+[23:40:57.544126][CURSOR] tag=before_return_no_copy_like json={"x": 741, "y": 195}
+[23:40:58.859012][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_no_copy_like_20260505_234057_552127_full.png", "mode": "full"}]
+[23:40:58.869008][CURSOR-EVIDENCE] tag=before_return_no_copy_like full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_no_copy_like_20260505_234057_552127_full.png", "mode": "full"}
+[23:41:00.043930][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_no_copy_like_20260505_234057_552127_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240}]
+[23:41:00.056932][CURSOR-EVIDENCE] tag=before_return_no_copy_like crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_no_copy_like_20260505_234057_552127_cursor.png", "left": 621, "top": 75, "width": 240, "height": 240} cursor=(741,195)
+[23:41:00.080939][CAPTURE] rect=641,163,1141,227 status=MENU_NO_COPY reason=[menu_no_copy] menu_text=[今後は表示しない
+PLOY ABER] menu_rect=[731,185,883,271]
+[23:41:01.319850][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_menu_no_copy_y163_20260505_234100_089915.png", "mode": "full"}]
+[23:41:01.328846][FAILSHOT] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_full_MENU_NO_COPY_menu_no_copy_y163_20260505_234100_089915.png", "mode": "full"}
+[23:41:02.474831][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_menu_no_copy_y163_20260505_234100_089915.png", "left": 601, "top": 95, "width": 320, "height": 220}]
+[23:41:02.484809][FAILSHOT] crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\fail_screens\\fail_crop_MENU_NO_COPY_menu_no_copy_y163_20260505_234100_089915.png", "left": 601, "top": 95, "width": 320, "height": 220} menu_rect=[731,185,883,271]
+[23:41:02.488811][CAPTURE] target menu exists but no コピー -> next rect=641,163,1141,227
+[23:41:02.504812][COPY-BEGIN] id=234102_502810_641_255_1141_337 rect=(641,255,1141,337)
+[23:41:03.241599][ACTIVATE] locator=executable:LINE.exe
+[23:41:04.670779][CLIPBOARD] clear rc=0 stdout=[] stderr=[]
+[23:41:04.687792][BUBBLE-CLICK] rect=(641,255,1141,337) raw=(741,296) clamped=(741,296) size=(500,82) rule=front20_centerY
+[23:41:04.691726][POINTER] id=234102_502810_641_255_1141_337 bubble target=(741,296)
+[23:41:05.755666][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:41:05.765660][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
+[23:41:06.843627][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:41:06.853629][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
+[23:41:08.086545][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234106_861624_full.png", "mode": "full"}]
+[23:41:08.094508][CURSOR-EVIDENCE] tag=before_preclick_capture full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234106_861624_full.png", "mode": "full"}
+[23:41:09.234435][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234106_861624_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
+[23:41:09.242425][CURSOR-EVIDENCE] tag=before_preclick_capture crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_234106_861624_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
+[23:41:09.262414][PRECLICK-RECT] bubble=(641,255,1141,337) click=(741,296) size=(500,82) rule=mid_row_tight rect=(653,249,861,345) capture_size=(208,96)
+[23:41:10.436388][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 249, "width": 208, "height": 96}]
+[23:41:10.447337][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 653, "top": 249, "width": 208, "height": 96}
+[23:41:12.582209][PY] ocr rc=0 stderr=[{"text": "c Viata\nるほど ! HERICL CHER CID,\nEA, PULTE THK. 惜しい !\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 96, "processed_width": 624, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "c", "normalized": "c", "kind": "UNKNOWN", "left": 5, "top": 0, "width": 16, "height": 19, "right": 21, "bottom": 19, "conf": 62.0}, {"text": "Viata", "normalized": "viata", "kind": "UNKNOWN", "left": 40, "top": 0, "width": 94, "height": 19, "right": 134, "bottom": 19, "conf": 34.0}, {"text": "る", "normalized": "る", "kind": "UNKNOWN", "left": 0, "top": 74, "width": 34, "height": 32, "right": 34, "bottom": 106, "conf": 90.0}, {"text": "ほど", "normalized": "ほど", "kind": "UNKNOWN", "left": 40, "top": 65, "width": 40, "height": 60, "right": 80, "bottom": 125, "conf": 92.0}, {"text": "!", "normalized": "!", "kind": "UNKNOWN", "left": 100, "top": 69, "width": 1, "height": 40, "right": 101, "bottom": 109, "conf": 92.0}, {"text": "HERICL", "normalized": "hericl", "kind": "UNKNOWN", "left": 150, "top": 71, "width": 150, "height": 38, "right": 300, "bottom": 109, "conf": 0.0}, {"text": "CHER", "normalized": "cher", "kind": "UNKNOWN", "left": 320, "top": 71, "width": 147, "height": 38, "right": 467, "bottom": 109, "conf": 0.0}, {"text": "CID,", "normalized": "cid,", "kind": "UNKNOWN", "left": 515, "top": 71, "width": 101, "height": 38, "right": 616, "bottom": 109, "conf": 0.0}, {"text": "EA,", "normalized": "ea,", "kind": "UNKNOWN", "left": 0, "top": 176, "width": 103, "height": 38, "right": 103, "bottom": 214, "conf": 47.0}, {"text": "PULTE", "normalized": "pulte", "kind": "UNKNOWN", "left": 127, "top": 172, "width": 119, "height": 59, "right": 246, "bottom": 231, "conf": 36.0}, {"text": "THK.", "normalized": "thk.", "kind": "UNKNOWN", "left": 255, "top": 172, "width": 65, "height": 59, "right": 320, "bottom": 231, "conf": 36.0}, {"text": "惜しい", "normalized": "惜しい", "kind": "UNKNOWN", "left": 337, "top": 176, "width": 96, "height": 38, "right": 433, "bottom": 214, "conf": 90.0}, {"text": "!", "normalized": "!", "kind": "UNKNOWN", "left": 452, "top": 179, "width": 6, "height": 32, "right": 458, "bottom": 211, "conf": 90.0}]}]
+[23:41:12.591209][TEXT-CANDIDATE] ocr_json={"text": "c Viata\nるほど ! HERICL CHER CID,\nEA, PULTE THK. 惜しい !\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 208, "image_height": 96, "processed_width": 624, "processed_height": 288, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "c", "normalized": "c", "kind": "UNKNOWN", "left": 5, "top": 0, "width": 16, "height": 19, "right": 21, "bottom": 19, "conf": 62.0}, {"text": "Viata", "normalized": "viata", "kind": "UNKNOWN", "left": 40, "top": 0, "width": 94, "height": 19, "right": 134, "bottom": 19, "conf": 34.0}, {"text": "る", "normalized": "る", "kind": "UNKNOWN", "left": 0, "top": 74, "width": 34, "height": 32, "right": 34, "bottom": 106, "conf": 90.0}, {"text": "ほど", "normalized": "ほど", "kind": "UNKNOWN", "left": 40, "top": 65, "width": 40, "height": 60, "right": 80, "bottom": 125, "conf": 92.0}, {"text": "!", "normalized": "!", "kind": "UNKNOWN", "left": 100, "top": 69, "width": 1, "height": 40, "right": 101, "bottom": 109, "conf": 92.0}, {"text": "HERICL", "normalized": "hericl", "kind": "UNKNOWN", "left": 150, "top": 71, "width": 150, "height": 38, "right": 300, "bottom": 109, "conf": 0.0}, {"text": "CHER", "normalized": "cher", "kind": "UNKNOWN", "left": 320, "top": 71, "width": 147, "height": 38, "right": 467, "bottom": 109, "conf": 0.0}, {"text": "CID,", "normalized": "cid,", "kind": "UNKNOWN", "left": 515, "top": 71, "width": 101, "height": 38, "right": 616, "bottom": 109, "conf": 0.0}, {"text": "EA,", "normalized": "ea,", "kind": "UNKNOWN", "left": 0, "top": 176, "width": 103, "height": 38, "right": 103, "bottom": 214, "conf": 47.0}, {"text": "PULTE", "normalized": "pulte", "kind": "UNKNOWN", "left": 127, "top": 172, "width": 119, "height": 59, "right": 246, "bottom": 231, "conf": 36.0}, {"text": "THK.", "normalized": "thk.", "kind": "UNKNOWN", "left": 255, "top": 172, "width": 65, "height": 59, "right": 320, "bottom": 231, "conf": 36.0}, {"text": "惜しい", "normalized": "惜しい", "kind": "UNKNOWN", "left": 337, "top": 176, "width": 96, "height": 38, "right": 433, "bottom": 214, "conf": 90.0}, {"text": "!", "normalized": "!", "kind": "UNKNOWN", "left": 452, "top": 179, "width": 6, "height": 32, "right": 458, "bottom": 211, "conf": 90.0}]}
+[23:41:12.609246][TEXT-CANDIDATE] text=[c Viata
+るほど ! HERICL CHER CID,
+EA, PULTE THK. 惜しい !]
+[23:41:12.624207][COPY-NORM] raw=[c Viata
+るほど ! HERICL CHER CID,
+EA, PULTE THK. 惜しい !] norm=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !]
+[23:41:12.637206][COPY-NORM] raw=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !] norm=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !]
+[23:41:12.665224][TOKEN-COUNT] norm=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !] tokens=['は', 'が', 'を', 'に', 'で', 'と', 'の', '。', '、'] count=0
+[23:41:12.675202][COPY-NORM] raw=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !] norm=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !]
+[23:41:12.680188][IMAGE-CHECK] body_markers norm=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !] count=0
+[23:41:12.688201][IMAGE-CHECK] rect=(641,255,1141,337) size=(500,82) text_len=51 body_markers=0 very_tall=False tall=False short_text=False weak_body=True result=False text=[c Viata るほど ! HERICL CHER CID, EA, PULTE THK. 惜しい !]
+[23:41:12.693188][COPY] id=234102_502810_641_255_1141_337 right click x=741 y=296
+[23:41:13.850119][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:41:13.860126][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
+[23:41:14.919039][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
+[23:41:14.927049][CURSOR] tag=before_right_click json={"x": 695, "y": 335}
+[23:41:16.104974][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234114_934048_full.png", "mode": "full"}]
+[23:41:16.114000][CURSOR-EVIDENCE] tag=before_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234114_934048_full.png", "mode": "full"}
+[23:41:17.263895][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234114_934048_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
+[23:41:17.272891][CURSOR-EVIDENCE] tag=before_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_234114_934048_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
+[23:41:17.410517][COPY] id=234102_502810_641_255_1141_337 right click ok=True
+[23:41:18.510418][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:18.520409][CURSOR] tag=after_right_click json={"x": 741, "y": 296}
+[23:41:19.620336][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:19.632335][CURSOR] tag=after_right_click json={"x": 741, "y": 296}
+[23:41:20.868301][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234119_639332_full.png", "mode": "full"}]
+[23:41:20.877286][CURSOR-EVIDENCE] tag=after_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234119_639332_full.png", "mode": "full"}
+[23:41:22.066181][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234119_639332_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240}]
+[23:41:22.076218][CURSOR-EVIDENCE] tag=after_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_234119_639332_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240} cursor=(741,296)
+[23:41:22.584828][MENU-WINDOW] scan try=0
+[23:41:22.609825][MENU-WINDOW] found=True try=0
+[23:41:22.735806][MENU-WINDOW] direct candidate name=[LINE] type=[WindowControl] class=[LcContextMenu] rect=(731,286,874,583)
+[23:41:22.743791][COPY] id=234102_502810_641_255_1141_337 menu_window normalized=[WindowsElement(name='LINE', type='WindowControl', class='LcContextMenu', locator='desktop:desktop > class:LcContextMenu and type:WindowControl')] for point=(741,296)
+[23:41:23.893772][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:23.902757][CURSOR] tag=after_menu_scan json={"x": 741, "y": 296}
+[23:41:24.961692][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:24.973691][CURSOR] tag=after_menu_scan json={"x": 741, "y": 296}
+[23:41:26.213611][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234124_981692_full.png", "mode": "full"}]
+[23:41:26.222611][CURSOR-EVIDENCE] tag=after_menu_scan full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234124_981692_full.png", "mode": "full"}
+[23:41:27.392535][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234124_981692_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240}]
+[23:41:27.402531][CURSOR-EVIDENCE] tag=after_menu_scan crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_scan_20260505_234124_981692_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240} cursor=(741,296)
+[23:41:27.473526][MENU-WINDOW] id=234102_502810_641_255_1141_337 selected rect=(731,286,874,583) point=(741,296)
+[23:41:28.771398][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y296_l731_t286_r874_b583_20260505_234127_483493.png", "mode": "full"}]
+[23:41:28.781437][MENU-EVIDENCE] full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\full\\menu_full_x741_y296_l731_t286_r874_b583_20260505_234127_483493.png", "mode": "full"}
+[23:41:29.943362][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y296_l731_t286_r874_b583_20260505_234127_483493.png", "left": 731, "top": 286, "width": 143, "height": 297}]
+[23:41:29.952329][MENU-EVIDENCE] menu={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\menu_crop\\menu_crop_x741_y296_l731_t286_r874_b583_20260505_234127_483493.png", "left": 731, "top": 286, "width": 143, "height": 297}
+[23:41:31.145250][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y296_20260505_234127_483493.png", "left": 621, "top": 176, "width": 240, "height": 240}]
+[23:41:31.155274][MENU-EVIDENCE] click={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_rect_check\\click_crop\\click_crop_x741_y296_20260505_234127_483493.png", "left": 621, "top": 176, "width": 240, "height": 240}
+[23:41:32.256212][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:32.266173][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 296}
+[23:41:33.366143][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:33.375128][CURSOR] tag=after_menu_evidence json={"x": 741, "y": 296}
+[23:41:34.619041][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234133_381132_full.png", "mode": "full"}]
+[23:41:34.630041][CURSOR-EVIDENCE] tag=after_menu_evidence full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234133_381132_full.png", "mode": "full"}
+[23:41:35.803967][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234133_381132_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240}]
+[23:41:35.813963][CURSOR-EVIDENCE] tag=after_menu_evidence crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_menu_evidence_20260505_234133_381132_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240} cursor=(741,296)
+[23:41:35.819963][OCR-VERSION] line_io.robot basic-valid + file-fallback + archive
+[23:41:35.907957][OCR-RAW] left=[731] top=[286] right=[874] bottom=[583]
+[23:41:35.924941][OCR-PARSE] status_left=PASS status_top=PASS status_right=PASS status_bottom=PASS values=(731,286,874,583)
+[23:41:35.937923][OCR-RECT-CHECK] basic_ok=True x_ok=True y_ok=True valid=True rect=(731,286,874,583)
+[23:41:35.959912][OCR] capture rect=(721,281,163,307) save=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\menu_capture_archive\menu_20260505_234135_954913_731_286_874_583.png]
+[23:41:37.100848][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_234135_954913_731_286_874_583.png", "left": 721, "top": 281, "width": 163, "height": 307}]
+[23:41:37.109849][OCR] capture_json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_capture_archive\\menu_20260505_234135_954913_731_286_874_583.png", "left": 721, "top": 281, "width": 163, "height": 307}
+[23:41:39.335734][PY] ocr rc=0 stderr=[{"text": "き( リプライ\nコビー\n転送\n;          削除\nくに| HBR               6\n中3 keepXモに転送 ト住\nなと\n2q| ノートに保存\ntl,                                4\nアナウフス\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234135_954913_731_286_874_583.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234135_954913_731_286_874_583.processed.png", "image_width": 163, "image_height": 307, "processed_width": 489, "processed_height": 921, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "き", "normalized": "き", "kind": "UNKNOWN", "left": 0, "top": 80, "width": 43, "height": 38, "right": 43, "bottom": 118, "conf": 36.0}, {"text": "(", "normalized": "(", "kind": "UNKNOWN", "left": 54, "top": 76, "width": 24, "height": 72, "right": 78, "bottom": 148, "conf": 24.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 122, "top": 84, "width": 46, "height": 40, "right": 168, "bottom": 124, "conf": 93.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 176, "top": 87, "width": 50, "height": 37, "right": 226, "bottom": 124, "conf": 90.0}, {"text": "コビー", "normalized": "コビー", "kind": "COPY", "left": 120, "top": 165, "width": 75, "height": 40, "right": 195, "bottom": 205, "conf": 52.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 119, "top": 249, "width": 75, "height": 37, "right": 194, "bottom": 286, "conf": 96.0}, {"text": ";", "normalized": ";", "kind": "UNKNOWN", "left": 0, "top": 331, "width": 12, "height": 36, "right": 12, "bottom": 367, "conf": 64.0}, {"text": "削除", "normalized": "削除", "kind": "DELETE", "left": 120, "top": 329, "width": 73, "height": 38, "right": 193, "bottom": 367, "conf": 96.0}, {"text": "くに", "normalized": "くに", "kind": "UNKNOWN", "left": 0, "top": 458, "width": 50, "height": 38, "right": 50, "bottom": 496, "conf": 58.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 53, "top": 439, "width": 21, "height": 80, "right": 74, "bottom": 519, "conf": 60.0}, {"text": "HBR", "normalized": "hbr", "kind": "UNKNOWN", "left": 119, "top": 443, "width": 74, "height": 38, "right": 193, "bottom": 481, "conf": 23.0}, {"text": "6", "normalized": "6", "kind": "UNKNOWN", "left": 467, "top": 461, "width": 22, "height": 56, "right": 489, "bottom": 517, "conf": 70.0}, {"text": "中", "normalized": "中", "kind": "UNKNOWN", "left": 0, "top": 509, "width": 51, "height": 38, "right": 51, "bottom": 547, "conf": 40.0}, {"text": "3", "normalized": "3", "kind": "UNKNOWN", "left": 42, "top": 505, "width": 31, "height": 73, "right": 73, "bottom": 578, "conf": 61.0}, {"text": "keepX", "normalized": "keepx", "kind": "UNKNOWN", "left": 119, "top": 525, "width": 252, "height": 42, "right": 371, "bottom": 567, "conf": 47.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 237, "top": 505, "width": 19, "height": 73, "right": 256, "bottom": 578, "conf": 82.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 255, "top": 505, "width": 50, "height": 73, "right": 305, "bottom": 578, "conf": 96.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 304, "top": 525, "width": 67, "height": 42, "right": 371, "bottom": 567, "conf": 93.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 431, "top": 515, "width": 18, "height": 29, "right": 449, "bottom": 544, "conf": 91.0}, {"text": "住", "normalized": "住", "kind": "UNKNOWN", "left": 450, "top": 510, "width": 39, "height": 37, "right": 489, "bottom": 547, "conf": 25.0}, {"text": "な", "normalized": "な", "kind": "UNKNOWN", "left": 0, "top": 563, "width": 55, "height": 38, "right": 55, "bottom": 601, "conf": 96.0}, {"text": "と", "normalized": "と", "kind": "UNKNOWN", "left": 29, "top": 559, "width": 31, "height": 59, "right": 60, "bottom": 618, "conf": 96.0}, {"text": "2q|", "normalized": "2q|", "kind": "UNKNOWN", "left": 0, "top": 618, "width": 55, "height": 37, "right": 55, "bottom": 655, "conf": 31.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 118, "top": 606, "width": 42, "height": 36, "right": 160, "bottom": 642, "conf": 82.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 171, "top": 606, "width": 13, "height": 36, "right": 184, "bottom": 642, "conf": 90.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 195, "top": 606, "width": 25, "height": 36, "right": 220, "bottom": 642, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 224, "top": 605, "width": 74, "height": 38, "right": 298, "bottom": 643, "conf": 95.0}, {"text": "tl,", "normalized": "tl,", "kind": "UNKNOWN", "left": 0, "top": 671, "width": 45, "height": 32, "right": 45, "bottom": 703, "conf": 55.0}, {"text": "4", "normalized": "4", "kind": "UNKNOWN", "left": 466, "top": 674, "width": 23, "height": 29, "right": 489, "bottom": 703, "conf": 96.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 119, "top": 720, "width": 56, "height": 36, "right": 175, "bottom": 756, "conf": 94.0}, {"text": "ウフ", "normalized": "ウフ", "kind": "UNKNOWN", "left": 179, "top": 720, "width": 53, "height": 37, "right": 232, "bottom": 757, "conf": 61.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 239, "top": 722, "width": 26, "height": 35, "right": 265, "bottom": 757, "conf": 86.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 119, "top": 800, "width": 76, "height": 38, "right": 195, "bottom": 838, "conf": 55.0}]}]
+[23:41:39.344685][OCR] ocr_json={"text": "き( リプライ\nコビー\n転送\n;          削除\nくに| HBR               6\n中3 keepXモに転送 ト住\nなと\n2q| ノートに保存\ntl,                                4\nアナウフス\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234135_954913_731_286_874_583.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\menu_20260505_234135_954913_731_286_874_583.processed.png", "image_width": 163, "image_height": 307, "processed_width": 489, "processed_height": 921, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "き", "normalized": "き", "kind": "UNKNOWN", "left": 0, "top": 80, "width": 43, "height": 38, "right": 43, "bottom": 118, "conf": 36.0}, {"text": "(", "normalized": "(", "kind": "UNKNOWN", "left": 54, "top": 76, "width": 24, "height": 72, "right": 78, "bottom": 148, "conf": 24.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 122, "top": 84, "width": 46, "height": 40, "right": 168, "bottom": 124, "conf": 93.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 176, "top": 87, "width": 50, "height": 37, "right": 226, "bottom": 124, "conf": 90.0}, {"text": "コビー", "normalized": "コビー", "kind": "COPY", "left": 120, "top": 165, "width": 75, "height": 40, "right": 195, "bottom": 205, "conf": 52.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 119, "top": 249, "width": 75, "height": 37, "right": 194, "bottom": 286, "conf": 96.0}, {"text": ";", "normalized": ";", "kind": "UNKNOWN", "left": 0, "top": 331, "width": 12, "height": 36, "right": 12, "bottom": 367, "conf": 64.0}, {"text": "削除", "normalized": "削除", "kind": "DELETE", "left": 120, "top": 329, "width": 73, "height": 38, "right": 193, "bottom": 367, "conf": 96.0}, {"text": "くに", "normalized": "くに", "kind": "UNKNOWN", "left": 0, "top": 458, "width": 50, "height": 38, "right": 50, "bottom": 496, "conf": 58.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 53, "top": 439, "width": 21, "height": 80, "right": 74, "bottom": 519, "conf": 60.0}, {"text": "HBR", "normalized": "hbr", "kind": "UNKNOWN", "left": 119, "top": 443, "width": 74, "height": 38, "right": 193, "bottom": 481, "conf": 23.0}, {"text": "6", "normalized": "6", "kind": "UNKNOWN", "left": 467, "top": 461, "width": 22, "height": 56, "right": 489, "bottom": 517, "conf": 70.0}, {"text": "中", "normalized": "中", "kind": "UNKNOWN", "left": 0, "top": 509, "width": 51, "height": 38, "right": 51, "bottom": 547, "conf": 40.0}, {"text": "3", "normalized": "3", "kind": "UNKNOWN", "left": 42, "top": 505, "width": 31, "height": 73, "right": 73, "bottom": 578, "conf": 61.0}, {"text": "keepX", "normalized": "keepx", "kind": "UNKNOWN", "left": 119, "top": 525, "width": 252, "height": 42, "right": 371, "bottom": 567, "conf": 47.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 237, "top": 505, "width": 19, "height": 73, "right": 256, "bottom": 578, "conf": 82.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 255, "top": 505, "width": 50, "height": 73, "right": 305, "bottom": 578, "conf": 96.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 304, "top": 525, "width": 67, "height": 42, "right": 371, "bottom": 567, "conf": 93.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 431, "top": 515, "width": 18, "height": 29, "right": 449, "bottom": 544, "conf": 91.0}, {"text": "住", "normalized": "住", "kind": "UNKNOWN", "left": 450, "top": 510, "width": 39, "height": 37, "right": 489, "bottom": 547, "conf": 25.0}, {"text": "な", "normalized": "な", "kind": "UNKNOWN", "left": 0, "top": 563, "width": 55, "height": 38, "right": 55, "bottom": 601, "conf": 96.0}, {"text": "と", "normalized": "と", "kind": "UNKNOWN", "left": 29, "top": 559, "width": 31, "height": 59, "right": 60, "bottom": 618, "conf": 96.0}, {"text": "2q|", "normalized": "2q|", "kind": "UNKNOWN", "left": 0, "top": 618, "width": 55, "height": 37, "right": 55, "bottom": 655, "conf": 31.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 118, "top": 606, "width": 42, "height": 36, "right": 160, "bottom": 642, "conf": 82.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 171, "top": 606, "width": 13, "height": 36, "right": 184, "bottom": 642, "conf": 90.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 195, "top": 606, "width": 25, "height": 36, "right": 220, "bottom": 642, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 224, "top": 605, "width": 74, "height": 38, "right": 298, "bottom": 643, "conf": 95.0}, {"text": "tl,", "normalized": "tl,", "kind": "UNKNOWN", "left": 0, "top": 671, "width": 45, "height": 32, "right": 45, "bottom": 703, "conf": 55.0}, {"text": "4", "normalized": "4", "kind": "UNKNOWN", "left": 466, "top": 674, "width": 23, "height": 29, "right": 489, "bottom": 703, "conf": 96.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 119, "top": 720, "width": 56, "height": 36, "right": 175, "bottom": 756, "conf": 94.0}, {"text": "ウフ", "normalized": "ウフ", "kind": "UNKNOWN", "left": 179, "top": 720, "width": 53, "height": 37, "right": 232, "bottom": 757, "conf": 61.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 239, "top": 722, "width": 26, "height": 35, "right": 265, "bottom": 757, "conf": 86.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 119, "top": 800, "width": 76, "height": 38, "right": 195, "bottom": 838, "conf": 55.0}]}
+[23:41:39.363685][OCR] text=[き( リプライ
+コビー
 転送
- 間際   yey,
-vii Keepメモに転送  ち
-ノートに保存
+;          削除
+くに| HBR               6
+中3 keepXモに転送 ト住
+なと
+2q| ノートに保存
+tl,                                4
 アナウフス
-通報] file=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\menu_20260505_225712_805236_731_323_874_620.txt]
-[22:57:16.502976][COPY] id=225623_845404_641_292_1141_374 detected menu text by OCR=[ュまで*つは4 AA
-ノド リプライ
-コピ-
+通報] file=[C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\menu_20260505_234135_954913_731_286_874_583.txt]
+[23:41:39.369730][COPY] id=234102_502810_641_255_1141_337 detected menu text by OCR=[き( リプライ
+コビー
 転送
- 間際   yey,
-vii Keepメモに転送  ち
-ノートに保存
+;          削除
+くに| HBR               6
+中3 keepXモに転送 ト住
+なと
+2q| ノートに保存
+tl,                                4
 アナウフス
-通報] point=(741,333)
-[22:57:16.514987][COPY-NORM] raw=[ュまで*つは4 AA
-ノド リプライ
-コピ-
+通報] point=(741,296)
+[23:41:39.381683][COPY-NORM] raw=[き( リプライ
+コビー
 転送
- 間際   yey,
-vii Keepメモに転送  ち
-ノートに保存
+;          削除
+くに| HBR               6
+中3 keepXモに転送 ト住
+なと
+2q| ノートに保存
+tl,                                4
 アナウフス
-通報] norm=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報]
-[22:57:16.542969][COPY-LIKE] norm=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報] result=Trueh1=False h2=False h3=False h4=Falseh5=True h6=False h7=False h8=Trueh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
-[22:57:16.558036][COPY-NORM] raw=[ュまで*つは4 AA
-ノド リプライ
-コピ-
+通報] norm=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報]
+[23:41:39.408706][COPY-LIKE] norm=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報] result=Trueh1=False h2=True h3=False h4=Falseh5=False h6=False h7=False h8=Falseh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
+[23:41:39.419735][COPY-NORM] raw=[き( リプライ
+コビー
 転送
- 間際   yey,
-vii Keepメモに転送  ち
-ノートに保存
+;          削除
+くに| HBR               6
+中3 keepXモに転送 ト住
+なと
+2q| ノートに保存
+tl,                                4
 アナウフス
-通報] norm=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報]
-[22:57:16.577967][COPY-NORM] raw=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報] norm=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報]
-[22:57:16.610006][COPY-LIKE] norm=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報] result=Trueh1=False h2=False h3=False h4=Falseh5=True h6=False h7=False h8=Trueh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
-[22:57:16.619981][OCR-FILTER] normalized=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報]
-[22:57:16.625973][OCR-FILTER] has_hide=False has_announce=False has_announce_release=False has_selectall=False has_copy=True has_paste=False announce_like=False result=False
-[22:57:16.642977][COPY-NORM] raw=[ュまで*つは4 AA
-ノド リプライ
-コピ-
+通報] norm=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報]
+[23:41:39.435692][COPY-NORM] raw=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報] norm=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報]
+[23:41:39.475684][COPY-LIKE] norm=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報] result=Trueh1=False h2=True h3=False h4=Falseh5=False h6=False h7=False h8=Falseh9=False h10=False h11=False h12=Falseh13=False h14=False h15=False h16=False
+[23:41:39.485686][OCR-FILTER] normalized=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報]
+[23:41:39.491701][OCR-FILTER] has_hide=False has_announce=False has_announce_release=False has_selectall=False has_copy=True has_paste=False announce_like=False result=False
+[23:41:39.504735][COPY-NORM] raw=[き( リプライ
+コビー
 転送
- 間際   yey,
-vii Keepメモに転送  ち
-ノートに保存
+;          削除
+くに| HBR               6
+中3 keepXモに転送 ト住
+なと
+2q| ノートに保存
+tl,                                4
 アナウフス
-通報] norm=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報]
-[22:57:16.665037][LONG-MENU] norm=[ュまで*つは4 AA ノド リプライ コピ- 転送  間際   yey, vii Keepメモに転送  ち ノートに保存 アナウフス 通報] result=True count=5 reply=True forward=True delete=False translate=False keep=True save=True report=True
-[22:57:16.671005][COPY-CHECK] id=225623_845404_641_292_1141_374 has_copy_like=True non_message=False is_long_menu=True menu_text=[ュまで*つは4 AA
-ノド リプライ
-コピ-
+通報] norm=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報]
+[23:41:39.526685][LONG-MENU] norm=[き( リプライ コビー 転送 ;          削除 くに| HBR               6 中3 keepXモに転送 ト住 なと 2q| ノートに保存 tl,                                4 アナウフス 通報] result=True count=5 reply=True forward=True delete=True translate=False keep=False save=True report=True
+[23:41:39.531727][COPY-CHECK] id=234102_502810_641_255_1141_337 has_copy_like=True non_message=False is_long_menu=True menu_text=[き( リプライ
+コビー
 転送
- 間際   yey,
-vii Keepメモに転送  ち
-ノートに保存
+;          削除
+くに| HBR               6
+中3 keepXモに転送 ト住
+なと
+2q| ノートに保存
+tl,                                4
 アナウフス
-通報] point=(741,333)
-[22:57:16.690975][COPY-FIXED-TARGET] menu_rect=(731,323,874,620) margin=(80,50) copy_target=(811,373)
-[22:57:17.817887][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:57:17.828884][CURSOR] tag=before_move_to_copy json={"x": 741, "y": 333}
-[22:57:18.969819][PY] cursor rc=0 stderr=[{"x": 741, "y": 333}]
-[22:57:18.978821][CURSOR] tag=before_move_to_copy json={"x": 741, "y": 333}
-[22:57:20.268738][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_225718_987820_full.png", "mode": "full"}]
-[22:57:20.277736][CURSOR-EVIDENCE] tag=before_move_to_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_225718_987820_full.png", "mode": "full"}
-[22:57:21.496701][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_225718_987820_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240}]
-[22:57:21.505650][CURSOR-EVIDENCE] tag=before_move_to_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_225718_987820_cursor.png", "left": 621, "top": 213, "width": 240, "height": 240} cursor=(741,333)
-[22:57:21.511692][POINTER] move-to-copy ok=True
-[22:57:22.689615][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:22.698562][CURSOR] tag=after_move_to_copy json={"x": 811, "y": 373}
-[22:57:23.847524][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:23.856540][CURSOR] tag=after_move_to_copy json={"x": 811, "y": 373}
-[22:57:25.140435][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_225723_863536_full.png", "mode": "full"}]
-[22:57:25.149408][CURSOR-EVIDENCE] tag=after_move_to_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_225723_863536_full.png", "mode": "full"}
-[22:57:26.378325][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_225723_863536_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240}]
-[22:57:26.388315][CURSOR-EVIDENCE] tag=after_move_to_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_225723_863536_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240} cursor=(811,373)
-[22:57:28.648898][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_cursor_debug\\verify_menu_20260505_225727_423946.png", "left": 731, "top": 323, "width": 143, "height": 297}]
-[22:57:30.887708][PY] ocr rc=0 stderr=[{"text": "Te\n本 リプライ\nコピ-\n転送\n( FR   ト\nui Keepメモに転送\nノートに保存\nアナウノス\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_225727_423946.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_225727_423946.processed.png", "image_width": 143, "image_height": 297, "processed_width": 429, "processed_height": 891, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "Te", "normalized": "te", "kind": "UNKNOWN", "left": 0, "top": 11, "width": 396, "height": 38, "right": 396, "bottom": 49, "conf": 23.0}, {"text": "本", "normalized": "本", "kind": "UNKNOWN", "left": 0, "top": 71, "width": 4, "height": 13, "right": 4, "bottom": 84, "conf": 32.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 92, "top": 69, "width": 51, "height": 40, "right": 143, "bottom": 109, "conf": 74.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 146, "top": 72, "width": 50, "height": 37, "right": 196, "bottom": 109, "conf": 96.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 90, "top": 149, "width": 75, "height": 41, "right": 165, "bottom": 190, "conf": 71.0}, {"text": "-", "normalized": "-", "kind": "UNKNOWN", "left": 133, "top": 145, "width": 32, "height": 63, "right": 165, "bottom": 208, "conf": 68.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 89, "top": 234, "width": 75, "height": 37, "right": 164, "bottom": 271, "conf": 96.0}, {"text": "(", "normalized": "(", "kind": "UNKNOWN", "left": 0, "top": 348, "width": 16, "height": 36, "right": 16, "bottom": 384, "conf": 70.0}, {"text": "FR", "normalized": "fr", "kind": "UNKNOWN", "left": 90, "top": 314, "width": 73, "height": 38, "right": 163, "bottom": 352, "conf": 38.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 410, "top": 348, "width": 19, "height": 33, "right": 429, "bottom": 381, "conf": 43.0}, {"text": "ui", "normalized": "ui", "kind": "UNKNOWN", "left": 0, "top": 502, "width": 28, "height": 79, "right": 28, "bottom": 581, "conf": 31.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 89, "top": 515, "width": 86, "height": 37, "right": 175, "bottom": 552, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 179, "top": 510, "width": 23, "height": 36, "right": 202, "bottom": 546, "conf": 90.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 206, "top": 512, "width": 22, "height": 35, "right": 228, "bottom": 547, "conf": 79.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 237, "top": 510, "width": 25, "height": 36, "right": 262, "bottom": 546, "conf": 89.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 271, "top": 510, "width": 70, "height": 37, "right": 341, "bottom": 547, "conf": 92.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 88, "top": 590, "width": 180, "height": 38, "right": 268, "bottom": 628, "conf": 79.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 135, "top": 585, "width": 19, "height": 56, "right": 154, "bottom": 641, "conf": 91.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 154, "top": 585, "width": 38, "height": 56, "right": 192, "bottom": 641, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 191, "top": 590, "width": 77, "height": 38, "right": 268, "bottom": 628, "conf": 76.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 89, "top": 705, "width": 56, "height": 36, "right": 145, "bottom": 741, "conf": 95.0}, {"text": "ウノ", "normalized": "ウノ", "kind": "UNKNOWN", "left": 149, "top": 705, "width": 51, "height": 37, "right": 200, "bottom": 742, "conf": 71.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 209, "top": 707, "width": 26, "height": 35, "right": 235, "bottom": 742, "conf": 88.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 89, "top": 785, "width": 76, "height": 38, "right": 165, "bottom": 823, "conf": 83.0}]}]
-[22:57:30.919708][MENU-VERIFY] capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_cursor_debug\\verify_menu_20260505_225727_423946.png", "left": 731, "top": 323, "width": 143, "height": 297}
-[22:57:30.925706][MENU-VERIFY] ocr_json={"text": "Te\n本 リプライ\nコピ-\n転送\n( FR   ト\nui Keepメモに転送\nノートに保存\nアナウノス\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_225727_423946.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_225727_423946.processed.png", "image_width": 143, "image_height": 297, "processed_width": 429, "processed_height": 891, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "Te", "normalized": "te", "kind": "UNKNOWN", "left": 0, "top": 11, "width": 396, "height": 38, "right": 396, "bottom": 49, "conf": 23.0}, {"text": "本", "normalized": "本", "kind": "UNKNOWN", "left": 0, "top": 71, "width": 4, "height": 13, "right": 4, "bottom": 84, "conf": 32.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 92, "top": 69, "width": 51, "height": 40, "right": 143, "bottom": 109, "conf": 74.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 146, "top": 72, "width": 50, "height": 37, "right": 196, "bottom": 109, "conf": 96.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 90, "top": 149, "width": 75, "height": 41, "right": 165, "bottom": 190, "conf": 71.0}, {"text": "-", "normalized": "-", "kind": "UNKNOWN", "left": 133, "top": 145, "width": 32, "height": 63, "right": 165, "bottom": 208, "conf": 68.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 89, "top": 234, "width": 75, "height": 37, "right": 164, "bottom": 271, "conf": 96.0}, {"text": "(", "normalized": "(", "kind": "UNKNOWN", "left": 0, "top": 348, "width": 16, "height": 36, "right": 16, "bottom": 384, "conf": 70.0}, {"text": "FR", "normalized": "fr", "kind": "UNKNOWN", "left": 90, "top": 314, "width": 73, "height": 38, "right": 163, "bottom": 352, "conf": 38.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 410, "top": 348, "width": 19, "height": 33, "right": 429, "bottom": 381, "conf": 43.0}, {"text": "ui", "normalized": "ui", "kind": "UNKNOWN", "left": 0, "top": 502, "width": 28, "height": 79, "right": 28, "bottom": 581, "conf": 31.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 89, "top": 515, "width": 86, "height": 37, "right": 175, "bottom": 552, "conf": 92.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 179, "top": 510, "width": 23, "height": 36, "right": 202, "bottom": 546, "conf": 90.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 206, "top": 512, "width": 22, "height": 35, "right": 228, "bottom": 547, "conf": 79.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 237, "top": 510, "width": 25, "height": 36, "right": 262, "bottom": 546, "conf": 89.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 271, "top": 510, "width": 70, "height": 37, "right": 341, "bottom": 547, "conf": 92.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 88, "top": 590, "width": 180, "height": 38, "right": 268, "bottom": 628, "conf": 79.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 135, "top": 585, "width": 19, "height": 56, "right": 154, "bottom": 641, "conf": 91.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 154, "top": 585, "width": 38, "height": 56, "right": 192, "bottom": 641, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 191, "top": 590, "width": 77, "height": 38, "right": 268, "bottom": 628, "conf": 76.0}, {"text": "アナ", "normalized": "アナ", "kind": "UNKNOWN", "left": 89, "top": 705, "width": 56, "height": 36, "right": 145, "bottom": 741, "conf": 95.0}, {"text": "ウノ", "normalized": "ウノ", "kind": "UNKNOWN", "left": 149, "top": 705, "width": 51, "height": 37, "right": 200, "bottom": 742, "conf": 71.0}, {"text": "ス", "normalized": "ス", "kind": "UNKNOWN", "left": 209, "top": 707, "width": 26, "height": 35, "right": 235, "bottom": 742, "conf": 88.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 89, "top": 785, "width": 76, "height": 38, "right": 165, "bottom": 823, "conf": 83.0}]}
-[22:57:30.930726][MENU-VERIFY] text=[Te
-本 リプライ
-コピ-
+通報] point=(741,296)
+[23:41:39.551727][COPY-FIXED-TARGET] menu_rect=(731,286,874,583) margin=(80,50) copy_target=(811,336)
+[23:41:40.642614][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:40.651654][CURSOR] tag=before_move_to_copy json={"x": 741, "y": 296}
+[23:41:41.706595][PY] cursor rc=0 stderr=[{"x": 741, "y": 296}]
+[23:41:41.716539][CURSOR] tag=before_move_to_copy json={"x": 741, "y": 296}
+[23:41:42.940454][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_234141_722538_full.png", "mode": "full"}]
+[23:41:42.950447][CURSOR-EVIDENCE] tag=before_move_to_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_234141_722538_full.png", "mode": "full"}
+[23:41:44.117407][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_234141_722538_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240}]
+[23:41:44.126419][CURSOR-EVIDENCE] tag=before_move_to_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_move_to_copy_20260505_234141_722538_cursor.png", "left": 621, "top": 176, "width": 240, "height": 240} cursor=(741,296)
+[23:41:44.132380][POINTER] move-to-copy ok=True
+[23:41:45.242346][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:41:45.253344][CURSOR] tag=after_move_to_copy json={"x": 811, "y": 336}
+[23:41:46.335274][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:41:46.344261][CURSOR] tag=after_move_to_copy json={"x": 811, "y": 336}
+[23:41:47.570153][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_234146_351270_full.png", "mode": "full"}]
+[23:41:47.583138][CURSOR-EVIDENCE] tag=after_move_to_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_234146_351270_full.png", "mode": "full"}
+[23:41:48.822096][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_234146_351270_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240}]
+[23:41:48.832100][CURSOR-EVIDENCE] tag=after_move_to_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_move_to_copy_20260505_234146_351270_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240} cursor=(811,336)
+[23:41:51.064154][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_cursor_debug\\verify_menu_20260505_234149_870336.png", "left": 731, "top": 286, "width": 143, "height": 297}]
+[23:41:53.213054][PY] ocr rc=0 stderr=[{"text": "Fr《 リプライ\nコピー\n転送\n-】 翻訳\n‘i     Keepメモに転送\nて| ノートに保存\n| Pr9Y2\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_234149_870336.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_234149_870336.processed.png", "image_width": 143, "image_height": 297, "processed_width": 429, "processed_height": 891, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "Fr《", "normalized": "fr《", "kind": "UNKNOWN", "left": 0, "top": 68, "width": 13, "height": 35, "right": 13, "bottom": 103, "conf": 45.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 92, "top": 69, "width": 49, "height": 40, "right": 141, "bottom": 109, "conf": 94.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 146, "top": 72, "width": 50, "height": 37, "right": 196, "bottom": 109, "conf": 96.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 90, "top": 149, "width": 75, "height": 41, "right": 165, "bottom": 190, "conf": 80.0}, {"text": "ー", "normalized": "ー", "kind": "UNKNOWN", "left": 136, "top": 145, "width": 30, "height": 60, "right": 166, "bottom": 205, "conf": 78.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 89, "top": 234, "width": 75, "height": 37, "right": 164, "bottom": 271, "conf": 94.0}, {"text": "-】", "normalized": "-】", "kind": "UNKNOWN", "left": 2, "top": 449, "width": 18, "height": 29, "right": 20, "bottom": 478, "conf": 71.0}, {"text": "翻訳", "normalized": "翻訳", "kind": "UNKNOWN", "left": 89, "top": 428, "width": 74, "height": 38, "right": 163, "bottom": 466, "conf": 55.0}, {"text": "‘i", "normalized": "‘i", "kind": "UNKNOWN", "left": 0, "top": 502, "width": 30, "height": 88, "right": 30, "bottom": 590, "conf": 0.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 89, "top": 510, "width": 252, "height": 42, "right": 341, "bottom": 552, "conf": 91.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 183, "top": 496, "width": 21, "height": 62, "right": 204, "bottom": 558, "conf": 59.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 203, "top": 496, "width": 22, "height": 62, "right": 225, "bottom": 558, "conf": 92.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 224, "top": 496, "width": 48, "height": 62, "right": 272, "bottom": 558, "conf": 86.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 271, "top": 510, "width": 70, "height": 42, "right": 341, "bottom": 552, "conf": 24.0}, {"text": "て", "normalized": "て", "kind": "UNKNOWN", "left": 0, "top": 605, "width": 25, "height": 35, "right": 25, "bottom": 640, "conf": 95.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 29, "top": 586, "width": 25, "height": 58, "right": 54, "bottom": 644, "conf": 84.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 87, "top": 591, "width": 44, "height": 36, "right": 131, "bottom": 627, "conf": 83.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 141, "top": 591, "width": 14, "height": 36, "right": 155, "bottom": 627, "conf": 92.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 165, "top": 591, "width": 25, "height": 36, "right": 190, "bottom": 627, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 194, "top": 590, "width": 74, "height": 38, "right": 268, "bottom": 628, "conf": 83.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 8, "top": 678, "width": 7, "height": 10, "right": 15, "bottom": 688, "conf": 66.0}, {"text": "Pr9Y2", "normalized": "pr9y2", "kind": "UNKNOWN", "left": 89, "top": 705, "width": 146, "height": 37, "right": 235, "bottom": 742, "conf": 0.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 89, "top": 785, "width": 76, "height": 38, "right": 165, "bottom": 823, "conf": 84.0}]}]
+[23:41:53.238060][MENU-VERIFY] capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\menu_cursor_debug\\verify_menu_20260505_234149_870336.png", "left": 731, "top": 286, "width": 143, "height": 297}
+[23:41:53.242093][MENU-VERIFY] ocr_json={"text": "Fr《 リプライ\nコピー\n転送\n-】 翻訳\n‘i     Keepメモに転送\nて| ノートに保存\n| Pr9Y2\n通報\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_234149_870336.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\verify_menu_20260505_234149_870336.processed.png", "image_width": 143, "image_height": 297, "processed_width": 429, "processed_height": 891, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "Fr《", "normalized": "fr《", "kind": "UNKNOWN", "left": 0, "top": 68, "width": 13, "height": 35, "right": 13, "bottom": 103, "conf": 45.0}, {"text": "リプ", "normalized": "リプ", "kind": "UNKNOWN", "left": 92, "top": 69, "width": 49, "height": 40, "right": 141, "bottom": 109, "conf": 94.0}, {"text": "ライ", "normalized": "ライ", "kind": "UNKNOWN", "left": 146, "top": 72, "width": 50, "height": 37, "right": 196, "bottom": 109, "conf": 96.0}, {"text": "コピ", "normalized": "コピ", "kind": "COPY", "left": 90, "top": 149, "width": 75, "height": 41, "right": 165, "bottom": 190, "conf": 80.0}, {"text": "ー", "normalized": "ー", "kind": "UNKNOWN", "left": 136, "top": 145, "width": 30, "height": 60, "right": 166, "bottom": 205, "conf": 78.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 89, "top": 234, "width": 75, "height": 37, "right": 164, "bottom": 271, "conf": 94.0}, {"text": "-】", "normalized": "-】", "kind": "UNKNOWN", "left": 2, "top": 449, "width": 18, "height": 29, "right": 20, "bottom": 478, "conf": 71.0}, {"text": "翻訳", "normalized": "翻訳", "kind": "UNKNOWN", "left": 89, "top": 428, "width": 74, "height": 38, "right": 163, "bottom": 466, "conf": 55.0}, {"text": "‘i", "normalized": "‘i", "kind": "UNKNOWN", "left": 0, "top": 502, "width": 30, "height": 88, "right": 30, "bottom": 590, "conf": 0.0}, {"text": "Keep", "normalized": "keep", "kind": "UNKNOWN", "left": 89, "top": 510, "width": 252, "height": 42, "right": 341, "bottom": 552, "conf": 91.0}, {"text": "メ", "normalized": "メ", "kind": "UNKNOWN", "left": 183, "top": 496, "width": 21, "height": 62, "right": 204, "bottom": 558, "conf": 59.0}, {"text": "モ", "normalized": "モ", "kind": "UNKNOWN", "left": 203, "top": 496, "width": 22, "height": 62, "right": 225, "bottom": 558, "conf": 92.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 224, "top": 496, "width": 48, "height": 62, "right": 272, "bottom": 558, "conf": 86.0}, {"text": "転送", "normalized": "転送", "kind": "UNKNOWN", "left": 271, "top": 510, "width": 70, "height": 42, "right": 341, "bottom": 552, "conf": 24.0}, {"text": "て", "normalized": "て", "kind": "UNKNOWN", "left": 0, "top": 605, "width": 25, "height": 35, "right": 25, "bottom": 640, "conf": 95.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 29, "top": 586, "width": 25, "height": 58, "right": 54, "bottom": 644, "conf": 84.0}, {"text": "ノー", "normalized": "ノー", "kind": "UNKNOWN", "left": 87, "top": 591, "width": 44, "height": 36, "right": 131, "bottom": 627, "conf": 83.0}, {"text": "ト", "normalized": "ト", "kind": "UNKNOWN", "left": 141, "top": 591, "width": 14, "height": 36, "right": 155, "bottom": 627, "conf": 92.0}, {"text": "に", "normalized": "に", "kind": "UNKNOWN", "left": 165, "top": 591, "width": 25, "height": 36, "right": 190, "bottom": 627, "conf": 93.0}, {"text": "保存", "normalized": "保存", "kind": "UNKNOWN", "left": 194, "top": 590, "width": 74, "height": 38, "right": 268, "bottom": 628, "conf": 83.0}, {"text": "|", "normalized": "|", "kind": "UNKNOWN", "left": 8, "top": 678, "width": 7, "height": 10, "right": 15, "bottom": 688, "conf": 66.0}, {"text": "Pr9Y2", "normalized": "pr9y2", "kind": "UNKNOWN", "left": 89, "top": 705, "width": 146, "height": 37, "right": 235, "bottom": 742, "conf": 0.0}, {"text": "通報", "normalized": "通報", "kind": "UNKNOWN", "left": 89, "top": 785, "width": 76, "height": 38, "right": 165, "bottom": 823, "conf": 84.0}]}
+[23:41:53.246048][MENU-VERIFY] text=[Fr《 リプライ
+コピー
 転送
-( FR   ト
-ui Keepメモに転送
-ノートに保存
-アナウノス
+-】 翻訳
+‘i     Keepメモに転送
+て| ノートに保存
+| Pr9Y2
 通報]
-[22:57:30.979707][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[te] is_copy_kind=False looks_copy=False
-[22:57:31.003695][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[本] is_copy_kind=False looks_copy=False
-[22:57:31.029704][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[リプ] is_copy_kind=False looks_copy=False
-[22:57:31.055709][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[ライ] is_copy_kind=False looks_copy=False
-[22:57:31.082693][COPY-BAND-CANDIDATE] kind=[COPY] normalized=[コピ] is_copy_kind=True looks_copy=True
-[22:57:31.115697][COPY-BAND] scale_x=3.0 scale_y=3.0 found=True text=[コピ] band_abs=[749,365,843,396]
-[22:57:31.124690][COPY-VERIFY-INPUT] target_x=811 target_y=373 copy_band_abs=[749,365,843,396] copy_found=True copy_text=[コピ]
-[22:57:31.135720][POINT-IN-RECT] input x=811 y=373 rect=[749,365,843,396]
-[22:57:31.162685][POINT-IN-RECT] parsed l=749 t=365 r=843 b=396 result=True
-[22:57:31.171686][COPY-VERIFY] is_long_menu=True copy_found=True copy_text=[コピ] copy_band_abs=[749,365,843,396] target_abs=(811,373) target_in_copy=True
-[22:57:32.446649][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:32.457652][CURSOR] tag=after_verify_copy_band json={"x": 811, "y": 373}
-[22:57:33.565560][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:33.574559][CURSOR] tag=after_verify_copy_band json={"x": 811, "y": 373}
-[22:57:34.864443][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_225733_581533_full.png", "mode": "full"}]
-[22:57:34.877438][CURSOR-EVIDENCE] tag=after_verify_copy_band full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_225733_581533_full.png", "mode": "full"}
-[22:57:36.104359][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_225733_581533_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240}]
-[22:57:36.116356][CURSOR-EVIDENCE] tag=after_verify_copy_band crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_225733_581533_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240} cursor=(811,373)
-[22:57:37.277323][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:37.290283][CURSOR] tag=before_click_copy json={"x": 811, "y": 373}
-[22:57:38.397216][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:38.409213][CURSOR] tag=before_click_copy json={"x": 811, "y": 373}
-[22:57:39.707161][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_225738_417212_full.png", "mode": "full"}]
-[22:57:39.721127][CURSOR-EVIDENCE] tag=before_click_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_225738_417212_full.png", "mode": "full"}
-[22:57:41.003066][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_225738_417212_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240}]
-[22:57:41.016034][CURSOR-EVIDENCE] tag=before_click_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_225738_417212_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240} cursor=(811,373)
-[22:57:41.140373][COPY] click-copy ok=True
-[22:57:42.409342][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:42.421288][CURSOR] tag=after_click_copy json={"x": 811, "y": 373}
-[22:57:43.575267][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:43.587226][CURSOR] tag=after_click_copy json={"x": 811, "y": 373}
-[22:57:44.872162][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_225743_595224_full.png", "mode": "full"}]
-[22:57:44.886127][CURSOR-EVIDENCE] tag=after_click_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_225743_595224_full.png", "mode": "full"}
-[22:57:46.095061][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_225743_595224_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240}]
-[22:57:46.108059][CURSOR-EVIDENCE] tag=after_click_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_225743_595224_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240} cursor=(811,373)
-[22:57:47.659951][CLIPBOARD] get rc=0 stderr=[写真のお腹は、昨晩の鰻のご飯が多かったせいです⁉️
-満腹すぎて夜中まで寝つけなかった😩
-寝不足でのラウンドでした🏌️‍♂️⛳️🎶]
-[22:57:47.670951][COPY] clipboard length=64 for copy_target=(811,373)
-[22:57:47.683934][COPY-SAVE] file=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\copied_messages.txt length=64
-[22:57:48.979862][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:48.991863][CURSOR] tag=before_return_copy_path json={"x": 811, "y": 373}
-[22:57:50.101784][PY] cursor rc=0 stderr=[{"x": 811, "y": 373}]
-[22:57:50.111778][CURSOR] tag=before_return_copy_path json={"x": 811, "y": 373}
-[22:57:51.351704][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_225750_118782_full.png", "mode": "full"}]
-[22:57:51.361700][CURSOR-EVIDENCE] tag=before_return_copy_path full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_225750_118782_full.png", "mode": "full"}
-[22:57:52.565639][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_225750_118782_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240}]
-[22:57:52.575608][CURSOR-EVIDENCE] tag=before_return_copy_path crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_225750_118782_cursor.png", "left": 691, "top": 253, "width": 240, "height": 240} cursor=(811,373)
-[22:57:52.586609][CAPTURE] rect=641,292,1141,374 status=COPY_OK reason=[copied_and_saved] menu_text=[ュまで*つは4 AA
-ノド リプライ
-コピ-
+[23:41:53.278044][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[fr《] is_copy_kind=False looks_copy=False
+[23:41:53.290006][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[リプ] is_copy_kind=False looks_copy=False
+[23:41:53.301015][COPY-BAND-CANDIDATE] kind=[UNKNOWN] normalized=[ライ] is_copy_kind=False looks_copy=False
+[23:41:53.320004][COPY-BAND-CANDIDATE] kind=[COPY] normalized=[コピ] is_copy_kind=True looks_copy=True
+[23:41:53.340001][COPY-BAND] scale_x=3.0 scale_y=3.0 found=True text=[コピ] band_abs=[749,328,843,359]
+[23:41:53.345049][COPY-VERIFY-INPUT] target_x=811 target_y=336 copy_band_abs=[749,328,843,359] copy_found=True copy_text=[コピ]
+[23:41:53.419041][POINT-IN-RECT] input x=811 y=336 rect=[749,328,843,359]
+[23:41:53.443051][POINT-IN-RECT] parsed l=749 t=328 r=843 b=359 result=True
+[23:41:53.448111][COPY-VERIFY] is_long_menu=True copy_found=True copy_text=[コピ] copy_band_abs=[749,328,843,359] target_abs=(811,336) target_in_copy=True
+[23:41:54.518935][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:41:54.529967][CURSOR] tag=after_verify_copy_band json={"x": 811, "y": 336}
+[23:41:55.632858][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:41:55.641860][CURSOR] tag=after_verify_copy_band json={"x": 811, "y": 336}
+[23:41:56.876782][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_234155_647859_full.png", "mode": "full"}]
+[23:41:56.888784][CURSOR-EVIDENCE] tag=after_verify_copy_band full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_234155_647859_full.png", "mode": "full"}
+[23:41:58.050704][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_234155_647859_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240}]
+[23:41:58.060700][CURSOR-EVIDENCE] tag=after_verify_copy_band crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_verify_copy_band_20260505_234155_647859_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240} cursor=(811,336)
+[23:41:59.137689][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:41:59.149631][CURSOR] tag=before_click_copy json={"x": 811, "y": 336}
+[23:42:00.242583][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:42:00.254594][CURSOR] tag=before_click_copy json={"x": 811, "y": 336}
+[23:42:01.513470][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_234200_262593_full.png", "mode": "full"}]
+[23:42:01.525457][CURSOR-EVIDENCE] tag=before_click_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_234200_262593_full.png", "mode": "full"}
+[23:42:02.684390][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_234200_262593_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240}]
+[23:42:02.698383][CURSOR-EVIDENCE] tag=before_click_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_click_copy_20260505_234200_262593_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240} cursor=(811,336)
+[23:42:02.826841][COPY] click-copy ok=True
+[23:42:04.050760][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:42:04.064745][CURSOR] tag=after_click_copy json={"x": 811, "y": 336}
+[23:42:05.142685][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:42:05.153690][CURSOR] tag=after_click_copy json={"x": 811, "y": 336}
+[23:42:06.371605][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_234205_161681_full.png", "mode": "full"}]
+[23:42:06.384609][CURSOR-EVIDENCE] tag=after_click_copy full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_234205_161681_full.png", "mode": "full"}
+[23:42:07.575520][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_234205_161681_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240}]
+[23:42:07.609519][CURSOR-EVIDENCE] tag=after_click_copy crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_click_copy_20260505_234205_161681_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240} cursor=(811,336)
+[23:42:09.074989][CLIPBOARD] get rc=0 stderr=[なるほど！体を斜にしてお腹も意識ですね、気をつけます
+
+明彦君、斜はできてた。惜しい！]
+[23:42:09.087988][COPY] clipboard length=43 for copy_target=(811,336)
+[23:42:09.101952][COPY-SAVE] file=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\copied_messages.txt length=43
+[23:42:10.178884][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:42:10.187885][CURSOR] tag=before_return_copy_path json={"x": 811, "y": 336}
+[23:42:11.234817][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:42:11.244815][CURSOR] tag=before_return_copy_path json={"x": 811, "y": 336}
+[23:42:12.471735][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_234211_251814_full.png", "mode": "full"}]
+[23:42:12.480733][CURSOR-EVIDENCE] tag=before_return_copy_path full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_234211_251814_full.png", "mode": "full"}
+[23:42:13.646659][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_234211_251814_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240}]
+[23:42:13.656645][CURSOR-EVIDENCE] tag=before_return_copy_path crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_return_copy_path_20260505_234211_251814_cursor.png", "left": 691, "top": 216, "width": 240, "height": 240} cursor=(811,336)
+[23:42:13.667640][CAPTURE] rect=641,255,1141,337 status=COPY_OK reason=[copied_and_saved] menu_text=[き( リプライ
+コビー
 転送
- 間際   yey,
-vii Keepメモに転送  ち
-ノートに保存
+;          削除
+くに| HBR               6
+中3 keepXモに転送 ト住
+なと
+2q| ノートに保存
+tl,                                4
 アナウフス
-通報] menu_rect=[731,323,874,620]
-[22:57:52.594610][CAPTURE] added rect=641,292,1141,374
-[22:57:52.615618][COPY-BEGIN] id=225752_612607_641_402_1141_536 rect=(641,402,1141,536)
-[22:57:53.492395][ACTIVATE] locator=executable:LINE.exe
-[22:57:54.884685][CLIPBOARD] clear rc=0 stdout=[] stderr=[]
-[22:57:54.906737][BUBBLE-CLICK] rect=(641,402,1141,536) raw=(741,469) clamped=(741,469) size=(500,134) rule=front20_centerY
-[22:57:54.912696][POINTER] id=225752_612607_641_402_1141_536 bubble target=(741,469)
-[22:57:56.051623][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[22:57:56.060618][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[22:57:57.196543][PY] cursor rc=0 stderr=[{"x": 695, "y": 335}]
-[22:57:57.208566][CURSOR] tag=before_preclick_capture json={"x": 695, "y": 335}
-[22:57:58.476448][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225757_215540_full.png", "mode": "full"}]
-[22:57:58.489445][CURSOR-EVIDENCE] tag=before_preclick_capture full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225757_215540_full.png", "mode": "full"}
-[22:57:59.744371][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225757_215540_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240}]
-[22:57:59.753399][CURSOR-EVIDENCE] tag=before_preclick_capture crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_preclick_capture_20260505_225757_215540_cursor.png", "left": 575, "top": 215, "width": 240, "height": 240} cursor=(695,335)
-[22:57:59.777408][PRECLICK-RECT] bubble=(641,402,1141,536) click=(741,469) size=(500,134) rule=default_margin rect=(661,419,881,539) capture_size=(220,120)
-[22:58:01.030289][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 661, "top": 419, "width": 220, "height": 120}]
-[22:58:01.040291][POINTER] preclick_capture={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\preclick_capture.png", "left": 661, "top": 419, "width": 220, "height": 120}
-[22:58:03.089147][PY] ocr rc=0 stderr=[{"text": "‘   プーヒーアト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 220, "image_height": 120, "processed_width": 660, "processed_height": 360, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "‘", "normalized": "‘", "kind": "UNKNOWN", "left": 528, "top": 0, "width": 5, "height": 15, "right": 533, "bottom": 15, "conf": 69.0}, {"text": "プー", "normalized": "プー", "kind": "UNKNOWN", "left": 578, "top": 0, "width": 17, "height": 15, "right": 595, "bottom": 15, "conf": 60.0}, {"text": "ヒー", "normalized": "ヒー", "kind": "UNKNOWN", "left": 611, "top": 0, "width": 20, "height": 25, "right": 631, "bottom": 25, "conf": 33.0}, {"text": "アト", "normalized": "アト", "kind": "UNKNOWN", "left": 635, "top": 0, "width": 25, "height": 15, "right": 660, "bottom": 15, "conf": 71.0}]}]
-[22:58:03.101189][TEXT-CANDIDATE] ocr_json={"text": "‘   プーヒーアト\n", "text_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.txt", "processed_image_path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\text\\preclick_capture.processed.png", "image_width": 220, "image_height": 120, "processed_width": 660, "processed_height": 360, "scale_x": 3.0, "scale_y": 3.0, "words": [{"text": "‘", "normalized": "‘", "kind": "UNKNOWN", "left": 528, "top": 0, "width": 5, "height": 15, "right": 533, "bottom": 15, "conf": 69.0}, {"text": "プー", "normalized": "プー", "kind": "UNKNOWN", "left": 578, "top": 0, "width": 17, "height": 15, "right": 595, "bottom": 15, "conf": 60.0}, {"text": "ヒー", "normalized": "ヒー", "kind": "UNKNOWN", "left": 611, "top": 0, "width": 20, "height": 25, "right": 631, "bottom": 25, "conf": 33.0}, {"text": "アト", "normalized": "アト", "kind": "UNKNOWN", "left": 635, "top": 0, "width": 25, "height": 15, "right": 660, "bottom": 15, "conf": 71.0}]}
-[22:58:03.123135][TEXT-CANDIDATE] text=[‘   プーヒーアト]
-[22:58:03.143137][COPY-NORM] raw=[‘   プーヒーアト] norm=[‘   プーヒーアト]
-[22:58:03.159180][COPY-NORM] raw=[‘   プーヒーアト] norm=[‘   プーヒーアト]
-[22:58:03.194146][TOKEN-COUNT] norm=[‘   プーヒーアト] tokens=['は', 'が', 'を', 'に', 'で', 'と', 'の', '。', '、'] count=0
-[22:58:03.209150][COPY-NORM] raw=[‘   プーヒーアト] norm=[‘   プーヒーアト]
-[22:58:03.213137][IMAGE-CHECK] body_markers norm=[‘   プーヒーアト] count=0
-[22:58:03.226130][IMAGE-CHECK] rect=(641,402,1141,536) size=(500,134) text_len=10 body_markers=0 very_tall=False tall=False short_text=True weak_body=True result=False text=[‘   プーヒーアト]
-[22:58:03.232180][COPY] id=225752_612607_641_402_1141_536 right click x=741 y=469
-[22:58:04.674047][PY] cursor rc=0 stderr=[{"x": 516, "y": 293}]
-[22:58:04.683049][CURSOR] tag=before_right_click json={"x": 516, "y": 293}
-[22:58:06.026982][PY] cursor rc=0 stderr=[{"x": 965, "y": 164}]
-[22:58:06.036991][CURSOR] tag=before_right_click json={"x": 965, "y": 164}
-[22:58:07.402892][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225806_044942_full.png", "mode": "full"}]
-[22:58:07.411862][CURSOR-EVIDENCE] tag=before_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225806_044942_full.png", "mode": "full"}
-[22:58:08.773783][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225806_044942_cursor.png", "left": 845, "top": 44, "width": 240, "height": 240}]
-[22:58:08.788772][CURSOR-EVIDENCE] tag=before_right_click crop={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\before_right_click_20260505_225806_044942_cursor.png", "left": 845, "top": 44, "width": 240, "height": 240} cursor=(965,164)
-[22:58:08.917108][COPY] id=225752_612607_641_402_1141_536 right click ok=True
-[22:58:10.706967][PY] cursor rc=0 stderr=[{"x": 719, "y": 298}]
-[22:58:10.719971][CURSOR] tag=after_right_click json={"x": 719, "y": 298}
-[22:58:11.943927][PY] cursor rc=0 stderr=[{"x": 527, "y": 429}]
-[22:58:11.952884][CURSOR] tag=after_right_click json={"x": 527, "y": 429}
-[22:58:13.287828][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_225811_960884_full.png", "mode": "full"}]
-[22:58:13.297792][CURSOR-EVIDENCE] tag=after_right_click full={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\pointer_trace\\after_right_click_20260505_225811_960884_full.png", "mode": "full"}
+通報] menu_rect=[731,286,874,583]
+[23:42:13.674643][CAPTURE] added rect=641,255,1141,337
+[23:42:13.685641][DOWN LOOP] loop=0 new=1 total=1 last_status=COPY_OK view_signature=[641,163,1141,227;641,255,1141,337]
+[23:42:13.695652][DOWN LOOP] stagnant=0 same_view=0
+[23:42:13.701652][SCROLL-GUARD] status=[COPY_OK] result=False
+[23:42:13.712640][STATE-SNAPSHOT] start tag=before_scroll_down_loop_0
+[23:42:14.937651][PY] cursor rc=0 stderr=[{"x": 811, "y": 336}]
+[23:42:14.958638][STATE-SNAPSHOT] cursor tag=before_scroll_down_loop_0 json={"x": 811, "y": 336}
+[23:42:16.204481][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260505_234214_970616_full.png", "mode": "full"}]
+[23:42:16.215487][STATE-SNAPSHOT] full tag=before_scroll_down_loop_0 json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260505_234214_970616_full.png", "mode": "full"}
+[23:42:16.955074][ACTIVATE] locator=executable:LINE.exe
+[23:42:18.276755][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:42:18.676742][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[23:42:18.682743][STATE-SNAPSHOT] splitter_found tag=before_scroll_down_loop_0 ok=True
+[23:42:19.464218][ACTIVATE] locator=executable:LINE.exe
+[23:42:20.836518][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:42:21.308478][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[23:42:22.928375][STATE-SNAPSHOT] splitter_rect tag=before_scroll_down_loop_0 rect_unavailable=True
+[23:42:23.697322][ACTIVATE] locator=executable:LINE.exe
+[23:42:25.465074][ACTIVATE] locator=executable:LINE.exe
+[23:42:27.242340][ACTIVATE] locator=executable:LINE.exe
+[23:42:28.572776][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:42:28.999758][SPLITTER] rect=(268,85,1184,637) size=(916,552)
+[23:42:29.309727][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[23:42:29.339726][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[23:42:29.485728][MSGWIN] group count=2
+[23:42:29.659720][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(571,85,1184,637) size=(613,552)
+[23:42:29.803694][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(268,85,570,637) size=(302,552)
+[23:42:29.819721][MSGWIN] selected rect=(571,85,1184,637) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:42:29.823718][STATE-SNAPSHOT] msgwin_found tag=before_scroll_down_loop_0 ok=True
+[23:42:30.613202][ACTIVATE] locator=name:LINE

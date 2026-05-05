@@ -22,11 +22,22 @@ Get Right Pane Safe Point
     ${right}=     Evaluate    int(float(str(r'''${msg_r}''').strip()))
     ${bottom}=    Evaluate    int(float(str(r'''${msg_b}''').strip()))
 
-    ${safe_x}=    Evaluate    int(${right}) - 20
-    ${safe_y}=    Evaluate    int(round((int(${top}) + int(${bottom})) / 2.0))
+    ${pane_w}=     Evaluate    int(${right}) - int(${left})
+    ${pane_h}=     Evaluate    int(${bottom}) - int(${top})
+
+    ${raw_x}=      Evaluate    int(${left}) + int(round(float(${pane_w}) * 0.72))
+    ${raw_y}=      Evaluate    int(round((int(${top}) + int(${bottom})) / 2.0))
+
+    ${min_x}=      Evaluate    int(${left}) + 80
+    ${max_x}=      Evaluate    int(${right}) - 80
+    ${min_y}=      Evaluate    int(${top}) + 24
+    ${max_y}=      Evaluate    int(${bottom}) - 24
+
+    ${safe_x}=     Evaluate    max(int(${min_x}), min(int(${raw_x}), int(${max_x})))
+    ${safe_y}=     Evaluate    max(int(${min_y}), min(int(${raw_y}), int(${max_y})))
 
     Trace    [RIGHT-PANE-SAFE] msgwin_rect=(${left},${top},${right},${bottom})
-    Trace    [RIGHT-PANE-SAFE] point=(${safe_x},${safe_y})
+    Trace    [RIGHT-PANE-SAFE] pane_size=(${pane_w},${pane_h}) raw=(${raw_x},${raw_y}) clamped=(${safe_x},${safe_y}) bounds=(${min_x},${min_y})-(${max_x},${max_y})
     RETURN    ${safe_x}    ${safe_y}
 
 Get Safe Clear Selection Point

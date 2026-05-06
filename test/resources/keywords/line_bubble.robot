@@ -395,12 +395,12 @@ Capture Messages From Scrolled Start
 
         Trace    [DOWN LOOP] stagnant=${stagnant_loops} same_view=${same_view_loops}
 
-        IF    ${stagnant_loops} >= 3
+        IF    ${stagnant_loops} >= 3 and $last_status != $STATUS_IMAGE_MESSAGE_SKIP
             Trace    [DOWN LOOP] stop: no new messages for 3 loops
             Exit For Loop
         END
 
-        IF    ${same_view_loops} >= 2
+        IF    ${same_view_loops} >= 2 and $last_status != $STATUS_IMAGE_MESSAGE_SKIP
             Trace    [DOWN LOOP] stop: same visible bubble signature repeated
             Exit For Loop
         END
@@ -430,7 +430,7 @@ Capture Messages From Scrolled Start
             IF    ${new_count} == 0
                 ${same_view_loops}=    Evaluate    ${same_view_loops} + 1
                 Trace    [SCROLL-DOWN] forced same_view increment => ${same_view_loops}
-                IF    ${same_view_loops} >= 2
+                IF    ${same_view_loops} >= 2 and $last_status != $STATUS_IMAGE_MESSAGE_SKIP
                     Trace    [DOWN LOOP] stop: scroll unchanged and no new messages
                     Exit For Loop
                 END

@@ -451,6 +451,7 @@ Capture Visible Messages Into List
     ${rects}=    Get Visible Bubble Rectangles
     ${rect_count}=    Get Length    ${rects}
     Trace    [BUBBLE-RECT] visible_count=${rect_count}
+    Trace    [BUBBLE-RECT] visible_rects=${rects}
 
     IF    ${rect_count} == 0
         RETURN    ${new_count}    ${copied_count}    ${last_status}    ${EMPTY}

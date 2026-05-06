@@ -102,18 +102,9 @@ Log Pointer Stage
 
 Log Text Candidate From Preclick Capture
     ${pre_text_file}=    Set Variable    ${ARTIFACT_TEXT_DIR}${/}preclick_capture.txt
-    ${ocr_json}=    Ocr Image Json    ${PRECLICK_IMAGE_FILE}    ${pre_text_file}
+    ${pre_text}    ${text_len}    ${body_markers}    ${ocr_json}=    Extract Text Candidate Metadata From Image    ${PRECLICK_IMAGE_FILE}    ${pre_text_file}
     Trace    [TEXT-CANDIDATE] ocr_json=${ocr_json}
-
-    ${text_exists}=    Run Keyword And Return Status    File Should Exist    ${pre_text_file}
-    IF    not ${text_exists}
-        Trace    [TEXT-CANDIDATE] text file missing
-        RETURN    ${EMPTY}
-    END
-
-    ${pre_text}=    Get File    ${pre_text_file}
-    ${pre_text}=    Trim Text    ${pre_text}
-    Trace    [TEXT-CANDIDATE] text=[${pre_text}]
+    Trace    [TEXT-CANDIDATE] text=[${pre_text}] text_len=${text_len} body_markers=${body_markers}
     RETURN    ${pre_text}
 
 

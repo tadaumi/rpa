@@ -228,6 +228,20 @@ Ocr Image Json
     END
     RETURN    ${result.stdout}
 
+Extract Text Candidate Metadata From Image
+    [Arguments]    ${image_path}    ${text_path}
+    ${ocr_json}=    Ocr Image Json    ${image_path}    ${text_path}
+    ${text_exists}=    Run Keyword And Return Status    File Should Exist    ${text_path}
+    IF    not ${text_exists}
+        RETURN    ${EMPTY}    0    0    ${ocr_json}
+    END
+    ${raw_text}=    Get File    ${text_path}
+    ${raw_text}=    Trim Text    ${raw_text}
+    ${norm}=    Normalize Ocr Text For Filter    ${raw_text}
+    ${text_len}=    Get Length    ${norm}
+    ${body_markers}=    Evaluate    sum(1 for token in ['は','が','を','に','で','と','の','。','、'] if token in $text_norm)    text_norm=${norm}
+    RETURN    ${norm}    ${text_len}    ${body_markers}    ${ocr_json}
+
 Normalize Ocr Text For Filter
     [Arguments]    ${ocr_text}
     ${norm}=    Convert To String    ${ocr_text}

@@ -360,12 +360,12 @@ Capture Messages From Scrolled Start
         Trace    [DOWN LOOP] start loop=${loop}
 
         ${before_count}=    Get Length    ${all_messages}
-        ${new_count}    ${last_status}    ${view_signature}=    Capture Visible Messages Into List    ${all_messages}
+        ${new_count}    ${copied_count}    ${last_status}    ${view_signature}=    Capture Visible Messages Into List    ${all_messages}
         ${after_count}=     Get Length    ${all_messages}
 
         Trace    [DOWN LOOP] loop=${loop} new=${new_count} total=${after_count} last_status=${last_status} view_signature=[${view_signature}]
 
-        IF    ${after_count} == ${before_count}
+        IF    ${copied_count} == 0
             ${stagnant_loops}=    Evaluate    ${stagnant_loops} + 1
         ELSE
             ${stagnant_loops}=    Set Variable    0
@@ -428,6 +428,7 @@ Capture Messages From Scrolled Start
 Capture Visible Messages Into List
     [Arguments]    ${all_messages}
     ${new_count}=        Set Variable    0
+    ${copied_count}=     Set Variable    0
     ${last_status}=      Set Variable    ${EMPTY}
     ${processed_rects}=  Create List
 
@@ -436,7 +437,7 @@ Capture Visible Messages Into List
     Trace    [BUBBLE-RECT] visible_count=${rect_count}
 
     IF    ${rect_count} == 0
-        RETURN    ${new_count}    ${last_status}    ${EMPTY}
+        RETURN    ${new_count}    ${copied_count}    ${last_status}    ${EMPTY}
     END
 
     ${rects}=    Sort Bubble Rectangles Top To Bottom    ${rects}
@@ -464,6 +465,7 @@ Capture Visible Messages Into List
         Trace    [CAPTURE] rect=${rect} status=${status} reason=[${reason}] menu_text=[${menu_text}] menu_rect=[${menu_rect}]
 
         IF    $status == $STATUS_COPY_OK
+            ${copied_count}=    Evaluate    ${copied_count} + 1
             IF    $trimmed != ''
                 ${exists}=    Run Keyword And Return Status    List Should Contain Value    ${all_messages}    ${trimmed}
                 IF    not ${exists}
@@ -509,4 +511,4 @@ Capture Visible Messages Into List
         END
     END
 
-    RETURN    ${new_count}    ${last_status}    ${view_signature}
+    RETURN    ${new_count}    ${copied_count}    ${last_status}    ${view_signature}

@@ -115,6 +115,11 @@ Count Japanese Body Markers
     Trace    [IMAGE-CHECK] body_markers norm=[${norm}] count=${count}
     RETURN    ${count}
 
+Build Text Codepoint Log
+    [Arguments]    ${text}
+    ${codes}=    Evaluate    ' '.join(f'U+{ord(ch):04X}' for ch in str(r'''${text}'''))
+    RETURN    ${codes}
+
 Looks Like Image Message Candidate
     [Arguments]    ${left}    ${top}    ${right}    ${bottom}    ${text_candidate}
     ${l}=    Evaluate    int(float(str(r'''${left}''').strip()))
@@ -127,6 +132,13 @@ Looks Like Image Message Candidate
     ${norm}=    Normalize Copy Detection Text    ${text_candidate}
     ${text_len}=    Get Length    ${norm}
     ${body_markers}=    Count Japanese Body Markers    ${norm}
+    ${codepoints}=    Build Text Codepoint Log    ${norm}
+
+    ${no_text}=    Evaluate    str(r'''${norm}''').strip() == ''
+    IF    ${no_text}
+        Trace    [IMAGE-CHECK] no_text=True -> result=True rect=(${l},${t},${r},${b}) size=(${width},${height})
+        RETURN    ${True}
+    END
 
     ${very_tall}=    Evaluate    ${height} >= 180
     ${tall}=    Evaluate    ${height} >= 140
@@ -134,6 +146,9 @@ Looks Like Image Message Candidate
     ${weak_body}=    Evaluate    ${body_markers} <= 1
 
     ${result}=    Evaluate    ${very_tall} or (${tall} and ${short_text}) or (${tall} and ${weak_body})
+    IF    ${text_len} > 0 and ${result} == ${False}
+        Trace    [IMAGE-CHECK-NOISE] text=[${norm}] codepoints=[${codepoints}]
+    END
     Trace    [IMAGE-CHECK] rect=(${l},${t},${r},${b}) size=(${width},${height}) text_len=${text_len} body_markers=${body_markers} very_tall=${very_tall} tall=${tall} short_text=${short_text} weak_body=${weak_body} result=${result} text=[${norm}]
     RETURN    ${result}
 

@@ -55,10 +55,10 @@ ${MESSAGE_X}                     620
 ${SCROLLBAR_X}                   996
 ${SCROLLBAR_TOP_Y}               80
 ${SCROLLBAR_MID_Y}               320
-${SCROLLBAR_BOTTOM_Y}            720
+${SCROLLBAR_BOTTOM_Y}            320
 ${SCROLL_UP_SECONDS}             10
 ${MAX_DOWN_LOOPS}                80
-${SCROLL_DOWN_RETRY}             3
+${SCROLL_DOWN_RETRY}             1
 ${SCROLLBAR_DOWN_STEP_TO_Y}      420
 
 ${MENU_SCAN_RETRY}               3

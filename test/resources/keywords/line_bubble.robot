@@ -221,6 +221,7 @@ Get Visible Bubble Rectangles
     Trace    [BUBBLE-RECT] anchor msgwin ok=${ok}
     IF    not ${ok}
         ${rects}=    Create List
+        Trace    [BUBBLE-RECT] return_count=0 rects=[]
         RETURN    ${rects}
     END
 
@@ -230,6 +231,7 @@ Get Visible Bubble Rectangles
 
     ${rects}=    Create List
     IF    not ${found}
+        Trace    [BUBBLE-RECT] return_count=0 rects=[]
         RETURN    ${rects}
     END
 
@@ -324,6 +326,8 @@ Get Visible Bubble Rectangles
         Trace    [BUBBLE-RECT] idx=${i} name=[${name}] type=[${ctype}] class=[${clazz}] rect=${inner_rect}
     END
 
+    ${rect_count}=    Get Length    ${rects}
+    Trace    [BUBBLE-RECT] return_count=${rect_count} rects=${rects}
     RETURN    ${rects}
 
 Sort Bubble Rectangles Top To Bottom

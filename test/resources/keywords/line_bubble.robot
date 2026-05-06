@@ -361,6 +361,18 @@ Capture Messages From Scrolled Start
 
         ${before_count}=    Get Length    ${all_messages}
         ${new_count}    ${copied_count}    ${last_status}    ${view_signature}=    Capture Visible Messages Into List    ${all_messages}
+        ${drain_round}=    Set Variable    0
+        WHILE    ${drain_round} < 2 and $last_status == $STATUS_COPY_OK
+            ${extra_new}    ${extra_copied}    ${extra_status}    ${extra_signature}=    Capture Visible Messages Into List    ${all_messages}
+            Trace    [DRAIN] loop=${loop} round=${drain_round} extra_new=${extra_new} extra_copied=${extra_copied} status=${extra_status} sig=[${extra_signature}]
+            ${new_count}=    Evaluate    ${new_count} + ${extra_new}
+            ${copied_count}=    Evaluate    ${copied_count} + ${extra_copied}
+            ${last_status}=    Set Variable    ${extra_status}
+            IF    ${extra_copied} == 0
+                BREAK
+            END
+            ${drain_round}=    Evaluate    ${drain_round} + 1
+        END
         ${after_count}=     Get Length    ${all_messages}
 
         Trace    [DOWN LOOP] loop=${loop} new=${new_count} total=${after_count} last_status=${last_status} view_signature=[${view_signature}]

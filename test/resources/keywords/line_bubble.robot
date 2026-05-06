@@ -312,8 +312,7 @@ Get Visible Bubble Rectangles
         ${ratio}=          Evaluate    (float(${inner_h}) / float(${h})) if int(${h}) > 0 else 0.0
         ${image_like}=     Is Image Like Bubble Geometry    ${h}    ${inner_h}    ${ratio}
         IF    ${image_like}
-            Trace    [BUBBLE-RECT] image-like geometry rejected idx=${i} outer=(${l},${t},${r},${b}) inner=${inner_rect}
-            CONTINUE
+            Trace    [BUBBLE-RECT] image-like geometry accepted-for-capture idx=${i} outer=(${l},${t},${r},${b}) inner=${inner_rect}
         END
 
         ${exists}=    Run Keyword And Return Status    List Should Contain Value    ${rects}    ${inner_rect}

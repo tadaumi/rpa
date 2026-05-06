@@ -449,7 +449,7 @@ Copy One Message By BubbleRect
     Log Pointer Stage    after_right_click
     Sleep    ${RIGHT_CLICK_WAIT}
 
-    ${menu_window}=    Find LcContextMenu Only
+    ${menu_window}=    Find LcContextMenu Only    ${x}    ${y}
     ${menu_window_s}=    Normalize Element String    ${menu_window}
     Trace    [COPY] menu_window normalized=[${menu_window_s}] for point=(${x},${y})
     Log Pointer Stage    after_menu_scan
@@ -466,6 +466,14 @@ Copy One Message By BubbleRect
     ${menu_window_bottom}=    Safe Get Element Attribute    ${menu_window}    bottom
     ${menu_rect}=    Catenate    SEPARATOR=    ${menu_window_left},${menu_window_top},${menu_window_right},${menu_window_bottom}
     Trace    [MENU-WINDOW] selected rect=(${menu_rect}) point=(${x},${y})
+    ${menu_ok}=    Is Menu Rect Plausible    ${menu_rect}
+    IF    not ${menu_ok}
+        Trace    [MENU-WINDOW] selected menu rect not plausible -> reclick
+        ${retry_ok}    ${menu_window}    ${menu_rect}=    Retry Right Click And Find Plausible Menu    ${x}    ${y}
+        IF    not ${retry_ok}
+            Trace    [MENU-WINDOW] reclick did not find plausible menu, fallback to original rect=(${menu_rect})
+        END
+    END
 
     Save Menu EvidenceShots    ${menu_rect}    ${x}    ${y}
     Log Pointer Stage    after_menu_evidence
@@ -553,22 +561,78 @@ Save Failure Screens
     Trace    [FAILSHOT] crop=${crop_json} menu_rect=[${menu_rect}]
 
 Find LcContextMenu Only
+    [Arguments]    ${click_x}=${EMPTY}    ${click_y}=${EMPTY}
     FOR    ${i}    IN RANGE    ${MENU_SCAN_RETRY}
         Trace    [MENU-WINDOW] scan try=${i}
-        ${found}=    Run Keyword And Return Status    Win.Get Element    ${MENU_ROOT_LOCATOR}    timeout=${MENU_FIND_TIMEOUT}
+        ${found}=    Run Keyword And Return Status    Win.Get Elements    ${MENU_ROOT_LOCATOR}    timeout=${MENU_FIND_TIMEOUT}
         Trace    [MENU-WINDOW] found=${found} try=${i}
         IF    ${found}
-            ${elem}=    Win.Get Element    ${MENU_ROOT_LOCATOR}    timeout=${MENU_FIND_TIMEOUT}
-            ${name}=    Safe Get Element Attribute    ${elem}    name
-            ${clazz}=    Safe Get Element Attribute    ${elem}    class_name
-            ${ctype}=    Safe Get Element Attribute    ${elem}    control_type
-            ${left}=    Safe Get Element Attribute    ${elem}    left
-            ${top}=    Safe Get Element Attribute    ${elem}    top
-            ${right}=    Safe Get Element Attribute    ${elem}    right
-            ${bottom}=    Safe Get Element Attribute    ${elem}    bottom
-            Trace    [MENU-WINDOW] direct candidate name=[${name}] type=[${ctype}] class=[${clazz}] rect=(${left},${top},${right},${bottom})
-            RETURN    ${elem}
+            ${elements}=    Win.Get Elements    ${MENU_ROOT_LOCATOR}    timeout=${MENU_FIND_TIMEOUT}
+            ${best_elem}=    Set Variable    ${EMPTY}
+            ${best_score}=    Set Variable    999999
+            ${best_rect}=    Set Variable    ${EMPTY}
+            ${fallback_elem}=    Set Variable    ${EMPTY}
+            ${fallback_score}=    Set Variable    999999
+            FOR    ${elem}    IN    @{elements}
+                ${name}=    Safe Get Element Attribute    ${elem}    name
+                ${clazz}=    Safe Get Element Attribute    ${elem}    class_name
+                ${ctype}=    Safe Get Element Attribute    ${elem}    control_type
+                ${left}=    Safe Get Element Attribute    ${elem}    left
+                ${top}=    Safe Get Element Attribute    ${elem}    top
+                ${right}=    Safe Get Element Attribute    ${elem}    right
+                ${bottom}=    Safe Get Element Attribute    ${elem}    bottom
+                ${rect}=    Catenate    SEPARATOR=    ${left},${top},${right},${bottom}
+                ${ok}=    Is Menu Rect Plausible    ${rect}
+                Trace    [MENU-WINDOW] direct candidate name=[${name}] type=[${ctype}] class=[${clazz}] rect=(${left},${top},${right},${bottom}) plausible=${ok}
+                IF    not ${ok}
+                    CONTINUE
+                END
+                ${cx}=    Evaluate    (int(float(str(r'''${left}''').strip())) + int(float(str(r'''${right}''').strip()))) // 2
+                ${cy}=    Evaluate    (int(float(str(r'''${top}''').strip())) + int(float(str(r'''${bottom}''').strip()))) // 2
+                ${score}=    Evaluate    abs(${cx} - int(float(str(r'''${click_x}''').strip()))) + abs(${cy} - int(float(str(r'''${click_y}''').strip()))) if str(r'''${click_x}''').strip() and str(r'''${click_y}''').strip() else 0
+                IF    ${score} < ${fallback_score}
+                    ${fallback_score}=    Set Variable    ${score}
+                    ${fallback_elem}=    Set Variable    ${elem}
+                END
+                IF    ${score} < ${best_score}
+                    ${best_score}=    Set Variable    ${score}
+                    ${best_elem}=    Set Variable    ${elem}
+                    ${best_rect}=    Set Variable    ${rect}
+                END
+            END
+            IF    $best_elem != $EMPTY
+                Trace    [MENU-WINDOW] selected best score=${best_score} rect=(${best_rect})
+                RETURN    ${best_elem}
+            END
+            IF    $fallback_elem != $EMPTY
+                Trace    [MENU-WINDOW] fallback to nearest candidate without plausibility filter score=${fallback_score}
+                RETURN    ${fallback_elem}
+            END
         END
         Sleep    ${MENU_SCAN_INTERVAL}
     END
     RETURN    ${EMPTY}
+
+Is Menu Rect Plausible
+    [Arguments]    ${menu_rect}
+    ${menu_l}    ${menu_t}    ${menu_r}    ${menu_b}=    line_menu_debug.Parse Rect Text To Ints    ${menu_rect}
+    ${menu_w}=    Evaluate    int(${menu_r}) - int(${menu_l})
+    ${menu_h}=    Evaluate    int(${menu_b}) - int(${menu_t})
+    ${ok}=    Evaluate    ${menu_w} >= ${MENU_MIN_WIDTH} and ${menu_h} >= ${MENU_MIN_HEIGHT}
+    Trace    [MENU-RECT-CHECK] rect=(${menu_l},${menu_t},${menu_r},${menu_b}) size=(${menu_w},${menu_h}) min=(${MENU_MIN_WIDTH},${MENU_MIN_HEIGHT}) ok=${ok}
+    RETURN    ${ok}
+
+Retry Right Click And Find Plausible Menu
+    [Arguments]    ${x}    ${y}
+    ${orig}=    Find LcContextMenu Only    ${x}    ${y}
+    ${orig_s}=    Normalize Element String    ${orig}
+    ${orig_rect}=    Set Variable    ${EMPTY}
+    IF    $orig_s != ''
+        ${ol}=    Safe Get Element Attribute    ${orig}    left
+        ${ot}=    Safe Get Element Attribute    ${orig}    top
+        ${or}=    Safe Get Element Attribute    ${orig}    right
+        ${ob}=    Safe Get Element Attribute    ${orig}    bottom
+        ${orig_rect}=    Catenate    SEPARATOR=    ${ol},${ot},${or},${ob}
+    END
+    Trace    [RECLICK] disabled to avoid side effects (group selection/regression). retry=${MENU_RECLICK_RETRY} offset=${MENU_RECLICK_OFFSET}
+    RETURN    ${False}    ${orig}    ${orig_rect}

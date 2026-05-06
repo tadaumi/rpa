@@ -108,7 +108,7 @@ Is Image Like Bubble Geometry
 
 Should Avoid Scroll Actions After Status
     [Arguments]    ${status}
-    ${result}=    Evaluate    str(r'''${status}''').strip() in [str(r'''${STATUS_IMAGE_MESSAGE_SKIP}''').strip(), str(r'''${STATUS_OTHER_UI_MENU}''').strip()]
+    ${result}=    Evaluate    str(r'''${status}''').strip() in [str(r'''${STATUS_OTHER_UI_MENU}''').strip()]
     Trace    [SCROLL-GUARD] status=[${status}] result=${result}
     RETURN    ${result}
 

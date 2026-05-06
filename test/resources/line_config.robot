@@ -65,6 +65,10 @@ ${MENU_SCAN_RETRY}               3
 ${MENU_SCAN_INTERVAL}            250ms
 ${MENU_FIND_TIMEOUT}             0.4
 ${RIGHT_CLICK_WAIT}              500ms
+${MENU_MIN_WIDTH}                120
+${MENU_MIN_HEIGHT}               140
+${MENU_RECLICK_RETRY}            2
+${MENU_RECLICK_OFFSET}           14
 ${MENU_ROOT_LOCATOR}             desktop:desktop > class:LcContextMenu and type:WindowControl
 
 ${OCR_MARGIN_LEFT}               10

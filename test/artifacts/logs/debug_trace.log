@@ -1,202 +1,123 @@
-[TRACE START] 2026-05-06 23:39:36
-[23:39:36.759340][FAILSHOT] directory=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\fail_screens
-[23:39:37.495221][ACTIVATE] locator=executable:LINE.exe
-[23:39:39.224835][ACTIVATE] locator=executable:LINE.exe
-[23:39:40.255162][GROUP] open first group path=path:11|2|1|1|1|1
-[23:39:41.214042][GROUP] opened
-[23:39:44.262047][TEXT-RESET] removed dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
-[23:39:44.266993][TEXT-RESET] created dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
-[23:39:44.275041][ARTIFACT] ensured directories
-[23:39:44.280992][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
-[23:39:45.019633][ACTIVATE] locator=executable:LINE.exe
-[23:39:46.039389][SCROLL-UP] drag try=0
-[23:39:47.286412][SCROLL-UP] iter_elapsed=1.2240359783172607
-[23:39:47.308345][SCROLL-UP] elapsed=1.2240359783172607
-[23:39:48.097002][ACTIVATE] locator=executable:LINE.exe
-[23:39:49.112389][SCROLL-UP] drag try=1
-[23:39:50.355745][SCROLL-UP] iter_elapsed=1.222433090209961
-[23:39:50.367668][SCROLL-UP] elapsed=2.4464690685272217
-[23:39:51.157564][ACTIVATE] locator=executable:LINE.exe
-[23:39:52.188354][SCROLL-UP] drag try=2
-[23:39:53.437343][SCROLL-UP] iter_elapsed=1.2200961112976074
-[23:39:53.449202][SCROLL-UP] elapsed=3.666565179824829
-[23:39:54.231215][ACTIVATE] locator=executable:LINE.exe
-[23:39:55.250471][SCROLL-UP] drag try=3
-[23:39:56.512040][SCROLL-UP] iter_elapsed=1.2415719032287598
-[23:39:56.526956][SCROLL-UP] elapsed=4.908137083053589
-[23:39:57.320832][ACTIVATE] locator=executable:LINE.exe
-[23:39:58.382876][SCROLL-UP] drag try=4
-[23:39:59.626532][SCROLL-UP] iter_elapsed=1.226707935333252
-[23:39:59.638496][SCROLL-UP] elapsed=6.134845018386841
-[23:40:00.409417][ACTIVATE] locator=executable:LINE.exe
-[23:40:01.441487][SCROLL-UP] drag try=5
-[23:40:02.713984][SCROLL-UP] iter_elapsed=1.2445111274719238
-[23:40:02.726935][SCROLL-UP] elapsed=7.379356145858765
-[23:40:03.468874][ACTIVATE] locator=executable:LINE.exe
-[23:40:04.499863][SCROLL-UP] drag try=6
-[23:40:05.750227][SCROLL-UP] iter_elapsed=1.2244141101837158
-[23:40:05.766157][SCROLL-UP] elapsed=8.60377025604248
-[23:40:06.504151][ACTIVATE] locator=executable:LINE.exe
-[23:40:07.536850][SCROLL-UP] drag try=7
-[23:40:08.785295][SCROLL-UP] iter_elapsed=1.2245187759399414
-[23:40:08.793201][SCROLL-UP] elapsed=9.828289031982422
-[23:40:09.535228][ACTIVATE] locator=executable:LINE.exe
-[23:40:10.560473][SCROLL-UP] drag try=8
-[23:40:11.821950][SCROLL-UP] iter_elapsed=1.228579044342041
-[23:40:11.836941][SCROLL-UP] elapsed=11.056868076324463
-[23:40:13.581465][ACTIVATE] locator=executable:LINE.exe
-[23:40:15.334362][ACTIVATE] locator=executable:LINE.exe
-[23:40:17.073354][ACTIVATE] locator=executable:LINE.exe
-[23:40:18.844290][ACTIVATE] locator=executable:LINE.exe
-[23:40:20.610149][ACTIVATE] locator=executable:LINE.exe
-[23:40:21.952677][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:40:22.380608][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:40:22.691610][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[23:40:22.706585][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[23:40:22.721590][MSGWIN] group count=2
-[23:40:22.915565][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
-[23:40:23.087600][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
-[23:40:23.102559][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:40:23.172608][RIGHT-PANE-SAFE] msgwin_rect=(745,56,1358,608)
-[23:40:23.177591][RIGHT-PANE-SAFE] point=(1338,332)
-[23:40:23.181579][SCROLL-CLEAR] safe-point from right pane = (1338,332)
-[23:40:23.185588][SCROLL-CLEAR] status=[]
-[23:40:23.189576][SCROLL-CLEAR] move x=1338 y=332
-[23:40:23.197557][SCROLL-CLEAR] move_ok=True
-[23:40:23.420768][SCROLL-CLEAR] click_ok=True
-[23:40:24.582463][ACTIVATE] locator=executable:LINE.exe
-[23:40:26.336926][ACTIVATE] locator=executable:LINE.exe
-[23:40:28.080449][ACTIVATE] locator=executable:LINE.exe
-[23:40:29.877618][ACTIVATE] locator=executable:LINE.exe
-[23:40:31.653459][ACTIVATE] locator=executable:LINE.exe
-[23:40:32.993291][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:40:33.390292][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:40:33.730268][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[23:40:33.744235][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[23:40:33.757278][MSGWIN] group count=2
-[23:40:33.947299][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
-[23:40:34.131214][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
-[23:40:34.140268][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:40:34.202276][RIGHT-PANE-SAFE] msgwin_rect=(745,56,1358,608)
-[23:40:34.210281][RIGHT-PANE-SAFE] point=(1338,332)
-[23:40:34.216279][SCROLL-CLEAR] safe-point from right pane = (1338,332)
-[23:40:34.221235][SCROLL-CLEAR] status=[]
-[23:40:34.228235][SCROLL-CLEAR] move x=1338 y=332
-[23:40:34.234254][SCROLL-CLEAR] move_ok=True
-[23:40:34.456630][SCROLL-CLEAR] click_ok=True
-[23:40:35.619157][ACTIVATE] locator=executable:LINE.exe
-[23:40:36.636213][DOWN LOOP] start loop=0
-[23:40:37.372048][ACTIVATE] locator=executable:LINE.exe
-[23:40:39.103183][ACTIVATE] locator=executable:LINE.exe
-[23:40:40.883522][ACTIVATE] locator=executable:LINE.exe
-[23:40:42.644707][ACTIVATE] locator=executable:LINE.exe
-[23:40:43.980479][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:40:44.376469][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:40:44.654431][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[23:40:44.666421][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[23:40:44.678432][MSGWIN] group count=2
-[23:40:44.826423][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
-[23:40:44.969412][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
-[23:40:44.980415][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:40:44.994405][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:40:45.091409][BUBBLE-RECT] root_rect=(745,56,1358,608) root_size=(613,552)
-[23:40:45.100449][BUBBLE-RECT] anchor msgwin ok=True
-[23:40:45.158399][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
-[23:40:45.205397][BUBBLE-RECT] anchored_count=1
-[23:40:45.440381][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(745,120,1351,563) size=(606,443)inside_x=True inside_y=True large_enough=Truenot_too_tall=False not_header_like=True not_footer_like=True
-[23:40:45.451380][BUBBLE-RECT] visible_count=0
-[23:40:45.468379][DOWN LOOP] loop=0 new=0 total=0 last_status= view_signature=[]
-[23:40:45.476380][DOWN LOOP] stagnant=1 same_view=0
-[23:40:45.483391][SCROLL-GUARD] status=[] result=False
-[23:40:45.492396][STATE-SNAPSHOT] start tag=before_scroll_down_loop_0
-[23:40:46.704293][PY] cursor rc=0 stderr=[{"x": 390, "y": 566}]
-[23:40:46.717290][STATE-SNAPSHOT] cursor tag=before_scroll_down_loop_0 json={"x": 390, "y": 566}
-[23:40:48.117199][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260506_234046_725302_full.png", "mode": "full"}]
-[23:40:48.126262][STATE-SNAPSHOT] full tag=before_scroll_down_loop_0 json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260506_234046_725302_full.png", "mode": "full"}
-[23:40:48.858885][ACTIVATE] locator=executable:LINE.exe
-[23:40:50.217770][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:40:50.607764][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:40:50.612744][STATE-SNAPSHOT] splitter_found tag=before_scroll_down_loop_0 ok=True
-[23:40:51.352447][ACTIVATE] locator=executable:LINE.exe
-[23:40:52.664117][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:40:53.054088][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:40:54.328052][STATE-SNAPSHOT] splitter_rect tag=before_scroll_down_loop_0 rect_unavailable=True
-[23:40:55.075043][ACTIVATE] locator=executable:LINE.exe
-[23:40:56.843632][ACTIVATE] locator=executable:LINE.exe
-[23:40:58.602341][ACTIVATE] locator=executable:LINE.exe
-[23:40:59.923017][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:41:00.333003][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:41:00.648980][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[23:41:00.665976][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[23:41:00.679938][MSGWIN] group count=2
-[23:41:00.904926][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
-[23:41:01.058958][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
-[23:41:01.067903][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:41:01.071910][STATE-SNAPSHOT] msgwin_found tag=before_scroll_down_loop_0 ok=True
-[23:41:01.825682][ACTIVATE] locator=executable:LINE.exe
-[23:41:03.584556][ACTIVATE] locator=executable:LINE.exe
-[23:41:05.348407][ACTIVATE] locator=executable:LINE.exe
-[23:41:06.693560][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:41:07.100454][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:41:07.409437][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[23:41:07.422470][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[23:41:07.434435][MSGWIN] group count=2
-[23:41:07.573429][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
-[23:41:07.713421][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
-[23:41:07.723419][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:41:07.730418][STATE-SNAPSHOT] msgwin tag=before_scroll_down_loop_0 elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:41:07.907407][STATE-SNAPSHOT] msgwin_rect tag=before_scroll_down_loop_0 rect=(745,56,1358,608)
-[23:41:08.636313][ACTIVATE] locator=executable:LINE.exe
-[23:41:10.372434][ACTIVATE] locator=executable:LINE.exe
-[23:41:12.151127][ACTIVATE] locator=executable:LINE.exe
-[23:41:13.939744][ACTIVATE] locator=executable:LINE.exe
-[23:41:15.295166][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:41:15.736083][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:41:16.048063][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[23:41:16.063079][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[23:41:16.077069][MSGWIN] group count=2
-[23:41:16.227092][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
-[23:41:16.370036][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
-[23:41:16.380037][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:41:16.444058][RIGHT-PANE-SAFE] msgwin_rect=(745,56,1358,608)
-[23:41:16.448035][RIGHT-PANE-SAFE] point=(1338,332)
-[23:41:16.452031][STATE-SNAPSHOT] right_pane_safe tag=before_scroll_down_loop_0 point=(1338,332)
-[23:41:17.209094][ACTIVATE] locator=executable:LINE.exe
-[23:41:18.567997][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:41:18.951998][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:41:19.682917][ACTIVATE] locator=executable:LINE.exe
-[23:41:21.058770][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:41:21.463744][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:41:21.787708][STATE-SNAPSHOT] splitter_anchor tag=before_scroll_down_loop_0 ok=True
-[23:41:21.799698][STATE-SNAPSHOT] groups_found tag=before_scroll_down_loop_0 ok=True locator=[type:GroupControl and depth:20]
-[23:41:21.812710][STATE-SNAPSHOT] group_count tag=before_scroll_down_loop_0 count=2
-[23:41:22.074662][STATE-SNAPSHOT] group_candidate tag=before_scroll_down_loop_0 idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608)
-[23:41:22.331688][STATE-SNAPSHOT] group_candidate tag=before_scroll_down_loop_0 idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608)
-[23:41:22.335673][STATE-SNAPSHOT] end tag=before_scroll_down_loop_0
-[23:41:23.065579][ACTIVATE] locator=executable:LINE.exe
-[23:41:24.092642][SCROLL-DOWN] verify retry=0 status_after_capture=[]
-[23:41:25.308558][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}]
-[23:41:25.318545][SCROLL-DOWN] before={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_before.png", "left": 620, "top": 140, "width": 300, "height": 520}
-[23:41:26.047442][ACTIVATE] locator=executable:LINE.exe
-[23:41:27.812326][ACTIVATE] locator=executable:LINE.exe
-[23:41:29.599305][ACTIVATE] locator=executable:LINE.exe
-[23:41:31.339521][ACTIVATE] locator=executable:LINE.exe
-[23:41:33.079467][ACTIVATE] locator=executable:LINE.exe
-[23:41:34.442164][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
-[23:41:34.808088][SPLITTER] rect=(442,56,1358,608) size=(916,552)
-[23:41:35.116078][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
-[23:41:35.138069][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
-[23:41:35.153118][MSGWIN] group count=2
-[23:41:35.355108][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
-[23:41:35.540096][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
-[23:41:35.552089][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
-[23:41:35.709083][RIGHT-PANE-SAFE] msgwin_rect=(745,56,1358,608)
-[23:41:35.713037][RIGHT-PANE-SAFE] point=(1338,332)
-[23:41:35.718077][SCROLL-CLEAR] safe-point from right pane = (1338,332)
-[23:41:35.722068][SCROLL-RESET] drag-start-safe from clear-point = (1338,332)
-[23:41:35.727026][SCROLL-RESET] move x=1338 y=332
-[23:41:35.731035][SCROLL-RESET] move_ok=True
-[23:41:39.578003][PY] capture rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}]
-[23:41:39.589003][SCROLL-DOWN] after={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\scroll_after.png", "left": 620, "top": 140, "width": 300, "height": 520}
-[23:41:40.772925][PY] compare rc=0 stderr=[{"same": false, "before_hash": "04a3f75d9a5a1236b7b52250105139e6", "after_hash": "baa47768c51df5cbf3f466cf668e84a7"}]
-[23:41:40.783925][SCROLL-DOWN] retry=0 changed=True
+[TRACE START] 2026-05-06 23:48:47
+[23:48:47.235429][FAILSHOT] directory=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\images\fail_screens
+[23:48:47.967332][ACTIVATE] locator=executable:LINE.exe
+[23:48:49.704462][ACTIVATE] locator=executable:LINE.exe
+[23:48:50.711019][GROUP] open first group path=path:11|2|1|1|1|1
+[23:48:51.655502][GROUP] opened
+[23:48:54.685740][TEXT-RESET] removed dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
+[23:48:54.692734][TEXT-RESET] created dir=C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text
+[23:48:54.703771][ARTIFACT] ensured directories
+[23:48:54.744731][HTML] initialized C:\Users\user\Documents\RPA\RobotFramework\test\artifacts\text\line_messages.html
+[23:48:55.504681][ACTIVATE] locator=executable:LINE.exe
+[23:48:56.533350][SCROLL-UP] drag try=0
+[23:48:57.777492][SCROLL-UP] iter_elapsed=1.2240490913391113
+[23:48:57.786479][SCROLL-UP] elapsed=1.2240490913391113
+[23:48:58.581308][ACTIVATE] locator=executable:LINE.exe
+[23:48:59.600818][SCROLL-UP] drag try=1
+[23:49:00.852158][SCROLL-UP] iter_elapsed=1.236410140991211
+[23:49:00.863154][SCROLL-UP] elapsed=2.4604592323303223
+[23:49:01.633045][ACTIVATE] locator=executable:LINE.exe
+[23:49:02.661069][SCROLL-UP] drag try=2
+[23:49:03.924039][SCROLL-UP] iter_elapsed=1.2379438877105713
+[23:49:03.939004][SCROLL-UP] elapsed=3.6984031200408936
+[23:49:04.786865][ACTIVATE] locator=executable:LINE.exe
+[23:49:05.816239][SCROLL-UP] drag try=3
+[23:49:07.070873][SCROLL-UP] iter_elapsed=1.2277121543884277
+[23:49:07.081869][SCROLL-UP] elapsed=4.926115274429321
+[23:49:07.927872][ACTIVATE] locator=executable:LINE.exe
+[23:49:08.958971][SCROLL-UP] drag try=4
+[23:49:10.218666][SCROLL-UP] iter_elapsed=1.2327580451965332
+[23:49:10.233625][SCROLL-UP] elapsed=6.1588733196258545
+[23:49:10.980521][ACTIVATE] locator=executable:LINE.exe
+[23:49:12.013908][SCROLL-UP] drag try=5
+[23:49:13.271020][SCROLL-UP] iter_elapsed=1.2321479320526123
+[23:49:13.277007][SCROLL-UP] elapsed=7.391021251678467
+[23:49:14.003954][ACTIVATE] locator=executable:LINE.exe
+[23:49:15.032868][SCROLL-UP] drag try=6
+[23:49:16.294883][SCROLL-UP] iter_elapsed=1.2371392250061035
+[23:49:16.308819][SCROLL-UP] elapsed=8.62816047668457
+[23:49:17.050726][ACTIVATE] locator=executable:LINE.exe
+[23:49:18.078599][SCROLL-UP] drag try=7
+[23:49:19.335841][SCROLL-UP] iter_elapsed=1.2333159446716309
+[23:49:19.343750][SCROLL-UP] elapsed=9.861476421356201
+[23:49:20.086668][ACTIVATE] locator=executable:LINE.exe
+[23:49:21.117737][SCROLL-UP] drag try=8
+[23:49:22.371720][SCROLL-UP] iter_elapsed=1.2400319576263428
+[23:49:22.375713][SCROLL-UP] elapsed=11.101508378982544
+[23:49:24.133326][ACTIVATE] locator=executable:LINE.exe
+[23:49:25.906693][ACTIVATE] locator=executable:LINE.exe
+[23:49:27.664075][ACTIVATE] locator=executable:LINE.exe
+[23:49:29.456727][ACTIVATE] locator=executable:LINE.exe
+[23:49:31.231637][ACTIVATE] locator=executable:LINE.exe
+[23:49:32.554411][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:49:32.958386][SPLITTER] rect=(442,56,1358,608) size=(916,552)
+[23:49:33.264393][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[23:49:33.280380][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[23:49:33.293361][MSGWIN] group count=2
+[23:49:33.470372][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
+[23:49:33.649382][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
+[23:49:33.668330][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:49:33.728356][RIGHT-PANE-SAFE] msgwin_rect=(745,56,1358,608)
+[23:49:33.732334][RIGHT-PANE-SAFE] point=(1338,332)
+[23:49:33.740340][SCROLL-CLEAR] safe-point from right pane = (1338,332)
+[23:49:33.745338][SCROLL-CLEAR] status=[]
+[23:49:33.749337][SCROLL-CLEAR] move x=1338 y=332
+[23:49:33.756338][SCROLL-CLEAR] move_ok=True
+[23:49:33.983694][SCROLL-CLEAR] click_ok=True
+[23:49:35.126732][ACTIVATE] locator=executable:LINE.exe
+[23:49:36.880475][ACTIVATE] locator=executable:LINE.exe
+[23:49:38.639008][ACTIVATE] locator=executable:LINE.exe
+[23:49:40.390379][ACTIVATE] locator=executable:LINE.exe
+[23:49:42.159816][ACTIVATE] locator=executable:LINE.exe
+[23:49:43.498835][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:49:43.912811][SPLITTER] rect=(442,56,1358,608) size=(916,552)
+[23:49:44.233799][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[23:49:44.247783][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[23:49:44.261781][MSGWIN] group count=2
+[23:49:44.446798][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
+[23:49:44.619793][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
+[23:49:44.628784][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:49:44.691809][RIGHT-PANE-SAFE] msgwin_rect=(745,56,1358,608)
+[23:49:44.694757][RIGHT-PANE-SAFE] point=(1338,332)
+[23:49:44.700796][SCROLL-CLEAR] safe-point from right pane = (1338,332)
+[23:49:44.704809][SCROLL-CLEAR] status=[]
+[23:49:44.708814][SCROLL-CLEAR] move x=1338 y=332
+[23:49:44.715763][SCROLL-CLEAR] move_ok=True
+[23:49:44.942258][SCROLL-CLEAR] click_ok=True
+[23:49:46.079498][ACTIVATE] locator=executable:LINE.exe
+[23:49:47.097126][DOWN LOOP] start loop=0
+[23:49:47.863953][ACTIVATE] locator=executable:LINE.exe
+[23:49:49.640672][ACTIVATE] locator=executable:LINE.exe
+[23:49:51.411342][ACTIVATE] locator=executable:LINE.exe
+[23:49:53.161865][ACTIVATE] locator=executable:LINE.exe
+[23:49:54.495419][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:49:54.921385][SPLITTER] rect=(442,56,1358,608) size=(916,552)
+[23:49:55.242400][ANCHOR] set to splitter ok=True locator=[executable:LINE.exe > type:CustomControl and class:LcSplitter]
+[23:49:55.256375][MSGWIN] group search ok=True locator=[type:GroupControl and depth:20]
+[23:49:55.268347][MSGWIN] group count=2
+[23:49:55.415347][MSGWIN] candidate idx=0 name=[] type=[GroupControl] class=[LcWidget] rect=(745,56,1358,608) size=(613,552)
+[23:49:55.549346][MSGWIN] candidate idx=1 name=[] type=[GroupControl] class=[LcWidget] rect=(442,56,744,608) size=(302,552)
+[23:49:55.559370][MSGWIN] selected rect=(745,56,1358,608) elem=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:49:55.566385][BUBBLE-RECT] msgwin=[WindowsElement(type='GroupControl', class='LcWidget', locator='type:GroupControl and depth:20')]
+[23:49:55.650374][BUBBLE-RECT] root_rect=(745,56,1358,608) root_size=(613,552)
+[23:49:55.656322][BUBBLE-RECT] anchor msgwin ok=True
+[23:49:55.719330][BUBBLE-RECT] anchored_found=True locator=[type:ListItemControl and depth:20]
+[23:49:55.770331][BUBBLE-RECT] anchored_count=2
+[23:49:56.024350][BUBBLE-RECT-CAND] idx=0 name=[] type=[ListItemControl] class=[]rect=(745,8,1351,427) size=(606,419)inside_x=True inside_y=False large_enough=Truenot_too_tall=False not_header_like=False not_footer_like=True
+[23:49:56.246298][BUBBLE-RECT-CAND] idx=1 name=[] type=[ListItemControl] class=[]rect=(745,427,1351,501) size=(606,74)inside_x=True inside_y=True large_enough=Truenot_too_tall=True not_header_like=True not_footer_like=True
+[23:49:56.270332][BUBBLE-INNER] outer=(745,427,1351,501) inner=[815,435,1315,493] short=True mid=False inner_h=58 outer_h=74 ratio=0.7837837837837838 thin_inner=False collapsed_short=False
+[23:49:56.280326][BUBBLE-FOOTER-FILTER] root_b=608 inner_t=435 inner_b=493 inner_h=58 footer_near_bottom=False short_footer_near=True result=True
+[23:49:56.285283][BUBBLE-RECT] footer-like rejected idx=1 outer=(745,427,1351,501) inner=815,435,1315,493
+[23:49:56.294295][BUBBLE-RECT] visible_count=0
+[23:49:56.313320][DOWN LOOP] loop=0 new=0 total=0 last_status= view_signature=[]
+[23:49:56.320322][DOWN LOOP] stagnant=1 same_view=0
+[23:49:56.327321][SCROLL-GUARD] status=[] result=False
+[23:49:56.342321][STATE-SNAPSHOT] start tag=before_scroll_down_loop_0
+[23:49:57.494214][PY] cursor rc=0 stderr=[{"x": 869, "y": 306}]
+[23:49:57.502256][STATE-SNAPSHOT] cursor tag=before_scroll_down_loop_0 json={"x": 869, "y": 306}
+[23:49:58.864157][PY] capture_full rc=0 stderr=[{"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260506_234957_507245_full.png", "mode": "full"}]
+[23:49:58.879115][STATE-SNAPSHOT] full tag=before_scroll_down_loop_0 json={"saved": true, "path": "C:\\Users\\user\\Documents\\RPA\\RobotFramework\\test\\artifacts\\images\\transition_trace\\before_scroll_down_loop_0_20260506_234957_507245_full.png", "mode": "full"}
+[23:49:59.671941][ACTIVATE] locator=executable:LINE.exe
+[23:50:01.037895][SPLITTER] locator=executable:LINE.exe > type:CustomControl and class:LcSplitter ok=True
+[23:50:01.431862][SPLITTER] rect=(442,56,1358,608) size=(916,552)
+[23:50:01.436864][STATE-SNAPSHOT] splitter_found tag=before_scroll_down_loop_0 ok=True

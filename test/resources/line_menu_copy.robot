@@ -469,11 +469,9 @@ Copy One Message By BubbleRect
     ${menu_ok}=    Is Menu Rect Plausible    ${menu_rect}
     IF    not ${menu_ok}
         Trace    [MENU-WINDOW] selected menu rect not plausible -> reclick
-        ${menu_window}    ${menu_rect}=    Retry Right Click And Find Plausible Menu    ${x}    ${y}
-        IF    $menu_window == $EMPTY
-            Log Pointer Stage    before_return_no_menu
-            Desk.Press Keys    esc
-            RETURN    ${STATUS_NO_MENU}    ${text_candidate}    no_plausible_menu    ${EMPTY}    ${EMPTY}    ${x}    ${y}
+        ${retry_ok}    ${menu_window}    ${menu_rect}=    Retry Right Click And Find Plausible Menu    ${x}    ${y}
+        IF    not ${retry_ok}
+            Trace    [MENU-WINDOW] reclick did not find plausible menu, fallback to original rect=(${menu_rect})
         END
     END
 
@@ -573,6 +571,8 @@ Find LcContextMenu Only
             ${best_elem}=    Set Variable    ${EMPTY}
             ${best_score}=    Set Variable    999999
             ${best_rect}=    Set Variable    ${EMPTY}
+            ${fallback_elem}=    Set Variable    ${EMPTY}
+            ${fallback_score}=    Set Variable    999999
             FOR    ${elem}    IN    @{elements}
                 ${name}=    Safe Get Element Attribute    ${elem}    name
                 ${clazz}=    Safe Get Element Attribute    ${elem}    class_name
@@ -590,6 +590,10 @@ Find LcContextMenu Only
                 ${cx}=    Evaluate    (int(float(str(r'''${left}''').strip())) + int(float(str(r'''${right}''').strip()))) // 2
                 ${cy}=    Evaluate    (int(float(str(r'''${top}''').strip())) + int(float(str(r'''${bottom}''').strip()))) // 2
                 ${score}=    Evaluate    abs(${cx} - int(float(str(r'''${click_x}''').strip()))) + abs(${cy} - int(float(str(r'''${click_y}''').strip()))) if str(r'''${click_x}''').strip() and str(r'''${click_y}''').strip() else 0
+                IF    ${score} < ${fallback_score}
+                    ${fallback_score}=    Set Variable    ${score}
+                    ${fallback_elem}=    Set Variable    ${elem}
+                END
                 IF    ${score} < ${best_score}
                     ${best_score}=    Set Variable    ${score}
                     ${best_elem}=    Set Variable    ${elem}
@@ -599,6 +603,10 @@ Find LcContextMenu Only
             IF    $best_elem != $EMPTY
                 Trace    [MENU-WINDOW] selected best score=${best_score} rect=(${best_rect})
                 RETURN    ${best_elem}
+            END
+            IF    $fallback_elem != $EMPTY
+                Trace    [MENU-WINDOW] fallback to nearest candidate without plausibility filter score=${fallback_score}
+                RETURN    ${fallback_elem}
             END
         END
         Sleep    ${MENU_SCAN_INTERVAL}
@@ -616,6 +624,16 @@ Is Menu Rect Plausible
 
 Retry Right Click And Find Plausible Menu
     [Arguments]    ${x}    ${y}
+    ${orig}=    Find LcContextMenu Only    ${x}    ${y}
+    ${orig_s}=    Normalize Element String    ${orig}
+    ${orig_rect}=    Set Variable    ${EMPTY}
+    IF    $orig_s != ''
+        ${ol}=    Safe Get Element Attribute    ${orig}    left
+        ${ot}=    Safe Get Element Attribute    ${orig}    top
+        ${or}=    Safe Get Element Attribute    ${orig}    right
+        ${ob}=    Safe Get Element Attribute    ${orig}    bottom
+        ${orig_rect}=    Catenate    SEPARATOR=    ${ol},${ot},${or},${ob}
+    END
     FOR    ${i}    IN RANGE    ${MENU_RECLICK_RETRY}
         ${offset}=    Evaluate    (${i} + 1) * int(${MENU_RECLICK_OFFSET})
         ${rx}=    Evaluate    int(${x}) + ${offset}
@@ -635,8 +653,8 @@ Retry Right Click And Find Plausible Menu
             ${rect}=    Catenate    SEPARATOR=    ${l},${t},${r},${b}
             ${ok}=    Is Menu Rect Plausible    ${rect}
             IF    ${ok}
-                RETURN    ${cand}    ${rect}
+                RETURN    ${True}    ${cand}    ${rect}
             END
         END
     END
-    RETURN    ${EMPTY}    ${EMPTY}
+    RETURN    ${False}    ${orig}    ${orig_rect}

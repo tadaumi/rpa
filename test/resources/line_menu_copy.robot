@@ -502,6 +502,12 @@ Copy One Message By BubbleRect
     END
 
     IF    not ${has_copy_like}
+        IF    not ${is_long_menu}
+            Trace    [COPY] skip: no_copy_like -> treat as image/non-text bubble
+            Log Pointer Stage    before_return_image_message_skip
+            Desk.Press Keys    esc
+            RETURN    ${STATUS_IMAGE_MESSAGE_SKIP}    ${text_candidate}    image_or_non_text_menu    ${menu_text_trim}    ${menu_rect}    ${x}    ${y}
+        END
         Trace    [COPY] skip: no_copy_like
         Log Pointer Stage    before_return_no_copy_like
         Desk.Press Keys    esc

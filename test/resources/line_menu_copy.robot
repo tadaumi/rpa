@@ -634,27 +634,5 @@ Retry Right Click And Find Plausible Menu
         ${ob}=    Safe Get Element Attribute    ${orig}    bottom
         ${orig_rect}=    Catenate    SEPARATOR=    ${ol},${ot},${or},${ob}
     END
-    FOR    ${i}    IN RANGE    ${MENU_RECLICK_RETRY}
-        ${offset}=    Evaluate    (${i} + 1) * int(${MENU_RECLICK_OFFSET})
-        ${rx}=    Evaluate    int(${x}) + ${offset}
-        ${ry}=    Evaluate    int(${y})
-        Desk.Press Keys    esc
-        Sleep    150ms
-        ${rc_ok}=    Run Keyword And Return Status    Desk.Click    coordinates:${rx},${ry}    action=right click
-        Trace    [RECLICK] try=${i} x=${rx} y=${ry} ok=${rc_ok}
-        Sleep    ${RIGHT_CLICK_WAIT}
-        ${cand}=    Find LcContextMenu Only    ${rx}    ${ry}
-        ${cand_s}=    Normalize Element String    ${cand}
-        IF    $cand_s != ''
-            ${l}=    Safe Get Element Attribute    ${cand}    left
-            ${t}=    Safe Get Element Attribute    ${cand}    top
-            ${r}=    Safe Get Element Attribute    ${cand}    right
-            ${b}=    Safe Get Element Attribute    ${cand}    bottom
-            ${rect}=    Catenate    SEPARATOR=    ${l},${t},${r},${b}
-            ${ok}=    Is Menu Rect Plausible    ${rect}
-            IF    ${ok}
-                RETURN    ${True}    ${cand}    ${rect}
-            END
-        END
-    END
+    Trace    [RECLICK] disabled to avoid side effects (group selection/regression). retry=${MENU_RECLICK_RETRY} offset=${MENU_RECLICK_OFFSET}
     RETURN    ${False}    ${orig}    ${orig_rect}

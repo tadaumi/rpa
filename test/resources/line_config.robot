@@ -5,7 +5,7 @@ ${BASE_DIR_FALLBACK}             ${RESOURCE_DIR}${/}..
 
 ${LINE_PATH}                     C:\\Users\\user\\AppData\\Local\\LINE\\bin\\LineLauncher.exe
 ${START_TIMEOUT}                 30
-${GROUP_ITEM_PATH}               path:11|2|1|1|1|2
+${GROUP_ITEM_PATH}               path:11|2|1|1|1|1
 
 ${ARTIFACT_DIR}                  ${BASE_DIR}${/}artifacts
 ${ARTIFACT_IMAGE_DIR}            ${ARTIFACT_DIR}${/}images

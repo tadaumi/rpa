@@ -498,6 +498,15 @@ Copy One Message By BubbleRect
     Trace    [POINTER] preclick_capture=${pre_json}
 
     ${text_candidate}=    Log Text Candidate From Preclick Capture
+    ${text_candidate_norm}=    Normalize Copy Detection Text    ${text_candidate}
+    ${text_candidate_len}=    Get Length    ${text_candidate_norm}
+    IF    ${text_candidate_len} == 0
+        Trace    [COPY] id=${copy_id} skip: empty_text_candidate rect=(${left},${top},${right},${bottom}) point=(${x},${y})
+        Trace    [COPY] id=${copy_id} image skip confirmed: no right click, no menu scan
+        Log Pointer Stage    before_return_image_message_skip_empty_text
+        RETURN    ${STATUS_IMAGE_MESSAGE_SKIP}    ${text_candidate}    image_message_empty_text    ${EMPTY}    ${EMPTY}    ${x}    ${y}
+    END
+
     ${is_image_message}=    Looks Like Image Message Candidate    ${left}    ${top}    ${right}    ${bottom}    ${text_candidate}
     IF    ${is_image_message}
         Trace    [COPY] id=${copy_id} skip: image_message_like rect=(${left},${top},${right},${bottom}) point=(${x},${y})

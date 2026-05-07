@@ -52,7 +52,7 @@ ${MESSAGE_X}                     620
 ...    80,51
 ...    90,57
 
-${SCROLLBAR_X}                   996
+${SCROLLBAR_X}                   1010
 ${SCROLLBAR_TOP_Y}               80
 ${SCROLLBAR_MID_Y}               320
 ${SCROLLBAR_BOTTOM_Y}            560

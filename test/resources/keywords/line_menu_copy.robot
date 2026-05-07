@@ -567,6 +567,16 @@ Copy One Message By BubbleRect
     END
 
     IF    not ${has_copy_like}
+        ${body_markers}=    Count Japanese Body Markers    ${text_candidate}
+        ${text_candidate_norm}=    Normalize Copy Detection Text    ${text_candidate}
+        ${text_candidate_len}=    Get Length    ${text_candidate_norm}
+        ${image_like_no_copy}=    Evaluate    ${text_candidate_len} < 20 and ${body_markers} <= 1
+        IF    ${image_like_no_copy}
+            Trace    [COPY] id=${copy_id} skip: no_copy_menu_but_image_like text_len=${text_candidate_len} body_markers=${body_markers}
+            Log Pointer Stage    before_return_image_message_skip_no_copy_menu
+            Desk.Press Keys    esc
+            RETURN    ${STATUS_IMAGE_MESSAGE_SKIP}    ${text_candidate}    image_message_no_copy_menu    ${menu_text_trim}    ${menu_rect}    ${x}    ${y}
+        END
         Trace    [COPY] id=${copy_id} skip: no_copy_like
         Log Pointer Stage    before_return_no_copy_like
         Desk.Press Keys    esc
